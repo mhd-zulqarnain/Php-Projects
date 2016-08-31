@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="section" href="new.css">
+    <style>
+        .nav{
+
+            background-color: red;
+            display: none;
+        }
+
+    </style>
+    <script src="jquery-2.2.3.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<button class="toggle">toogle</button>
+<div class="nav">
+
+    <h1>Decription</h1>
+    <p>Decription</p>
+    <p>Decription</p>
+</div>
+
+
+<script>
+//    ($document).ready(function(){
+        $(document).ready(function(){
+
+        $(".toggle").on('click',function(){
+            console.log($(".nav"));
+            $(".nav").slideToggle(3000);
+        });
+
+        $("p,h1").click(function(){
+                $(this).slideUp();
+            });
+
+    });
+</script>
+
+</body>
+</html>
