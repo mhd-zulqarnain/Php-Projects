@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Final/search.php" description="&lt;?php&#10;/**&#10; * Created by PhpStorm.&#10; * User: zulup&#10; ..." line="0" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="989d0a05-af35-469b-b2a1-9e9f28dac638" name="Default" comment="" />
+    <list default="true" id="989d0a05-af35-469b-b2a1-9e9f28dac638" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/images/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/Partial/category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/Partial/search-category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/Partial/search-post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/categorySearch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gittest" afterPath="$PROJECT_DIR$/gittest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/header.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/post-details.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/post-details.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/wapper.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/wapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/style/custom.css" afterPath="$PROJECT_DIR$/Final/assets/style/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/postBody.php" afterPath="$PROJECT_DIR$/Final/postBody.php" />
+    </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Final/assets/style/custom.css">
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+            <state relative-caret-position="51">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -35,28 +53,17 @@
       <file leaf-file-name="post-details.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Final/assets/Partial/post-details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="125" column="104" selection-start-line="125" selection-start-column="104" selection-end-line="125" selection-end-column="104" />
+            <state relative-caret-position="255">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
-                <element signature="e#321#1637#0#PHP" expanded="false" />
-                <element signature="e#1651#1785#0#PHP" expanded="false" />
-                <element signature="e#1812#3694#0#HTML" expanded="false" />
-                <element signature="e#1882#3678#0#HTML" expanded="false" />
-                <element signature="e#2811#3565#0#HTML" expanded="false" />
-                <marker date="1472655033014" expanded="true" signature="116:145" placeholder="Select * fro... post" />
-                <marker date="1472655033014" expanded="true" signature="4915:5019" placeholder="INSERT INTO comment... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrudApp/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <marker date="1461394244973" expanded="true" signature="1464:1528" placeholder="UPDATE stude... " />
+                <element signature="e#4277#4838#0#PHP" expanded="false" />
+                <marker date="1472883682172" expanded="true" signature="116:145" placeholder="Select * fro... post" />
+                <marker date="1472883682172" expanded="true" signature="246:280" placeholder="Select * fro... post_view" />
+                <marker date="1472883682172" expanded="true" signature="364:415" placeholder="UPDATE post_... " />
+                <marker date="1472883682172" expanded="true" signature="482:529" placeholder="INSERT INTO post_view... " />
+                <marker date="1472883682172" expanded="true" signature="482:534" placeholder="INSERT INTO post_view... " />
+                <marker date="1472883682172" expanded="true" signature="3351:3383" placeholder="SELECT * FRO... comment" />
+                <marker date="1472883682172" expanded="true" signature="4528:4629" placeholder="INSERT INTO comment... " />
               </folding>
             </state>
           </provider>
@@ -71,14 +78,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Inter_Dbms/login.php" />
-        <option value="$PROJECT_DIR$/Inter_Dbms/logout.php" />
-        <option value="$PROJECT_DIR$/Inter_Dbms/Index.php" />
-        <option value="$PROJECT_DIR$/House_Ren/test.php" />
-        <option value="$PROJECT_DIR$/House_Ren/assets/style/custom.css" />
         <option value="$PROJECT_DIR$/FAhi/index.php" />
         <option value="$PROJECT_DIR$/FAhi/del.php" />
         <option value="$PROJECT_DIR$/House_Ren/assets/style/Login.css" />
@@ -118,12 +123,17 @@
         <option value="$PROJECT_DIR$/Final/assets/Partial/footer.php" />
         <option value="$PROJECT_DIR$/Final/index.php" />
         <option value="$PROJECT_DIR$/Final/assets/Partial/postBody.php" />
-        <option value="$PROJECT_DIR$/Final/assets/Partial/header.php" />
-        <option value="$PROJECT_DIR$/Final/postBody.php" />
         <option value="$PROJECT_DIR$/Final/login.php" />
         <option value="$PROJECT_DIR$/Final/assets/Partial/login.php" />
-        <option value="$PROJECT_DIR$/Final/assets/Partial/wapper.php" />
         <option value="$PROJECT_DIR$/Final/assets/style/custom.css" />
+        <option value="$PROJECT_DIR$/Final/search.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/search-post.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/wapper.php" />
+        <option value="$PROJECT_DIR$/Final/categorySearch.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/category.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/search-category.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/header.php" />
+        <option value="$PROJECT_DIR$/Final/postBody.php" />
         <option value="$PROJECT_DIR$/Final/assets/Partial/post-details.php" />
       </list>
     </option>
@@ -197,6 +207,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Parc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Final" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -237,7 +261,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="Partial" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,7 +275,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CrudApp" />
+              <option name="myItemId" value="Final" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,19 +297,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Final\assets\images" />
-      <recent name="C:\xampp\htdocs\Final\assets\lib" />
-      <recent name="C:\xampp\htdocs\Skd1" />
-      <recent name="C:\xampp\htdocs" />
-      <recent name="C:\xampp\htdocs\House_Ren\assets\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Final\assets\Partial" />
       <recent name="C:\xampp\htdocs\Final" />
       <recent name="C:\xampp\htdocs" />
       <recent name="C:\xampp\htdocs\House_Ren" />
       <recent name="C:\xampp\htdocs\Interface Dbms" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Final\assets\js" />
+      <recent name="C:\xampp\htdocs\Final\assets\images" />
+      <recent name="C:\xampp\htdocs\Final\assets\lib" />
+      <recent name="C:\xampp\htdocs\Skd1" />
+      <recent name="C:\xampp\htdocs" />
     </key>
   </component>
   <component name="RunManager">
@@ -498,17 +530,22 @@
       <workItem from="1472616132303" duration="5872000" />
       <workItem from="1472632563209" duration="1891000" />
       <workItem from="1472641779931" duration="8994000" />
+      <workItem from="1472705614374" duration="5514000" />
+      <workItem from="1472719861766" duration="3855000" />
+      <workItem from="1472748267997" duration="9671000" />
+      <workItem from="1472799276729" duration="1145000" />
+      <workItem from="1472879178951" duration="3877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="405665000" />
+    <option name="totallyTimeSpent" value="429727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14032497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1491876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -550,62 +587,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Parc/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fahim/Registration_from.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fahim/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Full/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parc/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Full/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Full/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Full/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -705,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CrudApp/Connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -723,13 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrudApp/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -775,14 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/House_Ren/Login_User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
@@ -808,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/postBody.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Final/assets/Partial/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -857,34 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/wapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <marker date="1472634361771" expanded="true" signature="60:78" placeholder="Select * fro... post" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/style/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,32 +815,144 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CrudApp/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
+        <state relative-caret-position="272">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrudApp/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/style/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/search-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/wapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="48" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/categorySearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/js/jquery-3.1.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/search-category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1461394244973" expanded="true" signature="1464:1528" placeholder="UPDATE stude... " />
+            <marker date="1472802914045" expanded="true" signature="139:157" placeholder="Select * fro... post" />
+            <marker date="1472802914045" expanded="true" signature="139:173" placeholder="Select * fro... post" />
+            <marker date="1472802914045" expanded="true" signature="139:183" placeholder="Select * fro... post" />
+            <marker date="1472802914045" expanded="true" signature="139:184" placeholder="Select * fro... post" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/postBody.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Final/assets/Partial/post-details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="125" column="104" selection-start-line="125" selection-start-column="104" selection-end-line="125" selection-end-column="104" />
+        <state relative-caret-position="255">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
-            <element signature="e#321#1637#0#PHP" expanded="false" />
-            <element signature="e#1651#1785#0#PHP" expanded="false" />
-            <element signature="e#1812#3694#0#HTML" expanded="false" />
-            <element signature="e#1882#3678#0#HTML" expanded="false" />
-            <element signature="e#2811#3565#0#HTML" expanded="false" />
-            <marker date="1472655033014" expanded="true" signature="116:145" placeholder="Select * fro... post" />
-            <marker date="1472655033014" expanded="true" signature="4915:5019" placeholder="INSERT INTO comment... " />
+            <element signature="e#4277#4838#0#PHP" expanded="false" />
+            <marker date="1472883682172" expanded="true" signature="116:145" placeholder="Select * fro... post" />
+            <marker date="1472883682172" expanded="true" signature="246:280" placeholder="Select * fro... post_view" />
+            <marker date="1472883682172" expanded="true" signature="364:415" placeholder="UPDATE post_... " />
+            <marker date="1472883682172" expanded="true" signature="482:529" placeholder="INSERT INTO post_view... " />
+            <marker date="1472883682172" expanded="true" signature="482:534" placeholder="INSERT INTO post_view... " />
+            <marker date="1472883682172" expanded="true" signature="3351:3383" placeholder="SELECT * FRO... comment" />
+            <marker date="1472883682172" expanded="true" signature="4528:4629" placeholder="INSERT INTO comment... " />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,10 @@
 <?php
 include 'connection.php';
+$category=$_REQUEST['category'];
+//echo "<script>alert('$category')</script>";
 $conn=myConnection();
-$sql="Select * from post";
-$result=$conn->query($sql);
+$sql="Select * from post WHERE category='$category'";
+$res=$conn->query($sql);
 ?>
 
 
@@ -12,7 +14,7 @@ $result=$conn->query($sql);
 
 
             <?php
-            while($row=mysqli_fetch_array($result))
+            while($row=mysqli_fetch_array($res))
             {
                 $id=$row['Pid'];
                 $title=$row['title'];
@@ -29,10 +31,10 @@ $result=$conn->query($sql);
                     <div class="row">
                         <div class="col-lg-12 col-xs-12">
                             <div class="row">
-                            <h3 class="head-color text-primary"> <?php echo $title?></h3>
-                            <h4 >by<a href="" class="text-primary">  <?php echo $eidtor?></a></h4>
-                            <h5> Posted on <?php echo $date?></h5>
-                        </div>
+                                <h3 class="head-color text-primary"> <?php echo $title?></h3>
+                                <h4 >by<a href="" class="text-primary">  <?php echo $eidtor?></a></h4>
+                                <h5> Posted on <?php echo $date?></h5>
+                            </div>
                         </div>
                         <div class="col-lg-12 col-xs-12 pull-left  post-img" ><img src="<?php echo $img?>" style="width:782px;height:240px;"></div>
                         <div class="row">
@@ -46,8 +48,8 @@ $result=$conn->query($sql);
             <?php }?>
         </div>
         <div class="col-lg-4 site-recent  col-xs-4 pull-right hidden-xs"  >
-            <?php include 'category.php'?> 
+            <?php include 'category.php'?>
         </div>
-        
+
     </div>
 </div>

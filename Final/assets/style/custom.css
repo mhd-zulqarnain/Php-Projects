@@ -66,6 +66,7 @@ h2 h3 p .post-body {
 }
 
 /*Comment*/
+
 .post-comment{
     border: 1px solid rgba(34, 34, 34, 0.18);
     /*margin-bottom: 16px;*/
@@ -73,12 +74,17 @@ h2 h3 p .post-body {
 .post-comment form{
     padding: 12px;
 }
-.user-comment{
+.site-comment-box{
     border: 1px solid rgba(34, 34, 34, 0.18);
-    margin-bottom: 12px;
+}
+.user-comment{
+    /*border: 1px solid rgba(34, 34, 34, 0.18);*/
+    /*border-top:none ;*/
+    padding: 7px;
 }
     /* Footer css*/
 .site-footer{
+    margin-top: 12px;
 background-color:#222;
 }
 .site-footer h3{
