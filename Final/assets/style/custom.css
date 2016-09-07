@@ -1,4 +1,6 @@
-
+.no-padding{
+    padding: 0;
+}
 .site-nav-wrap{
 
     background-color: #222;
@@ -29,7 +31,7 @@ h1{
     color:#fff;
 }
 
-/*wrapper*/
+/*wrapper-------------------------------*/
 .site-wrapper{
     padding: 0;
     padding-top: 60px;
@@ -43,7 +45,7 @@ h2 h3 p .post-body {
 }
 
 .post-body{
-    border-top: 1px solid rgba(34, 34, 34, 0.18);
+
     border-bottom: 1px solid rgba(34, 34, 34, 0.18);
     margin: 15px 2px;
     padding-bottom: 15px;
@@ -51,6 +53,9 @@ h2 h3 p .post-body {
 .post-body p{
     font-size: 16px;
     font-family: sans-serif;
+    padding-top: 9px;
+    line-height: 26px;
+
 }
 .btn-Cls{
     padding-bottom: 3px;
@@ -58,19 +63,55 @@ h2 h3 p .post-body {
 .post-img{
     vertical-align: middle;
     padding: 24px 0px;
+
+}
+.col-lg-6.col-xs-12.pull-right.no-padding {
+    padding-top: 20px;
+}
+.post-sub{
     border-top: 1px solid rgba(34, 34, 34, 0.18);
-    border-bottom: 1px solid rgba(34, 34, 34, 0.18);
+
 }
-.site-recent{
-    /*border: 1px solid rgba(34, 34, 34, 0.18);*/
+.sm-fonts{
+    padding-left: 18px;}
+    /*---------------category-----------------------------------------*/
+.main-category{
+    margin-top: 12px;
+}
+.category-lable{
+    border: 2px solid rgba(34, 34, 34, 0.18);
+}
+.label-header{
+    margin-top: 0;
+    background-color: #222;
+    color: #9d9d9d;
+    border-top: solid 5px #337ab7;
+    padding: 7px;
+    margin: 0;
+}
+    /*--------------------------recent-posts---------------------*/
+.recent-main {
+    margin-top: 26px;
 }
 
-/*Comment*/
+.recent-posts {
 
+    border: 2px solid rgba(34, 34, 34, 0.18);
+        }
 .post-comment{
-    border: 1px solid rgba(34, 34, 34, 0.18);
-    /*margin-bottom: 16px;*/
+    border: 1px solid rgba(34, 34, 34, 0.18);}
+.recent-header{
+    margin-top: 0;
+    background-color: #222;
+    color: #9d9d9d;
+    border-top: solid 5px #337ab7;
+    padding: 7px;
+    margin: 0;
 }
+
+/*-----------------------Comment-------------------------*/
+
+
 .post-comment form{
     padding: 12px;
 }
@@ -78,11 +119,9 @@ h2 h3 p .post-body {
     border: 1px solid rgba(34, 34, 34, 0.18);
 }
 .user-comment{
-    /*border: 1px solid rgba(34, 34, 34, 0.18);*/
-    /*border-top:none ;*/
     padding: 7px;
 }
-    /* Footer css*/
+    /* ---------------------------Footer css-------------------*/
 .site-footer{
     margin-top: 12px;
 background-color:#222;

@@ -5,20 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="989d0a05-af35-469b-b2a1-9e9f28dac638" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/images/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/Partial/category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/Partial/search-category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/Partial/search-post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/categorySearch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/Partial/post-show.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final/assets/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Final/assets/Partial/post_status.php" afterPath="$PROJECT_DIR$/pagination/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gittest" afterPath="$PROJECT_DIR$/gittest" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/DISCLAIMER.php" afterPath="$PROJECT_DIR$/Final/DISCLAIMER.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/category.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/desc_Statment.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/desc_Statment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/header.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/login.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/post-details.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/post-details.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/recen-post.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/recen-post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/search-category.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/search-category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/search-post.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/search-post.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/Partial/wapper.php" afterPath="$PROJECT_DIR$/Final/assets/Partial/wapper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/assets/style/custom.css" afterPath="$PROJECT_DIR$/Final/assets/style/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/postBody.php" afterPath="$PROJECT_DIR$/Final/postBody.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/function.php" afterPath="$PROJECT_DIR$/Final/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/House_Ren/Rent.php" afterPath="$PROJECT_DIR$/House_Ren/Rent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ars/index.php" afterPath="$PROJECT_DIR$/ars/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db1/index.php" afterPath="$PROJECT_DIR$/db1/index.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,42 +46,13 @@
     <favorites_list name="htdocs" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Final/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post-details.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Final/assets/Partial/post-details.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding>
-                <element signature="e#4277#4838#0#PHP" expanded="false" />
-                <marker date="1472883682172" expanded="true" signature="116:145" placeholder="Select * fro... post" />
-                <marker date="1472883682172" expanded="true" signature="246:280" placeholder="Select * fro... post_view" />
-                <marker date="1472883682172" expanded="true" signature="364:415" placeholder="UPDATE post_... " />
-                <marker date="1472883682172" expanded="true" signature="482:529" placeholder="INSERT INTO post_view... " />
-                <marker date="1472883682172" expanded="true" signature="482:534" placeholder="INSERT INTO post_view... " />
-                <marker date="1472883682172" expanded="true" signature="3351:3383" placeholder="SELECT * FRO... comment" />
-                <marker date="1472883682172" expanded="true" signature="4528:4629" placeholder="INSERT INTO comment... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -84,18 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FAhi/index.php" />
-        <option value="$PROJECT_DIR$/FAhi/del.php" />
-        <option value="$PROJECT_DIR$/House_Ren/assets/style/Login.css" />
-        <option value="$PROJECT_DIR$/House_Ren/Login_User.html" />
-        <option value="$PROJECT_DIR$/House_Ren/assets/php/connection.php" />
-        <option value="$PROJECT_DIR$/House_Ren/Signup.php" />
-        <option value="$PROJECT_DIR$/House_Ren/Booking.php" />
-        <option value="$PROJECT_DIR$/Inter_Dbms/show.php" />
-        <option value="$PROJECT_DIR$/House_Ren/assets/logout.php" />
-        <option value="$PROJECT_DIR$/House_Ren/logout.php" />
-        <option value="$PROJECT_DIR$/House_Ren/Form.php" />
-        <option value="$PROJECT_DIR$/Skd1/next.php" />
         <option value="$PROJECT_DIR$/try/index.php" />
         <option value="$PROJECT_DIR$/Full/index.php" />
         <option value="$PROJECT_DIR$/Full/Login.php" />
@@ -110,7 +76,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/try.html" />
         <option value="$PROJECT_DIR$/Final/assets/php/header.php" />
-        <option value="$PROJECT_DIR$/House_Ren/Rent.php" />
         <option value="$PROJECT_DIR$/CrudApp/Index.php" />
         <option value="$PROJECT_DIR$/Aug25/Connection.php" />
         <option value="$PROJECT_DIR$/Aug25/update.php" />
@@ -121,20 +86,33 @@
         <option value="$PROJECT_DIR$/Final/assets/Partial/connection.php" />
         <option value="$PROJECT_DIR$/Final/assets/style/login.css" />
         <option value="$PROJECT_DIR$/Final/assets/Partial/footer.php" />
-        <option value="$PROJECT_DIR$/Final/index.php" />
         <option value="$PROJECT_DIR$/Final/assets/Partial/postBody.php" />
         <option value="$PROJECT_DIR$/Final/login.php" />
         <option value="$PROJECT_DIR$/Final/assets/Partial/login.php" />
-        <option value="$PROJECT_DIR$/Final/assets/style/custom.css" />
         <option value="$PROJECT_DIR$/Final/search.php" />
-        <option value="$PROJECT_DIR$/Final/assets/Partial/search-post.php" />
-        <option value="$PROJECT_DIR$/Final/assets/Partial/wapper.php" />
         <option value="$PROJECT_DIR$/Final/categorySearch.php" />
-        <option value="$PROJECT_DIR$/Final/assets/Partial/category.php" />
-        <option value="$PROJECT_DIR$/Final/assets/Partial/search-category.php" />
-        <option value="$PROJECT_DIR$/Final/assets/Partial/header.php" />
         <option value="$PROJECT_DIR$/Final/postBody.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/post_status.php" />
+        <option value="$PROJECT_DIR$/Final/assets/js/custom.js" />
+        <option value="$PROJECT_DIR$/Final/function.php" />
+        <option value="$PROJECT_DIR$/db1/index.php" />
+        <option value="$PROJECT_DIR$/Final/assets/style/DISCLAIMER.php" />
+        <option value="$PROJECT_DIR$/Final/DISCLAIMER.php" />
+        <option value="$PROJECT_DIR$/Final/disclaimer.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/desc_Statment.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/header.php" />
+        <option value="$PROJECT_DIR$/Final/assets/style/custom.css" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/category.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/recen-post.php" />
+        <option value="$PROJECT_DIR$/Final/index.php" />
+        <option value="$PROJECT_DIR$/House_Ren/Rent.php" />
+        <option value="$PROJECT_DIR$/pagination/index.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/search-post.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/search-category.php" />
         <option value="$PROJECT_DIR$/Final/assets/Partial/post-details.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/wapper.php" />
+        <option value="$PROJECT_DIR$/Final/assets/Partial/post-show.php" />
+        <option value="$PROJECT_DIR$/ars/index.php" />
       </list>
     </option>
   </component>
@@ -149,7 +127,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1370" />
+    <option name="width" value="1378" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -159,7 +137,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -177,8 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,98 +173,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Final" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Final" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Final" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Partial" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Final" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,18 +186,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Final\assets\Partial" />
       <recent name="C:\xampp\htdocs\Final" />
-      <recent name="C:\xampp\htdocs" />
-      <recent name="C:\xampp\htdocs\House_Ren" />
-      <recent name="C:\xampp\htdocs\Interface Dbms" />
+      <recent name="C:\xampp\htdocs\Final\assets\style" />
+      <recent name="C:\xampp\htdocs\Final\assets\js" />
+      <recent name="C:\xampp\htdocs\Final\assets\lib" />
+      <recent name="C:\xampp\htdocs\Final\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Final\assets\fonts" />
+      <recent name="C:\xampp\htdocs\Final\assets\lib" />
       <recent name="C:\xampp\htdocs\Final\assets\js" />
       <recent name="C:\xampp\htdocs\Final\assets\images" />
-      <recent name="C:\xampp\htdocs\Final\assets\lib" />
       <recent name="C:\xampp\htdocs\Skd1" />
-      <recent name="C:\xampp\htdocs" />
     </key>
   </component>
   <component name="RunManager">
@@ -534,18 +422,28 @@
       <workItem from="1472719861766" duration="3855000" />
       <workItem from="1472748267997" duration="9671000" />
       <workItem from="1472799276729" duration="1145000" />
-      <workItem from="1472879178951" duration="3877000" />
+      <workItem from="1472879178951" duration="11097000" />
+      <workItem from="1472907071826" duration="15535000" />
+      <workItem from="1472987813199" duration="8239000" />
+      <workItem from="1473013556233" duration="3879000" />
+      <workItem from="1473043267812" duration="2777000" />
+      <workItem from="1473051989155" duration="35000" />
+      <workItem from="1473061351985" duration="527000" />
+      <workItem from="1473087819231" duration="1392000" />
+      <workItem from="1473094747185" duration="3549000" />
+      <workItem from="1473163318907" duration="8355000" />
+      <workItem from="1473213288508" duration="1459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429727000" />
+    <option name="totallyTimeSpent" value="482694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1491876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17988253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -582,96 +480,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Full/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Skd1/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Skd1/in.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Skd1/submission.php" />
-    <entry file="file://$PROJECT_DIR$/House_Ren/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/House_Ren/assets/style/custom_admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Skd1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/House_Ren/assets/php/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/lib/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/lib/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1955">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/House_Ren/assets/style/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/House_Ren/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -770,31 +583,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysqli.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="1726" column="9" selection-start-line="1726" selection-start-column="9" selection-end-line="1726" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Final/assets/images/image-1.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/House_Ren/Rent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Final/assets/Partial/login.php">
@@ -804,24 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CrudApp/show.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -860,24 +644,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/style/custom.css">
+    <entry file="file://$PROJECT_DIR$/Final/assets/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/search-post.php">
+    <entry file="file://$PROJECT_DIR$/Final/assets/fonts/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/Final/assets/style/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/wapper.php">
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="48" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -888,72 +701,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/category.php">
+    <entry file="file://$PROJECT_DIR$/Final/disclaimer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="17">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/js/jquery-3.1.0.min.js">
+    <entry file="file://$PROJECT_DIR$/Final/assets/style/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/House_Ren/Rent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="35" column="99" selection-start-line="35" selection-start-column="99" selection-end-line="35" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagination/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Final/assets/Partial/search-category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1472802914045" expanded="true" signature="139:157" placeholder="Select * fro... post" />
-            <marker date="1472802914045" expanded="true" signature="139:173" placeholder="Select * fro... post" />
-            <marker date="1472802914045" expanded="true" signature="139:183" placeholder="Select * fro... post" />
-            <marker date="1472802914045" expanded="true" signature="139:184" placeholder="Select * fro... post" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/header.php">
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/recen-post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final/postBody.php">
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/desc_Statment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="303">
+          <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Final/assets/Partial/post-details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#4277#4838#0#PHP" expanded="false" />
-            <marker date="1472883682172" expanded="true" signature="116:145" placeholder="Select * fro... post" />
-            <marker date="1472883682172" expanded="true" signature="246:280" placeholder="Select * fro... post_view" />
-            <marker date="1472883682172" expanded="true" signature="364:415" placeholder="UPDATE post_... " />
-            <marker date="1472883682172" expanded="true" signature="482:529" placeholder="INSERT INTO post_view... " />
-            <marker date="1472883682172" expanded="true" signature="482:534" placeholder="INSERT INTO post_view... " />
-            <marker date="1472883682172" expanded="true" signature="3351:3383" placeholder="SELECT * FRO... comment" />
-            <marker date="1472883682172" expanded="true" signature="4528:4629" placeholder="INSERT INTO comment... " />
-          </folding>
+        <state relative-caret-position="172">
+          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/postBody.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/post_status.php" />
+    <entry file="file://$PROJECT_DIR$/Parc/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/search-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/post-show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final/assets/Partial/wapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ars/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,29 +1,38 @@
 <?php
 $con=myConnection();
-$sql1="SELECT * FROM post";
+$sql1="SELECT DISTINCT category FROM post;";
 $res=$con->query($sql1);
 
 ?>
-<div class="well">
-    <h4>Blog Categories</h4><div class="row">
-        <div class="col-lg-6">
+
+<div class="col-lg-12  main-category ">
+    <h3 class="text-primary label-header">Labels</h3>
+    <div class="col-lg-12 pull-right well category-label">
 
 
-<?php
 
-while ($row=mysqli_fetch_array($res))
-{
-    $category=$row['category'];
+            <?php
 
-    ?>
-            <ul class="list-unstyled">
+            while ($row=mysqli_fetch_array($res))
+            {
 
-                <li><a href="categorySearch.php?&category=<?php echo $category?> "><?php echo $category?></a>
-<!--            </li>
-            </ul>
-        <!-- /.col-lg-6 -->
+                $category=$row['category'];
+
+                ?>
+                <div class="col-lg-6">
+                <ul class="list-unstyled">
+
+                    <li><a href="categorySearch.php?&category=<?php echo $category?> "><?php echo $category?></a>
+
+
+
+                    </li>
+                </ul>
+
+        </div>
+        <?php } ?>
     </div>
-<?php } ?>
-
-    <!-- /.row -->
 </div>
+
+
+
