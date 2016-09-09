@@ -32,7 +32,9 @@
                         <div class="col-lg-5 col-xs-12 pull-left  post-img no-padding" ><img src="<?php echo $img?>" style="width:300px;height: 220px;"></div>
 
                         <div class="col-lg-7  col-xs-12 pull-right no-padding">
-                            <h3 class="head-color text-primary"> <?php echo strtoupper($title)?></h3>
+                            <a href="postBody.php?&id=<?php echo $id?>"><h3 class="head-color text-primary">
+                                    <?php echo strtoupper($title)?></h3></a>
+
                             <span class="fa fa fa-comment fa-1x  sm-fonts" aria-hidden="true"><?php echo " ".$comments?></span>
                             <span class="fa fa fa-user fa-1x sm-fonts" aria-hidden="true"><?php echo " ".$eidtor?></span>
                                 <span class="fa fa fa-eye fa-1x sm-fonts" aria-hidden="true"><?php

@@ -2,6 +2,39 @@
  * Created by zulup on 9/3/2016.
  */
 
+
+
+
+$(document).ready(function () {
+    $("#submit_adm").on('click',function () {
+        //var $img=$('#path_adm').val();
+        var $name=$('#name_adm').val();
+        if($name == '') {
+            alert('please fill form properly');
+        return false
+        }
+        var $obj={
+            data:"admin_data",
+            post_name:$name,
+                };
+
+        $.ajax({
+            type:"POST",
+            url:"function.php",
+            data:$obj,
+            success: function (result){
+                alert('running');
+            },
+            error: function (error) {
+                alert('error e');
+            }
+        })
+    })
+});
+
+    
+    
+
 $(document).ready(function () {
     $("#submit_comment").on('click', function () {
 
@@ -26,10 +59,10 @@ $(document).ready(function () {
             url: "function.php",
             data: $obj,
             success: function (result){
-                alert(result);
+                alert('running');
             },
             error: function (error) {
-                alert(error);
+                alert('error');
             }
         });
     })

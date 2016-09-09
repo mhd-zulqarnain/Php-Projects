@@ -5,21 +5,21 @@ if(isset($_REQUEST['id']))
 {
 include 'connection.php';
 $conn = myConnection();
-$id=$_REQUEST['id'];
-$sql = "Select * from post WHERE Pid=$id";
+$iid=$_REQUEST['id'];
+$sql = "Select * from post WHERE Pid=$iid";
 $result = $conn->query($sql);
 //-------counter
 if($raw=mysqli_num_rows($result)) {
-    $sql = "Select * from post_view WHERE Pid=$id";
+    $sql = "Select * from post_view WHERE Pid=$iid";
     $run = $conn->query($sql);
     if (mysqli_num_rows($run)) {
-        $var="UPDATE  post_view set count=count+1 WHERE Pid='$id'";
+        $var="UPDATE  post_view set count=count+1 WHERE Pid='$iid'";
         $conn->query($var);
     }
     else
     {
-    
-        $var="INSERT INTO post_view (Pid,count) VALUES ('$id','1')";
+
+        $var="INSERT INTO post_view (Pid,count) VALUES ('$iid','1')";
         $conn->query($var);
     }
 }
@@ -89,14 +89,14 @@ if($raw=mysqli_num_rows($result)) {
                 <div class="form-group" >
                     <textarea class="form-control" name="content" rows="4"  id="cmt_content"></textarea>
                 </div>
-                <input type="hidden" value="<?php echo $id?>" name="id"  id="cmt_id">
+                <input type="hidden" value="<?php echo $iid?>" name="id"  id="cmt_id">
                 <button type="submit" id="submit_comment" class="btn btn-default" name="submit">Submit</button>
             </form>
         </div>
         <!--        comment Box-->
         <div class="col-lg-8  site-comment-box">
             <?php
-            $res=$conn->query("SELECT * FROM comment WHERE Pid=$id");
+            $res=$conn->query("SELECT * FROM comment WHERE Pid=$iid");
             while ($row=mysqli_fetch_array($res)) {
                 $nam=$row['name'];
                 $caption=$row['description'];
@@ -114,7 +114,7 @@ if($raw=mysqli_num_rows($result)) {
     </div>
 </div>
 
-<script>
+<!--<script>
     $(document).ready(function () {
         $("#submit_comment").on('click', function () {
             var $id = $('#cmt_id').val();
@@ -128,9 +128,9 @@ if($raw=mysqli_num_rows($result)) {
                 email : $email,
                 content : $content
             };
-            
 
-            
+
+
             $.ajax({
                 url : 'function.php',
                 type: 'POST',
@@ -140,3 +140,4 @@ if($raw=mysqli_num_rows($result)) {
         })
     });
 </script>
+-->

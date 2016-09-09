@@ -1,0 +1,40 @@
+body{
+    FONT-FAMILY: sans-serif;
+}
+
+.admin-site-bar{
+    background-color: #2c3a42;
+}
+.admin-header{
+    background-color: #4fa2c2;
+}
+
+.admin-site-bar a{
+    font-size: 24px;
+    padding: 8px 8px 8px 32px;
+    background-color: #2c3a42;
+    line-height: 48px;
+    text-decoration: none;
+    color: white;
+}
+.admin-site-publish {
+    margin-top:47px;
+}
+.admin-site-bar a:hover{
+    transition: 1s;
+   color: lightseagreen;
+
+}
+
+.adm-comment{
+    margin-top: 86px;
+}
+
+.adm-h3{
+    background-color: orange;
+    margin: 0;
+    padding: 12px;
+    color: white;
+    font-size: 28px;
+    font-family: monospace;
+}
