@@ -36,7 +36,7 @@ if($raw=mysqli_num_rows($result)) {
             while ($row = mysqli_fetch_array($result))
             {
                 $title = $row['title'];
-                $content = $row['content'];
+                $content =html_entity_decode($row['content']) ;
                 $img = $row['image'];
                 $eidtor = $row['editor'];
                 $category = $row['category'];
@@ -54,7 +54,7 @@ if($raw=mysqli_num_rows($result)) {
                                 <h5> Posted on <?php echo $date ?></h5>
                             </div>
                         </div>
-                        <div class="col-lg-12 pull-left  post-img"><img src="<?php echo $img ?>" class="img-responsive"
+                        <div class="col-lg-12 pull-left  post-img"><img src="<?php echo 'assets/images/'.$img ?>" class="img-responsive"
                             "></div>
                         <div class="row">
                             <div class="col-lg-12 pull-right"><p> <?php echo $content ?></p>
@@ -77,8 +77,9 @@ if($raw=mysqli_num_rows($result)) {
             <?php include 'recen-post.php'?>
 
         </div>
+    </div>
         <!--submit commment box-->
-        <div class="post-comment col-xs-12 col-md-8">
+        <div class="post-comment col-lg-8 col-md-8">
             <form action="postBody.php" method="post">
                 <div class="form-group ">
                     <input type="text"  required placeholder="Name(required)" class="form-control" name="name" id="cmt_name">
@@ -112,7 +113,7 @@ if($raw=mysqli_num_rows($result)) {
             }?>
         </div>
     </div>
-</div>
+
 
 <!--<script>
     $(document).ready(function () {

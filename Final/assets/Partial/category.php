@@ -22,7 +22,7 @@ $res=$con->query($sql1);
                 <div class="col-lg-6">
                 <ul class="list-unstyled">
 
-                    <li><a href="categorySearch.php?&category=<?php echo $category?> "><?php echo $category?></a>
+                    <li><a href="lable.php?&category=<?php echo $category?> "><?php echo $category?></a>
 
 
 

@@ -42,31 +42,32 @@ if(isset($_REQUEST['submit']))
     $conn=mysqli_connect("localhost","root","","blog");
     $title=$_POST['title'];
     $image=$_POST['name'];
-    
     $category=$_POST['category'];
     $content=$_POST['content'];
     $editor=$_POST['author'];
     $date=date("Y/m/d");
-    $file_name=$_FILES[$file]['name'];
-    $file_path=$_FILES[$file]['tmp_name'];
+    $file_name=$_FILES['imgeFile']['name'];
+    $file_path=$_FILES['imgeFile']['tmp_name'];
 
-    $check = getimagesize($_FILES[$file]["tmp_name"]);
-    if($check !== false) {
-        echo "<script>alert('its a pic')</script>";
-    } else {
-        echo "<script>alert('Sorry upload image')</script>";
+    $download_path="assets/images/".$file_name;
+    move_uploaded_file($file_path,"assets/images/$file_name");
+    $ext = strtolower(substr(strrchr($file_name, "."), 1));
 
+    if($ext != 'jpg' || $ext != 'png'){
+        $image=$image.".".$ext;
     }
-   /* $download_path="assets/images/".$file_name;
-    echo "<script>alert('$file_name')</script>";
-    move_uploaded_file($file_path,$download_path);*/
+    else {
+        echo"<script>alert('invalid imge try agin')</script>";
+        exit;
+    }
 
+    rename($download_path,"assets/images/".$image);
     $sql="INSERT INTO post(title,content,image,publishDate,editor,category) VALUES ('$title','$content','$image','$date','$editor','$category')";
-//    $result=$conn->query($sql);
-   /* if($result)
+    $result=$conn->query($sql);
+   if($result)
         header("location:admin.php");
     else
-        echo "error"*/;
+        echo "error";
 
 
 }?>

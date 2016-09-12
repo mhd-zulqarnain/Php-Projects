@@ -46,7 +46,7 @@
                     <td><?php echo $editor?></td>
                     <td><?php echo $category?></td>
                     <td>
-                        <a href="function.php?edit_id=<?php echo $pid?>" class="fa fa-edit fa-1x" id="edit"></a>
+                        <a href="admin.php?data=<?php echo $pid?>" class="fa fa-edit fa-1x" id="edit"></a>
                         <a href="function.php?del_id=<?php echo $pid?>" class="fa fa-times fa-1x" id="delete"></a>
                     </td>
                 </tr>

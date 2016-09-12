@@ -29,7 +29,7 @@
                     <div class="col-lg-12 col-xs-12 no-padding">
                     </div>
                     <div class="post-sub col-lg-12 no-padding">
-                        <div class="col-lg-5 col-xs-12 pull-left  post-img no-padding" ><img src="<?php echo $img?>" style="width:300px;height: 220px;"></div>
+                        <div class="col-lg-5 col-xs-12 pull-left  post-img no-padding" ><img src="<?php echo 'assets/images/'.$img?>" style="width:300px;height: 220px;"></div>
 
                         <div class="col-lg-7  col-xs-12 pull-right no-padding">
                             <a href="postBody.php?&id=<?php echo $id?>"><h3 class="head-color text-primary">

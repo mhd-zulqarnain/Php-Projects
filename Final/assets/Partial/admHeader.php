@@ -6,7 +6,13 @@
     <link rel="stylesheet" href="assets/style/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style/admin.css">
-    <script src="assets/js/jquery.js"></script>
+    <link rel="stylesheet" href="assets/style/jquery-te-1.4.0.css">
+
+    <script type="text/javascript" src="assets/js/jquery.js" charset="utf-8"></script>
+    <script type="text/javascript" src="assets/js/jquery-te-1.4.0.js" charset="utf-8"></script>
+
+    <script ></script>
+    <script src=></script>
     <script src="assets/js/custom.js"></script>
 
 </head>
