@@ -13,8 +13,20 @@
 
 <?php
 include 'assets/php/connection.php';
-$conn=mysqli_connect("localhost","root","","rental");;
-$sql="SELECT *FROM house";
+$conn=mysqli_connect("localhost","root","","rental");
+$page= isset($_GET['page'])? $_GET['page'] : 1 ;
+$pageCount;
+if($page=='0'||$page=='')
+{
+    $page=1;
+    $pageCount=1;
+}
+
+else{
+    $pageCount=($page*2)-2;     //algorithm to get real page number
+}
+$sql="Select * from house limit $pageCount,2";
+
 $result=mysqli_query($conn,$sql);
 
 ?>
@@ -83,7 +95,20 @@ $p_img = $row['Prop_img_path'];
 
 <?php
 }
+$num=mysqli_num_rows($conn->query("Select * from house"));
+$j=ceil($num/2);
 ?>
+<div class="col-lg-12 text-center fa-th-large">
+<?php
+for($i=1;$i<=$j;$i++)
+{?>
+
+    <a href="Rent.php?&page=<?php echo $i?>" class="text-primary"> <?php echo $i?> </a>
+
+    <?php
+}?>
+
+</div>
 
 
 

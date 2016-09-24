@@ -1,9 +1,33 @@
-
 <?php
-session_start();
-if($_SESSION['username']!="") {
 
-    ?>
+include 'connect.php';
+$conn = connect_db();
+
+?>
+<?php
+
+if (!$conn) {
+    echo 'connection error';
+} else {
+    if (isset($_POST['submit'])) {
+        $name = $_POST['name'];
+        if ((!preg_match("/^[a-zA-Z ]*$/",$name))) {
+            $error = "Name is required";
+            exit;
+        }
+        else {
+            $name ="";
+        }
+        $pwd = $_POST['pwd'];
+        $sql = "INSERT INTO info(Name, password) VALUES('$name','$pwd')";
+        if (mysqli_query($conn, $sql)) {
+
+        } else {
+            echo "error in insert" . mysqli_errno($conn);
+        };
+    };
+}
+?>
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -13,29 +37,13 @@ if($_SESSION['username']!="") {
     <body style="text-align: center">
     <a href="logout.php">Logout</a>
     <form action="index.php" method="post">
-        <input type="text" placeholder="insert name" name="name" required><br/><br/>
+        <input type="text" placeholder="insert name" name="name" required>
+        <span><?php echo $error?></span>
+        <br/><br/>
         <input type="password" placeholder="insert password" name="pwd" required><br/><br/>
         <input type="submit" value="submit" name="submit">
     </form>
-    <?php
-    include 'connect.php';
-    $conn = connect_db();
 
-    if (!$conn) {
-        echo 'connection error';
-    } else {
-        if (isset($_POST['submit'])) {
-            $name = $_POST['name'];
-            $pwd = $_POST['pwd'];
-            $sql = "INSERT INTO info(Name, password) VALUES('$name','$pwd')";
-            if (mysqli_query($conn, $sql)) {
-
-            } else {
-                echo "error in insert" . mysqli_errno($conn);
-            };
-        };
-    }
-    ?>
 
     <table width="300" style="margin: 0 auto">
         <tr>
@@ -65,10 +73,3 @@ if($_SESSION['username']!="") {
     </body>
     </html>
 
-    <?php
-}
-else{
-
-    header("location:login.Partial");
-}
-    ?>

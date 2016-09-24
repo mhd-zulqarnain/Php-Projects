@@ -1,0 +1,45 @@
+/*--------header--------------------------*/
+.h3{
+    padding: 0;
+    margin: 0!important;
+}
+.header{}
+.wrapper{
+    padding: 0!important;
+}
+
+.btn-logout{
+
+    background-color: white;
+    margin-top: 18px;
+}
+/*--------side-bar--------------------------*/
+.side-bar h3{
+    margin-top: 0;
+}
+.side-bar{
+    padding: 0!important;
+}
+/*--------customer-action--------------------------*/
+.cus-action{
+    padding: 0!important;
+}
+.cus-insert{
+    margin-top:20px;
+}
+/*--------------login----------*/
+
+.signin-form{
+    margin-top: 90px;
+    /*margin:70px auto 0px auto;*/
+    color: rgba(102, 51, 153, 0.84);
+
+
+}
+h1.login-header {
+    color: white;
+    background: rebeccapurple;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 12px;
+}

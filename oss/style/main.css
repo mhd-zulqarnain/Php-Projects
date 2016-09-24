@@ -1,0 +1,67 @@
+.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5
+,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,
+.col-lg-11,.col-lg-12,h3,h5{
+    margin:0;
+    padding: 0;
+}
+.main{
+    background-color: gainsboro;
+    height: 600px;
+}
+.logo{
+    background-color: #1b6d85;
+    margin-top: 20px;
+    height: 90px;
+}
+.header{
+    height: 70px;
+    background-color: #00BDFF;
+}
+.country{
+    height: 60px;
+    margin-top: 10px;
+    background-color: rosybrown;
+}
+.status{
+    height: 60px;
+    margin-top: 10px;
+    background-color: rosybrown;
+}
+.wrapper{
+    height: 600px;
+    background-color: #1b6d85;
+}
+.cat{
+    height: 600px;
+    background-color: rebeccapurple;
+}
+.cat ul {
+   list-style: none;
+}
+
+.cat ul a {
+    text-decoration: none;
+    padding: 15px 2px;
+    color: white;
+    font-size: 28px;
+}
+.cat ul a:hover{
+    transition: 1s;
+    color: lightseagreen;
+
+}
+.product{
+    height: 600px;
+
+    background-color: #e4b9b9;
+}
+.prod_body{
+    margin-top:10px ;
+    margin-left:50px ;
+}
+
+
+.bet{
+    height: 600px;
+    background-color:#1b6d85;
+}

@@ -37,37 +37,46 @@ if(isset($_REQUEST['delid']))
 }?>
 <!-----------------------------image upload------------------------------->
 <?php
-if(isset($_REQUEST['submit']))
-{
-    $conn=mysqli_connect("localhost","root","","blog");
-    $title=$_POST['title'];
-    $image=$_POST['name'];
-    $category=$_POST['category'];
-    $content=$_POST['content'];
-    $editor=$_POST['author'];
-    $date=date("Y/m/d");
-    $file_name=$_FILES['imgeFile']['name'];
-    $file_path=$_FILES['imgeFile']['tmp_name'];
-
-    $download_path="assets/images/".$file_name;
-    move_uploaded_file($file_path,"assets/images/$file_name");
+if(isset($_REQUEST['submit'])) {
+    $id = $_REQUEST['id'];
+    $conn = mysqli_connect("localhost", "root", "", "blog");
+    $title = $_POST['title'];
+    $image = $_POST['name'];
+    $category = $_POST['category'];
+    $content = $_POST['content'];
+    $editor = $_POST['author'];
+    $date = date("Y/m/d");
+    $file_name = $_FILES['imgeFile']['name'];
+    $file_path = $_FILES['imgeFile']['tmp_name'];
+    $download_path = "assets/images/" . $file_name;
+    move_uploaded_file($file_path, "assets/images/$file_name");
     $ext = strtolower(substr(strrchr($file_name, "."), 1));
-
-    if($ext != 'jpg' || $ext != 'png'){
-        $image=$image.".".$ext;
-    }
-    else {
-        echo"<script>alert('invalid imge try agin')</script>";
+    if ($ext != 'jpg' || $ext != 'png') {
+        $image = $image . "." . $ext;
+    } else {
+        echo "<script>alert('invalid imge try agin')</script>";
         exit;
     }
 
-    rename($download_path,"assets/images/".$image);
-    $sql="INSERT INTO post(title,content,image,publishDate,editor,category) VALUES ('$title','$content','$image','$date','$editor','$category')";
-    $result=$conn->query($sql);
-   if($result)
-        header("location:admin.php");
-    else
-        echo "error";
+    rename($download_path, "assets/images/" . $image);
+
+    $sql = "Select * from post_view WHERE Pid=$id";
+    $rs = $conn->query($sql);
+    if ($rs) {
+
+        $sql = "update post SET title='$title',content='$content',image='$image',publishDate='$date',editor='$editor',category='$category' WHERE Pid='$id'";
+        $conn->query($sql);
+        header("location:update.php");
+    }
+    else{
+    $sql = "INSERT INTO post(title,content,image,publishDate,editor,category) VALUES ('$title','$content','$image','$date','$editor','$category')";
+    $result = $conn->query($sql);
+        if($result)
+        header("location:update.php");
+        else
+
+            echo  "error";
+       }
 
 
 }?>

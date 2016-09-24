@@ -4,6 +4,7 @@
 include "assets/partial/connection.php";
 $conn=myConnection();
 $sql="Select * from comment";
+$sql1="Select COUNT(id) from comment";
 
 $res=$conn->query($sql)
 ?>
@@ -13,6 +14,11 @@ $res=$conn->query($sql)
         <th class="well"><div class="fa fa-comment fa-1x  "></div>Comments</th>
         <th class="well sm-fonts text-center"><div class="fa  fa-edit fa-1x"></div>Action</th>
         <?php
+        $num=$conn->query($sql1);
+        $count=mysqli_fetch_row($num);
+        if($count[0]=='0'){
+            echo '<h3 class="alert-danger"> NO Comment to show</h3>';
+        }
         while ($row=mysqli_fetch_array($res))
         {
             $content=$row['description'];

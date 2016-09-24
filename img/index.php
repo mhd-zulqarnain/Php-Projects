@@ -3,9 +3,17 @@
 { 
     $file_name=$_FILES['file']['name'];
     $file_path=$_FILES['file']['temp_name'];
+    $ext=pathinfo($file_name,PATHINFO_EXTENSION);
+
 
     $download_path="downloads/".$file_name;
+    $extension=array("jpeg","jpg","png");
 
+    if(in_array($ext,$extension)){
+        echo "<script>alert('Its a picture')</script>";
+    }
+    else
+        echo "<script>alert('Select a picture')</script>";
 
 
 }?>

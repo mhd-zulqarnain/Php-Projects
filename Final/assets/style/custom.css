@@ -135,3 +135,17 @@ background-color:#222;
 .site-next-btn{
     float: left;
 }
+/*.................index pagination.............*/
+.index-pagination a{
+    text-decoration: none;
+    padding: 6px 19px;
+    font-size: 17px;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+.index-pagination a:hover{
+    color: white;
+    background-color: #337ab7;
+    transition: .5s;
+}

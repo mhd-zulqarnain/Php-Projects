@@ -5,8 +5,6 @@
 <div class="container site-wrapper">
     <div class="row">
         <div class="col-lg-8 post-wrapper">
-
-
             <?php
             while($row=mysqli_fetch_array($result))
             {

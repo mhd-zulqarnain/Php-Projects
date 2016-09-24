@@ -5,26 +5,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="../style/bootstrap.min.css">
     <link rel="stylesheet" href="../style/font-awesome.min.css">
-    <link rel="stylesheet" href="../style/custom.css">
+    <link rel="stylesheet" href="../style/login.css">
 
 </head>
 <body>
 <div  style="border-bottom:1px solid black;height: 40px;padding:0;margin:0;background-color: red ">
-<h1>Blog </h1>
+<h1 class="login-header">Blog </h1>
 </div>
 
 <div class="container  col-lg-12">
 <div>
     <div class="signin-form col-lg-4 col-lg-push-4 well">
         <form action="login.php" method="post" >
-            <h2>Sign In.</h2>
+            <h3>Sign in</h3>
             <div class="form-group">
 
                 <input type="text" name="userName" placeholder="Enter your email" class="form-control" required >
             </div><div class="form-group">
-                <input type="text" name="pass" placeholder="Password" class="form-control" required >
+                <input type="password" name="pass" placeholder="Password" class="form-control" required >
             </div>
-            <input type="submit" name="submit" class="form-control col-lg-2">
+            <input type="submit" name="submit" class="col-lg-2 btn btn-md" value="Login">
         </form>
     </div>
 

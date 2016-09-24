@@ -19,4 +19,4 @@
 <body>
 
 <div class="col-lg-12 admin-header " style="color: white"> <h1>Admin Panal</h1></div>
-<div class="col-lg-12 row">
+<div class="col-lg-12 main-wrapper row" style="">
