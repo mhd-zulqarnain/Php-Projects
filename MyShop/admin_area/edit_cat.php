@@ -55,7 +55,7 @@ form{margin:15%;}
 		if($update_cat){
 			
 			echo "<script>alert('Category Has been Updated')</script>";
-			echo "<script>window.open('index.php?view_cats','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			
 			}
 		

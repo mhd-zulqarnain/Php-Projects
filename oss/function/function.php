@@ -18,7 +18,7 @@ function getPro(){
         $lable = "select * from productdetails";
         $res = mysqli_query($con, $lable);
         while ($row = mysqli_fetch_array($res)) {
-            $name = $row['pname'];
+            $name = $row['p_name'];
             $price = $row['price'];
             $id = $row['pid'];
             echo "
@@ -41,7 +41,7 @@ function getCatPro(){
         $lable = "select * from productdetails WHERE type='$cat'";
         $res = mysqli_query($con, $lable);
         while ($row = mysqli_fetch_array($res)) {
-            $name = $row['pname'];
+            $name = $row['p_name'];
             $price = $row['price'];
             $id = $row['pid'];
             echo "
@@ -63,7 +63,7 @@ function getProDetails(){
     $lable="select * from productdetails WHERE pid='$id'";
     $res=mysqli_query($con, $lable);
     while($row=mysqli_fetch_array($res)){
-        $name=$row['pname'];
+        $name=$row['p_name'];
         $price=$row['price'];
         $id=$row['pid'];
         echo "

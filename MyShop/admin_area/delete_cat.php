@@ -14,7 +14,7 @@ include("includes/db.php");
 			
 			echo "<script>alert('One Category has been deleted!')</script>";
 			
-			echo "<script>window.open('index.php?view_cats','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			}
 		
 		

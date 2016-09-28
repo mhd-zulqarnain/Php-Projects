@@ -1,0 +1,357 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background-attachment:fixed;
+	background-size:100% 110%;
+	
+	background-repeat:no-repeat;
+}
+.header
+{
+	height:200px;
+	width:80%;
+	margin-left:10%;
+	background:gray;
+	
+	position:relative;
+}
+.logo
+{
+	position:absolute;
+	height:140px;
+	width:250px;
+	
+	margin-left:20px;
+	background:black;
+	margin-top:0px;
+}
+.logo img
+{
+	position:absolute;
+	height:140px;
+	width:250px;
+	
+	
+}
+.heading
+{
+	height:55px;
+	margin-left:20px;
+	width:250px;
+	margin-top:12%;
+	position:absolute;
+}
+.heading h1
+{
+	font-size:34px;
+}
+.banner
+{
+	background:#fff;
+	position:absolute;
+	height:100px;
+	width:600px;
+	margin-top:20px;
+	margin-left:35%;
+}
+.banner img
+{
+	height:100px;
+	width:600px;
+}
+.myAccount
+{
+	background:#232323;
+	position:absolute;
+	height:50px;
+	width:200px;
+	margin-left:60%;
+	margin-top:12%;
+}
+.myAccount img
+{
+	heighT:50px;
+	width:50px;
+}
+.myAccount h3
+{
+	color:#fff;
+	margin-left:60px;
+	margin-top:-30px;
+}
+.submitAdd
+{
+	background:#dbdbdb;
+	position:absolute;
+	height:50px;
+	width:200px;
+	margin-left:80%;
+	margin-top:12%;
+}
+.submitAdd input
+{
+	border:1px solid black;
+	background:blue;
+	heighT:50px;
+	font-size:20px;
+	color:#232323;
+	width:200px;
+	
+}
+.categories
+{
+	height:640px;
+	width:275px;
+	border:1px solid black;
+	border-radius:5px;
+	position:relative;
+	margin-left:134px;
+	background:#12EEFD;
+	
+}
+.categories h2
+{
+	text-align:center;
+}
+
+.categories h3
+{
+	margin-left:0px;
+	height:35px;
+	border-bottom:2px solid black;
+}
+.categories .products
+{
+	position:absolute;
+	height:200px;
+	
+	width:270px;
+
+	
+}
+.products ul
+{
+	margin-top:-20px;
+	position:absolute;
+	height:400px;
+}
+.products ul li
+{
+	
+	list-style:none;
+}
+.products ul li a
+{
+	font-size:20px;
+	height:32px;
+	widtH:274px;
+	line-height:32px;
+	margin-left:-40px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	margin-top:8px;
+	
+}
+.products ul li a:hover
+{
+	background:white;
+	transition:all 5s;
+}
+.items
+{
+	height:600px;
+	width:600px;
+	margin-left:415px;
+	margin-top:-640px;
+	position:relative;
+}	
+.sub_item
+{
+	position:absolute;
+	height:220px;
+	widtH:600px;
+	border-bottom:2px solid black;
+	margin-top:0px;
+}
+.sub_item .image
+{
+	height:220px;
+	margin-top:0px;
+	width:300px;
+	margin-left:30px;
+	background:black;
+}
+.image img
+{
+	height:220px;
+	margin-top:0px;
+	width:300px;
+	margin-left:0px;
+	background:black;
+}
+.sub_item .name
+{
+	height:50px;
+	width:130px;
+	margin-left:65.5%;
+	position:absolute;
+	background:red;
+	margin-top:-215px;
+}	
+
+.sub_item .name h1
+{
+	margin-top:6px;
+	text-align:center;
+}
+.sub_item .ads_detail
+{
+	height:50px;
+	position:absolute;
+	width:130px;
+	margin-top:-150px;
+	margin-left:65.5%;
+	background:orange;
+}
+.ads_detail h3
+{
+	text-align:center;
+}
+	
+.sub_item .view_Ads
+{
+	height:50px;
+	position:absolute;
+	width:130px;
+	margin-top:-80px;
+	margin-left:65.5%;
+	background:#000;
+}
+.view_Ads a
+{
+	text-decoration:none;
+	height:50px;
+	line-height:50px;
+	margin-left:10px;
+}
+.prdcts
+{
+	position:absolute;
+	height:200px;
+	width:600px;
+	margin-top:38%;
+	border-bottom:2px solid black;
+}
+.prd1
+{
+	background:#fff;
+	height:180px;
+	width:250px;
+	margin-top:10px;
+	margin-left:30px;
+	float:left;
+	
+}
+.prd1 img
+{
+	background:#232323;
+	height:130px;
+	width:200px;
+	margin-top:5px;
+	margin-left:25px;
+	position:absolute;
+}
+.prd1 h2
+{
+
+	height:25px;
+	position:absolute;
+	width:90px;
+	margin-top:154px;
+	margin-left:80px;
+}
+.prd1 h2 a
+{
+	text-decoration:none;
+	color:#232323;
+	text-align:center;
+	display:block;
+}
+
+
+
+#prdcts
+{
+	position:absolute;
+	height:200px;
+	width:600px;
+	margin-top:72%;
+	border-bottom:2px solid black;
+	}
+#prd1
+{
+	background:#fff;
+	height:180px;
+	width:250px;
+	margin-top:10px;
+	margin-left:30px;
+	float:left;
+	
+}
+#prd1 img
+{
+	background:#232323;
+	height:150px;
+	width:200px;
+	margin-top:5px;
+	margin-left:25px;
+	
+	position:absolute;
+}
+#prd1 h2
+{
+	height:25px;
+	position:absolute;
+	width:90px;
+	margin-top:154px;
+	margin-left:80px;
+}
+#prd1 h2 a
+{
+	text-decoration:none;
+	color:#232323;
+	text-align:center;
+	display:block;
+}
+
+.bet
+{
+	background:#fff;
+	height:640px;
+	width:193px;
+	margin-top:-602px;
+	margin-left:75.7%;
+	position:relative;
+	border-radius:5px;
+	border:1px solid black;
+}
+.bet img
+{
+	height:640px;
+	width:193px;
+}
+.footer
+{
+	height:130px;
+	width:100%;
+	margin-top:6px;
+	position:relative;
+}
+.footer img
+{
+	background:white;
+	height:140px;
+	width:100%;
+}

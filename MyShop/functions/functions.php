@@ -49,7 +49,7 @@ function cart(){
 				
 				$run_q = mysqli_query($db,$q);
 				
-				echo "<script>window.open('index.php','_self')</script>";
+				echo "<script>window.open(index.php'_self')</script>";
 				
 				}
 		}

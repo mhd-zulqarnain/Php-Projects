@@ -7,11 +7,9 @@
 .wrapper{
     padding: 0!important;
 }
-
-.btn-logout{
-
-    background-color: white;
-    margin-top: 18px;
+.btn-logout {
+    background-color: rgba(255, 255, 255, 0.96);
+    margin-top: 3px;
 }
 /*--------side-bar--------------------------*/
 .side-bar h3{
@@ -19,10 +17,21 @@
 }
 .side-bar{
     padding: 0!important;
+    background-color: #222;
+}
+.side-bar a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.list-group-item{
+     background-color: transparent!important;
+    border: none!important;
 }
 /*--------customer-action--------------------------*/
 .cus-action{
     padding: 0!important;
+    height: 520px;
 }
 .cus-insert{
     margin-top:20px;

@@ -36,7 +36,7 @@ form{margin:15%;}
 		if($run_brand){
 			
 			echo "<script>alert('New Brand Has been inserted')</script>";
-			echo "<script>window.open('index.php?view_brands','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			
 			}
 		

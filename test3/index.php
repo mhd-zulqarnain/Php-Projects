@@ -23,7 +23,7 @@ $conn=new mysqli("localhost","root","","24")
     foreach ($file as $item){
        array_push($arr,"$item");
     };
-    $data=JSON_ENCODE($arr);
+    $data=implode($arr);
     $sql="insert into pic(image) VALUE('$data')";
 
     if($conn->query($sql))

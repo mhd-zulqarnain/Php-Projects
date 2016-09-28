@@ -110,7 +110,7 @@ function cart(){
 				
 				$run_q = mysqli_query($db,$q);
 				
-				echo "<script>window.open('index.php','_self')</script>";
+				echo "<script>window.open(iindex.php_self')</script>";
 				
 				}
 		
@@ -235,7 +235,7 @@ function getPro(){
 					
 					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					
-					<a href='index.php?add_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
+					<a href='indindex.phpd_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
 					
 					</div>
 					";
@@ -290,7 +290,7 @@ function getCatPro(){
 					
 					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					
-					<a href='index.php?add_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
+					<a href='indindex.phpd_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
 					
 					</div>
 					";
@@ -344,7 +344,7 @@ function getBrandPro(){
 					
 					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					
-					<a href='index.php?add_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
+					<a href='indindex.phpd_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
 					
 					</div>
 					";
@@ -375,7 +375,7 @@ function getBrands(){
 						$brand_id = $row_brands['brand_id'];
 						$brand_title = $row_brands['brand_title'];
 					
-                	echo "<li><a href='index.php?brand=$brand_id'>$brand_title</a></li>";
+                	echo "<li><a href='indindex.phpand=$brand_id'>$brand_title</a></li>";
 					
 					}
 	
@@ -399,7 +399,7 @@ function getCats(){
 					$cat_id = $row_cats['cat_id'];
 					$cat_title = $row_cats['cat_title'];
 					
-					echo "<li><a href='index.php?cat=$cat_id'>$cat_title</a></li>";
+					echo "<li><a href='indindex.phpt=$cat_id'>$cat_title</a></li>";
 					
 					}		
 					

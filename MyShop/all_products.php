@@ -106,7 +106,7 @@ include("functions/functions.php");
 					
 					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					
-					<a href='index.php?add_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
+					<a href='index1.php?add_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
 					
 					</div>
 					";

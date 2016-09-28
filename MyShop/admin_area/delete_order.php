@@ -14,7 +14,7 @@ include("includes/db.php");
 			
 			echo "<script>alert('Order has been deleted!')</script>";
 			
-			echo "<script>window.open('index.php?view_orders','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			}
 		
 		

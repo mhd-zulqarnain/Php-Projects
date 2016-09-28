@@ -14,7 +14,7 @@ include("includes/db.php");
 			
 			echo "<script>alert('One Product has been deleted!')</script>";
 			
-			echo "<script>window.open('index.php?view_products','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			}
 		
 		

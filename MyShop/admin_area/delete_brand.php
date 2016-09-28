@@ -14,7 +14,7 @@ include("includes/db.php");
 			
 			echo "<script>alert('One Brand has been deleted!')</script>";
 			
-			echo "<script>window.open('index.php?view_brands','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			}
 		
 		

@@ -227,7 +227,7 @@ include("functions/functions.php");
 		
 		if(isset($_POST['continue']))
 			{
-				echo "<script>window.open('index.php','_self')</script>";
+				echo "<script>window.open(iindex.php_self')</script>";
 				
 				
 				}

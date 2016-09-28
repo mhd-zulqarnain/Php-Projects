@@ -223,7 +223,7 @@ if(isset($_GET['edit_pro'])){
 			
 			echo "<script>alert('Product Updated successfully')</script>";
 			
-			echo "<script>window.open('index.php?view_products','_self')</script>"; 
+			echo "<script>window.open(index.php,'_self')</script>"; 
 			}
 		
 		

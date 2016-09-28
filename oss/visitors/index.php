@@ -3,14 +3,9 @@
 include("function/function.php");
 session_start();
 if($_SESSION['vid']!="") {
-
     ?>
-
-        <?php title();?>
-        <div class="col-lg-12 wrapper">
-            <?php sideBar();?>
-            <div class="col-lg-10 cus-action">
-                <div class="col-lg-8 col-lg-push-2 cus-insert">
+        <?php headder();?>
+               <div class="col-lg-8 col-lg-push-2 cus-insert">
                     <form action="function/function.php" method="post" enctype="multipart/form-data"  name="prod_form">
 
                         <div class="form-group col-md-6">
@@ -44,7 +39,7 @@ if($_SESSION['vid']!="") {
                                 <option>Yes</option>
                             </select>
                         </div>
-
+                        <input type="hidden" name="vid" value="<?php echo $_SESSION['vid'];?>">
                         <div class="form-group col-lg-5 img-group ">
                             <label class="small">Upload Images</label>
                             <input type="file" name="file[]" class="form-control" style="margin-top: 0px">
@@ -62,25 +57,12 @@ if($_SESSION['vid']!="") {
                         </div>
                     </form>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    </body>
-    </html>
-
-    
+          <?php footer();?>
     <?php
-
-
-
 }
 else{
     header("location:login.php");
 }
 ?>
-
-
-
 
 <!--echo "<script>alert('$vid')</script>";-->

@@ -36,7 +36,7 @@ form{margin:15%;}
 		if($run_cat){
 			
 			echo "<script>alert('New Category Has been inserted')</script>";
-			echo "<script>window.open('index.php?view_cats','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			
 			}
 		

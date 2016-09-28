@@ -37,7 +37,7 @@ $c = $_SESSION['customer_email'];
 			session_destroy();
 			
 			echo "<script>alert('Your Account has been deleted, Good Bye!')</script>";
-			echo "<script>window.open('../index.php','_self')</script>";
+			echo "<script>window.open(indeindex1.phpself')</script>";
 			}
 		
 		}

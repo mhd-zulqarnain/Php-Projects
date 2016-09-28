@@ -1,8 +1,8 @@
 <?php
 
 $con=mysqli_connect("localhost","root","","paging");
-
 $page= isset($_GET['page'])? $_GET['page'] : 1 ;
+
 $pageCount;
 if($page=='0'||$page=='')
 {

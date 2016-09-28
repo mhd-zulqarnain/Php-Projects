@@ -185,7 +185,7 @@ if(!isset($_SESSION['admin_email']))
 			
 			echo "<script>alert('Product inserted successfully')</script>";
 			
-			echo "<script>window.open('index.php?insert_product','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			}
 		
 		

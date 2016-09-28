@@ -229,7 +229,7 @@ include("functions/functions.php");
 		else {
 			$_SESSION['customer_email']=$c_email;
 			echo "<script>alert('Account Created Successfully, Thank you!')</script>";
-			echo "<script>window.open('index.php','_self')</script>";
+			echo "<script>window.open(index.php,'_self')</script>";
 			
 			}
 		

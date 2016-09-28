@@ -45,7 +45,7 @@ if(isset($_POST['login'])){
 		
 		$_SESSION['admin_email']=$user_email;
 		
-		echo "<script>window.open('index.php?logged_in=You successfully Logged in!','_self')</script>";
+		echo "<script>window.open(index.php,'_self')</script>";
 		
 		}
 		else {
