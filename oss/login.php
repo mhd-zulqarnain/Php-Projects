@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style/bootstrap.min.css">
-    <link rel="stylesheet" href="style/visitor.css">
+    <link rel="stylesheet" href="visitors/style/bootstrap.min.css">
+    <link rel="stylesheet" href="visitors/style/visitor.css">
 
 </head>
 <body>
