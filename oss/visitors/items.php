@@ -6,14 +6,14 @@ if($_SESSION['vid']!="")
     $vid=$_SESSION['vid'];?>
 
 <?php headder();?>
-        <div class="col-lg-12 pull-right">
-            <form>
+        <div class="col-lg-6 pull-left">
+
+            <h2>Items for Sell</h2>
                 <table class="table table-condensed">
                     <th>Product name</th>
                     <th>Price</th>
                     <th>status</th>
                     <th>Approved</th>
-                    <th>Action</th>
 
 
                         <?php
@@ -43,18 +43,19 @@ if($_SESSION['vid']!="")
                         <td><?php echo $status?> </td>
                         <td><?php echo $approve?> </td>
                         <td>
-                            <a href="index.php?pid=<?php echo $pid?>" class="fa fa-edit fa-1x " id="edit">Edit</a>
-                            <a href="function/function.php?re_pid=<?php echo $pid?>" class="fa fa-times fa-1x " id="delete" style="color: red;">Remove</a>
+                          <!--  <a href="index.php?pid=<?php /*echo $pid*/?>" class="fa fa-edit fa-1x " id="edit">Edit</a>
+                            <a href="function/function.php?re_pid=<?php /*echo $pid*/?>" class="fa fa-times fa-1x " id="delete" style="color: red;">Remove</a>-->
                         </td>
 
                             <?php }?>
                     </tr>
                 </table>
-            </form>
+
         </div>
+    <?php  buy($vid);?>
  <?php
     footer();
 }else{
-    header("location:login.php");
+    header("location:../login.php");
 }
 ?>

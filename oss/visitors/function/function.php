@@ -27,6 +27,7 @@ if(isset($_REQUEST['re_pid'])){
 
 }
 //-----------------product add-----
+
 if (isset($_POST['pro_submit'])) {
 
     $con=myConnection();
@@ -64,6 +65,54 @@ if (isset($_POST['pro_submit'])) {
     }
 
 }
+if(isset($_REQUEST['update_pro'])){
+    echo $pid=$_REQUEST['update_pro'];
+    echo $status= $_REQUEST['status'];
+    $sql="update productdetails set on_bet='$status' WHERE pid='$pid'";
+    $res=Run($sql);
+    if($sql)
+    {
+        header("location:../prodetails.php?p_id=$pid");
+    }
+}
+//___________buying record
+function buy($vid){
+
+  $query = "SELECT D.pid,date(D.B_date),V.name,P.p_name,P.price FROM deals AS D  join productdetails As P on D.pid=P.pid
+                JOIN visitor AS V on V.vid=D.vid WHERE V.vid='$vid'";
+    $res=Run($query);
+
+    echo '
+    <div class="col-lg-6">
+    <h2>Previous Shopping Details</h2>
+    <table class="table">
+            <th>Product name</th>
+                    <th>Price</th>
+                    <th>Date</th>
+                    <tr>';
+    if(mysqli_num_rows($res)>0){
+    while ($row=mysqli_fetch_array($res))
+    {
+            $name=$row['name'];
+            $pname=$row['p_name'];
+            $price=$row['price'];
+            $date=$row['date(D.B_date)'];
+        echo '      <td>'.$pname.' </td>
+                    <td>'.$price.'</td>
+                    <td>'.$date.'</td>
+                    </tr>';
+    }
+    }
+    else{
+        echo' <hr><h2 class="alert-danger ">No transision record</h2>';
+    }
+    echo' </table>
+    </div>
+    ';
+}
+
+
+
 //................end product entery..
 function headder(){
     echo '
@@ -76,7 +125,7 @@ function headder(){
         <link href="style/visitor.css" rel="stylesheet">
         <link href="style/bootstrap.min.css" rel="stylesheet">
         <link href="style/font-awesome.min.css" rel="stylesheet">
-        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src=".."></script>
         <script type="text/javascript" src="js/custom.js"></script>
     </head>
     <body>
@@ -84,9 +133,9 @@ function headder(){
     sideBar();
         echo'
         <div class="col-lg-10 header" style="height: 40px;background-color: #a94a42">
-        <div class="col-lg-3 pull-right"><a href="logout.php" class="btn btn-md pull-right btn-logout ">Logout</a></div>
+        <div class="col-lg-3 pull-right"><a href="../logout.php" class="btn btn-md pull-right btn-logout ">Logout</a></div>
         </div>
-        <div class="col-lg-10" style="height:60px;"></div>
+        <div class="col-lg-10" style="height:98px;border-bottom: 1px solid red"></div>
         <div class="col-lg-10 wrapper">
         ';
 
@@ -112,15 +161,19 @@ function sideBar(){
     echo '<div class="col-lg-2 side-bar" style="height: 520px;>
                 <h3 class="list-group-item">Action</h3>
                 <ul class="list-group">
-                   <a href="index.php"> <li class="list-group-item fa fa-camera fa-1x"></li>
-                   <span>Add new items</span>
-                   </a>
-                    <a href="items.php"><li class="list-group-item fa fa-eye-slash fa-1x"></li>
-                    <span>My items</span>
+                <a href="items.php"><li class="list-group-item fa fa-dashboard fa-1x"></li>
+                    <span>Dashboard</span>
                     </a>
+                    <hr>
+                   <a href="index.php"> <li class="list-group-item fa fa-tags fa-1x"></li>
+                   <span>Add New</span>
+                   </a>
+                   <hr>
                     <a href=""><li class="list-group-item fa fa-eye fa-1x"></li>
                     <span>testbar</span>
                     </a>
+                    
+                   <hr>
                 </ul>
             </div>';
 }

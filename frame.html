@@ -1,21 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        header{width: 1000px;height: 70px;background: #8c8c8c;margin: 0 auto}
-        section.slider{width: 100%;background: #00bf00;}
-        .slider-inr{width: 1000px;height: 450px;background: #ffff00;margin: 0 auto}
-        footer{width: 1000px;background: goldenrod;height: 60px;margin: 0 auto}
+<html>
+<link rel="stylesheet" href="">
+<link rel="stylesheet" href=" House_Ren/assets/lib/bootstrap.min.css">
+<link rel="stylesheet" href=" House_Ren/assets/lib/bootstrap-theme.css">
+<script src="jquery-2.2.3.js"></script>
+<style type="text/css" rel="stylesheet">
+    .box{width: 300px;height: 200px;background-color: forestgreen}
+    .tbl-hide td{display: none}
+</style>
 
-    </style>
-</head>
-<body>
-<header></header>
-<section class="slider">
-    <div class="slider-inr"></div>
-</section>
-<footer></footer>
+<body class="container">
+
+
+<table class="table">
+
+    <thead>
+    <tr>
+        <th>name</th>
+        <th>path</th>
+        <th>action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="tbl-inner">productname</td>
+        <td>productpath</td>
+        <td>productaction</td>
+    </tr>
+    <tr class="tbl-hide">
+        <td colspan="3" style="height: 100px; background-color: #00BDFF"></td>
+    </tr>
+    </tbody>
+    <!-------------------->
+    <tbody>
+    <tr>
+        <td class="tbl-inner">productname</td>
+        <td>productpath</td>
+        <td>productaction</td>
+    </tr>
+    <tr class="tbl-hide">
+        <td colspan="3" style="height: 100px; background-color: #00BDFF"></td>
+    </tr>
+    </tbody>
+    <!--.......-->
+    <tbody>
+    <tr>
+        <td class="tbl-inner">productname</td>
+        <td>productpath</td>
+        <td>productaction</td>
+    </tr>
+    <tr class="tbl-hide">
+        <td colspan="3" style="height: 100px; background-color: #00BDFF"></td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
+
+<script>
+    $("tr").on("click",".tbl-inner",function () {
+        $(this).closest("tr")
+                .siblings('tr')
+                .children('td')
+                .slideToggle(1000);
+
+        $(this).closest("tbody")
+                .siblings("tbody")
+                .find("tr.tbl-hide td")
+                .slideUp(1000);
+
+    })
+
+
+</script>

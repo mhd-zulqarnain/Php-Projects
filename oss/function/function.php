@@ -1,5 +1,9 @@
 <?php
-$con=mysqli_connect("localhost","root","","oss");
+function myconnection(){
+
+    return mysqli_connect("localhost","root","","oss");
+}
+$con=myconnection();
 function getCat(){
     global $con;
     $lable="    SELECT DISTINCT type FROM productdetails";

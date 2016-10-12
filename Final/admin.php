@@ -18,7 +18,8 @@ if(isset($_SESSION['name'])!="") {
             $author =$row['editor'];
             $category = $row['category'];
             $image = $row['image'];
-            $description = $row['content'];
+            $description = html_entity_decode($row['content']); 
+//            $description = $row['content'];
         }
     }
     else{

@@ -42,7 +42,7 @@ if(isset($_REQUEST['submit'])) {
     $conn = mysqli_connect("localhost", "root", "", "blog");
     $title = $_POST['title'];
     $image = $_POST['name'];
-    $category = $_POST['category'];
+    $category = htmlentities($_POST['category']);
     $content = $_POST['content'];
     $editor = $_POST['author'];
     $date = date("Y/m/d");

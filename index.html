@@ -6,39 +6,52 @@
 <script src="jquery-2.2.3.js"></script>
 <style type="text/css" rel="stylesheet">
     .box{width: 300px;height: 200px;background-color: forestgreen}
+
+    .wrapper-inr div{display: none}
 </style>
 
 
 <body class="container">
-<button class="toggle">Toggle</button>
+
+<!--<table class="table">
+    <th>name</th>
+    <th>content</th>
+    <th>action</th>
+    <tr>
+        <td class="main">start</td>
+        <td>start</td>
+        <td>start</td>
+    </tr>
+    <td colspan="3" style="height:100px;background-color: rebeccapurple" hidden class="inner"></td>
+    <tr>
+        <td class="main">start</td>
+        <td>start</td>
+        <td>start</td>
+    </tr>
+    <td colspan="3" style="height:100px;background-color: rebeccapurple" hidden class="inner"></td>
+</table>-->
+
+<div class="wrapper">
+    <div class="wrapper-inr">
+        <a href="javascript:void(0);">firstfirstfirst firstfirst firstfirst</a>
+        <div>firstfirstfirstfirstfirstfirst</div>
+    </div>
+    <div class="wrapper-inr">
+        <a href="javascript:void(0);">firstfirstfirst firstfirst firstfirst</a>
+        <div>firstfirstfirstfirstfirstfirst</div>
+    </div>
+    <div class="wrapper-inr">
+        <a href="javascript:void(0);">firstfirstfirst firstfirst firstfirst</a>
+        <div>firstfirstfirstfirstfirstfirst</div>
+    </div></div>
+<!--<button class="toggle">Toggle</button>
 <div class="box" style="display: none">
     <h2>title</h2>
     <p>Description</p>
     <p>Description</p>
     <p>Description</p>
-</div>
-<script>
-
-    function  myFunction() {
-        document.getElementById("demo").innerHTML="paragraph";
-    }
-
-
-$(document).ready(function(){
-
-    $("button").on('click',function(){
-        console.log($(".box"));
-       $(".box").slideToggle(1000);
-    });
-    /*$("button").on('click',function(){
-        console.log($(".box"));
-
-    })*/
-
-});
-</script>
-
-<div class="col-lg-12">
+</div>-->
+<!--<div class="col-lg-12">
     <p id="demo">hi there</p>
 <buttton type="button" onclick="myFunction()">click here</buttton>
     <div class="row">
@@ -87,6 +100,44 @@ $(document).ready(function(){
 
     </tr>
 
-</table>
+</table>-->
 </body>
 </html>
+<script>
+    $(".wrapper-inr").on("click","a", function(){
+
+        var $this = $(this);
+
+        $this.siblings('div')
+                .slideDown('slow');
+
+        $this.closest(".wrapper-inr")
+                .siblings("div.wrapper-inr")
+                .children('div')
+                .slideUp('slow');;
+
+    })
+</script>
+<script>
+
+/*    function  myFunction() {
+        document.getElementById("demo").innerHTML="paragraph";
+    }
+
+
+    $(document).ready(function(){
+
+     $("button").on('click',function(){
+     console.log($(".box"));
+     $(".box").slideDown(900);
+     setTimeout(function () {
+     $(".box").slideUp(900);
+     }, 3000)
+     });
+     $("button").on('click',function(){
+     console.log($(".box"));
+
+     })
+
+     });*/
+</script>

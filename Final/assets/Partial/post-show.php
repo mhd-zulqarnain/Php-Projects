@@ -43,7 +43,7 @@
                                 </span>
                             <span class="fa fa fa-tag fa-1x sm-fonts" aria-hidden="true"><?php echo " ".$category?></span>
                             <span class="fa fa-calendar fa-1x sm-fonts" aria-hidden="true"><?php echo " ".$date?></span>
-                            <p> <?php echo  "   ".substr($content,0,210)."...."?></p>
+                            <p> <?php echo      "   ".substr($content,0,210)."...."?></p>
                             <a href="postBody.php?&id=<?php echo $id?>" class="btn btn-primary btn-md btn-Cls">Read More</a></div>
                     </div>
 

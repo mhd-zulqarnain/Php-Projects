@@ -44,7 +44,7 @@ if(isset($_POST['submit']))
         $vid=$row['vid'];
         session_start();
         $_SESSION['vid']=$vid;
-        header("location:index.php");
+        header("location:visitors/items.php");
     }
     else
         echo "<script>alert('invlid password')</script>";

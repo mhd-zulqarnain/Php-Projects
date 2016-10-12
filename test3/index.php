@@ -20,11 +20,12 @@ $conn=new mysqli("localhost","root","","24")
 <?php if(isset($_POST['submit'])){
     $file = $_FILES['file']['name'];
     $arr =array();
+    $date=date("Y-m-d H:i:s");
     foreach ($file as $item){
        array_push($arr,"$item");
     };
     $data=implode($arr);
-    $sql="insert into pic(image) VALUE('$data')";
+    $sql="insert into pic(image,date) VALUE('$data','$date')";
 
     if($conn->query($sql))
     {

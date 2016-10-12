@@ -5,7 +5,7 @@ session_start();
 if($_SESSION['vid']!="") {
     ?>
         <?php headder();?>
-               <div class="col-lg-8 col-lg-push-2 cus-insert">
+               <div class="col-lg-8  cus-insert">
                     <form action="function/function.php" method="post" enctype="multipart/form-data"  name="prod_form">
 
                         <div class="form-group col-md-6">
@@ -33,9 +33,9 @@ if($_SESSION['vid']!="") {
 
                         <div class="form-group col-md-4 ">
                             <label class="small">On Bet</label>
-                            <select name="on_bet" class="form-control">
+                            <select name="on_bet" class="form-control" re>
 
-                                <option>No</option>
+                                <option >No</option>
                                 <option>Yes</option>
                             </select>
                         </div>
@@ -53,7 +53,7 @@ if($_SESSION['vid']!="") {
                             <textarea name="description" id="" cols="70" rows="6" class="form-control" placeholder="Enter Description here"></textarea>
                         </div>
                         <div class="form-group col-lg-12">
-                            <button type="submit" name="pro_submit" class="btn btn-default">Submit</button>
+                            <button type="submit" name="pro_submit" class="btn btn-default pull-right">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -61,7 +61,7 @@ if($_SESSION['vid']!="") {
     <?php
 }
 else{
-    header("location:login.php");
+    header("location:../login.php");
 }
 ?>
 
