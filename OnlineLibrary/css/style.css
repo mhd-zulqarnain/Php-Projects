@@ -1,0 +1,7 @@
+#brand{
+    background-image: url(../img/brand.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    margin: 2px;
+}
