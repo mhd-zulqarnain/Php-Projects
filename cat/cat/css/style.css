@@ -1,0 +1,264 @@
+
+#ars
+
+{
+	background:#EBEBEB;
+	height:60px;
+}
+#lo
+{
+	margin-top:3px;
+	
+}
+			.navi
+			{
+			height:40px;
+			margin-top:8px;
+			}
+			.navi ul
+			{
+			height:40px;
+			list-style:none;
+			padding-left:10px;
+			}
+			.navi ul li
+			{
+			float:left;
+			padding:0px 10px;
+			font-family:calibri;
+			line-height:40px;
+			position:relative;
+			min-height:40px;
+			min-width:50px;
+			color:#58585a;
+			}
+			.navi ul li a
+			{
+			text-decoration:none;
+			color:#58585a;
+			}
+			.navi ul li:hover 
+			{
+			background:black;
+			color:#fff;
+			}
+			.navi ul ul
+			{
+			position:absolute;
+			width:120px;
+			left:0px;
+			
+			padding-left:0px;
+			display:none;
+			}
+			.navi ul ul li
+			{
+			width:100%;
+			color:#58585a;
+			background:gray;
+			text-align:left;
+			padding-left:10px;
+			}
+			.navi ul li:hover ul
+			{
+			display:block;
+			}
+			#post
+			{	
+				background:none;
+				margin-top:3px;
+			}
+			#post a
+			{
+				color:#58585a;
+			}
+			#post a:hover
+			{
+				color:#232323;
+				display:block;
+			}
+			#post button
+			{
+				color:black;
+				background:green;
+				border:2px solid gray;
+				border-radius:10px;
+				color:#fff;
+			}
+			#post button:hover
+			{
+				background:black;
+				color:#fff;
+			}
+			#main
+			{
+				background-position:fixed;
+				background-image:url(../images/background.png);
+				background-repeat:no-repeat;
+			}
+			#head h1
+			{
+				color:#fff;
+				font-size:50px;
+				margin-top:40px;
+			}
+			#sml_nav
+			{
+				background:none;
+				height:0px;
+			}
+			#s
+			{
+				background:none;
+				padding-top:5px;
+				
+			}
+			.ars
+			{
+				background:red;
+			}
+			.ars a:hover
+			{
+				color:#fff;
+			}
+			#nav
+			{
+			}
+			#nav ul
+			{
+			height:40px;
+			list-style:none;
+			padding-top:10px;
+			}
+			#nav ul li
+			{
+			float:left;
+			padding:0px 10px;
+			font-family:calibri;
+			margin-left:30px;
+			line-height:40px;
+			position:relative;
+			min-height:40px;
+			min-width:50px;
+			color:black;
+			}
+			#nav ul li a
+			{
+			text-decoration:none;
+			color:black;
+			}
+			#nav ul li:hover 
+			{
+			background:white;
+			}
+			#nav ul ul
+			{
+			position:absolute;
+			width:120px;
+			left:0px;
+			padding-left:0px;
+			display:none;
+			}
+			#nav ul ul li
+			{
+			width:100%;
+			color:black;
+			background:gray;
+			text-align:left;
+			padding-left:10px;
+			
+			}
+			#nav ul li:hover ul
+			{
+			display:block;
+			}
+			.navbar-default
+			{
+				background:white;
+			}
+			.bar
+			{
+			
+			heighT:60px;
+			width:660px;
+			border-radius:6px;
+			border:5px solid #15485b;
+			position:relative;
+			}
+			.category input
+			{
+			
+			height:50px;
+			position:absolute;
+			width:250px;
+			}
+			
+			.keyword input
+			{
+			height:50px;
+			position:absolute;
+			width:450px;
+			margin-left:180px;
+			}
+			
+			.search input
+			{
+			height:50px;
+			position:absolute;
+			border-radius:4px;
+			margin-left:550px;
+			width:100px;
+			}
+			::-webkit-input-placeholder { color: #333333; opacity: 1 !important; }
+			input::-webkit-input-placeholder { 
+				line-height:50px;
+			
+				padding-left:5px;
+		}
+		input
+		{
+		text-indent: 10px
+		}
+		input[type=submit]
+		{
+		color:#fff;
+		border:1px solid #28ae71;
+		}
+		#icon img
+		{
+			
+			padding-left:10px;
+			margin-top:40px;
+			heighT:25px;
+
+		}
+		.products
+		{
+		float:left;
+		margin-left:8px;
+		height:130px;
+		margin-top:2px;
+		widtH:155px;
+		background:black;
+		}
+		
+		#products
+		{
+		float:left;
+		margin-top:2px;
+		margin-left:8px;
+		height:130px;
+		widtH:155px;
+		background:black;
+		}
+		
+			
+		#sub_products
+		{
+		float:left;
+		margin-top:2px;
+		margin-left:24px;
+		height:130px;
+		widtH:155px;
+		background:black;
+		}
