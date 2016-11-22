@@ -1,0 +1,87 @@
+ <html>
+	<head>
+		<script src="jquery-1.10.1.min.js"></script>
+		<script src="jquery-ui.min.js"></script>
+		<style>
+		#main
+		{
+		background:white;
+		overflow:hidden;
+		height:650px;
+		background:orange;
+		width:50.3%;
+		margin-lefT:50%;
+		}
+		#slider
+		{
+		
+		height:500px;
+		width:1966px;
+		}
+		#slider li
+		{
+		
+		float:left;
+		list-style:none;
+		width:100px;
+		}
+		#slider img
+		{
+		
+		width:1000px;
+		}
+		#next
+		{
+		height:100px;
+		position:absolute;
+		margin-left:50%;
+		margin-top:-25%;
+		}
+		
+		#previous
+		{
+		height:100px;
+		width:50px;
+		position:absolute;
+		margin-top:-25%;
+		left:92%;
+		}
+		</style>
+	</head>
+		<body>
+			<div id="main">
+				<ul id="slider">
+					<li style="margin-left:-10%;"><img src="BannerWica.png"/></li>
+					<li style="margin-left:30%;"><img src="banner-2.png"/></li>
+					<li style="margin-left:40%;"><img src="banner-3.png"/></li>
+				</ul>
+				</div>
+				<div id="next">
+				<image  style="width:40px;" src="image-1.png"/>
+				</div>
+				<div id="previous">
+				<image style="width:40px;" src="img-2.png"/>
+				</div>
+				<script>
+				$('document').ready(function(){
+				$('#next').click(function(){
+				$('#slider').animate({marginLeft:'-=500'},1000);
+				var getSlider = document.getElementById('slider').style.marginLeft;
+				if(getSlider=="-1500px")
+				{
+				$('#slider').stop();
+				}
+				});
+				
+				$('#previous').click(function(){
+				$('#slider').animate({marginLeft:'+=500'},1000);
+				var getSlider=document.getElementById('slider').style.marginLeft;
+				if(getSlider=="0px")
+				{
+				$('#slider').stop();
+				}
+				});
+				});
+				</script>
+		</body>
+</html>

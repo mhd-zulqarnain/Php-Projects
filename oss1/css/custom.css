@@ -1,0 +1,30 @@
+.nav img
+{
+	height:20px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+	background:white;
+	
+}.navbar-default .navbar-nav>li>a
+{
+	color:#232323;
+}
+.navbar-collapse.collapse
+{
+	heighT:30px;
+}
+.logo img
+{
+height:70px;	
+}
+#raja{background-color:gray;}
+#adnan
+{
+	background:white;
+}
+.col-sm-8{
+	
+	padding:15px!important;
+	
+}

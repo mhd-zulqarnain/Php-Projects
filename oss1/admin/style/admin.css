@@ -1,0 +1,133 @@
+
+.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5
+,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.container
+.col-lg-11,.col-lg-12,h3,h5,h4,h2,hr{
+    margin:0!important;
+    padding: 0!important;
+}
+
+
+/*----------headder*/
+.headder{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#eb9316));
+}
+/*--------side-bar--------------------------*/
+.container-fluid{
+    padding: 0px!important;
+    color: black;
+    background-color: #FFFFFF;
+}
+.test{
+    background-color: green;
+    height: 200px;
+}
+.dropdown-menu{
+    left: -31px!important;
+    min-width: 190px!important;
+}
+
+
+/*-------login----------*/
+.btn-logout{
+    color: white;
+}
+.btn-logout a:hover{
+    color: wheat;
+}
+/*-------*/
+.side-bar h3{
+    margin-top: 0;
+}
+.side-bar{
+    padding: 0!important;
+    background-color: #222;
+}
+
+.side-bar a:hover {
+    transition: 2s;
+    color: #a94a42;
+}
+a:active {
+    text-decoration: underline;
+}
+.side-bar a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 17px 19px;
+}
+.list-group-item{
+    background-color: transparent!important;
+    border: none!important;
+}
+.side-bar ul{
+    margin-top: 61px;
+}
+/*--------customer-action--------------------------*/
+.tbl-hide td{display: none}
+/*-------admin allusers*/
+.adm-show  {
+    margin-top: 22px!important;
+}
+.adm-show  th {
+    padding: 8px 66px;
+    text-align: left;
+    border: 1px solid black;
+}
+.adm-show td{
+    text-align: center;
+    padding: 8px 66px;
+    font-size: 15px!important;
+}
+.heading h3{
+     padding: 17px!important;
+}
+ .btnDel{
+    color: white;
+    padding: 0;
+    font-size: 12px;
+    background-color:red!important;
+}
+.tbl-adm {
+   margin-left: 22px;
+}
+.tbl-adm a{
+    color: rgb(0, 43, 169);
+    text-decoration: none;
+}
+.tbl-adm a:hover{
+    transition: 2s;
+    color: greenyellow;
+}
+
+ /*.....customer details....*/
+.user-show th,td {
+    padding: 4px 66px;
+    text-align: left;
+text-align: center;
+}
+.site-admin-paging{
+    margin-bottom: 12px!important;
+}
+.site-admin-paging a {
+    text-decoration: none;
+    padding: 6px 19px;
+    font-size: 12px;
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+}
+.site-admin-paging a:hover{
+    background-color: #222222;
+    color: #ffffff;
+    transition: 1s;
+}
+.site-admin-paging a:active{
+    background-color: #222222;
+    color: red;
+}
+/*-------------product details-------*/
+.target {
+    font-size: 17px;
+    color: #a07523;
+}
