@@ -5,3 +5,37 @@
     width: 70px;
     margin: 2px;
 }
+
+.media-picture {
+    float: left;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    padding: 14px;
+    background: #f0eeed;
+}
+.media-picture span {
+    background: white;
+    display: block;
+    width: 100%;
+    padding: 36px 0 61px;
+}
+.media-picture img {width: 292px;}
+
+.media-details {
+    width: 460px;
+    /* float: right; */
+}
+.media-details form {
+    margin-left: 0;
+}
+
+
+#details{
+        border-style: hidden;
+}
+
+#ac {
+    width : 304px; 
+    height: 236px ;
+}

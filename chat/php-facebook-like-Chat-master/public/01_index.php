@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title></title>
-    <!--    <link href="style/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="style/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />-->
-    <link href="style/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" />
-    <!--    <link href="style/non-responsive.css" rel="stylesheet" type="text/css" />-->
-    <link href="style/core.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <!--    <link href="style/bootstrap.min.css" rel="stylesheet" type="text/css" />
+            <link href="style/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />-->
+        <link href="style/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" />
+        <!--    <link href="style/non-responsive.css" rel="stylesheet" type="text/css" />-->
+        <link href="style/core.css" rel="stylesheet" type="text/css" />
+      </head>
+      <body>
     <div style="margin: 0px auto; width: 980px;">
     <!--      Main content area-->
     </div>
@@ -29,21 +29,23 @@
       <div class="msg-wgt-header">
         <a href="#">John</a>
       </div>
-      <div class="msg-wgt-body">
+          <div class="msg-wgt-body">
         <table>
           <?php
           if (!empty($messages)) {
             foreach ($messages as $message) {
               $msg = htmlentities($message['message'], ENT_NOQUOTES);
               $user_name = ucfirst($message['username']);
-              $sent = date('F j, Y, g:i a', $message['sent_on']);
+              $sent = date('Y.D.M');
+                echo '';
               echo <<<MSG
               <tr class="msg-row-container">
                 <td>
                   <div class="msg-row">
                     <div class="avatar"></div>
                     <div class="message">
-                      <span class="user-label"><a href="#" style="color: #6D84B4;">{$user_name}</a> <span class="msg-time">{$sent}</span></span><br/>{$msg}
+                      <span class="user-label"><a href="#" style="color: #6D84B4;">{$user_name}</a> <span class="msg-time">
+                      {$sent}</span></span><br/>{$msg}
                     </div>
                   </div>
                 </td>

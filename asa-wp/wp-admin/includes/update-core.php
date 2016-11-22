@@ -149,7 +149,7 @@ $_old_files = array(
 'wp-admin/css/press-this-ie-rtl.css',
 'wp-admin/css/press-this-ie.css',
 'wp-admin/css/upload-rtl.css',
-'wp-admin/edit-form.php',
+'wp-admin/edit-Visitor_Report.php',
 'wp-admin/images/comment-pill.gif',
 'wp-admin/images/comment-stalk-classic.gif',
 'wp-admin/images/comment-stalk-fresh.gif',
@@ -222,8 +222,8 @@ $_old_files = array(
 'wpmu-settings.php',
 // 3.0
 'wp-admin/categories.php',
-'wp-admin/edit-category-form.php',
-'wp-admin/edit-page-form.php',
+'wp-admin/edit-category-Visitor_Report.php',
+'wp-admin/edit-page-Visitor_Report.php',
 'wp-admin/edit-pages.php',
 'wp-admin/images/admin-header-footer.png',
 'wp-admin/images/browse-happy.gif',
@@ -257,7 +257,7 @@ $_old_files = array(
 // 3.1
 'wp-admin/edit-attachment-rows.php',
 'wp-admin/edit-link-categories.php',
-'wp-admin/edit-link-category-form.php',
+'wp-admin/edit-link-category-Visitor_Report.php',
 'wp-admin/edit-post-rows.php',
 'wp-admin/images/button-grad-active-vs.png',
 'wp-admin/images/button-grad-vs.png',
@@ -667,7 +667,7 @@ $_old_files = array(
  * The contents of this array indicate any new bundled plugins/themes which
  * should be installed with the WordPress Upgrade. These items will not be
  * re-installed in future upgrades, this behaviour is controlled by the
- * introduced version present here being older than the current installed version.
+ * introduced version presets here being older than the current installed version.
  *
  * The content of this array should follow the following format:
  * Filename (relative to wp-content) => Introduced version

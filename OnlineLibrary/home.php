@@ -35,7 +35,7 @@ while ($row = $result->fetch_assoc())
 					<img class = "img" src= <?php echo $imgs[$Ran[$a]]; ?> alt="My Image" />
 					<div class="caption ">
 						<h4 text-align = "center"><?php echo $title[$Ran[$a]]; ?></h4>
-						<p><a href= <?php echo "details.php?id=$id"; ?> class="btn btn-primary btn-block">View Details</a>
+						<p><a href= <?php echo "detail.php?id=$id"; ?> class="btn btn-primary btn-block">View Details</a>
 						</div>
 					</div>
 				</div>

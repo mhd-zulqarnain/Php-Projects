@@ -29,8 +29,15 @@ if($_SESSION['vid']!="") {
 
                                 <option value="" disabled selected>Select your option</option>
                                 <option>Mobile</option>
-                                <option>Bike</option>
-                                <option>vehicle</option>
+                                <option>Car_Vechiles</option>
+                                <option>Electrics_Gidget</option>
+                                <option>Books_Maginzes</option>
+                                <option>RealEstate</option>
+                                <option>Sports_Games</option>
+                                <option>Fashion_Beauty</option>
+                                <option>HomeAppliances</option>
+                                <option>Music_Arts</option>
+                                <option>Pets_Animals</option>
                             </select>
                         </div>
 

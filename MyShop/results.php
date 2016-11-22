@@ -108,7 +108,7 @@ include("functions/functions.php");
 					
 					<p><b>Price:  $ $pro_price </b></p>
 					
-					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
+					<a href='detail.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					
 					<a href='index1.php?add_cart=$pro_id'><button style='float:right;'>Add to Cart</button></a>
 					

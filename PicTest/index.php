@@ -6,6 +6,7 @@ if(isset($_POST['submit']))
 	$name = $_POST['name'];
 	$price = $_POST['price'];
     $name=$_POST['name'];
+	
 	$file_name = $_FILES["file"]["name"];
 	$file_tmp_name = $_FILES['file']['tmp_name'];   
 	$file_size = $_FILES['file']['size'];

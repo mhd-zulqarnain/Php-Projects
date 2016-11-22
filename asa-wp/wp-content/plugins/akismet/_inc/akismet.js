@@ -103,7 +103,7 @@ jQuery( function ( $ ) {
 		var wpcomProtocol = ( 'https:' === location.protocol ) ? 'https://' : 'http://';
 		// Need to determine size of author column
 		var thisParentWidth = $(this).parent().width();
-		// It changes based on if there is a gravatar present
+		// It changes based on if there is a gravatar presets
 		thisParentWidth = ($(this).parent().find('.grav-hijack').length) ? thisParentWidth - 42 + 'px' : thisParentWidth + 'px';
 		if ($(this).find('.mShot').length == 0 && !$(this).hasClass('akismet_undo_link_removal')) {
 			var self = $( this );

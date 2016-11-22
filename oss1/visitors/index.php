@@ -28,9 +28,11 @@ if($_SESSION['vid']!="") {
                             <select name="type" class="form-control" required >
 
                                 <option value="" disabled selected>Select your option</option>
-                                <option>Mobile</option>
                                 <option>Bike</option>
                                 <option>vehicle</option>
+                                <option>Electronics & Gedgets</option>
+                                <option>Books & Magazines</option>
+                                <option>Home Appliances</option>
                             </select>
                         </div>
 

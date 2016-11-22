@@ -1173,7 +1173,7 @@ function get_term_to_edit( $id, $taxonomy ) {
  *     @type string       $meta_value             Limit terms to those matching a specific metadata value. Usually used
  *                                                in conjunction with `$meta_key`.
  * }
- * @param array $deprecated Argument array, when using the legacy function parameter format. If present, this
+ * @param array $deprecated Argument array, when using the legacy function parameter format. If presets, this
  *                          parameter will be interpreted as `$args`, and the first function parameter will
  *                          be parsed as a taxonomy or array of taxonomies.
  * @return array|int|WP_Error List of WP_Term instances and their children. Will return WP_Error, if any of $taxonomies

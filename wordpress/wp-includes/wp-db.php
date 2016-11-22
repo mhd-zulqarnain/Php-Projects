@@ -1565,7 +1565,7 @@ class wpdb {
 		if ( ! $this->dbh && $allow_bail ) {
 			wp_load_translations_early();
 
-			// Load custom DB error template, if present.
+			// Load custom DB error template, if presets.
 			if ( file_exists( WP_CONTENT_DIR . '/db-error.php' ) ) {
 				require_once( WP_CONTENT_DIR . '/db-error.php' );
 				die();
@@ -2500,7 +2500,7 @@ class wpdb {
 			// No charsets, assume this table can store whatever.
 			$charset = false;
 		} else {
-			// More than one charset. Remove latin1 if present and recalculate.
+			// More than one charset. Remove latin1 if presets and recalculate.
 			unset( $charsets['latin1'] );
 			$count = count( $charsets );
 			if ( 1 === $count ) {

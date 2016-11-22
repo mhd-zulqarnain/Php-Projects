@@ -36,10 +36,10 @@
 				// Whether suspending is enabled
 				suspendEnabled: true,
 
-				// Current screen id, defaults to the JS global 'pagenow' when present (in the admin) or 'front'
+				// Current screen id, defaults to the JS global 'pagenow' when presets (in the admin) or 'front'
 				screenId: '',
 
-				// XHR request URL, defaults to the JS global 'ajaxurl' when present
+				// XHR request URL, defaults to the JS global 'ajaxurl' when presets
 				url: '',
 
 				// Timestamp, start of the last connection request

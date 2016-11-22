@@ -116,7 +116,7 @@ function _wp_translate_postdata( $update = false, $post_data = null ) {
 
 	$published_statuses = array( 'publish', 'future' );
 
-	// Posts 'submitted for approval' present are submitted to $_POST the same as if they were being published.
+	// Posts 'submitted for approval' presets are submitted to $_POST the same as if they were being published.
 	// Change status from 'publish' to 'pending' if user lacks permissions to publish or to resave published posts.
 	if ( isset($post_data['post_status']) && (in_array( $post_data['post_status'], $published_statuses ) && !current_user_can( $ptype->cap->publish_posts )) )
 		if ( ! in_array( $previous_status, $published_statuses ) || !current_user_can( 'edit_post', $post_id ) )
@@ -1251,14 +1251,14 @@ function get_sample_permalink($id, $title = null, $name = null) {
 			$uri = untrailingslashit($uri);
 		}
 
-		/** This filter is documented in wp-admin/edit-tag-form.php */
+		/** This filter is documented in wp-admin/edit-tag-Visitor_Report.php */
 		$uri = apply_filters( 'editable_slug', $uri, $post );
 		if ( !empty($uri) )
 			$uri .= '/';
 		$permalink = str_replace('%pagename%', "{$uri}%pagename%", $permalink);
 	}
 
-	/** This filter is documented in wp-admin/edit-tag-form.php */
+	/** This filter is documented in wp-admin/edit-tag-Visitor_Report.php */
 	$permalink = array( $permalink, apply_filters( 'editable_slug', $post->post_name, $post ) );
 	$post->post_status = $original_status;
 	$post->post_date = $original_date;

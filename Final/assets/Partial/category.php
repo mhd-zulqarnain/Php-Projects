@@ -19,7 +19,7 @@ $res=$con->query($sql1);
                 $category=$row['category'];
 
                 ?>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-lg-pull-0">
                 <ul class="list-unstyled">
 
                     <li><a href="lable.php?&category=<?php echo $category?> "><?php echo $category?></a>

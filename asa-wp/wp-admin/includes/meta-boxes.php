@@ -660,7 +660,7 @@ function post_comment_meta_box( $post ) {
  * @param object $post
  */
 function post_slug_meta_box($post) {
-/** This filter is documented in wp-admin/edit-tag-form.php */
+/** This filter is documented in wp-admin/edit-tag-Visitor_Report.php */
 ?>
 <label class="screen-reader-text" for="post_name"><?php _e('Slug') ?></label><input name="post_name" type="text" size="13" id="post_name" value="<?php echo esc_attr( apply_filters( 'editable_slug', $post->post_name ) ); ?>" />
 <?php

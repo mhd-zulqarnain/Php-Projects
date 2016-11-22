@@ -1,9 +1,6 @@
 <?php
-function myconnection(){
 
-    return mysqli_connect("localhost","root","","oss");
-}
-$con=myconnection();
+$con=mysqli_connect("localhost","root","","oss1");
 function Run($query){
     global $con;
     return $con->query($query);
@@ -20,7 +17,6 @@ function getCat(){
             <li><a href='index.php?cat=$lable'>$lable</a></li>";
     }
 }
-
 function getPro(){
     if(!isset($_REQUEST['cat'])){
         global $con;
@@ -29,8 +25,8 @@ function getPro(){
         $pagecount=($page*4)-4;
 
         if(!isset($_REQUEST['postname'])){
-        $lable = "select * from productdetails WHERE approved=1 limit $pagecount,4";
-         $sql1="Select * from productdetails WHERE approved=1"; //for pagination
+            $lable = "select * from productdetails WHERE approved=1 limit $pagecount,4";
+            $sql1="Select * from productdetails WHERE approved=1"; //for pagination
 
         }
         else
@@ -56,14 +52,14 @@ function getPro(){
         //paging....end/////
         $count=mysqli_num_rows(Run($lable));///TO check the number of post displaying
         if($count>0) {
-          while ($row = mysqli_fetch_array($res)) {
-              $name = $row['p_name'];
-              $price = $row['price'];
-              $id = $row['pid'];
-              $img = $row['image'];
-              $image = array();
-              $image = json_decode($img);
-              echo "
+            while ($row = mysqli_fetch_array($res)) {
+                $name = $row['p_name'];
+                $price = $row['price'];
+                $id = $row['pid'];
+                $img = $row['image'];
+                $image = array();
+                $image = json_decode($img);
+                echo "
             <div class='col-lg-5 prod_body' >
             <div class='col-lg-12' style='height: 200px;overflow: hidden'>
             <img src='visitors/images/" . $image[0] . "' height='200px' width='200px' class='img-fluid reponsive' style='height:auto;max-width:100%;'>
@@ -71,16 +67,84 @@ function getPro(){
              
             <h3>$name</h3>
             <h5>Price:$price </h5>
-            <a href='details.php?&id=$id'class='btn btn-primary btn-sm'> Own it</a>
+            <a href='detail.php?&id=$id'class='btn btn-primary btn-sm'> Own it</a>
             </div>
             
           
             ";
-          }
-      }else{
-          echo '<div>No post to show</div>';
-      }
+            }
+        }else{
+            echo '<div>No post to show</div>';
+        }
     }
+}
+function morePro(){
+        global $con;
+        $lable = "select * from productdetails WHERE approved=1 limit 7";
+        $res = mysqli_query($con, $lable);
+
+          while ($row = mysqli_fetch_array($res)) {
+              $name = $row['p_name'];
+              $price = $row['price'];
+              $id = $row['pid'];
+              $img = $row['image'];
+              $date = $row['date'];
+              $image = array();
+              $image = json_decode($img);
+              echo '
+              <div class="more_prdct2">
+							<img src=visitors/images/'.$image[0].'>
+								<h5>Rs '.$price.'</h5>
+								<h6>'.$name.' </h6>
+								<p>Book and Magzine/Mobile Phone</p>
+								<div class="more_prdct2_btm">
+									<p>'.$date.'</p>
+				
+				<h6><span style="margin-left:100px;"class="glyphicon glyphicon-tag"></span>Used</h6>
+										<span style="margin-left:90%;line-height:25px;"class="glyphicon glyphicon-briefcase">&nbsp;<span class="glyphicon glyphicon-map-marker"></span></span>
+				
+								</div>
+						</div>
+              
+              
+              ';
+          }
+
+}
+function moreProxm(){
+    global $con;
+    $lable = "select * from productdetails WHERE approved=1 limit 5";
+    $res = mysqli_query($con, $lable);
+
+    while ($row = mysqli_fetch_array($res)) {
+        $name = $row['p_name'];
+        $price = $row['price'];
+        $id = $row['pid'];
+        $img = $row['image'];
+        $date = $row['date'];
+        $type = $row['type'];
+        $image = array();
+        $image = json_decode($img);
+        echo '
+              
+              
+              <div class="ads2 " >
+						<div class="sub_ads2">
+							<img src=visitors/images/'.$image[0].'>
+							<p>Rs '.$price.'</p>
+								<h5><center>'.$name.'</center></h5><br>
+									<h6>'.$type.'</h6>
+										
+						</div>
+						<div class="btm">
+							<p>'.$date.'</p>
+								<img src="images/a.png"/>
+						</div>
+							</div>	
+							
+              ';
+    }
+
 }
 function getCatPro(){
     if(isset($_REQUEST['cat'])){
@@ -112,7 +176,7 @@ function getCatPro(){
             </div>
             <h3>$name</h3>
             <h5>Price:$price </h5>
-            <a href='details.php?&id=$id'class='btn btn-primary btn-sm'> Own it</a>
+            <a href='detail.php?&id=$id'class='btn btn-primary btn-sm'> Own it</a>
             </div>
             ";
         }

@@ -134,7 +134,7 @@ if ( IS_PROFILE_PAGE ) {
 	do_action( 'edit_user_profile_update', $user_id );
 }
 
-// Update the email address in signups, if present.
+// Update the email address in signups, if presets.
 if ( is_multisite() ) {
 	$user = get_userdata( $user_id );
 

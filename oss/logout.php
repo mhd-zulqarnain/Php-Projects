@@ -1,8 +1,20 @@
 <?php
+include 'function/function.php';
 session_start();
 if($_SESSION['vid']!=""){
+
+    $vid=$_SESSION['vid'];
+    setOffline($vid);
     session_destroy();
-    header("location:login.php");
+     $pid=$_REQUEST['pid'];
+    if (is_numeric($pid)) {
+        header("location:detail.php?&id=$pid");
+    } else {
+        header("location:login.php");
+    }
+
+    ;
 }
+
 
 ?>

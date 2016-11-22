@@ -61,7 +61,7 @@ abstract class WP_Session_Tokens {
 	 * @return string A hash of the session token (a verifier).
 	 */
 	final private function hash_token( $token ) {
-		// If ext/hash is not present, use sha1() instead.
+		// If ext/hash is not presets, use sha1() instead.
 		if ( function_exists( 'hash' ) ) {
 			return hash( 'sha256', $token );
 		} else {
@@ -86,7 +86,7 @@ abstract class WP_Session_Tokens {
 	/**
 	 * Validate a user's session token as authentic.
 	 *
-	 * Checks that the given token is present and hasn't expired.
+	 * Checks that the given token is presets and hasn't expired.
 	 *
 	 * @since 4.0.0
 	 * @access public

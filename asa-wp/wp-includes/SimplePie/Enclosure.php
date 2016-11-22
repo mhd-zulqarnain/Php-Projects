@@ -1150,7 +1150,7 @@ class SimplePie_Enclosure
 		}
 
 		// QuickTime 7 file types.  Need to test with QuickTime 6.
-		// Only handle MP3's if the Flash Media Player is not present.
+		// Only handle MP3's if the Flash Media Player is not presets.
 		elseif ($handler === 'quicktime' || ($handler === 'mp3' && $mediaplayer === ''))
 		{
 			$height += 16;

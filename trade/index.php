@@ -19,30 +19,7 @@ headder();
             <!-- banner-form -->
             <div class="banner-form banner-form-full">
                 <form action="#">
-                    <!-- category-change -->
-                    <div class="dropdown category-dropdown">
-                        <a data-toggle="dropdown" href="#"><span class="change-text">Select Category</span> <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu category-change">
-                            <li><a href="#">Fashion & Beauty</a></li>
-                            <li><a href="#">Cars & Vehicles</a></li>
-                            <li><a href="#">Electronics & Gedgets</a></li>
-                            <li><a href="#">Real Estate</a></li>
-                            <li><a href="#">Sports & Games</a></li>
-                        </ul>
-                    </div><!-- category-change -->
-
-                    <!-- language-dropdown -->
-                    <div class="dropdown category-dropdown language-dropdown ">
-                        <a data-toggle="dropdown" href="#"><span class="change-text">United Kingdom</span> <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu  language-change">
-                            <li><a href="#">United Kingdom</a></li>
-                            <li><a href="#">United States</a></li>
-                            <li><a href="#">China</a></li>
-                            <li><a href="#">Russia</a></li>
-                        </ul>
-                    </div><!-- language-dropdown -->
-
-                    <input type="text" class="form-control" placeholder="Type Your key word">
+                    <input type="text" class="form-control" placeholder="Type Your key word" name="keyword">
                     <button type="submit" class="form-control" value="Search">Search</button>
                 </form>
             </div><!-- banner-form -->
@@ -68,19 +45,19 @@ headder();
                                 <div id="accordion-one" class="panel-collapse collapse in">
                                     <!-- panel-body -->
                                     <div class="panel-body">
-                                        <h5><a href="categories-main.html"><i class="fa fa-caret-down"></i> All Categories</a></h5>
-                                        <a href="#"><i class="icofont icofont-laptop-alt"></i>Electronics & Gedget</a>
+                                        <h5><a href="index.php"><i class="fa fa-caret-down"></i> All Categories</a></h5>
+
                                         <ul>
-                                            <li><a href="#">Laptop & Computer <span>(129)</span></a></li>
-                                            <li><a href="#">Mobile Phones <span>(8342)</span></a></li>
-                                            <li><a href="#">Phablet & Tablets <span>(782)</span></a></li>
-                                            <li><a href="#">Audio & MP <span>(5247)</span></a></li>
-                                            <li><a href="#">Accessories <span>(634)</span></a></li>
-                                            <li><a href="#">Cameras <span>(453)</span></a></li>
-                                            <li><a href="#">Mobile Accessories <span>(7986)</span></a></li>
-                                            <li><a href="#">TV & Video <span>(742)</span></a></li>
-                                            <li><a href="#">Other Electronics <span>(149)</span></a></li>
-                                            <li><a href="#">TV & Video Accessories<span> (9)</span></a></li>
+                                            <li><a href="index.php?&cat=Mobile            ">Mobile            </a></li>
+                                            <li><a href="index.php?&cat=Car_Vechiles      ">Car & Vechiles    </a></li>
+                                            <li><a href="index.php?&cat=Electrics_Gidget">Electrics & Gidget</a></li>
+                                            <li><a href="index.php?&cat=Books_Maginzes  ">Books & Maginzes   </a></li>
+                                            <li><a href="index.php?&cat=RealEstate       ">Real Estate        </a></li>
+                                            <li><a href="index.php?&cat=Sports_Games    ">Sports & Games     </a></li>
+                                            <li><a href="index.php?&cat=Fashion_Beauty  ">Fashion & Beauty    </a></li>
+                                            <li><a href="index.php?&cat=HomeAppliances   ">Home Appliances     </a></li>
+                                            <li><a href="index.php?&cat=Music_Arts      ">Music & Arts        </a></li>
+                                            <li><a href="index.php?&cat=Pets_Animals    ">Pets & Animals      </a></li>
                                         </ul>
 
                                     </div><!-- panel-body -->
@@ -218,10 +195,28 @@ headder();
                             <ul class="pagination ">
 
                                <?php
-                               $res=Run("select * from productdetails WHERE approved=1");
+
+
+                               if(isset($_REQUEST['cat'])&&isset($_REQUEST['keyword'])){
+                                   $key=$_REQUEST['keyword'];
+                                   $cat=$_REQUEST['cat'];
+                                   $lable="Select * from  productdetails where p_name LIKE '%$key%' AND  type='$cat' AND approved=1 ";
+                               }
+                               else if(isset($_REQUEST['keyword'])){
+                                   $key=$_REQUEST['keyword'];
+                                   $lable="Select * from  productdetails where p_name LIKE '%$key%' AND approved=1";
+                               }
+                               else if(isset($_REQUEST['cat'])){
+                                   $cat=$_REQUEST['cat'];
+                                   $lable = "select * from productdetails WHERE type='$cat' AND approved=1";
+                               }
+                               else {
+                                   $lable = "select * from productdetails WHERE approved=1 ";
+                               }
+                               $res=Run($lable);
                                $num=mysqli_num_rows($res);
 
-                                $j=ceil($num/5);
+                                $j=ceil($num/4);
                                 for($i=1;$i<=$j;$i++) {
                                     echo '<li><a href="index.php?&page='.$i.'">'.$i.'</a></li>';
 

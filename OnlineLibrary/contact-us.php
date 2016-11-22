@@ -1,6 +1,7 @@
 <?php 
 $pageTitle = "Contact";
 
+require 'inc/session.php';
 include 'inc/header.php'; 
 include 'inc/Connection.php';
 ?>

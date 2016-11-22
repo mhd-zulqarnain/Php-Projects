@@ -1070,7 +1070,7 @@ class WP_Rewrite {
 				 * Check to see if this dir is permalink-level: i.e. the structure specifies an
 				 * individual post. Do this by checking it contains at least one of 1) post name,
 				 * 2) post ID, 3) page name, 4) timestamp (year, month, day, hour, second and
-				 * minute all present). Set these flags now as we need them for the endpoints.
+				 * minute all presets). Set these flags now as we need them for the endpoints.
 				 */
 				if ( strpos($struct, '%postname%') !== false
 						|| strpos($struct, '%post_id%') !== false

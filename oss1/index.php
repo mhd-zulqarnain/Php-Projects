@@ -1,3 +1,7 @@
+<?php
+include "function/function.php"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -228,7 +232,6 @@
 													<center><img src="images/5.png"/></center>
 												<p>Matrimony Services<br>(120)</p>
 													</div></div>
-													
 													<div class="col-xs-12 col-sm-3 col-md-3 " style="background:#f7f7f7;">	<div id="products">
 													<center><img src="images/8.png"/></center>
 												<p>Music & Arts<br>(1943)</p>
@@ -449,8 +452,8 @@
 				
 				<!--START OF MORE PRODUCTS-->
 			<div class="container" >
-				<div class="hidden-xs  col-sm-12 col-md-3 col-md-offset-2" style="background:#f7f7f7;height:890px;margin-top:30px;width:730px;">
-						<div class="more_prdct2">
+				<div class="hidden-xs col-sm-12 col-md-3 col-md-offset-2" style="background:#f7f7f7;height:890px;margin-top:30px;width:730px;">
+						<!--<div class="more_prdct2">
 							<img src="images/21.jpg"/>
 								<h5 >$520.00</h5>
 								<h6>Apply TV Everything you need to khow </h6>
@@ -548,103 +551,20 @@
 										<span style="margin-left:90%;line-height:25px;"class="glyphicon glyphicon-briefcase">&nbsp;<span class="glyphicon glyphicon-map-marker"></span></span>			
 
 			</div>
-						</div>
-	
+						</div>-->
+	<?php
+	morePro();
+	?>
 						
 				</div>
 				
 				
 				
 				
-					<div class="container col-xs-12 hidden-sm hidden-md hidden-lg" style="margin-top:20px;" >
+					<div class="container col-xs-12  hidden-sm hidden-md hidden-lg" style="margin-top:20px;" >
 						<h2><centeR>Categories</center></h2>
-							<div class="ads2 " >
-						<div class="sub_ads2">
-							<img src="images/25.jpg" />
-							<p >$25.00 (Negoitable)</p>
-								<h5>Visistar gostic <center>guitar</center></h5><br>
-									<h6>Music & Art</h6>
-										
-						</div>
-						<div class="btm">
-							<p>7 Jan 10:10pm</p>
-								<img src="images/a.png"/>
-						</div>
-							</div>	
-							
-								<div class="ads2" >
-						<div class="sub_ads2">
-							<img src="images/3.jpg" />
-							<p >$25.00 (Negoitable)</p>
-								<h5>Visistar gostic <center>guitar</center></h5><br>
-									<h6>Music & Art</h6>
-										
-						</div>
-						<div class="btm">
-							<p>7 Jan 10:10pm</p>
-								<img src="images/a.png"/>
-						</div>
-							</div>	
-							
-								<div class="ads2" >
-						<div class="sub_ads2">
-							<img src="images/4.jpg" />
-							<p >$25.00 (Negoitable)</p>
-								<h5>Visistar gostic <center>guitar</center></h5><br>
-									<h6>Music & Art</h6>
-										
-						</div>
-						<div class="btm">
-							<p>7 Jan 10:10pm</p>
-								<img src="images/a.png"/>
-						</div>
-							</div>	
-							
-								<div class="ads2" >
-						<div class="sub_ads2">
-							<img src="images/19.jpg" />
-							<p >$25.00 (Negoitable)</p>
-								<h5>Visistar gostic <center>guitar</center></h5><br>
-									<h6>Music & Art</h6>
-										
-						</div>
-						<div class="btm">
-							<p>7 Jan 10:10pm</p>
-								<img src="images/a.png"/>
-						</div>
-							</div>	
-					
-					
-					
-							<div class="ads2" >
-						<div class="sub_ads2">
-							<img src="images/4.jpg" />
-							<p >$25.00 (Negoitable)</p>
-								<h5>Visistar gostic <center>guitar</center></h5><br>
-									<h6>Music & Art</h6>
-										
-						</div>
-						<div class="btm">
-							<p>7 Jan 10:10pm</p>
-								<img src="images/a.png"/>
-						</div>
-					</div>	
-					
-							
-					
-							<div class="ads2" >
-						<div class="sub_ads2">
-							<img src="images/14.jpg" />
-							<p >$25.00 (Negoitable)</p>
-								<h5>Visistar gostic <center>guitar</center></h5><br>
-									<h6>Music & Art</h6>
-										
-						</div>
-						<div class="btm">
-							<p>7 Jan 10:10pm</p>
-								<img src="images/a.png"/>
-						</div>
-					</div>	
+							<?php
+							moreProxm()?>
 					</div>
 					
 						

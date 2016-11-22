@@ -14,7 +14,7 @@ if(isset($_REQUEST['Name']))
 {
     $name=$_REQUEST['Name'];
     $class=$_REQUEST['Class'];
-
+echo "<script>alert('$name')</script>";
 
 }
 else{

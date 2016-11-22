@@ -3,6 +3,9 @@
     padding: 0!important;
     margin: 0!important;
 }
+.container-fluid {
+    padding: 0!important;
+}
 .header{}
 .wrapper{
     padding: 0!important;
@@ -44,7 +47,7 @@ a:active {
 /*--------customer-action--------------------------*/
 .cus-action{
     padding: 0!important;
-    height: 520px;
+
 }
 .cus-insert{
     margin-top:20px;
@@ -64,4 +67,9 @@ h1.login-header {
     font-family: sans-serif;
     margin: 0;
     padding: 12px;
+}
+/*-------notification-----*/
+.notification .dropdown-menu{
+    margin: 0px 2px 0!important;
+    min-width: 231px!important;
 }

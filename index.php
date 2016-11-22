@@ -1,42 +1,55 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Document</title>
+    <link href="style/visitor.css" rel="stylesheet">
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link href="style/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/custom.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 </head>
 <body>
-<form action="index.php" method="post">
-        <input type="text" placeholder="Name" name="name"><br><br>
-        <input type="PASSWORD" placeholder="Password" name="password"><br><br>
+<div class="container">
+    <div class="col-lg-2 side-bar" style="height: 520px;>
+                <h3 class="list-group-item">Action</h3>
+    <ul class="list-group">
+        <a href="items.php"><li class="list-group-item fa fa-dashboard fa-1x"></li>
+            <span>Dashboard</span>
+        </a>
+        <hr>
+        <a href="index.php"> <li class="list-group-item fa fa-tags fa-1x"></li>
+            <span>Add New</span>
+        </a>
+        <hr>
+        <a href=""><li class="list-group-item fa fa-eye fa-1x"></li>
+            <span>testbar</span>
+        </a>
 
-        <input type="submit" value="submit" name="submit">
-    <?php
+        <hr>
+    </ul>
+</div>
+<div class="col-lg-10 header" style="height: 40px;background-color: #a94a42">
 
-   $conn = mysqli_connect("localhost", "root", "", "student");
+    <div class="col-lg-1 pull-right"><a href="../logout.php" class="btn btn-md pull-right btn-logout ">Logout</a></div>';
 
-    if(!$conn){
-        echo "connection failed";
-    }else{
-        $name = $_POST['name'];
-        $pwd = $_POST['password'];
+</div>
+<div class="col-lg-10" style="height:98px;border-bottom: 1px solid red"></div>
+<div class="col-lg-10 wrapper">
 
 
-        $sql = "INSERT INTO std(name,password) VALUES('$name','$pwd')";
-        $sql = "INSERT INTO MyGuests (firstname, lastname, email) VALUES ('John', 'Doe', 'john@example.com')";
+    <div class="col-lg-12 cus-action">
 
-        if(! mysqli_query($conn,$sql) ) {
-            print_r('Could not enter data: ');
-        }
-        else{
-            echo "you are successfully submitted";
 
-            echo "your name is  =" .$name. "<br/>";
-            echo "your password is  =" .$pwd. "<br/>";
-        }
+    </div>
+</div>
 
-    }
 
-    ?>
-    </form>
+<div class="col-lg-12 footer" style="height: 30px;border-bottom: 1px solid red;">
+</div>
+</div>
+
 </body>
 </html>

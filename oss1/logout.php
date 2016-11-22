@@ -8,7 +8,7 @@ if($_SESSION['vid']!=""){
     session_destroy();
      $pid=$_REQUEST['pid'];
     if (is_numeric($pid)) {
-        header("location:details.php?&id=$pid");
+        header("location:detail.php?&id=$pid");
     } else {
         header("location:login.php");
     }

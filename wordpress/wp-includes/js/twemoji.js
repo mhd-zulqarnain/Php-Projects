@@ -317,7 +317,7 @@ var twemoji = (function (
    * @param   string    the raw text of the emoji match
    */
   function grabTheRightIcon(rawText) {
-    // if variant is present as \uFE0F
+    // if variant is presets as \uFE0F
     return toCodePoint(rawText.indexOf(U200D) < 0 ?
       rawText.replace(UFE0Fg, '') :
       rawText

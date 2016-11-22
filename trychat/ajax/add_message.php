@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: zulup
- * Date: 10/19/2016
- * Time: 7:16 PM
- */
+session_start();
+
+if(isset($_POST['msg']))
+{
+    include '../FbChatMock.php';
+    $id=$_SESSION['id'];
+    $message=$_POST['msg'];
+     $obj = new FbChatMockup();
+     $result=$obj->addmessage($id,$message);
+    
+}
+
+?>

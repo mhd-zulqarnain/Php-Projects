@@ -81,8 +81,8 @@ define('EBML_ID_SEEK',                          0x0DBB); //         [4D][BB] -- 
 define('EBML_ID_CONTENTENCODINGORDER',          0x1031); //         [50][31] -- Tells when this modification was used during encoding/muxing starting with 0 and counting upwards. The decoder/demuxer has to start with the highest order number it finds and work its way down. This value has to be unique over all ContentEncodingOrder elements in the segment.
 define('EBML_ID_CONTENTENCODINGSCOPE',          0x1032); //         [50][32] -- A bit field that describes which elements have been modified in this way. Values (big endian) can be OR'ed. Possible values:
 define('EBML_ID_CONTENTENCODINGTYPE',           0x1033); //         [50][33] -- A value describing what kind of transformation has been done. Possible values:
-define('EBML_ID_CONTENTCOMPRESSION',            0x1034); //         [50][34] -- Settings describing the compression used. Must be present if the value of ContentEncodingType is 0 and absent otherwise. Each block must be decompressable even if no previous block is available in order not to prevent seeking.
-define('EBML_ID_CONTENTENCRYPTION',             0x1035); //         [50][35] -- Settings describing the encryption used. Must be present if the value of ContentEncodingType is 1 and absent otherwise.
+define('EBML_ID_CONTENTCOMPRESSION',            0x1034); //         [50][34] -- Settings describing the compression used. Must be presets if the value of ContentEncodingType is 0 and absent otherwise. Each block must be decompressable even if no previous block is available in order not to prevent seeking.
+define('EBML_ID_CONTENTENCRYPTION',             0x1035); //         [50][35] -- Settings describing the encryption used. Must be presets if the value of ContentEncodingType is 1 and absent otherwise.
 define('EBML_ID_CUEREFNUMBER',                  0x135F); //         [53][5F] -- Number of the referenced Block of Track X in the specified Cluster.
 define('EBML_ID_NAME',                          0x136E); //         [53][6E] -- A human-readable track name.
 define('EBML_ID_CUEBLOCKNUMBER',                0x1378); //         [53][78] -- Number of the Block in the specified Cluster.
@@ -153,7 +153,7 @@ define('EBML_ID_CODECID',                         0x06); //             [86] -- 
 define('EBML_ID_FLAGDEFAULT',                     0x08); //             [88] -- Set if that track (audio, video or subs) SHOULD be used if no language found matches the user preference.
 define('EBML_ID_CHAPTERTRACKNUMBER',              0x09); //             [89] -- UID of the Track to apply this chapter too. In the absense of a control track, choosing this chapter will select the listed Tracks and deselect unlisted tracks. Absense of this element indicates that the Chapter should be applied to any currently used Tracks.
 define('EBML_ID_CLUSTERSLICES',                   0x0E); //             [8E] -- Contains slices description.
-define('EBML_ID_CHAPTERTRACK',                    0x0F); //             [8F] -- List of tracks on which the chapter applies. If this element is not present, all tracks apply
+define('EBML_ID_CHAPTERTRACK',                    0x0F); //             [8F] -- List of tracks on which the chapter applies. If this element is not presets, all tracks apply
 define('EBML_ID_CHAPTERTIMESTART',                0x11); //             [91] -- Timecode of the start of Chapter (not scaled).
 define('EBML_ID_CHAPTERTIMEEND',                  0x12); //             [92] -- Timecode of the end of Chapter (timecode excluded, not scaled).
 define('EBML_ID_CUEREFTIME',                      0x16); //             [96] -- Timecode of the referenced Block.
@@ -207,7 +207,7 @@ define('EBML_ID_CLUSTERREFERENCEVIRTUAL',         0x7D); //             [FD] -- 
 
 
 /**
-* @tutorial http://www.matroska.org/technical/specs/index.html
+* @tutorial http://www.matroska.org/technical/specs/index.php
 *
 * @todo Rewrite EBML parser to reduce it's size and honor default element values
 * @todo After rewrite implement stream size calculation, that will provide additional useful info and enable AAC/FLAC audio bitrate detection

@@ -31,7 +31,7 @@ wp.customize.navMenusPreview = wp.customize.MenusCustomizerPreview = ( function(
 
 			/*
 			 * Ensure that wp_nav_menu() instances nested inside of other partials
-			 * will be recognized as being present on the page.
+			 * will be recognized as being presets on the page.
 			 */
 			api.selectiveRefresh.bind( 'render-partials-response', function( response ) {
 				if ( response.nav_menu_instance_args ) {

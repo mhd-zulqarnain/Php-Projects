@@ -1,6 +1,6 @@
 <?php
 function myconnection(){
-    return mysqli_connect("localhost","root","","oss");
+    return mysqli_connect("localhost","root","","oss1");
 }
 $con=myconnection();
 function Run($query){
@@ -11,7 +11,61 @@ function removePro($id){
     $sql="Delete from productdetails where pid='$id'";
     return Run($sql);
 }
+//-!product view----//
+function moreProxm(){
+    global $con;
+    $lable = "select * from productdetails WHERE approved=1 limit 5";
+    $res = mysqli_query($con, $lable);
 
+    while ($row = mysqli_fetch_array($res)) {
+        $name = $row['p_name'];
+        $price = $row['price'];
+        $id = $row['43pid'];
+        $img = $row['image'];
+        $date = $row['date'];
+        $type = $row['type'];
+        $image = array();
+        $image = json_decode($img);
+        echo '
+              
+			<div class="ad-item row">
+                            <!-- item-image -->
+                            <div class="item-image-box col-sm-4">
+                                <div class="item-image">
+                                    <a href="details.html"><img src="images/listing/1.jpg" alt="Image" class="img-responsive"></a>
+                                </div><!-- item-image -->
+                            </div>
+
+                            <!-- rending-text -->
+                            <div class="item-info col-sm-8">
+                                <!-- ad-info -->
+                                <div class="ad-info">
+                                    <h3 class="item-price">$800.00</h3>
+                                    <h4 class="item-title"><a href="#">Apple TV - Everything you need to know!</a></h4>
+                                    <div class="item-cat">
+                                        <span><a href="#">Electronics & Gedgets</a></span> /
+                                        <span><a href="#">Tv & Video</a></span>
+                                    </div>
+                                </div><!-- ad-info -->
+
+                                <!-- ad-meta -->
+                                <div class="ad-meta">
+                                    <div class="meta-content">
+                                        <span class="dated"><a href="#">7 Jan, 16  10:10 pm </a></span>
+                                        <a href="#" class="tag"><i class="fa fa-tags"></i> New</a>
+                                    </div>
+                                    <!-- item-info-right -->
+                                    <div class="user-option pull-right">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Los Angeles, USA"><i class="fa fa-map-marker"></i> </a>
+                                        <a class="online" href="#" data-toggle="tooltip" data-placement="top" title="Individual"><i class="fa fa-user"></i> </a>
+                                    </div><!-- item-info-right -->
+                                </div><!-- ad-meta -->
+                            </div><!-- item-info -->
+                        </div>				
+              ';
+    }
+
+}
 function isSell(){
     $con=myconnection();
     $sql="Select sell_out from productdetails";
@@ -31,6 +85,7 @@ if (isset($_POST['pro_submit'])) {
     $con=myConnection();
     $p_name = $_POST['p_name'];
     $price = $_POST['price'];
+    $time=date("Y-m-d H:i:s");
     $type = $_POST['type'];
     $description = $_POST['description'];
     $vid = $_POST['vid'];
@@ -44,8 +99,8 @@ if (isset($_POST['pro_submit'])) {
     foreach ($file_name as $item)
         array_push($arr_name,$item);
     $img_path=json_encode($arr_name);
-    $sql="insert into productdetails(p_name,price,type,approved,description,vid,sell_out,image) 
-                                VALUES ('$p_name','$price','$type','0','$description','$vid','0','$img_path')";
+    $sql="insert into productdetails(p_name,price,type,date,approved,description,vid,sell_out,on_bet,image) 
+                                VALUES ('$p_name','$price','$type','$time','0','$description','$vid','0','$bet','$img_path')";
 
 
     if($con->query($sql)){

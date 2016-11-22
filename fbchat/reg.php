@@ -50,8 +50,7 @@
 </body>
 </html>
 <?php
-$con=mysql_connect("localhost","root","") or die (mysql_error());
-$db=mysql_select_db('ebill',$con) or die(mysql_error());
+$con=mysqli_connect("localhost","root","","ebill");
 
 if(isset($_POST['Submit']))
 {
@@ -76,12 +75,22 @@ if(isset($_POST['Submit']))
 		}
 	else
 	{
+		if($con){
+			echo " <script>alert('connection  made')</script> ";
+		}
+		else {
+			echo " <script>alert('error')</script> ";
+		}
 		$que="insert into users(user_name,user_email,user_pass)values('$name','$email','$pass')";
-		if(mysql_query($que))
+		$res=$con->query($que);
+		if($res)
 	{
 		echo "<script>alert('Registration successfully')</script>";
-		echo "<script>window.open('home.php','_self')</script>";
+//		echo "<script>window.open('home.php','_self')</script>";
 	}
+		else{
+			echo " <script>alert('error')</script> ";
+		}
 }
 }
 ?>

@@ -2528,7 +2528,7 @@ class PHPMailer
     }
 
     /**
-     * Check if an inline attachment is present.
+     * Check if an inline attachment is presets.
      * @access public
      * @return bool
      */
@@ -2543,7 +2543,7 @@ class PHPMailer
     }
 
     /**
-     * Check if an attachment (non-inline) is present.
+     * Check if an attachment (non-inline) is presets.
      * @return bool
      */
     public function attachmentExists()

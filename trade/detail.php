@@ -1,128 +1,7 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Theme Region">
-    <meta name="description" content="">
-
-    <title>Trade | World's Largest Classifieds Portal</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="../cat/cat/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="../oss/style/font-awesome.min.css">
-    <link rel="stylesheet" href="css/icofont.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/slidr.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link id="preset" rel="stylesheet" href="css/preset1.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-    <!-- font -->
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700' rel='stylesheet' type='text/css'>
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- Template Developed By ThemeRegion -->
-</head>
-<body>
-<!-- header -->
-<header id="header" class="clearfix">
-    <!-- navbar -->
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <!-- navbar-header -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="details.php"><img class="img-responsive" src="" alt="Logo"></a>
-            </div>
-            <!-- /navbar-header -->
-
-            <div class="navbar-left">
-                <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Home <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="details.php">Home Default </a></li>
-                                <li><a href="index-one.html">Home Page V-1</a></li>
-                                <li><a href="index-two.html">Home Page V-2</a></li>
-                                <li><a href="index-three.html">Home Page V-3</a></li>
-                                <li><a href="index-car.html">Home Page V-4<span class="badge">New</span></a></li>
-                                <li><a href="index-car-two.html">Home Page V-5<span class="badge">New</span></a></li>
-                            </ul>
-                        </li>
-                        <li><a href="categories.html">Category</a></li>
-                        <li><a href="details.html">all ads</a></li>
-                        <li><a href="faq.html">Help/Support</a></li>
-                        <li class="active dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about-us.html">ABout Us</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                                <li><a href="ad-post.html">Ad post</a></li>
-                                <li><a href="ad-post-details.html">Ad post Details</a></li>
-                                <li><a href="categories-main.html">Category Ads</a></li>
-                                <li class="active"><a href="details.html">Ad Details</a></li>
-                                <li><a href="my-ads.html">My Ads</a></li>
-                                <li><a href="my-profile.html">My Profile</a></li>
-                                <li><a href="favourite-ads.html">Favourite Ads</a></li>
-                                <li><a href="archived-ads.html">Archived Ads</a></li>
-                                <li><a href="pending-ads.html">Pending Ads</a></li>
-                                <li><a href="delete-account.html">Close Account</a></li>
-                                <li><a href="published.html">Ad Publised</a></li>
-                                <li><a href="signup.html">Sign Up</a></li>
-                                <li><a href="signin.html">Sign In</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="coming-soon.html">Coming Soon <span class="badge">New</span></a></li>
-                                <li><a href="pricing.html">Pricing<span class="badge">New</span></a></li>
-                                <li><a href="500-page.html">500 Opsss<span class="badge">New</span></a></li>
-                                <li><a href="404-page.html">404 Error<span class="badge">New</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- nav-right -->
-            <div class="nav-right">
-                <!-- language-dropdown -->
-                <div class="dropdown language-dropdown">
-                    <i class="fa fa-globe"></i>
-                    <a data-toggle="dropdown" href="#"><span class="change-text">United Kingdom</span> <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu language-change">
-                        <li><a href="#">United Kingdom</a></li>
-                        <li><a href="#">United States</a></li>
-                        <li><a href="#">China</a></li>
-                        <li><a href="#">Russia</a></li>
-                    </ul>
-                </div><!-- language-dropdown -->
-
-                <!-- sign-in -->
-                <ul class="sign-in">
-                    <li><i class="fa fa-user"></i></li>
-                    <li><a href="signin.html"> Sign In </a></li>
-                    <li><a href="signup.html">Register</a></li>
-                </ul><!-- sign-in -->
-
-                <a href="ad-post.html" class="btn">Post Your Ad</a>
-            </div>
-            <!-- nav-right -->
-        </div><!-- container -->
-    </nav><!-- navbar -->
-</header><!-- header -->
-
+<?php
+include "function/function.php";
+headder();
+?>
 <!-- main -->
 <section id="main" class="clearfix details-page">
     <div class="container">
@@ -629,20 +508,7 @@
 <!--/End:Preset Style Chooser-->
 
 <!-- JS -->
-<script src="http://demo.themeregion.com/js/jquery.min.js"></script>
-<script src="js/modernizr.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="js/gmaps.min.js"></script>
-<script src="js/goMap.js"></script>
-<script src="js/map.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/smoothscroll.min.js"></script>
-<script src="js/scrollup.min.js"></script>
-<script src="js/price-range.js"></script>
-<script src="js/jquery.countdown.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/switcher.js"></script>
+
 
 </body>
 </html>

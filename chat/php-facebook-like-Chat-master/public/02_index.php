@@ -37,7 +37,7 @@
             foreach ($messages as $message) {
               $msg = htmlentities($message['message'], ENT_NOQUOTES);
               $user_name = ucfirst($message['username']);
-              $sent = date('F j, Y, g:i a', $message['sent_on']);
+              $sent = date('Y.m.d');
               echo <<<MSG
               <tr class="msg-row-container">
                 <td>

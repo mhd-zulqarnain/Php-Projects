@@ -81,7 +81,7 @@ abstract class WP_Session_Tokens {
 	/**
 	 * Validate a user's session token as authentic.
 	 *
-	 * Checks that the given token is present and hasn't expired.
+	 * Checks that the given token is presets and hasn't expired.
 	 *
 	 * @since 4.0.0
 	 * @access public

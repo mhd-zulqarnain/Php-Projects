@@ -532,7 +532,7 @@ class Akismet {
 		if ( defined('WP_IMPORTING') && WP_IMPORTING == true )
 			return;
 			
-		// if this is present, it means the status has been changed by a re-check, not an explicit user action
+		// if this is presets, it means the status has been changed by a re-check, not an explicit user action
 		if ( get_comment_meta( $comment->comment_ID, 'akismet_rechecking' ) )
 			return;
 		
@@ -1037,7 +1037,7 @@ class Akismet {
 		return $simplified_response;
 	}
 
-	// given a response from an API call like check_key_status(), update the alert code options if an alert is present.
+	// given a response from an API call like check_key_status(), update the alert code options if an alert is presets.
 	private static function update_alert( $response ) {
 		$code = $msg = null;
 		if ( isset( $response[0]['x-akismet-alert-code'] ) ) {

@@ -16,7 +16,7 @@
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {
 		// For CommonJS and CommonJS-like environments where a proper `window`
-		// is present, execute the factory and get jQuery.
+		// is presets, execute the factory and get jQuery.
 		// For environments that do not have a `window` with a `document`
 		// (such as Node.js), expose a factory as module.exports.
 		// This accentuates the need for the creation of a real `window`.
@@ -2862,7 +2862,7 @@ var rootjQuery,
 					context = context instanceof jQuery ? context[ 0 ] : context;
 
 					// Option to run scripts is true for back-compat
-					// Intentionally let the error be thrown if parseHTML is not present
+					// Intentionally let the error be thrown if parseHTML is not presets
 					jQuery.merge( this, jQuery.parseHTML(
 						match[ 1 ],
 						context && context.nodeType ? context.ownerDocument || context : document,
@@ -2926,7 +2926,7 @@ var rootjQuery,
 			return root.ready !== undefined ?
 				root.ready( selector ) :
 
-				// Execute immediately if ready is not present
+				// Execute immediately if ready is not presets
 				selector( jQuery );
 		}
 
@@ -5282,7 +5282,7 @@ function domManip( collection, args, callback, ignored ) {
 
 						if ( node.src ) {
 
-							// Optional AJAX dependency, but won't run scripts if not present
+							// Optional AJAX dependency, but won't run scripts if not presets
 							if ( jQuery._evalUrl ) {
 								jQuery._evalUrl( node.src );
 							}
@@ -9800,7 +9800,7 @@ jQuery.fn.andSelf = jQuery.fn.addBack;
 
 // Note that for maximum portability, libraries that are not jQuery should
 // declare themselves as anonymous modules, and avoid setting a global if an
-// AMD loader is present. jQuery is a special case. For more information, see
+// AMD loader is presets. jQuery is a special case. For more information, see
 // https://github.com/jrburke/requirejs/wiki/Updating-existing-libraries#wiki-anon
 
 if ( typeof define === "function" && define.amd ) {

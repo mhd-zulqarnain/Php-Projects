@@ -166,3 +166,16 @@ if(isset($_SESSION['vid'])!=""){
     $(".msg-wgt-body").animate({ scrollTop: $('.msg-wgt-body').prop("scrollHeight")},1);
 
 </script>
+
+<?php
+
+if(isset($_SESSION['vid'])!=''){
+
+    echo' <script>
+ window.onunload = function() {
+    alert(\'Bye.\');
+}
+        </script>';
+}
+
+?>

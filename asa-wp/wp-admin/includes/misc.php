@@ -17,7 +17,7 @@ function got_mod_rewrite() {
 	$got_rewrite = apache_mod_loaded('mod_rewrite', true);
 
 	/**
-	 * Filter whether Apache and mod_rewrite are present.
+	 * Filter whether Apache and mod_rewrite are presets.
 	 *
 	 * This filter was previously used to force URL rewriting for other servers,
 	 * like nginx. Use the got_url_rewrite filter in got_url_rewrite() instead.
@@ -26,7 +26,7 @@ function got_mod_rewrite() {
 	 *
 	 * @see got_url_rewrite()
 	 *
-	 * @param bool $got_rewrite Whether Apache and mod_rewrite are present.
+	 * @param bool $got_rewrite Whether Apache and mod_rewrite are presets.
 	 */
 	return apply_filters( 'got_rewrite', $got_rewrite );
 }

@@ -526,6 +526,7 @@ textarea {
 	display: inline-block;
 	padding:40px 0px 10px;
 	border-radius: 3px;
+	/*height: 200px;*/
 }
 
 .category-list .category-item {

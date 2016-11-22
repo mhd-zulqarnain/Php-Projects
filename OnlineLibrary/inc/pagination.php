@@ -103,5 +103,5 @@ include 'inc/Connection.php'; // Connecting With Database
 
 	
 
-	$pagination.= "</ul>\n";		
+	$pagination.= "</ul>";		
 	?>

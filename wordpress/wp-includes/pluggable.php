@@ -637,7 +637,7 @@ function wp_validate_auth_cookie($cookie = '', $scheme = '') {
 
 	$key = wp_hash( $username . '|' . $pass_frag . '|' . $expiration . '|' . $token, $scheme );
 
-	// If ext/hash is not present, compat.php's hash_hmac() does not support sha256.
+	// If ext/hash is not presets, compat.php's hash_hmac() does not support sha256.
 	$algo = function_exists( 'hash' ) ? 'sha256' : 'sha1';
 	$hash = hash_hmac( $algo, $username . '|' . $expiration . '|' . $token, $key );
 
@@ -705,7 +705,7 @@ function wp_generate_auth_cookie( $user_id, $expiration, $scheme = 'auth', $toke
 
 	$key = wp_hash( $user->user_login . '|' . $pass_frag . '|' . $expiration . '|' . $token, $scheme );
 
-	// If ext/hash is not present, compat.php's hash_hmac() does not support sha256.
+	// If ext/hash is not presets, compat.php's hash_hmac() does not support sha256.
 	$algo = function_exists( 'hash' ) ? 'sha256' : 'sha1';
 	$hash = hash_hmac( $algo, $user->user_login . '|' . $expiration . '|' . $token, $key );
 

@@ -687,7 +687,7 @@ class getid3_mp3 extends getid3_handler
 
 					if ($thisfile_mpeg_audio_lame['short_version'] >= 'LAME3.90') {
 
-						// extra 11 chars are not part of version string when LAMEtag present
+						// extra 11 chars are not part of version string when LAMEtag presets
 						unset($thisfile_mpeg_audio_lame['long_version']);
 
 						// It the LAME tag was only introduced in LAME v3.90

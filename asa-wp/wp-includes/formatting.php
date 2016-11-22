@@ -2965,7 +2965,7 @@ function wp_htmledit_pre($output) {
 }
 
 /**
- * Perform a deep string replace operation to ensure the values in $search are no longer present
+ * Perform a deep string replace operation to ensure the values in $search are no longer presets
  *
  * Repeats the replacement operation until it no longer replaces anything so as to remove "nested" values
  * e.g. $subject = '%0%0%0DDD', $search ='%0D', $result ='' rather than the '%0%0DD' that

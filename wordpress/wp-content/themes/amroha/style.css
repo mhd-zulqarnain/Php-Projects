@@ -1,0 +1,509 @@
+/*   
+Theme Name: Amroha
+Description: This is custom theme for Anjuman Sadat-e-Amroha (Regd.) Pakistan
+Author: MSM
+Author URI: http://msm.webatu.com
+Version: 1
+*/
+@import url("./css/humanity/jquery-ui-1.9.2.custom.css");
+@media screen {
+/*
+* { margin: 0; padding: 0; }
+body { background: white; font: 14px/1.4 Georgia, Serif; }
+.screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
+.clear { clear: both; }
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
+/*
+#page-wrap { width: 960px; margin: 20px auto; }
+
+h1, h2, h3 { font-weight: normal; margin: 0 0 10px 0; }
+h1 { }
+h2 { }
+h3 { }
+
+p { margin: 0 0 10px 0; }
+a { }
+a:hover { } 
+
+blockquote { }
+blockquote p { }
+
+ul, ol { margin: 0 0 10px 0; }
+
+.post { }
+
+.entry { }
+.entry a { }
+.entry a:hover { }
+
+pre { }
+code, tt { }
+
+#meta { }
+.postmetadata { }
+
+#sidebar { }
+
+.navgation { }
+   .next-posts { }
+   .prev-posts { }
+
+#searchform { }
+	#s { }
+	#searchsubmt { }
+	
+ol.commentlist { list-style: none; }
+ol.commentlist li { }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor { }
+ol.commentlist li.byuser { }
+ol.commentlist li.comment-author-admin { }
+ol.commentlist li.comment { border-bottom: 1px dotted #666; padding: 10px; }
+ol.commentlist li.comment div.comment-author { }
+ol.commentlist li.comment div.vcard { }
+ol.commentlist li.comment div.vcard cite.fn { font-style: normal; }
+ol.commentlist li.comment div.vcard cite.fn a.url { }
+ol.commentlist li.comment div.vcard img.avatar { float:right; margin: 0 0 10px 10px; }
+ol.commentlist li.comment div.vcard img.avatar-32 { }
+ol.commentlist li.comment div.vcard img.photo { }
+ol.commentlist li.comment div.vcard span.says { }
+ol.commentlist li.comment div.commentmetadata { }
+ol.commentlist li.comment div.comment-meta { font-size: 10px; }
+ol.commentlist li.comment div.comment-meta a { color: #ccc; }
+ol.commentlist li.comment p { }
+ol.commentlist li.comment ul { }
+ol.commentlist li.comment div.reply { font-size: 11px; }
+ol.commentlist li.comment div.reply a { font-weight: bold; }
+ol.commentlist li.comment ul.children { list-style: none; margin: 10px 0 0; }
+ol.commentlist li.comment ul.children li { }
+ol.commentlist li.comment ul.children li.alt { }
+ol.commentlist li.comment ul.children li.bypostauthor { }
+ol.commentlist li.comment ul.children li.byuser { }
+ol.commentlist li.comment ul.children li.comment { }
+ol.commentlist li.comment ul.children li.comment-author-admin { }
+ol.commentlist li.comment ul.children li.depth-2 { border-left: 5px solid #555; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-3 { border-left: 5px solid #999; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-4 { border-left: 5px solid #bbb; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-5 { }
+ol.commentlist li.comment ul.children li.odd { }
+ol.commentlist li.even { background: #fff; }
+ol.commentlist li.odd { background: #f6f6f6; }
+ol.commentlist li.parent { border-left: 5px solid #111; }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even { }
+ol.commentlist li.thread-odd { }
+
+form { }
+input[type=text] { }
+textarea { }
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:black;
+	font-family: calibri;
+	font-size:14px;
+	background-color:#FCFBE3;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin:5px 0;
+	font-weight: bold;
+}
+h1{
+	color:#660000;
+	font-weight:bold;
+	font-size:30px;
+}
+h1 a,h1 a:hover ,h1 a:visited {
+	color:#660000;
+	font-weight:bold;
+	font-size:30px;
+}
+h2{
+	background-color: #660000;
+	color: #ffffff;
+	text-align: center;
+}
+h3{
+	color:#660000;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom: 10px;
+}
+.alignright{
+	float:right;
+	margin-left:5px;
+}	
+.alignleft{
+	float:left;
+	margin-right:5px;
+}	
+#page-wrap{
+	width:800px;
+	margin: 0 auto;
+	border: 1px solid gray;
+}
+#logo{
+	float: left;
+}
+#user-options-div{
+    float:right;
+    margin-right:20px;
+}
+.user-options{
+	color:#ffffff;
+	padding:10px;
+	background-color:#660000;
+	font-weight:bold;
+	vertical-align: middle;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.user-options a,.user-options a:visited{
+	text-decoration:none;
+	color:#ffffff;
+}
+.user-options a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+#header-text{
+	clear:both;
+	padding:35px 0;
+	text-align:center;
+}
+#top-nav-bar{
+	clear:both;
+	background-color:#660000;
+	width:800px;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+#top-nav-bar ul{
+	padding: 20px 0 35px 5px;
+	text-align:center;
+}
+#top-nav-bar li{
+	float: left;
+	list-style:none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#top-nav-bar ul li a{
+	padding-bottom:5px;
+}
+#top-nav-bar ul ul{
+	display:none;
+}
+#top-nav-bar ul li:hover ul {
+	display:block;
+}
+#top-nav-bar ul ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	position: absolute;
+	z-index: 500;
+	border:1px solid black;
+	margin-top: 5px;
+}
+#top-nav-bar ul li ul li{
+	margin: 0;
+	background-color: #660000;
+	border-top: 2px solid #000000;
+	border-left: 2px solid #000000;
+	display: block;
+	float: none;
+	text-align: left;
+	padding: 5px;
+}
+#top-nav-bar ul li:hover a{
+	color:#000000;
+	text-decoration:underline;
+}
+#top-nav-bar ul li:hover ul li a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#top-nav-bar ul li:hover ul li a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+#top-nav-bar a,#top-nav-bar a:visited,#top-nav-bar a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+#top-nav-bar a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+#content{
+	width:800px;
+	float:left;
+}
+.post{
+	clear:both;
+	width:580px;
+    min-height: 450px;
+	float:left;
+	padding:10px 10px 30px;
+	text-align:justify;
+	border-right: 1px solid gray;
+	background: url('./images/back.png') no-repeat center;
+}
+#sidebar{
+	float:right;
+	width:199px;
+}
+#sidebar ul{
+	width: 179px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+#sidebar  a:visited,#sidebar  a:link,#sidebar  a:active{
+	color:#000000;
+	font-weight:bold;
+}
+#sidebar  a:hover{
+	text-decoration:underline;
+}
+#president-home{
+	width: 275px;
+	float: left;
+	padding:5px;
+	border:2px solid #660000;
+}
+#president-home img{
+	float:right;
+	margin-left:5px;
+	height:100px;
+}
+#anjuman-home{
+	width: 275px;
+	float: left;
+	padding:5px;
+	margin-left:-2px;
+	border:2px solid #660000;
+}
+#anjuman-home a,#anjuman-home a:visited,#president-home a,#president-home a:visited{
+	color:#660000;
+	font-weight:bold;
+	text-decoration:none;
+}
+#anjuman-home a:hover,#president-home a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+.nivo-controlNav{
+	border-bottom: 1px solid gray;
+}
+
+#footer{
+	clear:both;
+	font-size:11px;
+	background-color:#660000;
+	color:white;
+	padding: 10px 0 ;
+}
+#bottom-nav-bar a,#bottom-nav-bar a:visited,#bottom-nav-bar a:hover{
+	color:white;
+}
+#bottom-nav-bar{
+	
+}
+#bottom-nav-bar ul{
+	text-align:center;
+}
+#bottom-nav-bar li{
+	display:inline;
+}
+#bottom-nav-bar li{
+	border-right:2px solid #D3D3D3;
+	padding:5px;
+}
+#bottom-nav-bar li:last-child{
+	border-right:none;
+}
+#copyright{
+	margin-top:10px;
+	text-align:center;
+}
+
+.clear{
+	clear:both;
+}
+
+.external-links li{
+	list-style: none;
+}
+.external-links a{
+	color:#660000;
+	font-weight:bold;
+}
+.external-links a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+
+/*** Latest News START ***/
+
+/* CSS Hack Safari */
+#dummy {;# }
+
+#scroller_container {
+ overflow: auto;
+}
+
+#scroller_container {
+	margin: 0 auto;
+	padding: 5px;
+	height: 263px;
+	width: 189px;
+	/*background-color: #f6f6f6;*/
+	border: 1px solid #000000;
+	border-right:none;
+}
+#scroller_container ul li {
+	/*margin: 7px 0px 0px 0px;*/
+	padding: 8px 10px 8px 5px;
+	/*background-color:#f6f6f6;*/
+	font-size: 14px;
+	color: #000000;
+	border-bottom: 1px dotted #c9c8c8;
+}
+#scroller_container ul li:hover {
+	padding: 8px 5px;
+	background-color:#fff;
+	font-size: 14px;
+	color: #660000;
+	border-right: 5px solid #660000;
+	cursor:pointer;
+}
+#scroller_container ul {
+	margin: 0px;
+	padding: 0px;
+}
+#scroller_container li {
+	list-style: none;
+}
+/**** Latest News END ****/
+
+/*** For All Forms START ***/
+.form{
+	background-color: white;
+	border: 2px solid #660000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.form  label{
+    color:#660000;
+    font-weight: bold;
+    padding:5px 0px;
+}
+.form-field-separator{
+    padding:5px;
+    font-weight: bold;
+}
+.form  input ,.form  select ,.form  button{
+    padding:2px;
+    margin: 2px;
+}
+.form table td{
+    vertical-align: top;
+}
+.form  textarea {
+    resize: none;
+} 
+/**** For All Forms END ****/
+
+/*** Error START ***/
+.error{
+    color:#FF0000;
+    font-weight: bold;
+}
+.error2{
+    color:#FF0000;
+    font-size:12px;
+}
+div.error{
+	padding: 10px;
+	border: 2px solid;
+	border-radius: 10px;
+	background-color: white;
+	margin: 10px auto;
+	width: 520px;
+}
+.error ul{
+    padding-left: 20px;
+}
+span.error{
+	font-size:12px;
+	color:#FF0000;
+}
+/**** Error END ****/
+
+/*** SignUp Form START ***/
+.signup-form{
+	width:520px;
+	margin: 10px auto;
+}
+.signup-form-label{
+    width:125px;
+}
+/**** SignUp Form END ****/
+
+/*** Login Form START ***/
+.login-form{
+	width: 320px;
+	margin: 50px auto;
+}
+.login-form-label{
+    width:60px;
+}
+/**** Login Form END ****/
+
+
+} /* END screen media */
+
+
+@media print {
+
+.do-not-print { display: none; }
+#comments { page-break-before: always; }
+
+body { width: 100% !important; margin: 0 !important; padding: 0 !important; line-height: 1.4; word-spacing: 1.1pt; letter-spacing: 0.2pt; font-family: Garamond,"Times New Roman", serif; color: #000; background: none; font-size: 12pt; }
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+h1 { font-size: 19pt; }
+h2 { font-size:17pt; }
+h3 { font-size:15pt; }
+h4,h5,h6 { font-size:12pt; }
+code { font: 10pt Courier, monospace; } 
+blockquote { margin: 1.3em; padding: 1em; }
+img { display: block; margin: 1em 0; }
+a img { border: none; }
+table { margin: 1px; text-align:left; }
+th { border-bottom: 1px solid #333;  font-weight: bold; }
+td { border-bottom: 1px solid #333; }
+th, td { padding: 4px 10px 4px 0; }
+caption { background: #fff; margin-bottom: 2em; text-align: left; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; } 
+a { text-decoration: none; color: black; }
+	
+} /* END print media */

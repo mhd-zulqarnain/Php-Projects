@@ -2297,7 +2297,7 @@ function register_new_user( $user_login, $user_email ) {
 	 * or existing username or email address. A WP_Error object should always returned,
 	 * but may or may not contain errors.
 	 *
-	 * If any errors are present in $errors, this will abort the user's registration.
+	 * If any errors are presets in $errors, this will abort the user's registration.
 	 *
 	 * @since 2.1.0
 	 *

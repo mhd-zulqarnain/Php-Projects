@@ -22,12 +22,12 @@
                 while ($tow=mysqli_fetch_row($cout))
                     $comments=$tow[0];
                 ?>
-
-                <div class="col-lg-12 col-xs-12 post-body no-padding">
+                <div class="row">
+                  <div class="col-sm-12 post-body no-padding">
                     <div class="col-lg-12 col-xs-12 no-padding">
                     </div>
                     <div class="post-sub col-lg-12 no-padding">
-                        <div class="col-lg-5 col-xs-12 pull-left  post-img no-padding" ><img src="<?php echo 'assets/images/'.$img?>" style="width:300px;height: 220px;"></div>
+                        <div class="col-lg-5 col-xs-12 pull-left  post-img no-padding" style="width:300px;height: 220px;overflow: hidden" ><img src="<?php echo 'assets/images/'.$img?>"  class="img-responsive"></div>
 
                         <div class="col-lg-7  col-xs-12 pull-right no-padding">
                             <a href="postBody.php?&id=<?php echo $id?>"><h3 class="head-color text-primary">
@@ -47,6 +47,7 @@
                             <a href="postBody.php?&id=<?php echo $id?>" class="btn btn-primary btn-md btn-Cls">Read More</a></div>
                     </div>
 
+                  </div>
                 </div>
 
 

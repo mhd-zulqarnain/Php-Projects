@@ -10,7 +10,7 @@ $sql="SELECT name passward FROM login WHERE name='$name' AND passward='$pass' ";
    {
        session_start();
       $_SESSION["name"]=$name;
-       header("location:index.Partial");
+       header("location:index.php");
    }
 }
 ?>

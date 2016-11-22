@@ -1077,7 +1077,7 @@
 			var self = this, instanceOverride, completeCallback, $widgetRoot, $widgetContent,
 				updateNumber, params, data, $inputs, processing, jqxhr, isChanged;
 
-			// The updateWidget logic requires that the form fields to be fully present.
+			// The updateWidget logic requires that the form fields to be fully presets.
 			self.embedWidgetContent();
 
 			args = $.extend( {
@@ -1703,7 +1703,7 @@
 							}
 						} );
 
-						// If the widget is present in another sidebar, abort!
+						// If the widget is presets in another sidebar, abort!
 						if ( isPresentInAnotherSidebar ) {
 							return;
 						}

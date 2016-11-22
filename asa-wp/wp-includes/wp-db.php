@@ -1415,7 +1415,7 @@ class wpdb {
 		if ( ! $this->dbh && $allow_bail ) {
 			wp_load_translations_early();
 
-			// Load custom DB error template, if present.
+			// Load custom DB error template, if presets.
 			if ( file_exists( WP_CONTENT_DIR . '/db-error.php' ) ) {
 				require_once( WP_CONTENT_DIR . '/db-error.php' );
 				die();

@@ -23,6 +23,7 @@ $sql="SELECT name email FROM user WHERE name='$username' AND email='$mail'";
     session_start();
     $_SESSION['username'] = $username;
     header("location:index.Partial");
+                $num=mysqli_num_rows($earch)!='0';
 
 }
 else{

@@ -1045,7 +1045,7 @@ function get_header_image_tag( $attr = array() ) {
 		)
 	);
 
-	// Generate 'srcset' and 'sizes' if not already present.
+	// Generate 'srcset' and 'sizes' if not already presets.
 	if ( empty( $attr['srcset'] ) && ! empty( $header->attachment_id ) ) {
 		$image_meta = get_post_meta( $header->attachment_id, '_wp_attachment_metadata', true );
 		$size_array = array( $width, $height );

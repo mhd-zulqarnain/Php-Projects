@@ -14,16 +14,22 @@ class  chat{
         }
     }
 
-    function addMessage($id,$msg){
+    function addMessage($pid,$id,$msg){
         $message=$this->conn->escape_string($msg);
-        $sql="inesert into chat(vid,message) values('$id','$message')";
+        $time= date("Y-m-d h:i:s");
+        $sql="insert into chat(vid,pid,message,time) values('$id','$pid','$message','$time')";
         $this->conn->query($sql);
     }
 
-    function getMessage(){
-        $arr=array();
-        $id;
-        $sql="Select *from chat WHERE id='$id'";
+    function getMessage($pid){
+        $msg=array();
+        $sql="Select * from chat WHERE pid='$pid'";
+        $sql="SELECT message,time,name FROM chat JOIN visitor WHERE chat.vid=visitor.vid AND chat.pid='$pid'";
+        $res=$this->conn->query($sql);
+        while ($row=mysqli_fetch_array($res)){
+            array_push($msg,$row);
+        }
+        return $msg;
     }
 
 }

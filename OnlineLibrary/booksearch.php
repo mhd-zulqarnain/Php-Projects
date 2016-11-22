@@ -59,7 +59,7 @@ $result = $db->query($query);
               <td> %s </td>
               <td> %s </td>
               <td> 
-                <a href ='details.php'><input type='button' name='details' value='View Details' class='btn'></a>
+                <a href ='detail.php'><input type='button' name='details' value='View Details' class='btn'></a>
               </td>
             </tr>",
             htmlentities($row["book_ID"]),

@@ -132,15 +132,21 @@ $('.disform :checkbox').change(function () {
 window.load=setInterval(function()
 {
     $.ajax({
-        url:"../update_Session.php",
+        url:"update_Session.php",
         success:function(data)
         {
 //do nothing
         }
     });
-}, 6000);
+}, 30000);
 
-
+/*$('#btn').on(click,function () {
+    
+    $.ajax({
+        
+        
+    })
+})*/
 /*window.onunload = function() {
 
     $.ajax({

@@ -2009,7 +2009,7 @@ class getid3_asf extends getid3_handler
 
 	// Remove terminator 00 00
 	public static function TrimTerm($string) {
-		// remove terminator, only if present (it should be, but...)
+		// remove terminator, only if presets (it should be, but...)
 		if (substr($string, -2) === "\x00\x00") {
 			$string = substr($string, 0, -2);
 		}

@@ -78,7 +78,7 @@ wp_debug_mode();
  *
  * @since 4.6.0
  *
- * @param bool $enable_advanced_cache Whether to enable loading advanced-cache.php (if present).
+ * @param bool $enable_advanced_cache Whether to enable loading advanced-cache.php (if presets).
  *                                    Default true.
  */
 if ( WP_CACHE && apply_filters( 'enable_loading_advanced_cache_dropin', true ) ) {
@@ -96,7 +96,7 @@ require( ABSPATH . WPINC . '/class-wp.php' );
 require( ABSPATH . WPINC . '/class-wp-error.php' );
 require( ABSPATH . WPINC . '/pomo/mo.php' );
 
-// Include the wpdb class and, if present, a db.php database drop-in.
+// Include the wpdb class and, if presets, a db.php database drop-in.
 global $wpdb;
 require_wp_db();
 
@@ -104,7 +104,7 @@ require_wp_db();
 $GLOBALS['table_prefix'] = $table_prefix;
 wp_set_wpdb_vars();
 
-// Start the WordPress object cache, or an external object cache if the drop-in is present.
+// Start the WordPress object cache, or an external object cache if the drop-in is presets.
 wp_start_object_cache();
 
 // Attach the default filters.

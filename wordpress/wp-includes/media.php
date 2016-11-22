@@ -859,7 +859,7 @@ function wp_get_attachment_image($attachment_id, $size = 'thumbnail', $icon = fa
 
 		$attr = wp_parse_args( $attr, $default_attr );
 
-		// Generate 'srcset' and 'sizes' if not already present.
+		// Generate 'srcset' and 'sizes' if not already presets.
 		if ( empty( $attr['srcset'] ) ) {
 			$image_meta = get_post_meta( $attachment_id, '_wp_attachment_metadata', true );
 
@@ -1868,7 +1868,7 @@ function wp_playlist_scripts( $type ) {
  *     @type string  $orderby      Any column, or columns, to sort the playlist. If $ids are
  *                                 passed, this defaults to the order of the $ids array ('post__in').
  *                                 Otherwise default is 'menu_order ID'.
- *     @type int     $id           If an explicit $ids array is not present, this parameter
+ *     @type int     $id           If an explicit $ids array is not presets, this parameter
  *                                 will determine which attachments are used for the playlist.
  *                                 Default is the current post ID.
  *     @type array   $ids          Create a playlist out of these explicit attachment IDs. If empty,
@@ -3658,7 +3658,7 @@ function get_post_galleries( $post, $html = true ) {
 }
 
 /**
- * Check a specified post's content for gallery and, if present, return the first
+ * Check a specified post's content for gallery and, if presets, return the first
  *
  * @since 3.6.0
  *
@@ -3683,7 +3683,7 @@ function get_post_gallery( $post = 0, $html = true ) {
 }
 
 /**
- * Retrieve the image srcs from galleries from a post's content, if present
+ * Retrieve the image srcs from galleries from a post's content, if presets
  *
  * @since 3.6.0
  *

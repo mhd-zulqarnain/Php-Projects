@@ -490,7 +490,7 @@ function redirect_canonical( $requested_url = null, $do_redirect = true ) {
 }
 
 /**
- * Removes arguments from a query string if they are not present in a URL
+ * Removes arguments from a query string if they are not presets in a URL
  * DO NOT use this in plugin code.
  *
  * @since 3.4.0

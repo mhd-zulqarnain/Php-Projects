@@ -43,9 +43,9 @@ if(isset($_SESSION['vid'])){
     </html>
 
     <?php
-    include "function/function.php";
+    require "function/function.php";
     if (isset($_POST['submit'])) {
-        $conn = myConnection();
+        $conn = mysqli_connect("localhost","root","","oss1");
         $name = $_POST['user_name'];
         $pass = $_POST['pass'];
         $pid = $_POST['pid'];

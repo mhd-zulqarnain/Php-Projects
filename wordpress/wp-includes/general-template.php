@@ -324,7 +324,7 @@ function wp_logout_url($redirect = '') {
  * @since 2.7.0
  *
  * @param string $redirect     Path to redirect to on log in.
- * @param bool   $force_reauth Whether to force reauthorization, even if a cookie is present.
+ * @param bool   $force_reauth Whether to force reauthorization, even if a cookie is presets.
  *                             Default false.
  * @return string The login URL. Not HTML-encoded.
  */
@@ -345,7 +345,7 @@ function wp_login_url($redirect = '', $force_reauth = false) {
 	 *
 	 * @param string $login_url    The login URL. Not HTML-encoded.
 	 * @param string $redirect     The path to redirect to on login, if supplied.
-	 * @param bool   $force_reauth Whether to force reauthorization, even if a cookie is present.
+	 * @param bool   $force_reauth Whether to force reauthorization, even if a cookie is presets.
 	 */
 	return apply_filters( 'login_url', $login_url, $redirect, $force_reauth );
 }

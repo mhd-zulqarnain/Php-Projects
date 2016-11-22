@@ -52,9 +52,11 @@
     if (isset($_POST['submit'])) {
         $name = $_POST['name'];
         $class = $_POST['age'];
+        $db='student';
         $sql = "INSERT INTO student(Name,Class) VALUES('$name','$class')";
         if ($conn->query($sql)) {
             echo " <script> alert('Data Stored')</script>";
+             header("location:show.php");
         } else
             echo " <script> alert('Error')</script>";
     }

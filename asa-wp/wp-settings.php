@@ -75,14 +75,14 @@ require( ABSPATH . WPINC . '/class-wp-error.php' );
 require( ABSPATH . WPINC . '/plugin.php' );
 require( ABSPATH . WPINC . '/pomo/mo.php' );
 
-// Include the wpdb class and, if present, a db.php database drop-in.
+// Include the wpdb class and, if presets, a db.php database drop-in.
 require_wp_db();
 
 // Set the database table prefix and the format specifiers for database table columns.
 $GLOBALS['table_prefix'] = $table_prefix;
 wp_set_wpdb_vars();
 
-// Start the WordPress object cache, or an external object cache if the drop-in is present.
+// Start the WordPress object cache, or an external object cache if the drop-in is presets.
 wp_start_object_cache();
 
 // Attach the default filters.

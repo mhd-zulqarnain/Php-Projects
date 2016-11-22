@@ -44,7 +44,7 @@ audio:not([controls]) {
 }
 
 /*
- * Addresses styling for `hidden` attribute not present in IE 8/9.
+ * Addresses styling for `hidden` attribute not presets in IE 8/9.
  */
 
 [hidden] {
@@ -110,7 +110,7 @@ h1 {
 }
 
 /*
- * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ * Addresses styling not presets in IE 8/9, Safari 5, and Chrome.
  */
 
 abbr[title] {
@@ -127,7 +127,7 @@ strong {
 }
 
 /*
- * Addresses styling not present in Safari 5 and Chrome.
+ * Addresses styling not presets in Safari 5 and Chrome.
  */
 
 dfn {
@@ -135,7 +135,7 @@ dfn {
 }
 
 /*
- * Addresses styling not present in IE 8/9.
+ * Addresses styling not presets in IE 8/9.
  */
 
 mark {
@@ -227,7 +227,7 @@ svg:not(:root) {
    ========================================================================== */
 
 /*
- * Addresses margin not present in IE 8/9 and Safari 5.
+ * Addresses margin not presets in IE 8/9 and Safari 5.
  */
 
 figure {

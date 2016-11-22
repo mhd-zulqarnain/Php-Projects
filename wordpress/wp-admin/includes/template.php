@@ -275,11 +275,11 @@ function get_inline_data($post) {
 
 	$title = esc_textarea( trim( $post->post_title ) );
 
-	/** This filter is documented in wp-admin/edit-tag-form.php */
+	/** This filter is documented in wp-admin/edit-tag-Visitor_Report.php */
 	echo '
 <div class="hidden" id="inline_' . $post->ID . '">
 	<div class="post_title">' . $title . '</div>' .
-	/** This filter is documented in wp-admin/edit-tag-form.php */
+	/** This filter is documented in wp-admin/edit-tag-Visitor_Report.php */
 	'<div class="post_name">' . apply_filters( 'editable_slug', $post->post_name, $post ) . '</div>
 	<div class="post_author">' . $post->post_author . '</div>
 	<div class="comment_status">' . esc_html( $post->comment_status ) . '</div>
@@ -947,7 +947,7 @@ function add_meta_box( $id, $title, $callback, $screen = null, $context = 'advan
 				}
 				return;
 			}
-			// If no priority given and id already present, use existing priority.
+			// If no priority given and id already presets, use existing priority.
 			if ( empty($priority) ) {
 				$priority = $a_priority;
 			/*

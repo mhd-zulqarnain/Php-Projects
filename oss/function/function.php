@@ -4,6 +4,11 @@ function myconnection(){
     return mysqli_connect("localhost","root","","oss");
 }
 $con=myconnection();
+function Run($query){
+    global $con;
+    return $con->query($query);
+}
+
 function getCat(){
     global $con;
     $lable="    SELECT DISTINCT type FROM productdetails";
@@ -19,22 +24,62 @@ function getCat(){
 function getPro(){
     if(!isset($_REQUEST['cat'])){
         global $con;
-        $lable = "select * from productdetails";
+
+        $page=isset($_REQUEST['page'])?$_REQUEST['page']:1;
+        $pagecount=($page*4)-4;
+
+        if(!isset($_REQUEST['postname'])){
+        $lable = "select * from productdetails WHERE approved=1 limit $pagecount,4";
+         $sql1="Select * from productdetails WHERE approved=1"; //for pagination
+
+        }
+        else
+        {
+            $post=$_REQUEST['postname'];
+            $lable="Select * from  productdetails where p_name LIKE '%$post%' limit $pagecount,4";
+            $sql1="Select * from  productdetails where p_name LIKE '%$post%'";
+
+        }
         $res = mysqli_query($con, $lable);
-        while ($row = mysqli_fetch_array($res)) {
-            $name = $row['p_name'];
-            $price = $row['price'];
-            $id = $row['pid'];
-            echo "
-            <div class='col-lg-5 prod_body'>
-            
-             <img src='../Final/assets/images/avatar.png' height='250px' width='250px'>
+        //paging....
+        echo "<div class='col-lg-12 text-center pull-right site-paging'>";
+        $num=mysqli_num_rows(Run($sql1));
+        $page=ceil($num/4);
+        for($i=1;$i<=$page;$i++){
+            if(!isset($_REQUEST['postname'])){
+                echo '<a href="index.php?&page=' . $i . '">' . $i . '</a> ';
+            }
+            else
+                echo '<a href="index.php?&page=' . $i . '&postname='.$post.'">' . $i . '</a> ';
+        }
+        echo "</div>";
+        //paging....end/////
+        $count=mysqli_num_rows(Run($lable));///TO check the number of post displaying
+        if($count>0) {
+          while ($row = mysqli_fetch_array($res)) {
+              $name = $row['p_name'];
+              $price = $row['price'];
+              $id = $row['pid'];
+              $img = $row['image'];
+              $image = array();
+              $image = json_decode($img);
+              echo "
+            <div class='col-lg-5 prod_body' >
+            <div class='col-lg-12' style='height: 200px;overflow: hidden'>
+            <img src='visitors/images/" . $image[0] . "' height='200px' width='200px' class='img-fluid reponsive' style='height:auto;max-width:100%;'>
+            </div>
+             
             <h3>$name</h3>
             <h5>Price:$price </h5>
-            <a href='details.php?&id=$id'class='btn btn-primary btn-sm'> Own it</a>
+            <a href='detail.php?&id=$id'class='btn btn-primary btn-sm'> Own it</a>
             </div>
+            
+          
             ";
-        }
+          }
+      }else{
+          echo '<div>No post to show</div>';
+      }
     }
 }
 function getCatPro(){
@@ -42,25 +87,47 @@ function getCatPro(){
 
         global $con;
         $cat=$_REQUEST['cat'];
-        $lable = "select * from productdetails WHERE type='$cat'";
+        $page=isset($_REQUEST['page'])?$_REQUEST['page']:1;
+        $pagecount=($page*4)-4;
+        $lable = "select * from productdetails WHERE type='$cat' AND approved=1 limit $pagecount,4";
         $res = mysqli_query($con, $lable);
+        $sql="select * from productdetails WHERE type='$cat' AND approved=1";
+        $page=ceil(((mysqli_num_rows($con->query($sql))))/4);
+        echo "<div class='col-lg-12 text-center pull-right site-paging'>";
+        for($i=1;$i<=$page;$i++){
+            echo '<a href="index.php?&page='.$i.'&cat='.$cat.'"> '.$i.'</a>';
+        }
+        echo '</div>';
         while ($row = mysqli_fetch_array($res)) {
             $name = $row['p_name'];
             $price = $row['price'];
             $id = $row['pid'];
+            $img = $row['image'];
+            $image=array();
+            $image=json_decode($img);
             echo "
             <div class='col-lg-5 prod_body'>
-            
-             <img src='../Final/assets/images/avatar.png' height='250px' width='250px'>
+            <div class='col-lg-12' style='height: 200px;overflow: hidden'>
+            <img src='visitors/images/".$image[0] ."' height='200px' width='200px' class='img-fluid reponsive' style='height:auto;max-width:100%;'>
+            </div>
             <h3>$name</h3>
             <h5>Price:$price </h5>
-            <a href='details.php?&id=$id'class='btn btn-primary btn-sm'> Own it</a>
+            <a href='detail.php?&id=$id'class='btn btn-primary btn-sm'> Own it</a>
             </div>
             ";
         }
     }
 }
-
+function getUser($pid){
+global  $con;
+    $sql="Select name from visitor JOIN productdetails WHERE productdetails.vid=visitor.vid AND productdetails.pid='$pid'";
+    $run=$con->query($sql);
+    $res=mysqli_fetch_assoc($run);
+    if($res)
+    return  $res['name'];
+    else
+        return "error";
+}
 function getProDetails(){
     global $con;
     $id=$_REQUEST['id'];
@@ -70,17 +137,68 @@ function getProDetails(){
         $name=$row['p_name'];
         $price=$row['price'];
         $id=$row['pid'];
+        $img = $row['image'];
+        $image=array();
+        $image=json_decode($img);
         echo "
             <div class='col-lg-12 prod_body'>
-            
-             <img src='../Final/assets/images/avatar.png' height='250px' width='250px'>
-             <img src='../Final/assets/images/avatar.png' height='250px' width='250px'>
+           <div class='col-lg-6' style='height: 200px;overflow: hidden'>
+            <img src='visitors/images/".$image[0] ."' height='200px' width='200px' class='img-fluid reponsive' style='height:auto;max-width:100%;'>
+            </div> <div class='col-lg-6' style='height: 200px;overflow: hidden'>
+            <img src='visitors/images/".$image[1] ."' height='200px' width='200px' class='img-fluid reponsive' style='height:auto;max-width:100%;'>
+            </div>
             <h3>$name</h3>
             <h5>Price:$price </h5>
             <a href=''class='btn btn-primary btn-sm'> Own it</a>
             </div>
             ";
     }
+}
+//Check online
+
+function setOnline($vid){
+    $last_activity=$_SESSION['LAST_ACTIVITY'] = time();
+    $query="UPDATE visitor SET online='1' WHERE vid='$vid' ";
+    $sql = "UPDATE visitor SET login_activity = '$last_activity' WHERE vid = '$vid'";
+    Run($query);
+    Run($sql);
+}
+function setOffline($vid){
+    $query="UPDATE visitor SET online='0' WHERE vid='$vid' ";
+    Run($query);
+}
+//--------end chat----------
+function getUphone($pid){
+    $sql="Select V.ph_number from visitor AS V JOIN productdetails AS P ON P.vid=V.vid AND P.pid='$pid'";
+    $result=Run($sql);
+    while ($row=mysqli_fetch_array($result))
+    return $row['ph_number'];
+}
+function getEmail($pid){
+    $sql="Select V.email from visitor AS V JOIN productdetails AS P ON P.vid=V.vid AND P.pid='$pid'";
+    $result=Run($sql);
+    while ($row=mysqli_fetch_array($result))
+        return $row['email'];
+}
+function getPowner($pid){
+    $sql="Select V.name from visitor AS V JOIN productdetails AS P ON P.vid=V.vid AND P.pid='$pid'";
+    $result=Run($sql);
+    while ($row=mysqli_fetch_array($result))
+        return $row['name'];
+}
+function getName($vid){
+    $sql="Select * from visitor WHERE vid='$vid'";
+    $result=Run($sql);
+    while ($row=mysqli_fetch_array($result))
+         $name=$row['name'];
+    return $name;
+}
+
+function UpdateStatus($vid){
+    $_SESSION['LAST_ACTIVITY'] = time();
+    $last_activity = $_SESSION['LAST_ACTIVITY'];
+    $sql = "UPDATE visitor SET login_activity = '$last_activity' WHERE vid = '$vid'";
+    Run($sql);
 }
 ?>
 

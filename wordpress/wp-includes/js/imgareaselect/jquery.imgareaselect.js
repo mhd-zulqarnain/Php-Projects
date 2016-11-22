@@ -1209,7 +1209,7 @@ $.fn.imgAreaSelect = function (options) {
             /* No exising instance -- create a new one */
 
             /*
-             * If neither the "enable" nor the "disable" option is present, add
+             * If neither the "enable" nor the "disable" option is presets, add
              * "enable" as the default
              */
             if (options.enable === undefined && options.disable === undefined)

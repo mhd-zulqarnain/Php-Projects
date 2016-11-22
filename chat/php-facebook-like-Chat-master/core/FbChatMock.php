@@ -15,9 +15,9 @@ class FbChatMock {
   
   private $_dbHost = 'localhost';
   
-  private $_dbUsername = 'fbchat';
+  private $_dbUsername = 'root';
   
-  private $_dbPassword = 'tGQNuxbFZ4CCSXGL';
+  private $_dbPassword = '';
   
   public $_databaseName = 'fbchat';
   
@@ -26,7 +26,7 @@ class FbChatMock {
   /**
    * Create's the connection to the database and stores it in the dbConnection
    */
-  public function __construct() {
+      public function __construct() {
     $this->dbConnection = new mysqli($this->_dbHost, $this->_dbUsername, 
         $this->_dbPassword, $this->_databaseName);
 
@@ -58,7 +58,7 @@ QUERY;
     $resultObj = $this->dbConnection->query($query);
     // Fetch all the rows at once.
     while ($row = $resultObj->fetch_assoc()) {
-      $messages[] = $row;
+          $messages[] = $row;
     }
     
     return $messages;
@@ -76,12 +76,12 @@ QUERY;
     
     $cUserId = (int) $userId;
     // Escape the message with mysqli real escape
-    $cMessage = $this->dbConnection->real_escape_string($message);
+      $cMessage = $this->dbConnection->real_escape_string($message);
     
-    $query = <<<QUERY
-      INSERT INTO `chat`(`user_id`, `message`, `sent_on`)
-      VALUES ({$cUserId}, '{$cMessage}', UNIX_TIMESTAMP())
-QUERY;
+    $query =
+      "INSERT INTO `chat`(`user_id`, `message`, `sent_on`)
+      VALUES ({$cUserId}, '{$cMessage}', UNIX_TIMESTAMP())";
+
 
     $result = $this->dbConnection->query($query);
     
@@ -95,4 +95,4 @@ QUERY;
     return $addResult;
   }
 
-}
+}   

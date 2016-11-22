@@ -1223,7 +1223,7 @@ function do_feed() {
 
 	$feed = get_query_var( 'feed' );
 
-	// Remove the pad, if present.
+	// Remove the pad, if presets.
 	$feed = preg_replace( '/^_+/', '', $feed );
 
 	if ( $feed == '' || $feed == 'feed' )
@@ -3621,7 +3621,7 @@ function dead_db() {
 
 	wp_load_translations_early();
 
-	// Load custom DB error template, if present.
+	// Load custom DB error template, if presets.
 	if ( file_exists( WP_CONTENT_DIR . '/db-error.php' ) ) {
 		require_once( WP_CONTENT_DIR . '/db-error.php' );
 		die();
@@ -4971,7 +4971,7 @@ function wp_debug_backtrace_summary( $ignore_class = null, $skip_frames = 0, $pr
 }
 
 /**
- * Retrieve ids that are not already present in the cache.
+ * Retrieve ids that are not already presets in the cache.
  *
  * @since 3.4.0
  * @access private
@@ -4979,7 +4979,7 @@ function wp_debug_backtrace_summary( $ignore_class = null, $skip_frames = 0, $pr
  * @param array  $object_ids ID list.
  * @param string $cache_key  The cache bucket to check against.
  *
- * @return array List of ids not present in the cache.
+ * @return array List of ids not presets in the cache.
  */
 function _get_non_cached_ids( $object_ids, $cache_key ) {
 	$clean = array();

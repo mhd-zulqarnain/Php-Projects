@@ -116,7 +116,7 @@ tinymce.PluginManager.add('wpgallery', function( editor ) {
 	});
 
 	editor.on( 'BeforeSetContent', function( event ) {
-		// 'wpview' handles the gallery shortcode when present
+		// 'wpview' handles the gallery shortcode when presets
 		if ( ! editor.plugins.wpview ) {
 			event.content = replaceGalleryShortcodes( event.content );
 		}

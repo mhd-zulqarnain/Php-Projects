@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head><title>LOGIN PHP </title></head>
 <body bgcolor="orange">
@@ -11,7 +12,7 @@
     </tr>	
     <tr>
       <td bordercolor="#003333" bgcolor="#999999"><span class="style2">Password</span></td>
-      <td bordercolor="#003333" bgcolor="#999999"><input name="pass" type="password" id="pass" /></td>
+      <td bordercolor="#003333" bgcolor="#999999"><input name="pass" type="password" id="pass"  /></td>
     </tr>
     
     <tr>
@@ -26,19 +27,27 @@
 </form> 
 </center>
 </body>
-</html
-<?php
-$con = mysql_connect("localhost","root","") or die (mysql_error());
-$db = mysql_select_db('ebill',$con) or die (mysql_error());
+</html>
 
+<?php
+$con=mysqli_connect("localhost","root","","ebill");
 
 if (isset($_POST['login']))
 {
-	echo $u_name=$_POST['u_name'];
-	echo $u_pass=$_POST['u_pass'];
+	 $u_name=$_POST['u_name'];
+	 $u_pass=$_POST['pass'];
 	
-	$query = "select * from  users where user_name='$u_name' AND user_pass='$u_pass'";
-	$run = mysql_query('$query')or die(mysql_error());
+	$que="select user_name from users WHERE  user_name='$u_name' AND user_pass='$u_pass'";
+//	$que = "select * from  users where user_name='$u_name' AND user_pass='$u_pass'";
+  $result=mysqli_query($con,$que);
+  if(mysqli_num_rows($result)!='0'){
+    echo "found";
+    ///yaha likhna hy jis page py jana ho
+    header("location:home.php");
+  }
+  else{
+    echo "wrong password";
+  }
 }
 
 ?>

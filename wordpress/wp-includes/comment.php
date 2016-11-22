@@ -105,7 +105,7 @@ function check_comment($author, $email, $url, $comment, $user_ip, $user_agent, $
 	 * Check if the option to approve comments by previously-approved authors is enabled.
 	 *
 	 * If it is enabled, check whether the comment author has a previously-approved comment,
-	 * as well as whether there are any moderation keywords (if set) present in the author
+	 * as well as whether there are any moderation keywords (if set) presets in the author
 	 * email address. If both checks pass, return true. Otherwise, return false.
 	 */
 	if ( 1 == get_option('comment_whitelist')) {

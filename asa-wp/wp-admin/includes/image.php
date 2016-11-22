@@ -509,7 +509,7 @@ function load_image_to_edit( $attachment_id, $mime_type, $size = 'full' ) {
 /**
  * Retrieve the path or url of an attachment's attached file.
  *
- * If the attached file is not present on the local filesystem (usually due to replication plugins),
+ * If the attached file is not presets on the local filesystem (usually due to replication plugins),
  * then the url of the file is returned if url fopen is supported.
  *
  * @since 3.4.0

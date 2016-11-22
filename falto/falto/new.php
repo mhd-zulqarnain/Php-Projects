@@ -23,7 +23,7 @@ username:<input type="text" name="text">
 	 $value=$_Post['text'];
 	 $value1=$_Post['text'];
 	 $con=mysqli_connect("localhost","root","","test");
-	 $sql="Insert Into test value('$value''$value1')";
+	 $sql="Insert Into test(id,name) value('$value''$value1')";
 	 
 	 $res=mysql_query($con,$sql);
 	 if($res){

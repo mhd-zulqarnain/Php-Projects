@@ -8,7 +8,7 @@ fbChat = {
     setInterval(this.getMessages, 5000);
 
     // Bind the keyboard event
-    chatArea.bind('keydown', function(event) {
+      chatArea.bind('keydown', function(event) {
       if (event.keyCode === 13 && event.shiftKey === false) {
         var message = chatArea.val();
 
@@ -29,18 +29,34 @@ fbChat = {
       data: {msg: message},
       success: function(data) {
         $('#chatMsg').val('');
-        that.getMessages();
+        // that.getMessages();
       }
     });
   },
   getMessages: function() {
-    $.ajax({
+   /* $.ajax({
       url: '/ajax/get_messages.php',
       method: 'GET',
       success: function(data) {
         $('.msg-wgt-body').html(data);
+        console.log("test");
       }
-    });
+    });*/
+
+    /*$.ajax({
+      url: '/ajax/get_messages.php',
+      method: 'GET',
+      success: function(data) {
+       /!* var arry;
+        data.each(function(key, value){
+          arry.push(key)
+        });
+
+        $('.msg-wgt-body').html(arry);
+        console.log("test");*!/
+
+      }
+    });*/
   }
 };
 
@@ -80,7 +96,7 @@ function get_messages() {
 
 /**
  * Initializes the chat application
- */
+ */ 
 function boot_chat() {
   var chatArea = $('#chatMsg');
 

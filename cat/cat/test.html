@@ -151,12 +151,12 @@
 			<div class="col-md-12 hidden-xs" style="margin-top:20px;">
 	<div id="main">
 		<h6 style="margin-top:30px;widtH:80px;position:absolute;margin-left:40px;">Featierd Ads</h6>
-		<img  style="height:20px;margin-left:600px;position:absolute;margin-top:30px;"src="images/1.png">
-		<img  style="height:20px;margin-left:620px;position:absolute;margin-top:30px;"src="images/2.png">
+		<img  style="height:20px;margin-left:600px;position:absolute;margin-top:30px;"src="images/1.png" id="Previous1">
+		<img  style="height:20px;margin-left:620px;position:absolute;margin-top:30px;"src="images/2.png" id="Next1">
 
 		<hr style="position:absolute;background:green;width:590px;margin-left:40px;margin-top:60px;"/>
 		<ul id="slider">
-		
+
 			<li ><div class="ads2">
 						<div class="sub_ads2">
 							<image src="images/21.jpg" />
@@ -278,7 +278,7 @@
 	
 	<script>
 		$('document').ready(function(){
-			$('#Next').click(function(){
+			$('#Next1').click(function(){
 			$('#slider').animate({marginLeft:'+=210px'},300);
 				var getSlider = document.getElementById('slider').style.marginLeft; 
 				if(getSlider == "0px"){
@@ -286,7 +286,7 @@
 				}
 			});
 			
-			$('#Previous').click(function(){
+			$('#Previous1').click(function(){
 			$('#slider').animate({marginLeft:'-=210px'},300);
 			var getSlider = document.getElementById('slider').style.marginLeft;
 				if(getSlider ==   "-1260px")

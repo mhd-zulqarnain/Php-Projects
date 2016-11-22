@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: zulup
- * Date: 11/13/2016
- * Time: 2:10 PM
- */
+include 'function/function.php';
+if(isset($_Request['vid'])){
+    
+    $vid=$_REQUEST['vid'];
+    $sql="update visotor set verifyed='1' WHERE vid='$vid'";
+    Run($sql);
+    headder("location:login.php");
+}
+
+?>

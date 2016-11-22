@@ -96,7 +96,7 @@ class getid3_id3v2 extends getid3_handler
 				$thisfile_id3v2_flags['unsynch']     = (bool) ($id3_flags & 0x80); // a - Unsynchronisation
 				$thisfile_id3v2_flags['exthead']     = (bool) ($id3_flags & 0x40); // b - Extended header
 				$thisfile_id3v2_flags['experim']     = (bool) ($id3_flags & 0x20); // c - Experimental indicator
-				$thisfile_id3v2_flags['isfooter']    = (bool) ($id3_flags & 0x10); // d - Footer present
+				$thisfile_id3v2_flags['isfooter']    = (bool) ($id3_flags & 0x10); // d - Footer presets
 				break;
 		}
 
@@ -145,7 +145,7 @@ class getid3_id3v2 extends getid3_handler
 			//        the frame header [S:4.1.2] indicates unsynchronisation.
 
 
-			//$framedataoffset = 10 + ($thisfile_id3v2['exthead']['length'] ? $thisfile_id3v2['exthead']['length'] + 4 : 0); // how many bytes into the stream - start from after the 10-byte header (and extended header length+4, if present)
+			//$framedataoffset = 10 + ($thisfile_id3v2['exthead']['length'] ? $thisfile_id3v2['exthead']['length'] + 4 : 0); // how many bytes into the stream - start from after the 10-byte header (and extended header length+4, if presets)
 			$framedataoffset = 10; // how many bytes into the stream - start from after the 10-byte header
 
 
@@ -159,7 +159,7 @@ class getid3_id3v2 extends getid3_handler
 					//Extended header size  $xx xx xx xx   // 32-bit integer
 					//Extended Flags        $xx xx
 					//     %x0000000 %00000000 // v2.3
-					//     x - CRC data present
+					//     x - CRC data presets
 					//Size of padding       $xx xx xx xx
 
 					$thisfile_id3v2['exthead']['length'] = getid3_lib::BigEndian2Int(substr($framedata, $extended_header_offset, 4), 0);
@@ -189,7 +189,7 @@ class getid3_id3v2 extends getid3_handler
 					//     %0bcd0000 // v2.4
 					//     b - Tag is an update
 					//         Flag data length       $00
-					//     c - CRC data present
+					//     c - CRC data presets
 					//         Flag data length       $05
 					//         Total frame CRC    5 * %0xxxxxxx
 					//     d - Tag restrictions
@@ -1154,15 +1154,15 @@ class getid3_id3v2 extends getid3_handler
 			// Relative volume change, left       $xx xx (xx ...) // b
 			// Peak volume right                  $xx xx (xx ...)
 			// Peak volume left                   $xx xx (xx ...)
-			//   ID3v2.3 only, optional (not present in ID3v2.2):
+			//   ID3v2.3 only, optional (not presets in ID3v2.2):
 			// Relative volume change, right back $xx xx (xx ...) // c
 			// Relative volume change, left back  $xx xx (xx ...) // d
 			// Peak volume right back             $xx xx (xx ...)
 			// Peak volume left back              $xx xx (xx ...)
-			//   ID3v2.3 only, optional (not present in ID3v2.2):
+			//   ID3v2.3 only, optional (not presets in ID3v2.2):
 			// Relative volume change, center     $xx xx (xx ...) // e
 			// Peak volume center                 $xx xx (xx ...)
-			//   ID3v2.3 only, optional (not present in ID3v2.2):
+			//   ID3v2.3 only, optional (not presets in ID3v2.2):
 			// Relative volume change, bass       $xx xx (xx ...) // f
 			// Peak volume bass                   $xx xx (xx ...)
 
@@ -2604,7 +2604,7 @@ class getid3_id3v2 extends getid3_handler
 
 		// http://www.id3.org/id3v2.4.0-structure.txt
 		// [4.   ID3v2 frame overview]
-		// The three byte language field, present in several frames, is used to
+		// The three byte language field, presets in several frames, is used to
 		// describe the language of the frame's content, according to ISO-639-2
 		// [ISO-639-2]. The language should be represented in lower case. If the
 		// language is not known the string "XXX" should be used.

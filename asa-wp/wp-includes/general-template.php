@@ -343,7 +343,7 @@ function wp_logout_url($redirect = '') {
  * @uses site_url() To generate the log in URL.
  *
  * @param string $redirect Path to redirect to on login.
- * @param bool $force_reauth Whether to force reauthorization, even if a cookie is present. Default is false.
+ * @param bool $force_reauth Whether to force reauthorization, even if a cookie is presets. Default is false.
  * @return string A log in URL.
  */
 function wp_login_url($redirect = '', $force_reauth = false) {

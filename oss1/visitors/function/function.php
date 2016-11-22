@@ -1,6 +1,6 @@
 <?php
 function myconnection(){
-    return mysqli_connect("localhost","root","","oss");
+    return mysqli_connect("localhost","root","","oss1");
 }
 $con=myconnection();
 function Run($query){
@@ -33,6 +33,7 @@ if (isset($_POST['pro_submit'])) {
     $price = $_POST['price'];
     $type = $_POST['type'];
     $on_bet = $_POST['on_bet'];
+    $time=date("Y-m-d H:i:s");
     $description = $_POST['description'];
     $vid = $_POST['vid'];
     if($on_bet!="Yes"){
@@ -49,8 +50,8 @@ if (isset($_POST['pro_submit'])) {
     foreach ($file_name as $item)
         array_push($arr_name,$item);
     $img_path=json_encode($arr_name);
-    $sql="insert into productdetails(p_name,price,type,approved,description,vid,sell_out,on_bet,image) 
-                                VALUES ('$p_name','$price','$type','0','$description','$vid','0','$bet','$img_path')";
+    $sql="insert into productdetails(p_name,price,type,date,approved,description,vid,sell_out,on_bet,image) 
+                                VALUES ('$p_name','$price','$type','$time','0','$description','$vid','0','$bet','$img_path')";
 
 
     if($con->query($sql)){

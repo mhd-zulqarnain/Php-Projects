@@ -11,8 +11,8 @@ if(isset($_SESSION['uid']))
     <meta charset="UTF-8">
     <title>Document</title>
     <link href="style/admin.css" rel="stylesheet">
-    <link href="../style/bootstrap.min.css" rel="stylesheet">
-    <link href="../style/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/custom.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>

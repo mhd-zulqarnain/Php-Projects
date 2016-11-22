@@ -330,7 +330,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 		elseif ( 'top' == $which && 'mustuse' == $status )
 			echo '<p>' . sprintf( __( 'Files in the <code>%s</code> directory are executed automatically.' ), str_replace( ABSPATH, '/', WPMU_PLUGIN_DIR ) ) . '</p>';
 		elseif ( 'top' == $which && 'dropins' == $status )
-			echo '<p>' . sprintf( __( 'Drop-ins are advanced plugins in the <code>%s</code> directory that replace WordPress functionality when present.' ), str_replace( ABSPATH, '', WP_CONTENT_DIR ) ) . '</p>';
+			echo '<p>' . sprintf( __( 'Drop-ins are advanced plugins in the <code>%s</code> directory that replace WordPress functionality when presets.' ), str_replace( ABSPATH, '', WP_CONTENT_DIR ) ) . '</p>';
 
 		echo '</div>';
 	}

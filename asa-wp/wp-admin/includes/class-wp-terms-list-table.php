@@ -341,7 +341,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 		$out .= '<div class="hidden" id="inline_' . $qe_data->term_id . '">';
 		$out .= '<div class="name">' . $qe_data->name . '</div>';
 
-		/** This filter is documented in wp-admin/edit-tag-form.php */
+		/** This filter is documented in wp-admin/edit-tag-Visitor_Report.php */
 		$out .= '<div class="slug">' . apply_filters( 'editable_slug', $qe_data->slug ) . '</div>';
 		$out .= '<div class="parent">' . $qe_data->parent . '</div></div>';
 
@@ -353,7 +353,7 @@ class WP_Terms_List_Table extends WP_List_Table {
 	}
 
 	public function column_slug( $tag ) {
-		/** This filter is documented in wp-admin/edit-tag-form.php */
+		/** This filter is documented in wp-admin/edit-tag-Visitor_Report.php */
 		return apply_filters( 'editable_slug', $tag->slug );
 	}
 

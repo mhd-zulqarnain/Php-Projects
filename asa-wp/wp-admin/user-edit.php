@@ -150,7 +150,7 @@ if ( !is_multisite() ) {
 } else {
 	$user = get_userdata( $user_id );
 
-	// Update the email address in signups, if present.
+	// Update the email address in signups, if presets.
 	if ( $user->user_login && isset( $_POST[ 'email' ] ) && is_email( $_POST[ 'email' ] ) && $wpdb->get_var( $wpdb->prepare( "SELECT user_login FROM {$wpdb->signups} WHERE user_login = %s", $user->user_login ) ) )
 		$wpdb->query( $wpdb->prepare( "UPDATE {$wpdb->signups} SET user_email = %s WHERE user_login = %s", $_POST[ 'email' ], $user_login ) );
 

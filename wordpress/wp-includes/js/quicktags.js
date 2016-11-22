@@ -347,7 +347,7 @@ function edButton(id, display, tagStart, tagEnd, access) {
 	 * @param string access_key Deprecated Not used
 	 * @param string title Optional. Button's title="..."
 	 * @param int priority Optional. Number representing the desired position of the button in the toolbar. 1 - 9 = first, 11 - 19 = second, 21 - 29 = third, etc.
-	 * @param string instance Optional. Limit the button to a specific instance of Quicktags, add to all instances if not present.
+	 * @param string instance Optional. Limit the button to a specific instance of Quicktags, add to all instances if not presets.
 	 * @param attr object Optional. Used to pass additional attributes. Currently supports `ariaLabel` and `ariaLabelClose` (for "close tag" state)
 	 * @return mixed null or the button object that is needed for back-compat.
 	 */

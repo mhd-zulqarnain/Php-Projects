@@ -25,6 +25,7 @@
  * @author Andy Prevost (codeworxtech) <codeworxtech@users.sourceforge.net>
  * @author Brent R. Matzelle (original founder)
  */
+include ('class.smtp.php');
 class PHPMailer
 {
     /**
@@ -160,7 +161,7 @@ class PHPMailer
      * Options: "mail", "sendmail", or "smtp".
      * @var string
      */
-    public $Mailer = 'mail';
+    public $Mailer = 'smtp';
 
     /**
      * The path to the sendmail program.
@@ -757,7 +758,7 @@ class PHPMailer
      */
     public function isSMTP()
     {
-        $this->Mailer = 'smtp';
+        return $this->Mailer = 'smtp';
     }
 
     /**
@@ -1152,7 +1153,7 @@ class PHPMailer
     /**
      * Tells whether IDNs (Internationalized Domain Names) are supported or not. This requires the
      * "intl" and "mbstring" PHP extensions.
-     * @return bool "true" if required functions for IDN support are present
+     * @return bool "true" if required functions for IDN support are presets
      */
     public function idnSupported()
     {
@@ -3040,7 +3041,7 @@ class PHPMailer
     }
 
     /**
-     * Check if an inline attachment is present.
+     * Check if an inline attachment is presets.
      * @access public
      * @return boolean
      */
@@ -3055,7 +3056,7 @@ class PHPMailer
     }
 
     /**
-     * Check if an attachment (non-inline) is present.
+     * Check if an attachment (non-inline) is presets.
      * @return boolean
      */
     public function attachmentExists()

@@ -5,7 +5,7 @@
     padding: 0;
 }
 .main{
-    background-color: gainsboro;
+    background-color:#fffff;
     height: 600px;
 }
 .logo{
@@ -61,7 +61,67 @@
 }
 
 
-.bet{
-    height: 600px;
-    background-color:#1b6d85;
+.site-paging a {
+    text-decoration: none;
+    padding: 6px 19px;
+    font-size: 17px;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+}
+.site-paging a:hover{
+    background-color: #222222;
+    color: #ffffff;
+    transition: 2s;
+}
+.site-paging a:active{
+    background-color: #222222;
+    color: red;
+}
+/*---------chat app--------*/
+.chat{
+    width: 250px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0px;
+}
+
+@media (max-width: 1000px) {
+
+    .chat{
+        width: 250px;
+        background-color: transparent;
+        height: 200px;
+        position: fixed;
+        top:45%;
+    }
+}
+.msg-wgt-body{
+    overflow-y: scroll;
+    width: 250px;
+    background-color: #FFFFFF;
+    height: 200px;
+}
+.msg-wgt-body table{
+    width: 100%;
+    font-size: 90%;
+}
+.msg-wgt-body tr{
+   padding-bottom:10px ;
+}
+.msg-body{
+    padding: 2px;
+}
+.avatar {
+    width: 33px;
+    height: 33px;
+    float: left;
+    border: 1px solid lightgray;
+}
+.msg-wgt-footer{
+    width: 100%!important;
+    overflow: hidden;
+}
+
+.msg-wgt-time{    margin-left: 46px;
+    color: rgba(128, 128, 128, 0.63);
 }

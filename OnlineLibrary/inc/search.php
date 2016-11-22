@@ -52,7 +52,7 @@ if($num_rows > 0){
             <td> %s </td>
             <td> %s </td>
             <td> 
-              <a href ='details.php?id=$id'><input type='button' name='details' value='View Details' class='btn'></a>
+              <a href ='detail.php?id=$id'><input type='button' name='details' value='View Details' class='btn'></a>
             </td>
           </tr>",
           htmlentities($row["book_title"]),

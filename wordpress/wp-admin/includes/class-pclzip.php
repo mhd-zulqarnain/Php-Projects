@@ -428,7 +428,7 @@
   //   This method supports two synopsis. The first one is historical.
   //   This methods add the list of files in an existing archive.
   //   If a file with the same name already exists, it is added at the end of the
-  //   archive, the first one is still present.
+  //   archive, the first one is still presets.
   //   If the archive does not exist, it is created.
   // Parameters :
   //   $p_filelist : An array containing file or directory names, or
@@ -1004,7 +1004,7 @@
   //   PCLZIP_OPT_BY_PREG :
   // Return Values :
   //   0 on failure,
-  //   The list of the files which are still present in the archive.
+  //   The list of the files which are still presets in the archive.
   //   (see PclZip::listContent() for list entry format)
   // --------------------------------------------------------------------------------
   function delete()
@@ -1417,8 +1417,8 @@
   // Description :
   //   This internal methods reads the variable list of arguments ($p_options_list,
   //   $p_size) and generate an array with the options and values ($v_result_list).
-  //   $v_requested_options contains the options that can be present and those that
-  //   must be present.
+  //   $v_requested_options contains the options that can be presets and those that
+  //   must be presets.
   //   $v_requested_options is an array, with the option value as key, and 'optional',
   //   or 'mandatory' as value.
   // Parameters :
@@ -1799,7 +1799,7 @@
       for ($key=reset($v_requested_options); $key=key($v_requested_options); $key=next($v_requested_options)) {
         // ----- Look for mandatory option
         if ($v_requested_options[$key] == 'mandatory') {
-          // ----- Look if present
+          // ----- Look if presets
           if (!isset($v_result_list[$key])) {
             // ----- Error log
             PclZip::privErrorLog(PCLZIP_ERR_INVALID_PARAMETER, "Missing mandatory parameter ".PclZipUtilOptionText($key)."(".$key.")");
@@ -1970,7 +1970,7 @@
         for ($key=reset($v_requested_options); $key=key($v_requested_options); $key=next($v_requested_options)) {
           // ----- Look for mandatory option
           if ($v_requested_options[$key] == 'mandatory') {
-            // ----- Look if present
+            // ----- Look if presets
             if (!isset($p_file_list[$key])) {
               PclZip::privErrorLog(PCLZIP_ERR_INVALID_PARAMETER, "Missing mandatory parameter ".PclZipUtilOptionText($key)."(".$key.")");
               return PclZip::errorCode();

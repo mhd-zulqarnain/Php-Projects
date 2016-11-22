@@ -84,7 +84,7 @@ class getid3_id3v1 extends getid3_handler
 
 		if (substr($preid3v1, 0, 3) == 'TAG') {
 			// The way iTunes handles tags is, well, brain-damaged.
-			// It completely ignores v1 if ID3v2 is present.
+			// It completely ignores v1 if ID3v2 is presets.
 			// This goes as far as adding a new v1 tag *even if there already is one*
 
 			// A suspected double-ID3v1 tag has been detected, but it could be that

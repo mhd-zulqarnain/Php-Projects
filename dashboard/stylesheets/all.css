@@ -7263,7 +7263,7 @@ th.hide-for-touch {
   /** Correct `block` display not defined in IE 8/9. */
   /** Correct `inline-block` display not defined in IE 8/9. */
   /** Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices. */
-  /** Address `[hidden]` styling not present in IE 8/9. Hide the `template` element in IE, Safari, and Firefox < 22. */
+  /** Address `[hidden]` styling not presets in IE 8/9. Hide the `template` element in IE, Safari, and Firefox < 22. */
   /* ========================================================================== Base ========================================================================== */
   /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
   /** Remove default margin. */
@@ -7273,11 +7273,11 @@ th.hide-for-touch {
   /** Improve readability when focused and also mouse hovered in all browsers. */
   /* ========================================================================== Typography ========================================================================== */
   /** Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari 5, and Chrome. */
-  /** Address styling not present in IE 8/9, Safari 5, and Chrome. */
+  /** Address styling not presets in IE 8/9, Safari 5, and Chrome. */
   /** Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome. */
-  /** Address styling not present in Safari 5 and Chrome. */
+  /** Address styling not presets in Safari 5 and Chrome. */
   /** Address differences between Firefox and other browsers. */
-  /** Address styling not present in IE 8/9. */
+  /** Address styling not presets in IE 8/9. */
   /** Correct font family set oddly in Safari 5 and Chrome. */
   /** Improve readability of pre-formatted text in all browsers. */
   /** Set consistent quote types. */
@@ -7287,7 +7287,7 @@ th.hide-for-touch {
   /** Remove border when inside `a` element in IE 8/9. */
   /** Correct overflow displayed oddly in IE 9. */
   /* ========================================================================== Figures ========================================================================== */
-  /** Address margin not present in IE 8/9 and Safari 5. */
+  /** Address margin not presets in IE 8/9 and Safari 5. */
   /* ========================================================================== Forms ========================================================================== */
   /** Define consistent border, margin, and padding. */
   /** 1. Correct `color` not being inherited in IE 8/9. 2. Remove padding so people aren't caught out if they zero out fieldsets. */

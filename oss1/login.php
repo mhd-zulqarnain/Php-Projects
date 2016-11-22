@@ -58,7 +58,7 @@ if(isset($_SESSION['vid'])){
             $_SESSION['LAST_ACTIVITY'] = time();
             $last_activity = $_SESSION['LAST_ACTIVITY'];
             if (is_numeric($pid)) {
-                header("location:details.php?&id=$pid");
+                header("location:detail.php?&id=$pid");
             } else {
                 header("location:visitors/items.php");
             }

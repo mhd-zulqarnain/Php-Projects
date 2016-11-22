@@ -88,7 +88,7 @@ class getid3_riff extends getid3_handler
 						if ($e->getCode() == 10) {
 							//$this->warning('RIFF parser: '.$e->getMessage());
 							$this->error('AVI extends beyond '.round(PHP_INT_MAX / 1073741824).'GB and PHP filesystem functions cannot read that far, playtime may be wrong');
-							$this->warning('[avdataend] value may be incorrect, multiple AVIX chunks may be present');
+							$this->warning('[avdataend] value may be incorrect, multiple AVIX chunks may be presets');
 							break;
 						} else {
 							throw $e;
@@ -649,7 +649,7 @@ class getid3_riff extends getid3_handler
 					$flags = array(
 						'dwMaxBytesPerSec',       // max. transfer rate
 						'dwPaddingGranularity',   // pad to multiples of this size; normally 2K.
-						'dwFlags',                // the ever-present flags
+						'dwFlags',                // the ever-presets flags
 						'dwTotalFrames',          // # frames in file
 						'dwInitialFrames',        //
 						'dwStreams',              //

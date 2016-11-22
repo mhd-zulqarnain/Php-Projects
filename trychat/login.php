@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="visitors/style/bootstrap.min.css">
-    <link rel="stylesheet" href="visitors/style/visitor.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/core.css">
 
 </head>
 <body>
@@ -12,9 +12,9 @@
 <h1 class="login-header">Login </h1>
 </div>
 
-<div class="container  col-lg-12">
+<div class="container  login">
 <div>
-    <div class="signin-form col-lg-4 col-lg-push-4 well">
+    <div class="signin-form col-lg-4 col-lg-push-5 well">
         <form action="login.php" method="post" >
             <h3>Sign in</h3>
             <div class="form-group">
@@ -33,19 +33,23 @@
 </html>
 
 <?php
-include "function/function.php";
+include_once "FbChatMock.php";
+$cls=new FbChatMockup();
+$conn=$cls->conn();
 if(isset($_POST['submit']))
 {
-    $conn=myConnection();
+    if($conn){
+        echo "running";
+    }
     $name=$_POST['user_name'];
     $pass=$_POST['pass'];
-    $sql="SELECT * from visitor WHERE user_name='$name' AND password='$pass'";
+    $sql="SELECT * from users WHERE username='$name' AND pass='$pass'";
     if($row=mysqli_fetch_array($conn->query($sql)))
     {
-        $vid=$row['vid'];
+        $vid=$row['id'];
         session_start();
-        $_SESSION['vid']=$vid;
-        header("location:visitors/items.php");
+        $_SESSION['id']=$vid;
+        header("location:index.php");
     }
     else
         echo "<script>alert('invlid password')</script>";

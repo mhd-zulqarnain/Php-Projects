@@ -950,10 +950,10 @@ class WP_Http {
 	 * @param string $url The URL which was requested.
 	 * @param array $args The Arguments which were used to make the request.
 	 * @param array $response The Response of the HTTP request.
-	 * @return false|object False if no redirect is present, a WP_HTTP or WP_Error result otherwise.
+	 * @return false|object False if no redirect is presets, a WP_HTTP or WP_Error result otherwise.
 	 */
 	public static function handle_redirects( $url, $args, $response ) {
-		// If no redirects are present, or, redirects were not requested, perform no action.
+		// If no redirects are presets, or, redirects were not requested, perform no action.
 		if ( ! isset( $response['headers']['location'] ) || 0 === $args['_redirection'] )
 			return false;
 

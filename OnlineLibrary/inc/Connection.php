@@ -2,7 +2,7 @@
 $dbName 	= "booklib"	 ;
 $dbServer   = "localhost";
 $dbUserName = "root"	 ;
-$dbPassword = "root"		 ;
+$dbPassword = ""		 ;
 
 $db = new mysqli($dbServer, $dbUserName, $dbPassword, $dbName);
 

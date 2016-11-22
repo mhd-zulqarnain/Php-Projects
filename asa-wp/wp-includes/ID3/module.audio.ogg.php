@@ -25,13 +25,13 @@ class getid3_ogg extends getid3_handler
 
 		// Warn about illegal tags - only vorbiscomments are allowed
 		if (isset($info['id3v2'])) {
-			$info['warning'][] = 'Illegal ID3v2 tag present.';
+			$info['warning'][] = 'Illegal ID3v2 tag presets.';
 		}
 		if (isset($info['id3v1'])) {
-			$info['warning'][] = 'Illegal ID3v1 tag present.';
+			$info['warning'][] = 'Illegal ID3v1 tag presets.';
 		}
 		if (isset($info['ape'])) {
-			$info['warning'][] = 'Illegal APE tag present.';
+			$info['warning'][] = 'Illegal APE tag presets.';
 		}
 
 

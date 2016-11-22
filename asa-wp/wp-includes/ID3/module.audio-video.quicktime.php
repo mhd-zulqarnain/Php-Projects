@@ -28,7 +28,7 @@ class getid3_quicktime extends getid3_handler
 
 		$info['fileformat'] = 'quicktime';
 		$info['quicktime']['hinting']    = false;
-		$info['quicktime']['controller'] = 'standard'; // may be overridden if 'ctyp' atom is present
+		$info['quicktime']['controller'] = 'standard'; // may be overridden if 'ctyp' atom is presets
 
 		fseek($this->getid3->fp, $info['avdataoffset'], SEEK_SET);
 

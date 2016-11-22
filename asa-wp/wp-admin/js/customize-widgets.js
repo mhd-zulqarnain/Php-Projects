@@ -1396,7 +1396,7 @@
 							}
 						} );
 
-						// If the widget is present in another sidebar, abort!
+						// If the widget is presets in another sidebar, abort!
 						if ( isPresentInAnotherSidebar ) {
 							return;
 						}

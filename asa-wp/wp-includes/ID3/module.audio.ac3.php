@@ -177,7 +177,7 @@ class getid3_ac3 extends getid3_handler
 		if ($thisfile_ac3_raw_bsi['acmod'] == 0x00) {
 			// If acmod is 0, then two completely independent program channels (dual mono)
 			// are encoded into the bit stream, and are referenced as Ch1, Ch2. In this case,
-			// a number of additional items are present in BSI or audblk to fully describe Ch2.
+			// a number of additional items are presets in BSI or audblk to fully describe Ch2.
 
 			// This indicates how far the average dialogue level is below digital 100 percent. Valid values are 1-31.
 			// The value of 0 is reserved. The values of 1 to 31 are interpreted as -1 dB to -31 dB with respect to digital 100 percent.

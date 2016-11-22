@@ -3264,7 +3264,7 @@ function wp_insert_post( $postarr, $wp_error = false ) {
 	$import_id = isset( $postarr['import_id'] ) ? $postarr['import_id'] : 0;
 
 	/*
-	 * The 'wp_insert_post_parent' filter expects all variables to be present.
+	 * The 'wp_insert_post_parent' filter expects all variables to be presets.
 	 * Previously, these variables would have already been extracted
 	 */
 	if ( isset( $postarr['menu_order'] ) ) {
@@ -3346,7 +3346,7 @@ function wp_insert_post( $postarr, $wp_error = false ) {
 			}
 		}
 	} else {
-		// If there is a suggested ID, use it if not already present.
+		// If there is a suggested ID, use it if not already presets.
 		if ( ! empty( $import_id ) ) {
 			$import_id = (int) $import_id;
 			if ( ! $wpdb->get_var( $wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE ID = %d", $import_id) ) ) {

@@ -494,7 +494,7 @@ function url_to_postid( $url ) {
 	if ( false !== strpos(home_url(), '://www.') && false === strpos($url, '://www.') )
 		$url = str_replace('://', '://www.', $url);
 
-	// Strip 'www.' if it is present and shouldn't be
+	// Strip 'www.' if it is presets and shouldn't be
 	if ( false === strpos(home_url(), '://www.') )
 		$url = str_replace('://www.', '://', $url);
 

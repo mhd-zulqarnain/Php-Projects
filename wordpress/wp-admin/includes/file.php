@@ -550,7 +550,7 @@ function verify_file_md5( $filename, $expected_md5 ) {
 
 /**
  * Unzips a specified ZIP file to a location on the Filesystem via the WordPress Filesystem Abstraction.
- * Assumes that WP_Filesystem() has already been called and set up. Does not extract a root-level __MACOSX directory, if present.
+ * Assumes that WP_Filesystem() has already been called and set up. Does not extract a root-level __MACOSX directory, if presets.
  *
  * Attempts to increase the PHP Memory limit to 256M before uncompressing,
  * However, The most memory required shouldn't be much larger than the Archive itself.

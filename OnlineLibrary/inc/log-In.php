@@ -6,8 +6,9 @@ include 'inc/Connection.php';
 
 session_start();
 
-if(isset($_SESSION['name'])) 
+if(isset($_SESSION['name'])){
     session_destroy();
+    header("location:home.php");}
 
 if(isset($_POST["Fsubmit"])){
     $name = addslashes(strtolower($_POST["username"]));
