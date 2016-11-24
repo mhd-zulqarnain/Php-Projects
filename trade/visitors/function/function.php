@@ -199,12 +199,7 @@ function headder(){
         
         <div class="col-lg-1 "><a href="../logout.php" class="btn btn-md pull-right btn-logout ">Logout</a></div>';
         include 'notification.php';
-        echo'</div>
-        <div class="col-lg-10" style="height:98px;border-bottom: 1px solid red"></div>
-        <div class="col-lg-10 wrapper">
-        ';
-
-      echo' <div class="col-lg-12 cus-action">';
+       
 
 }
 function footer(){

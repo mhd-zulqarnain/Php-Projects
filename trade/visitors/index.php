@@ -5,8 +5,13 @@ session_start();
 if($_SESSION['vid']!="") {
     $id=$_SESSION['vid'];
     headder();
+
+
     ?>
 
+    <div class="col-lg-12" style="height:98px;border-bottom: 1px solid red"></div>
+    <div class="col-lg-10 wrapper">
+  <div class="col-lg-12 cus-action">
     <input type="hidden" value="<?php echo $_SESSION['vid']?>" class="vid">
                <div class="col-lg-8  cus-insert">
                     <form action="function/function.php" method="post" enctype="multipart/form-data"  name="prod_form">

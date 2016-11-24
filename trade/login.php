@@ -31,7 +31,7 @@ if(isset($_SESSION['vid'])){
                     </div>
                     <div class="form-group">
                         <input type="password" name="pass" placeholder="Password" class="form-control" required>
-                        <input type="hidden" name="pid" value="<?php echo $_REQUEST['pid'] ?>" class="form-control">
+                        <input type="hidden" name="pid" value="<?php echo $_REQUEST['pp'] ?>" class="form-control">
                     </div>
                     <input type="submit" name="submit" class="col-lg-2 btn btn-md" value="Login">
                     <a href="signup.php" class="pull-right">Registor</a>
@@ -58,9 +58,9 @@ if(isset($_SESSION['vid'])){
             $_SESSION['LAST_ACTIVITY'] = time();
             $last_activity = $_SESSION['LAST_ACTIVITY'];
             if (is_numeric($pid)) {
-                header("location:detail.php?&id=$pid");
+                header("location:index.php");
             } else {
-                header("location:visitors/items.php");
+                header("location:visitors/index.php");
             }
         } else
             echo "<script>alert('invlid password')</script>";

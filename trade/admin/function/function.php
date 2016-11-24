@@ -1,7 +1,7 @@
 <?php
 function myconnection(){
 
-    return mysqli_connect("localhost","root","","oss");
+    return mysqli_connect("localhost","root","","oss1");
 }
 $con=myconnection();
 
