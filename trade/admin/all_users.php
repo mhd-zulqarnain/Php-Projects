@@ -34,14 +34,12 @@
 
           <th>Name</th>
           <th>Mobile</th>
-          <th>City</th>
           <th>Username</th>
           <th>Action</th>';
         while ($row=mysqli_fetch_array($result)){
 
             $name=ucfirst($row['name']) ;
             $phnumber=$row['ph_number'];
-            $city=strtoupper($row['city']);
             $u_name=$row['user_name'];
             $vid=$row['vid'];
             echo'
@@ -49,7 +47,6 @@
            <tr>
                <td><a href="u_details.php?&vid='.$vid.'">'.$name.'</a> </td>
                <td>'.$phnumber.'</td>
-               <td>'.$city.'</td>
                <td>'.$u_name.'</td>
                <td><input type="button" onClick="delUser('.$vid.')" value="DELETE" class="btn btn-primary btnDel "></td>
            </tr>';

@@ -8,7 +8,9 @@ if($_SESSION['vid']!="")
 headder();
 
     echo'</div>
-        <div class="col-lg-10" style="height:98px;border-bottom: 1px solid red"></div>
+        <div class="col-lg-10" style="border-bottom: 1px solid red">
+        <h2>ALL ADS</h2>
+        </div>
         <div class="col-lg-10 wrapper">
         ';
 

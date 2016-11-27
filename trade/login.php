@@ -31,7 +31,8 @@ if(isset($_SESSION['vid'])){
                     </div>
                     <div class="form-group">
                         <input type="password" name="pass" placeholder="Password" class="form-control" required>
-                        <input type="hidden" name="pid" value="<?php echo $_REQUEST['pp'] ?>" class="form-control">
+                        <input type="hidden" name="pp" value="<?php echo $_REQUEST['pp'] ?>" class="form-control">
+                        <input type="hidden" name="pid" value="<?php echo $_REQUEST['pid'] ?>" class="form-control">
                     </div>
                     <input type="submit" name="submit" class="col-lg-2 btn btn-md" value="Login">
                     <a href="signup.php" class="pull-right">Registor</a>
@@ -48,6 +49,7 @@ if(isset($_SESSION['vid'])){
         $conn = mysqli_connect("localhost","root","","oss1");
         $name = $_POST['user_name'];
         $pass = $_POST['pass'];
+        $pp = $_POST['pp'];
         $pid = $_POST['pid'];
         $sql = "SELECT * from visitor WHERE user_name='$name' AND password='$pass'";
         if ($row = mysqli_fetch_array($conn->query($sql))) {
@@ -57,8 +59,11 @@ if(isset($_SESSION['vid'])){
             $_SESSION['vid'] = $vid;
             $_SESSION['LAST_ACTIVITY'] = time();
             $last_activity = $_SESSION['LAST_ACTIVITY'];
-            if (is_numeric($pid)) {
+            if (is_numeric($pp)) {
                 header("location:index.php");
+            }
+            else if (is_numeric($pid)) {
+                header("location:detail.php?&pid=$pid");
             } else {
                 header("location:visitors/index.php");
             }

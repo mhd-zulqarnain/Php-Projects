@@ -1,3 +1,4 @@
+/*
 		jQuery(document).ready(function($){
 			$('.preset-list li a').on('click',function(event){
 				event.preventDefault();
@@ -8,7 +9,7 @@
 					ctaIconSrc2 = 'images/presets/'+color+'/14.png';
 					ctaIconSrc3 = 'images/presets/'+color+'/15.png';
 					ctaIconSrc4 = 'images/presets/'+color+'/logo3.png';
-					
+
 				$('.navbar-brand img').attr('src', logoSrc);
 				$('.cta-icon.icon-secure img').attr('src', ctaIconSrc);
 				$('.cta-icon.icon-support img').attr('src', ctaIconSrc2);
@@ -21,4 +22,4 @@
 				event.preventDefault();
 				$(this).closest('.style-chooser').toggleClass('opened');
 			});
-		});
+		});*/

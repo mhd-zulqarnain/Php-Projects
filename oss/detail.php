@@ -52,7 +52,9 @@ if(isset($_SESSION['vid'])!=""){
             </ul>
         </div>
         <div class="col-lg-8 product">
+
             <?php getProDetails();
+            echo '<div class="col-lg-3 col-lg-push-7 chat">';
              $session=isset($_SESSION['vid'])?true:false;
             if($session) {
                 $time=time()-20;
@@ -63,12 +65,12 @@ if(isset($_SESSION['vid'])!=""){
                     //------if dealer is online------
                 {
                  ?>
-                  <div class="col-lg-3 col-lg-push-7 chat">
 
-                    <div class="col-lg-12" style="text-align: center;background-color: blue;color: white">
+
+                    <div class="col-lg-12 chatHead" style="text-align: center;background-color: blue;color: white">
                         <h3>Deal the Product</h3>
                     </div>
-                    
+               <div class="toog">     
                     <div class="col-lg-12 msg-wgt-body">
                         <table>
                             <?php
@@ -99,18 +101,18 @@ if(isset($_SESSION['vid'])!=""){
                         </table>
                     </div>
                     <input type="hidden" id='proID' value="<?php echo $_REQUEST['id'] ?>">
-                    <!--for sending id to js chat-->
 
                     <div class="msg-wgt-footer col-lg-12" style="width: 99%;">
                         <textarea id="text" placeholder="Type your message" onkeypress="chat()"
                                   style="width: 100%"></textarea>
                     </div>
+               </div>
                     <?php
                     //------if dealer is online end------
                 }
                    ////-----------for dealer is not online-----
                     else{
-                        echo '<div class="col-lg-3 col-lg-push-7 chat">
+                        echo '
                                 <div class="col-lg-12" style="text-align: center;background-color: blue;color: white">
                                 <h3>Deal the Product</h3>
                                 </div>
@@ -131,10 +133,11 @@ if(isset($_SESSION['vid'])!=""){
             }else
             {?>
                 <!--If you are not signed in-->
-                <div class="col-lg-3 col-lg-push-7 chat">
-                    <div class="col-lg-12" style="text-align: center;background-color: blue;color: white">
+
+                    <div class="col-lg-12 chatHead" style="text-align: center;background-color: blue;color: white">
                         <h3>Deal the Product</h3>
                     </div>
+        <div class="toog">
                     <div class="col-lg-12 msg-wgt-body">
                         <table>
                         <tr>
@@ -151,7 +154,7 @@ if(isset($_SESSION['vid'])!=""){
                         <textarea id="text" placeholder="Sign in chat" disabled style="width: 100%"></textarea>
                     </div>
                 </div>
-
+    </div>
             <?php
             }
             ?>
@@ -164,7 +167,9 @@ if(isset($_SESSION['vid'])!=""){
 </html>
 <script>
     $(".msg-wgt-body").animate({ scrollTop: $('.msg-wgt-body').prop("scrollHeight")},1);
-
+$('.chatHead').click(function () {
+    $('.toog').toggle();
+})
 </script>
 
 <?php

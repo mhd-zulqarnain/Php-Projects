@@ -1,54 +1,70 @@
-
+<?php 
+session_start(); 
+include("includes/db.php");
+?>
+<!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="../visitors/style/bootstrap.min.css">
-    <link rel="stylesheet" href="../visitors/style/visitor.css">
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="login.css" media="all" />
 </head>
+
 <body>
-<div  style="border-bottom:1px solid black;height: 40px;padding:0;margin:0;background-color: red ">
-<h1 class="login-header">Login </h1>
+
+
+<div class="login">
+	<h1>Admin Login</h1>
+    <form method="post">
+    	<input type="text" name="admin_email" placeholder="Email" required="required" />
+        <input type="password" name="admin_name" placeholder="Password" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large" name="login">Admin Login</button>
+    </form>
 </div>
 
-<div class="container  col-lg-12">
-<div>
-    <div class="signin-form col-lg-4 col-lg-push-4 well">
-        <form action="login.php" method="post" >
-            <h3>Sign in</h3>
-            <div class="form-group">
-
-                <input type="text" name="user_name" placeholder="Enter your email" class="form-control" required >
-            </div><div class="form-group">
-                <input type="password" name="pass" placeholder="Password" class="form-control" required >
-            </div>
-            <input type="submit" name="submit" class="col-lg-2 btn btn-md" value="Login">
-        </form>
-    </div>
-
-</div>
+<h2 style="color:white; text-align:center; padding:20px;"><?php echo @$_GET['logout']; ?></h2>
 </body>
 </html>
 
-<?php
-include "function/function.php";
-if(isset($_POST['submit']))
-{
-    $conn=myConnection();
-    $name=$_POST['user_name'];
-    $pass=$_POST['pass'];
-    $sql="SELECT * from admins WHERE user_name='$name' AND password='$pass'";
-    if($row=mysqli_fetch_array($conn->query($sql)))
-    {
-        $vid=$row['uid'];
-        session_start();
-        $_SESSION['uid']=$vid;
-        header("location:index.php");
-    }
-    else
-        echo "<script>alert('invlid password')</script>";
 
-}
+<?php 
+if(isset($_POST['login'])){
+	
+	
+	
+	$user_email = $_POST['admin_email'];
+	$user_pass = $_POST['admin_name'];
+	
+	$sel_admin = "select * from admins where admin_email='$user_email' AND admin_pass='$user_pass'";
+	
+	$run_admin = mysqli_query($con, $sel_admin); 
+	
+	$check_admin = mysqli_num_rows($run_admin);
+	
+	if($check_admin==1){
+		
+		$_SESSION['admin_email']=$user_email;
+		
+		echo "<script>window.open(index.php,'_self')</script>";
+		
+		}
+		else {
+			echo "<script>alert('Admin Email or Password is incorrect, try again')</script>";
+			
+			}
+		
+	
+	}
+
+
+
 
 ?>
+
+
+
+
+
+
+
+

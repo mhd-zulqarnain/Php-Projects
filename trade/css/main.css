@@ -35,7 +35,74 @@
 ==================================================
 
 */
+/*---------------------------------------------
+Chat
+-----------------------------------------------*/
+.chat{
+	width: 300px;
+	background-color: transparent;
+	position: fixed;
+	bottom: 0px;
+}
+.toog{}
+@media (max-width: 1000px) {
 
+	.chat{
+		width: 250px;
+		background-color: transparent;
+		height: 200px;
+		position: fixed;
+		top:45%;
+	}
+}
+
+.chatHead{
+	width: 259px;
+	background-color: #00a651!important;
+}
+.msg-wgt-body{
+	overflow-y: scroll;
+	width: 259px;
+	background-color: #FFFFFF;
+	height: 200px;
+}
+.msg-wgt-body table{
+	width: 100%;
+	font-size: 90%;
+}
+.msg-wgt-body tr{
+	padding-bottom:10px ;
+}
+.msg-body{
+	padding: 2px;
+	border-bottom: 1px solid rgba(245, 245, 220, 0.75);
+	font-size: 12px;
+}
+.avatar {
+	width: 25px;
+	height: 25px;
+	float: left;
+	border: 1px solid lightgray;
+	background-image:url("../images/avatar.png");
+
+}
+.msg-wgt-footer{
+	width: 100%!important;
+	overflow: hidden;
+}
+
+.msg-wgt-time{
+	margin-left: 46px;
+	color: rgba(30, 128, 45, 0.63);
+}
+.msg-wgt-text{
+	color: #b0b0b0;
+	font-size: 14px;
+}
+.msg-wgt-uname{
+	color: #00a651;
+	font-size: 14px;
+}
 /* ==========================================================================
  	Global
  ========================================================================== */

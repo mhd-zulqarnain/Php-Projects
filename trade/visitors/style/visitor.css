@@ -73,3 +73,37 @@ h1.login-header {
     margin: 0px 2px 0!important;
     min-width: 231px!important;
 }
+
+/*-----------*/
+.sign-in {
+    display:inline;
+}
+
+.sign-in a{
+    color: white!important;;
+}
+.sign-in li {
+    display:inline-block;
+    margin-top: 10px;
+}
+
+.language-dropdown i.fa-globe,
+.sign-in li i {
+    font-size: 14px;
+    color: white;
+    margin-right: 5px;
+}
+
+.sign-in li:last-child {
+    position: relative;
+    padding-left: 10px;
+}
+
+.sign-in li:last-child:before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 7px;
+    height: 14px;
+    content:"";
+    margin-top: -7px;}

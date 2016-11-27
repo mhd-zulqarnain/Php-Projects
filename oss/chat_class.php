@@ -1,7 +1,7 @@
 <?php
 class  chat{
     private $conn;
-    private $db="oss";
+    private $db="oss1";
     private $pass="";
     private $username="root";
     private $server="localhost";

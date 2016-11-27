@@ -39,13 +39,14 @@ function headder(){
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/ico/apple-touch-icon-57-precomposed.png">
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/modernizr.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<!--<script src="js/modernizr.min.js"></script>-->
+<!--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>-->
 <script src="js/owl.carousel.min.js"></script>
-<script src="js/scrollup.min.js"></script>
-<script src="js/jquery.countdown.js"></script>
+<!--<script src="js/scrollup.min.js"></script>-->
+<!--<script src="js/jquery.countdown.js"></script>-->
 <script src="js/custom.js"></script>
-<script src="js/switcher.js"></script>
+<script src="js/chat.js" type="text/javascript"></script>
+<!--<script src="js/switcher.js"></script>-->
 </head>
 <body>
 <!-- header -->

@@ -85,10 +85,12 @@ if (isset($_POST['pro_submit'])) {
     $con=myConnection();
     $p_name = $_POST['p_name'];
     $price = $_POST['price'];
+    $location = $_POST['location'];
     $time=date("Y-m-d H:i:s");
     $type = $_POST['type'];
     $description = $_POST['description'];
     $vid = $_POST['vid'];
+    $brand = $_POST['brand'];
 
     $file_name=$_FILES['file']['name'];
     $file_path=$_FILES['file']['tmp_name'];
@@ -99,8 +101,8 @@ if (isset($_POST['pro_submit'])) {
     foreach ($file_name as $item)
         array_push($arr_name,$item);
     $img_path=json_encode($arr_name);
-    $sql="insert into productdetails(p_name,price,type,date,approved,description,vid,sell_out,on_bet,image) 
-                                VALUES ('$p_name','$price','$type','$time','0','$description','$vid','0','$bet','$img_path')";
+    $sql="insert into productdetails(p_name,price,type,date,approved,description,vid,sell_out,brand,image,location) 
+                                VALUES ('$p_name','$price','$type','$time','0','$description','$vid','0','$brand','$img_path','$location')";
 
 
     if($con->query($sql)){
@@ -176,6 +178,13 @@ if($_POST['data']=='udata') {
 
 //................end product entery..
 function headder(){
+
+
+    $vid=$_SESSION['vid'];
+    $sql="Select name from visitor WHERE vid='$vid'";
+    $res=Run($sql);
+    $name=mysqli_fetch_assoc($res);
+
     echo '
 
     <!doctype html>
@@ -197,9 +206,18 @@ function headder(){
         echo'
         <div class="col-lg-10 header" style="height: 40px;background-color: #a94a42">
         
-        <div class="col-lg-1 "><a href="../logout.php" class="btn btn-md pull-right btn-logout ">Logout</a></div>';
+        <div class="col-lg-5 ">
+        <div class="row">
+        <ul class="sign-in">
+                    <li><i class="fa fa-user"></i></li>
+                    <li><a href="">'.ucfirst($name['name']).'</a></li>
+                    <li><a href="../logout.php?&pp=1">Logout</a></li>
+                </ul>
+        </div>
+        
+        </div>';
         include 'notification.php';
-       
+
 
 }
 function footer(){
