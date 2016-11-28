@@ -1,55 +1,109 @@
-
-<!doctype html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link href="style/visitor.css" rel="stylesheet">
-    <link href="style/bootstrap.min.css" rel="stylesheet">
-    <link href="style/font-awesome.min.css" rel="stylesheet">
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/custom.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="visitors/style/bootstrap.min.css">
+    <link rel="stylesheet" href="visitors/style/visitor.css">
+
 </head>
 <body>
-<div class="container">
-    <div class="col-lg-2 side-bar" style="height: 520px;>
-                <h3 class="list-group-item">Action</h3>
-    <ul class="list-group">
-        <a href="items.php"><li class="list-group-item fa fa-dashboard fa-1x"></li>
-            <span>Dashboard</span>
-        </a>
-        <hr>
-        <a href="index.php"> <li class="list-group-item fa fa-tags fa-1x"></li>
-            <span>Add New</span>
-        </a>
-        <hr>
-        <a href=""><li class="list-group-item fa fa-eye fa-1x"></li>
-            <span>testbar</span>
-        </a>
-
-        <hr>
-    </ul>
+<div  style="border-bottom:1px solid black;height: 40px;padding:0;margin:0;background-color: red ">
+    <h1 class="login-header">Login </h1>
 </div>
-<div class="col-lg-10 header" style="height: 40px;background-color: #a94a42">
 
-    <div class="col-lg-1 pull-right"><a href="../logout.php" class="btn btn-md pull-right btn-logout ">Logout</a></div>';
+<div class="container  col-lg-12">
+    <div>
+        <div class="signin-form col-lg-3 col-lg-push-4 well">
+            <form action="signup.php" method="post" >
 
-</div>
-<div class="col-lg-10" style="height:98px;border-bottom: 1px solid red"></div>
-<div class="col-lg-10 wrapper">
+                name:<input type="text" name="name" ><br><br>
+                phonenumber:<input type="text" name="ph_number" ><br><br>
+                email:<input type="text" name="email" required><br><br>
+                nic:<input type="text" name="nic"><br><br>
+                address:<input type="text" name="address"><br><br>
+                city:<input type="text" name="city" ><br><br>
 
-
-    <div class="col-lg-12 cus-action">
-
+                username:<input type="text" name="user_name" required><br><br>
+                password:<input type="password" name="pass" required><br><br>
+                <input type="submit" name="submit" class=" btn btn-md" value="Login">
+            </form>
+        </div>
 
     </div>
-</div>
-
-
-<div class="col-lg-12 footer" style="height: 30px;border-bottom: 1px solid red;">
-</div>
-</div>
-
 </body>
 </html>
+
+<?php
+include "function/function.php";
+
+if(isset($_POST['submit'])){
+    $name=$_POST['name'];
+    $ph_number=$_POST['ph_number'];
+    $email=$_POST['email'];
+    $nic=$_POST['nic'];
+    $address=$_POST['address'];
+    $city=$_POST['city'];
+    $user_name=$_POST['user_name'];
+    $password=$_POST['pass'];
+    $time=time();
+    $sql="INSERT INTO visitor( name, ph_number, email, nic,address, city,user_name,password,login_activity)
+           VALUES ('$name', '$ph_number', '$email', '$nic','$address', '$city','$user_name','$password','$time')";
+
+    $userchk=Run("Select user_name from visitor where user_name='$user_name'");
+    $usernamechk=mysqli_fetch_assoc($userchk);
+
+    $ph=Run("Select ph_number from visitor where ph_number='$ph_number'");
+    $phchk=mysqli_fetch_assoc($ph);
+
+
+    if($_POST['user_name']!=$usernamechk['user_name'])
+    {
+        if($_POST['ph_number']!=$phchk['ph_number'])
+        {
+            if((ctype_digit($ph_number))) {
+                if (Run($sql)) {
+
+                    $query="Select vid from visitor where user_name='$user_name' AND password='$password'";
+                    $id=Run($query);
+                    $vid=mysqli_fetch_assoc($id);
+                    $to = 'zuluparvi@gmail.com';
+
+                    $subject = 'Website Change Reqest';
+
+                    $headers = "From: " . strip_tags($_POST['req-email']) . "\r\n";
+                    $headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
+                    $headers .= "CC: susan@example.com\r\n";
+                    $headers .= "MIME-Version: 1.0\r\n";
+                    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+                    $base_url= "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+                    $message = '<a href="">hi</a>';
+                    /*$body='Hi, <br/> <br/> We need to make sure you are human. Please verify your email and get started using your Website account. <br/>
+                                    <br/> <a href="'.$base_url.'activation">'.$base_url.'activation</a>';*/
+
+                    mail($to, $subject, $message, $headers);
+                    echo "
+                    <script>
+                      alert('$message');
+                         window.location='login.php';
+                    </script>";
+                } else {
+                    echo "<script>alert('Error')</script>";
+                }
+            }
+            else
+            {
+                echo "<script>alert('Contain only number')</script>";
+            }
+        }
+        else{
+            echo "<script>alert('!PHONE NUMBER ALREADY REGISTOR')</script>";
+        }
+    }
+    else
+    {
+        echo "<script>alert('Error!Select another username')</script>";
+    }
+}
+
+
+?>

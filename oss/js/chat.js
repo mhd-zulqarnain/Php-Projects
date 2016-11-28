@@ -13,6 +13,7 @@ function chat(e,val) {
             }
             else {
                 sendMessage(msg,Pid);
+                $("#text").val('');
                 e.preventDefault();
             }
         }
@@ -21,6 +22,14 @@ function chat(e,val) {
 
 
 }
+
+var getdata =  function () {
+    $.get("function/get_message.php", function(data){
+        $(".msg-wgt-body").html(data);
+    });
+};
+
+setInterval(getdata, 3000);
 
 function sendMessage(mesg,pid) {
     $obj={
@@ -33,7 +42,7 @@ function sendMessage(mesg,pid) {
         type:"POST",
         data:$obj,
         success:function () {
-        location.reload();
+            getdata();
         }
 
         

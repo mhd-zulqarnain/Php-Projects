@@ -1,18 +1,25 @@
 <?php
-function myconnection(){
-    return mysqli_connect("localhost","root","","oss1");
+function myconnection()
+{
+    return mysqli_connect("localhost", "root", "", "oss1");
 }
-$con=myconnection();
-function Run($query){
+
+$con = myconnection();
+function Run($query)
+{
     global $con;
     return $con->query($query);
 }
-function removePro($id){
-    $sql="Delete from productdetails where pid='$id'";
+
+function removePro($id)
+{
+    $sql = "Delete from productdetails where pid='$id'";
     return Run($sql);
 }
+
 //-!product view----//
-function moreProxm(){
+function moreProxm()
+{
     global $con;
     $lable = "select * from productdetails WHERE approved=1 limit 5";
     $res = mysqli_query($con, $lable);
@@ -66,78 +73,117 @@ function moreProxm(){
     }
 
 }
-function isSell(){
-    $con=myconnection();
-    $sql="Select sell_out from productdetails";
+
+function isSell()
+{
+    $con = myconnection();
+    $sql = "Select sell_out from productdetails";
     Run($sql);
 }
+
 ///....remove items
-if(isset($_REQUEST['re_pid'])){
-    $id=$_REQUEST['re_pid'];
-    if(removePro($id))
-    header("location:../items.php");
+if (isset($_REQUEST['re_pid'])) {
+    $id = $_REQUEST['re_pid'];
+    if (removePro($id))
+        header("location:../items.php");
 
 }
 //-----------------product add-----
 
 if (isset($_POST['pro_submit'])) {
 
-    $con=myConnection();
+    $con = myConnection();
     $p_name = $_POST['p_name'];
     $price = $_POST['price'];
     $location = $_POST['location'];
-    $time=date("Y-m-d H:i:s");
+    $time = date("Y-m-d H:i:s");
     $type = $_POST['type'];
     $description = $_POST['description'];
     $vid = $_POST['vid'];
     $brand = $_POST['brand'];
 
-    $file_name=$_FILES['file']['name'];
-    $file_path=$_FILES['file']['tmp_name'];
-    $arr_path=array();
-    $arr_name=array();
+    $file_name = $_FILES['file']['name'];
+    $file_path = $_FILES['file']['tmp_name'];
+    $arr_path = array();
+    $arr_name = array();
     foreach ($file_path as $item)
-        array_push($arr_path,$item);
+        array_push($arr_path, $item);
     foreach ($file_name as $item)
-        array_push($arr_name,$item);
-    $img_path=json_encode($arr_name);
-    $sql="insert into productdetails(p_name,price,type,date,approved,description,vid,sell_out,brand,image,location) 
-                                VALUES ('$p_name','$price','$type','$time','0','$description','$vid','0','$brand','$img_path','$location')";
+        array_push($arr_name, $item);
+    $img_path = json_encode($arr_name);
+    $sql = "insert into productdetails(p_name,price,type,date,approved,description,vid,sell_out,brand,image,location) 
+          VALUES ('$p_name','$price','$type','$time','0','$description','$vid','0','$brand','$img_path','$location')";
 
 
-    if($con->query($sql)){
+    if ($con->query($sql)) {
         /*for notication*/
-        $latest="SELECT * FROM  productdetails WHERE pid = (SELECT MAX(pid)  FROM productdetails)";
-        $last=mysqli_fetch_array(Run($latest));
-        $sql1="insert into notification (vid,pid,status,message) VALUES ('$vid','$last[0]','0','Need approval')";
+        $latest = "SELECT * FROM  productdetails WHERE pid = (SELECT MAX(pid)  FROM productdetails)";
+        $last = mysqli_fetch_array(Run($latest));
+        $sql1 = "insert into notification (vid,pid,status,message) VALUES ('$vid','$last[0]','0','Need approval')";
         Run($sql1);
         /*---------*/
-        move_uploaded_file($arr_path[0],"../images/".$arr_name[0]);
-        move_uploaded_file($arr_path[1],"../images/".$arr_name[1]);
-        move_uploaded_file($arr_path[2],"../images/".$arr_name[2]);
+        for ($i = 0; $i < 5; $i++) {
+            move_uploaded_file($arr_path[$i], "../images/" . $arr_name[$i]);
+        }
+        /* move_uploaded_file($arr_path[1],"../images/".$arr_name[1]);
+         move_uploaded_file($arr_path[2],"../images/".$arr_name[2]);
+         move_uploaded_file($arr_path[2],"../images/".$arr_name[3]);
+         move_uploaded_file($arr_path[2],"../images/".$arr_name[4]);*/
         header("location:../items.php");
-    }
-    else{
+    } else {
         echo "error";
     }
 
 }
-if(isset($_POST['data'])){
-    if($_POST['data']=='upd_buyer') {
-         $pid=$_POST['pname'];
-         $bname=$_POST['bname'];
-//        echo $status= $_REQUEST['status'];
-//        $sql="update productdetails set on_bet='$status' WHERE pid='$pid'";
-
+if (isset($_POST['data'])) {
+    if ($_POST['data'] == 'upd_buyer') {
+        $pid = $_REQUEST['pname'];
+        $bname = $_REQUEST['bname'];
+        $price = $_REQUEST['price'];
+        $date=date("Y-m-d");
+        $sql = "update productdetails set sell_out='$bname',price='$price' WHERE pid='$pid'";
+        $sql1="insert into deals(vid,pid,B_date) VALUES ('$bname','$pid','$date')";
+        Run($sql);
+        Run($sql1);
 
     }
 }
-//___________buying record
-function buy($vid){
 
-  $query = "SELECT D.pid,date(D.B_date),V.name,P.p_name,P.price FROM deals AS D  join productdetails As P on D.pid=P.pid
-                JOIN visitor AS V on V.vid=D.vid WHERE V.vid='$vid'";
-    $res=Run($query);
+if (isset($_POST['u_update'])) {
+   
+
+        $name = $_POST['name'];
+        $pwd = $_POST['pwd'];
+        $mob = $_POST['mobile'];
+        $vid = $_POST['vid'];
+
+        $sql = "update visitor set name='$name',password='$pwd',ph_number='$mob' WHERE vid='$vid' ";
+        if(Run($sql))
+        {
+            header("location:../profile.php");
+        }
+
+}
+
+function getUser($pid){
+    global  $con;
+    $sql="Select name from visitor JOIN productdetails WHERE productdetails.vid=visitor.vid AND productdetails.pid='$pid'";
+    $run=$con->query($sql);
+    $res=mysqli_fetch_assoc($run);
+    if($res)
+        return  $res['name'];
+    else
+        return "error";
+}
+//___________buying record
+function buy($vid)
+{
+
+//    $query = "SELECT D.pid,date(D.B_date),V.name,P.p_name,P.price FROM deals AS D  join productdetails As P on D.pid=P.pid
+//                JOIN visitor AS V on V.vid=D.vid WHERE V.vid='$vid'";
+
+    $sql = "Select productdetails.* ,deals.B_date from productdetails JOIN deals on productdetails.pid=deals.pid WHERE sell_out='$vid'";
+    $res = Run($sql);
 
     echo '
     <div class="col-lg-6">
@@ -145,45 +191,47 @@ function buy($vid){
     <table class="table">
             <th>Product name</th>
                     <th>Price</th>
+                    <th>Dealer</th>
                     <th>Date</th>
                     <tr>';
-    if(mysqli_num_rows($res)>0){
-    while ($row=mysqli_fetch_array($res))
-    {
-            $name=$row['name'];
-            $pname=$row['p_name'];
-            $price=$row['price'];
-            $date=$row['date(D.B_date)'];
-        echo '      <td>'.$pname.' </td>
-                    <td>'.$price.'</td>
-                    <td>'.$date.'</td>
+    if (mysqli_num_rows($res) > 0) {
+        while ($row = mysqli_fetch_array($res)) {
+            $pname = $row['p_name'];
+            $price = $row['price'];
+            $date = $row['B_date'];
+            $own=getUser($row['pid']);
+            echo '      <td>' . $pname . ' </td>
+                    <td>' . $price . '</td>
+                    <td>' . $own . '</td>
+                    <td>' . $date . '</td>
                     </tr>';
+        }
+    } else {
+        echo ' <hr><h2 class="alert-danger ">No transision record</h2>';
     }
-    }
-    else{
-        echo' <hr><h2 class="alert-danger ">No transision record</h2>';
-    }
-    echo' </table>
+    echo ' </table>
     </div>
     ';
 }
+
 //............notification
-if(isset($_POST['data'])=='udata'){
-if($_POST['data']=='udata') {
-    $vid = $_POST['vid'];
-    $sql = "delete from notification where vid='$vid' and status='1'";
-    Run($sql);
-}
+if (isset($_POST['data']) == 'udata') {
+    if ($_POST['data'] == 'udata') {
+        $vid = $_POST['vid'];
+        $sql = "delete from notification where vid='$vid' and status='1'";
+        Run($sql);
+    }
 }//notification
 
 //................end product entery..
-function headder(){
+function headder()
+{
 
 
-    $vid=$_SESSION['vid'];
-    $sql="Select name from visitor WHERE vid='$vid'";
-    $res=Run($sql);
-    $name=mysqli_fetch_assoc($res);
+    $vid = $_SESSION['vid'];
+    $sql = "Select name from visitor WHERE vid='$vid'";
+    $res = Run($sql);
+    $name = mysqli_fetch_assoc($res);
 
     echo '
 
@@ -201,33 +249,36 @@ function headder(){
     </head>
     <body>
     <div class="container-fluid">';
+
     
-    sideBar();
-        echo'
-        <div class="col-lg-10 header" style="height: 40px;background-color: #a94a42">
+    echo '
+        <div class="col-lg-12 header" style="height: 40px;background-color: #a94a42">
         
-        <div class="col-lg-5 ">
-        <div class="row">
+        <div class="col-lg-12 ">
+        
         <ul class="sign-in">
                     <li><i class="fa fa-user"></i></li>
-                    <li><a href="">'.ucfirst($name['name']).'</a></li>
+                    <li><a href="">' . ucfirst($name['name']) . '</a></li>
                     <li><a href="../logout.php?&pp=1">Logout</a></li>
                 </ul>
-        </div>
-        
+        ';
+	include 'notification.php';	
+        echo '</div>
         </div>';
-        include 'notification.php';
+    
 
 
 }
-function footer(){
+
+function footer()
+{
 
     echo '
       </div>
        </div>
 
 
-    <div class="col-lg-12 footer" style="border-bottom: 1px solid red;">
+    <div class="col-lg-12 footer">
     </div>
     </div>
     </div>
@@ -236,28 +287,20 @@ function footer(){
     </html>
     ';
 }
-function sideBar(){
-    echo '<div class="col-lg-2 side-bar" style="height: 520px;>
-                <h3 class="list-group-item"></h3>
-                <ul class="list-group">
-                <a href="items.php"><li class="list-group-item fa fa-dashboard fa-1x"></li>
-                    <span>Dashboard</span>
-                    </a>
-                    <hr>
-                   <a href="index.php"> <li class="list-group-item fa fa-tags fa-1x"></li>
-                   <span>Add New</span>
-                   </a>
-                   <hr>
-                    <a href=""><li class="list-group-item fa fa-eye fa-1x"></li>
-                    <span>testbar</span>
-                    </a>
-                    
-                   <hr>
-                </ul>
-            </div>';
+
+function sideBar()
+{
+    echo ' <div class="col-lg-2 side-bar" style="height:600px">
+  <ul class="list-group">
+    <li><a href="items.php"><span> <i class="list-group-item fa fa-dashboard fa-1x"></i> Dashboard</span> </a></li>
+    <li> <a href="index.php"><span> <i class="list-group-item fa fa-tags fa-1x"></i> Add New</span> </a></li>
+    <li><a href="profile.php"><span> <i class="list-group-item fa fa-user fa-1x"></i> Profile</span></a></li>
+  </ul>
+</div>';
 }
 
-function cusPro($vid){
+function cusPro($vid)
+{
     echo '<div class="col-lg-6 pull-left">
 
             <h2>Items for Sell</h2>
@@ -268,48 +311,47 @@ function cusPro($vid){
                     <th>Approved</th>';
 
 
-                        
-                        $sql="Select * from productdetails WHERE vid='$vid'";
-                        $res=Run($sql);
-                        while($row=mysqli_fetch_array($res)){
-                            $pid=$row['pid'];
-                            $name=$row['p_name'];
-                            $price=$row['price'];
-                        if($row['approved']=='1'){
-                            $approve="Yes";
-                        }
-                        else
-                            $approve="No";
-                            if($row['sell_out']=='1'){
-                                $status="Sell out";
-                            }
-                            else
-                                $status="Not sell";
-                        
-                        echo '<tr>
+    $sql = "Select * from productdetails WHERE vid='$vid'";
+    $res = Run($sql);
+    while ($row = mysqli_fetch_array($res)) {
+        $pid = $row['pid'];
+        $name = $row['p_name'];
+        $price = $row['price'];
+        if ($row['approved'] == '1') {
+            $approve = "Yes";
+        } else
+            $approve = "No";
+        if ($row['sell_out'] != '0') {
+            $status = "Sell out";
+        } else
+            $status = "Not sell";
+
+        echo '<tr>
                         <td>
-                            <a href="prodetails.php?p_id='.$pid.'">';
-                        echo $name.' </a>
+                            <a href="prodetails.php?p_id=' . $pid . '">';
+        echo $name . ' </a>
                         </td>
-                        <td> '.$price.'</td>
-                        <td> '.$status.' </td>
-                        <td> '.$approve .'</td>
+                        <td> ' . $price . '</td>
+                        <td> ' . $status . ' </td>
+                        <td> ' . $approve . '</td>
                         <td>
                        
                         </td>';
 
-                             }
-                    echo '</tr>
+    }
+    echo '</tr>
                 </table>
                 </div>
 ';
 }
 
-function UpdateStatus($vid){
+function UpdateStatus($vid)
+{
     $_SESSION['LAST_ACTIVITY'] = time();
     $last_activity = $_SESSION['LAST_ACTIVITY'];
     $sql = "UPDATE visitor SET login_activity = '$last_activity' WHERE vid = '$vid'";
     Run($sql);
 }
+
 ?>
 

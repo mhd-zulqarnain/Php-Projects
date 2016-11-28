@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","","oss");
+/*$con=mysqli_connect("localhost","root","","oss");
 $sql="Select image from productdetails";
 $res=$con->query($sql);
 
@@ -15,6 +15,9 @@ while ($row=mysqli_fetch_array($res))
         echo "<img src='../Final/assets/images/avatar.png'";
     }
 
-    
-}
+
+}*/
+
+
+echo 'anme'.rand();
     ?>

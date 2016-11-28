@@ -9,20 +9,48 @@
 </head>
 <body>
 <div  style="border-bottom:1px solid black;height: 40px;padding:0;margin:0;background-color: red ">
-    <h1 class="login-header">Login </h1>
+    <h1 class="login-header">Sign up</h1>
 </div>
 
 <div class="container  col-lg-12">
     <div>
-        <div class="signin-form col-lg-3 col-lg-push-4 well">
-            <form action="signup.php" method="post" >
-
-                name:<input type="text" name="name" ><br><br>
-                Mobile Number:<input type="text" name="ph_number" title="9200000000"  pattern="[7890][0-9]{9}"><br><br>
-                email:<input type="text" name="email" required title="Enter email ****@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
-                username:<input type="text" name="user_name" required><br><br>
-                password:<input type="password" name="pass" required><br><br>
-                <input type="submit" name="submit" class=" btn btn-md" value="Registor">
+        <div class="signin-form col-sm-5 col-lg-push-3 ">
+            <form action="signup.php" method="post" class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="name" required class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Mobile:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="ph_number" required class="form-control" placeholder="03********" title="Pattern 03********"  pattern="03[0-9]{2}(?!1234567)(?!1111111)(?!7654321)[0-9]{7}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Email:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="email" class="form-control "placeholder="xyz@yourmail.com" required title="Enter email ****@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Username:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="user_name" required class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Password:</label>
+                    <div class="col-sm-10">
+                        <input type="password" name="pass" required class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button  type="submit" name="submit" class=" btn btn-md" value="Registor">Registor</button>
+                    </div>
+                </div>
             </form>
         </div>
 

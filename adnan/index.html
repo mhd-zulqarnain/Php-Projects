@@ -52,7 +52,7 @@
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/theme.scss.css" rel="stylesheet" type="text/css" media="all" />
 
-    <link href="//fonts.googleapis.com/css?family=Lato:400,700,300" rel="stylesheet" type="text/css" media="all" />
+    <!--<link href="//fonts.googleapis.com/css?family=Lato:400,700,300" rel="stylesheet" type="text/css" media="all" />-->
 
 
     <!-- Header hook for plugins ================================================== -->
@@ -171,7 +171,7 @@
                 script.type = 'text/javascript';
                 script.onerror = function(e) { (new Image()).src = '//v.shopify.com/internal_errors/track?error=trekkie_load'; };
                 script.async = true;
-                script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.' + config.Trekkie.appName + '.min.js?v=' + trekkie_version;
+//                script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.' + config.Trekkie.appName + '.min.js?v=' + trekkie_version;
                 var first = document.getElementsByTagName('script')[0];
                 first.parentNode.insertBefore(script, first);
             };

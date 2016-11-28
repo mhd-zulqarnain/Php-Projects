@@ -1,6 +1,6 @@
 <?php
 $conn = new mysqli("localhost", "root", "", "24");
-$sql="select * from pic";
+$sql="select * from pic ";
 if($conn->connect_error)
 {
     echo "error";

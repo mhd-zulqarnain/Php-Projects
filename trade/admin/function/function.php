@@ -31,13 +31,13 @@ if(isset($_POST['data'])=='update')
     Run($sql);}
 }
 //disapprove
-if(isset($_POST['data'])=='disapprove')
+if(isset($_POST['data']))
 {
     if(($_POST['data'])=='disapprove'){
     $pid=$_POST['pid'];
-    $msg="item has been disapprove";
-    $sql="update notification set status='1' message='$msg'";
-    Run($sql);}
+    $sql="Delete from productdetails WHERE pid='$pid'";
+    Run($sql);
+    }
 //    Run("Delete from productdetails WHERE pid='$pid'");
 }
 function headder(){

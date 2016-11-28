@@ -16,7 +16,7 @@
 session_start();
 if(isset($_SESSION['vid'])!=""){
     $vid=$_SESSION['vid'];
-
+    $_SESSION['pid']=  $_REQUEST['id'];
     UpdateStatus($vid);
 }
 ?>
@@ -70,7 +70,7 @@ if(isset($_SESSION['vid'])!=""){
                     <div class="col-lg-12 chatHead" style="text-align: center;background-color: blue;color: white">
                         <h3>Deal the Product</h3>
                     </div>
-               <div class="toog">     
+               <div class="toog">
                     <div class="col-lg-12 msg-wgt-body">
                         <table>
                             <?php
@@ -167,7 +167,7 @@ if(isset($_SESSION['vid'])!=""){
 </html>
 <script>
     $(".msg-wgt-body").animate({ scrollTop: $('.msg-wgt-body').prop("scrollHeight")},1);
-$('.chatHead').click(function () {
+    $('.chatHead').click(function () {
     $('.toog').toggle();
 })
 </script>

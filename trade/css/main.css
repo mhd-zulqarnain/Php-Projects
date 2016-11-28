@@ -43,22 +43,27 @@ Chat
 	background-color: transparent;
 	position: fixed;
 	bottom: 0px;
+	left: 69%;
+}
+@media (min-width: 768px) {
+#product-carousel .carousel-image img{ min-height:400px !important; max-height:400px !important}
+#product-carousel .carousel-indicators li img{ min-height:90px !important; max-height:90px !important}
 }
 .toog{}
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
 
 	.chat{
-		width: 250px;
+		width: 300px;
 		background-color: transparent;
-		height: 200px;
 		position: fixed;
-		top:45%;
+		bottom: 0px;
+		left: 69%;
 	}
 }
 
 .chatHead{
 	width: 259px;
-	background-color: #00a651!important;
+	background-color: #f36d2d!important;
 }
 .msg-wgt-body{
 	overflow-y: scroll;
@@ -72,6 +77,9 @@ Chat
 }
 .msg-wgt-body tr{
 	padding-bottom:10px ;
+}
+.toog
+{
 }
 .msg-body{
 	padding: 2px;
@@ -87,8 +95,9 @@ Chat
 
 }
 .msg-wgt-footer{
-	width: 100%!important;
+	width: 96%!important;
 	overflow: hidden;
+	padding: 0;
 }
 
 .msg-wgt-time{

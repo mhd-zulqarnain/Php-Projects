@@ -71,15 +71,11 @@ function headder(){
                     <ul class="nav navbar-nav">
                         <li ><a href="index.php">Home </a>
                         </li>
-                        <li><a href="javascript:void(0);">Category</a></li>
-                        <li><a href="faq.html">Help/Support</a></li>
+                        <li><a href="support.php">Help/Support</a></li>
                         <li class="active dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="about-us.html">ABout Us</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                                <li><a href="ad-post.html">Ad post</a></li>
-                                <li><a href="ad-post-details.html">Ad post Details</a></li>
-                                <li class="active"><a href="categories-main.html">Category Ads</a></li>
+                                <li><a href="">ABout Us</a></li>
+                                <li><a href="contactus.php">Contact Us</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -165,22 +161,22 @@ function moreProxm(){
     if(isset($_REQUEST['cat'])&&isset($_REQUEST['keyword'])){
         $key=$_REQUEST['keyword'];
         $cat=$_REQUEST['cat'];
-        $lable="Select * from  productdetails where p_name LIKE '%$key%' AND  type='$cat' AND approved=1 ORDER BY pid DESC  limit $pagecount,4";
+        $lable="Select * from  productdetails where p_name LIKE '%$key%' AND  type='$cat' AND approved=1 AND sell_out='0' ORDER BY pid DESC  limit $pagecount,4";
     }
     else if(isset($_REQUEST['keyword'])){
         $key=$_REQUEST['keyword'];
-        $lable="Select * from  productdetails where p_name LIKE '%$key%' AND approved=1 ORDER BY pid DESC  limit $pagecount,4";
+        $lable="Select * from  productdetails where p_name LIKE '%$key%' AND approved=1 AND sell_out='0' ORDER BY pid DESC  limit $pagecount,4";
     }
     else if(isset($_REQUEST['cat'])){
      $cat=$_REQUEST['cat'];
-    $lable = "select * from productdetails WHERE type='$cat' AND approved=1 ORDER BY pid DESC limit $pagecount,4";
+    $lable = "select * from productdetails WHERE type='$cat' AND approved=1 AND sell_out='0' ORDER BY pid DESC limit $pagecount,4";
     }
     else if(isset($_REQUEST['own'])){
         $own=$_REQUEST['own'];
-        $lable = "select * from productdetails WHERE vid='$own' AND approved=1 ORDER BY pid DESC limit $pagecount,4";
+        $lable = "select * from productdetails WHERE vid='$own' AND approved=1 AND sell_out='0' ORDER BY pid DESC limit $pagecount,4";
     }
     else {
-        $lable = "select * from productdetails WHERE approved=1  ORDER BY pid DESC limit $pagecount,4";
+        $lable = "select * from productdetails WHERE approved=1  AND sell_out='0' ORDER BY pid DESC limit $pagecount,4";
     }
     $res = mysqli_query($con, $lable);
     $no=mysqli_num_rows($res);
@@ -196,6 +192,8 @@ function moreProxm(){
         $loc= $row['location'];
         $image = array();
         $image = json_decode($img);
+        $def='noimage.png';
+        $path= (empty($image[0])?$def:$image[0]);
         echo '
               
               
@@ -203,7 +201,7 @@ function moreProxm(){
                             <div class="item-image-box col-sm-4">
                                 <!-- item-image -->
                                 <div class="item-image">
-                                    <a href="details.html"><img src="visitors/images/'.$image[0].'" alt="Image" class="img-responsive"></a>
+                                    <a href="details.html"><img src="visitors/images/'.$path.'" alt="Image" class="img-responsive"></a>
                                     <a href="#" class="verified" data-toggle="tooltip" data-placement="left" title="Verified"><i class="fa fa-check-square-o"></i></a>
                                 </div><!-- item-image -->
                             </div><!-- item-image-box -->
@@ -215,7 +213,7 @@ function moreProxm(){
                                     <h3 class="item-price">Rs '.$price.'</h3>
                                     <h4 class="item-title"><a href="detail.php?&pid='.$pid.'">'.$name.'</a></h4>
                                     <div class="item-cat">
-                                        <span><a href="#">'.$type.'</a></span> 
+                                        <span><a href="index.php?cat='.$type.'">'.$type.'</a></span> 
                                        
                                     </div>
                                 </div><!-- ad-info -->
@@ -224,13 +222,21 @@ function moreProxm(){
                                 <div class="ad-meta">
                                     <div class="meta-content">
                                         <span class="dated"><a href="#">'.$date.' </a></span>
-                                        <a href="#" class="tag"><i class="fa fa-tags"></i> Used</a>
+                                        <a href="" class="tag"><i class="fa fa-tags"></i> Used</a>
                                     </div>
                                     <!-- item-info-right -->
                                     <div class="user-option pull-right">
-                                        <a href="#" data-toggle="tooltip" data-placement="top" title="'.$loc.'"><i class="fa fa-map-marker"></i> </a>
-                                        <a class="online" href="#" data-toggle="tooltip" data-placement="top" title="Dealer"><i class="fa fa-suitcase"></i> </a>
-                                    </div><!-- item-info-right -->
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="'.$loc.'"><i class="fa fa-map-marker"></i> </a>';
+
+                                        if(isOnline($id)>0){
+                                        echo '<a class="online" href="" data-toggle="tooltip" data-placement="top" title="Dealer Online"><i class="fa fa-suitcase"></i> </a>';
+                                        }
+                                        else{
+                                         echo '<a class="offline" href="" data-toggle="tooltip" data-placement="top" title="Dealer Offline"><i class="fa fa-suitcase"></i> </a>';
+
+                                        }
+
+                                   echo'</div><!-- item-info-right -->
                                 </div><!-- ad-meta -->
                             </div><!-- item-info -->
                         </div>
@@ -290,6 +296,14 @@ function setOffline($vid){
     $query="UPDATE visitor SET online='0' WHERE vid='$vid' ";
     Run($query);
 }
+function isOnline($pid){
+    $time=time()-20;
+
+    $sql="SELECT productdetails.pid, visitor.vid FROM visitor JOIN productdetails ON productdetails.vid=visitor.vid AND visitor.online=1 AND productdetails.pid='$pid' AND visitor.login_activity > '$time'";//----test dealer is online
+
+    return mysqli_num_rows(Run($sql));
+    
+}
 //--------end chat----------
 function getUphone($pid){
     $sql="Select V.ph_number from visitor AS V JOIN productdetails AS P ON P.vid=V.vid AND P.pid='$pid'";
@@ -338,18 +352,13 @@ function proPic($pid){
         echo '<li data-target="#product-carousel" data-slide-to="0" class="active">
                                 <img src="visitors/images/'.$path.'" alt="Carousel Thumb" class="img-responsive">
                             </li>';
-        for($i=1;$i<$no;$i++){
+        for($i=1;$i<5;$i++){
             $path= (empty($nw[$i])?$def:$nw[$i]);
             echo '<li data-target="#product-carousel" data-slide-to="0" >
                                 <img src="visitors/images/'.$path.'" alt="Carousel Thumb" class="img-responsive">
                             </li>';
         }
-        for($i=$no;$i<5;$i++){
-            $path= (empty($nw[$i])?$def:$nw[$i]);
-            echo '<li data-target="#product-carousel" data-slide-to="0" >
-                                <img src="visitors/images/'.$path.'" alt="Carousel Thumb" class="img-responsive">
-                            </li>';
-        }
+     
     }
 
     echo  '</ol>';
@@ -425,10 +434,10 @@ function footer(){
                         <h3>Quik Links</h3>
                         <ul>
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="contactus.php">Contact Us</a></li>
                             <li><a href="#">Careers</a></li>
                             <li><a href="#">All Cities</a></li>
-                            <li><a href="#">Help & Support</a></li>
+                            <li><a href="support.php">Help & Support</a></li>
                             <li><a href="#">Advertise With Us</a></li>
                             <li><a href="#">Blog</a></li>
                         </ul>
@@ -464,17 +473,17 @@ function footer(){
                 </div><!-- footer-widget -->
 
                 <!-- footer-widget -->
-                <div class="col-sm-3">
+                <!--<div class="col-sm-3">
                     <div class="footer-widget news-letter">
                         <h3>Newsletter</h3>
                         <p>Trade is Worldest leading classifieds platform that brings!</p>
-                        <!-- form -->
+                        &lt;!&ndash; form &ndash;&gt;
                         <form action="#">
                             <input type="email" class="form-control" placeholder="Your email id">
                             <button type="submit" class="btn btn-primary">Sign Up</button>
-                        </form><!-- form -->
+                        </form>&lt;!&ndash; form &ndash;&gt;
                     </div>
-                </div><!-- footer-widget -->
+                </div>--><!-- footer-widget -->
             </div><!-- row -->
         </div><!-- container -->
     </section><!-- footer-top -->
