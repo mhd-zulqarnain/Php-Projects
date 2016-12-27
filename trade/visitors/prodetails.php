@@ -56,7 +56,7 @@ if($_SESSION['vid']!="")
                     <?php echo $status ?>
 
 
-                    <?php if ($row['sell_out'] != '0') {
+                    <?php if ($row['sell_out'] != '0' && $row['sell_out'] != '3') {
                         $query = "SELECT visitor.*,date(deals.B_date) FROM visitor inner join deals on deals.vid=visitor.vid WHERE deals.pid='$pid'";
                         $res = Run($query);
                         while ($rw = mysqli_fetch_array($res)) {
@@ -68,6 +68,16 @@ if($_SESSION['vid']!="")
                             <h3 href="#"> <?php echo $date ?></h3>
                             <?php
                         }
+                    } else if ($row['sell_out'] == '3') {
+                        $query = "SELECT B_date FROM deals  WHERE vid=3";
+                        $res = Run($query);
+                        $data=mysqli_fetch_assoc($res);
+                        $date=$data['B_date'];
+                            ?>
+                            <h4 href="#"> Item Bought By:unknown</h4>
+                            <h3 href="#"> <?php echo $date ?></h3>
+                            <?php
+
                     } ?>
 
                     <?php if ($row['sell_out'] == '0')
@@ -153,7 +163,7 @@ if($_SESSION['vid']!="")
                     data:$obj,
                     type:'post',
                     sucess:function () {
-                        location.reload();
+//                        location.reload();
                     }
                 })
             }

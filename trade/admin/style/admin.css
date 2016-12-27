@@ -9,8 +9,7 @@
 
 /*----------headder*/
 .headder{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#eb9316));
-}
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(rgb(34, 34, 34)));}
 /*--------side-bar--------------------------*/
 .container-fluid{
     padding: 0px!important;
@@ -73,21 +72,18 @@ a:active {
 .adm-show  th {
     padding: 8px 66px;
     text-align: left;
-    border: 1px solid black;
 }
 .adm-show td{
     text-align: center;
-    padding: 8px 66px;
-    font-size: 15px!important;
+    padding: 3px 66px;
+    font-size: 14px!important;
 }
 .heading h3{
      padding: 17px!important;
 }
- .btnDel{
-    color: white;
-    padding: 0;
-    font-size: 12px;
-    background-color:red!important;
+.btnDel{
+    background-color: #2c7f63!important;
+    font-size: 7px!important;
 }
 .tbl-adm {
    margin-left: 22px;
@@ -114,7 +110,7 @@ text-align: center;
     text-decoration: none;
     padding: 6px 19px;
     font-size: 12px;
-    color: white;
+    color: Black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.21);
 }
 .site-admin-paging a:hover{

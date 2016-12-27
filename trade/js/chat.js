@@ -29,7 +29,7 @@ var getdata =  function () {
     });
 };
 
-setInterval(getdata, 3000);
+setInterval(getdata, 300);
 
 function sendMessage(mesg,pid) {
     $obj={

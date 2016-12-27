@@ -44,7 +44,7 @@ function headder(){
     
     echo '<div class="col-lg-12 headder " style="height: 40px;background-color: #a94a42">
             <div class="col-lg-2" style="margin-top: 8px!important; color: #2b4f6d; margin-left: 12px!important;">
-            <h3>Admin Panal</h3>
+            <h3 style="color: white;font-family: monospace;">Admin Panal</h3>
             </div>
             ';
 
@@ -80,8 +80,8 @@ function sideBar(){
                    <span>Approval</span>
                    </a>
                    <hr>
-                    <a href=""><li class="list-group-item fa fa-eye fa-1x"></li>
-                    <span>testbar</span>
+                    <a href="report.php"><li class="list-group-item fa fa-eye fa-1x"></li>
+                    <span>Reports</span>
                     </a>
                     
                    <hr>
@@ -126,6 +126,17 @@ function getNoti(){
 
         </div>';
 }
+function getName($vid){
+    
+    global  $con;
+    $sql="Select name from visitor WHERE vid='$vid'";
+    $run=$con->query($sql);
+    $res=mysqli_fetch_assoc($run);
+    if($res)
+        return  $res['name'];
+    else
+        return "error";
+}
 function cusPro($vid){
     echo '<div class="col-lg-8 pull-left">
 
@@ -162,7 +173,7 @@ function cusPro($vid){
                         <td> '.$price.'</td>
                         <td> '.$status.' </td>
                         <td> '.$approve .'</td>
-                        <td><input type="button" onClick="delProd('.$pid.')" value="DELETE" class="btnDel"></td>
+                        <td><input type="button" onClick="delProd('.$pid.')" value="DELETE" class="btn btn-primary"></td>
                         ';
 
     }

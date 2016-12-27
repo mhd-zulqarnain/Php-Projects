@@ -78,7 +78,7 @@ if(isset($_SESSION['vid'])!=""){
                 <!-- recommended-ads -->
                 <div class="col-sm-8 col-md-7">
                     <div class="section recommended-ads">
-                    
+
 
                         <!-- ad-item -->
                         <?php
@@ -89,34 +89,34 @@ if(isset($_SESSION['vid'])!=""){
                         <div class="text-center">
                             <ul class="pagination ">
 
-                               <?php
+                                <?php
 
 
-                               if(isset($_REQUEST['cat'])&&isset($_REQUEST['keyword'])){
-                                   $key=$_REQUEST['keyword'];
-                                   $cat=$_REQUEST['cat'];
-                                   $lable="Select pid from  productdetails where p_name LIKE '%$key%' AND  type='$cat' AND approved=1 ";
-                               }
-                               else if(isset($_REQUEST['keyword'])){
-                                   $key=$_REQUEST['keyword'];
-                                   $lable="Select pid from  productdetails where p_name LIKE '%$key%' AND approved=1";
-                               }
-                               else if(isset($_REQUEST['cat'])){
-                                   $cat=$_REQUEST['cat'];
-                                   $lable = "select pid from productdetails WHERE type='$cat' AND approved=1";
-                               }
-                               else {
-                                   $lable = "select pid from productdetails WHERE approved=1 ";
-                               }
-                               $res=Run($lable);
-                               $num=mysqli_num_rows($res);
-
+                                if(isset($_REQUEST['cat'])&&isset($_REQUEST['keyword'])){
+                                    $key=$_REQUEST['keyword'];
+                                    $cat=$_REQUEST['cat'];
+                                    $lable="Select pid from  productdetails where p_name LIKE '%$key%' AND  type='$cat' AND approved=1 and sell_out=0";
+                                }
+                                else if(isset($_REQUEST['keyword'])){
+                                    $key=$_REQUEST['keyword'];
+                                    $lable="Select pid from  productdetails where p_name LIKE '%$key%' AND approved=1and and sell_out=0";
+                                }
+                                else if(isset($_REQUEST['cat'])){
+                                    $cat=$_REQUEST['cat'];
+                                    $lable = "select pid from productdetails WHERE type='$cat' AND approved=1 and sell_out=0";
+                                }
+                                else {
+                                    $lable = "select pid from productdetails WHERE approved=1 and sell_out=0 ";
+                                }
+                                $res=Run($lable);
+                                $num=mysqli_num_rows($res);
                                 $j=ceil($num/4);
+
                                 for($i=1;$i<=$j;$i++) {
-                                    echo '<li><a href="index.php?&page='.$i.'">'.$i.'</a></li>';
+                                    echo '<li><a href="index.php?&page=' . $i . '">' . $i . '</a></li>';
 
                                 }
-                                    ?>
+                                ?>
 
                             </ul>
                         </div><!-- pagination  -->
@@ -143,8 +143,8 @@ footer();
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-73239902-1', 'auto');

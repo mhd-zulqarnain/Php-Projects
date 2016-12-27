@@ -17,18 +17,20 @@
 <div class="container-fluid" class="">
     <?php
     require_once 'function/function.php';
-    sideBar()?>
+    sideBar();
+    $vid=$_REQUEST['vid'];
+    ?>
 
     <div class="col-lg-10 header" style="height: 40px;background-color: #a94a42">
         <?php getNoti()?>
     </div>
 
     <div class="col-lg-10 heading">
-        <h3 >Details</h3>
+        <h3 >Products of <?php echo getName($vid)?></h3>
     </div>
     <div class="col-lg-8 col-lg-push-1 user-show ">
         <?php
-        $vid=$_REQUEST['vid'];
+
         cusPro($vid);
         ?>
     </div>

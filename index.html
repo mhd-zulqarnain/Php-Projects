@@ -148,3 +148,24 @@
 
      });*/
 </script>
+
+
+<?php
+
+
+checkRes(Canidate canidate){
+
+   $marks=getMarks(canidate.id);
+   $pMarks=getPMarks(canidate.id);
+
+   $total=$marks+$pMarks;
+
+  if($marks> 10&& $total>15)
+{
+return Reulttype.Pass;
+}
+else
+return Reulttype.Pass;
+}
+
+?>

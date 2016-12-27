@@ -75,6 +75,11 @@ Chat
 	width: 100%;
 	font-size: 90%;
 }
+.msg-wgt-body-offline{
+	width: 259px;
+	background-color: #FFFFFF;
+	height: 100px;
+}
 .msg-wgt-body tr{
 	padding-bottom:10px ;
 }

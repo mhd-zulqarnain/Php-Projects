@@ -49,16 +49,15 @@ if(isset($_SESSION['vid'])){
         $conn = mysqli_connect("localhost","root","","oss1");
         $name = $_POST['user_name'];
         $pass = $_POST['pass'];
-        $pp = $_POST['pp'];
-        $pid = $_POST['pid'];
+        $pid=isset($_POST['pid'])?$_POST['pid']:'';
+        $pp=isset($_POST['pp'])?$_POST['pp']:'';
         $sql = "SELECT * from visitor WHERE user_name='$name' AND password='$pass'";
         if ($row = mysqli_fetch_array($conn->query($sql))) {
             $vid = $row['vid'];
             setOnline($vid);
+            $pid=$_REQUEST['pid'];
             session_start();
-            $_SESSION['vid'] = $vid;
-            $_SESSION['LAST_ACTIVITY'] = time();
-            $last_activity = $_SESSION['LAST_ACTIVITY'];
+            $_SESSION['vid']=$vid;
             if (is_numeric($pp)) {
                 header("location:index.php");
             }

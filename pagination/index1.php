@@ -7,10 +7,12 @@ $pagecount=($page*5)-5;
 
 $sql="Select * from paging limit $pagecount,5";
 
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
 $res=$con->query($sql);
 while($row=mysqli_fetch_array($res)){
     echo $row['id'],$row['value'];
     echo "<br>";
+
 }
 
 

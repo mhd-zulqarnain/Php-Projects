@@ -85,6 +85,8 @@ function isSell()
 if (isset($_REQUEST['re_pid'])) {
     $id = $_REQUEST['re_pid'];
     if (removePro($id))
+        $sql="Delete from notification WHERE pid='$id'";
+        Run($sql);
         header("location:../items.php");
 
 }
@@ -200,10 +202,10 @@ function buy($vid)
             $price = $row['price'];
             $date = $row['B_date'];
             $own=getUser($row['pid']);
-            echo '      <td>' . $pname . ' </td>
-                    <td>' . $price . '</td>
-                    <td>' . $own . '</td>
-                    <td>' . $date . '</td>
+            echo '      <td style="font-size: 10px;">' . $pname . ' </td>
+                    <td style="font-size: 10px;">' . $price . '</td>
+                    <td style="font-size: 10px;">' . $own . '</td>
+                    <td style="font-size: 10px;">' . $date . '</td>
                     </tr>';
         }
     } else {
@@ -315,7 +317,7 @@ function cusPro($vid)
     $res = Run($sql);
     while ($row = mysqli_fetch_array($res)) {
         $pid = $row['pid'];
-        $name = $row['p_name'];
+        $name = substr($row['p_name'],0,16);
         $price = $row['price'];
         if ($row['approved'] == '1') {
             $approve = "Yes";

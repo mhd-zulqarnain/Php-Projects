@@ -170,7 +170,7 @@ jQuery(function ($) {
             {
             }
         });
-    }, 30000);
+    }, 60000);
 
     (function() {
 

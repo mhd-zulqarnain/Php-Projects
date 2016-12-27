@@ -53,9 +53,7 @@
         }
         echo' </table>';
         ?>
-        <div class="col-lg-6" style="margin: 20px 20px!important;">
-            <a href="../Visitor_Report.php" class="btn btn-primary" >Generate Report</a>
-        </div>
+        
     </div>
 </div>
 </body>

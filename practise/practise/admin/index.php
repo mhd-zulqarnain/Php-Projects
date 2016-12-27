@@ -140,45 +140,6 @@
 
 ?>
 
-		 <div class="pic">
-		 <img src="<?php echo $img;?>"></img>
-		 <hr>
-		 <p><?php echo substr($con,0,100)."..." ?></p>
-		 <div id="button"><a href="#">Read more</a>
-		 </div>
-		 <br>
-		 <br>
-		 <hr>
-		 <div id="sector1">
-		 <a href="#" style="font-size:30px;margin-left:64px;text-decoration:none">Blog Post Title</a><br>
-		 <p><strong>by</strong> <a href="#" style="font-size:20px;text-decoration:none;">Start Bootstrap</a></p>
-		 <img src="clock.png" style="height:15px;width:15px;margin-left:45px;margin-top:-2px;"/> <p style="margin-top:-16px;">Posted on August 28, 2013 at 10:00 PM</p>
-		 </div>
-		 <hr>
-		 <img src="<?php echo $img1;?>"></img>
-		 <hr>
-		 <p><?php echo substr($con1,0,100)."..." ?></p>
-		 <div id="button"><a href="#">Read more</a>
-		 </div>
-		 <br>
-		 <br>
-		 <hr>
-		 <div id="sector1">
-		 <a href="#" style="font-size:30px;margin-left:64px;text-decoration:none">Blog Post Title</a><br>
-		 <p><strong>by</strong> <a href="#" style="font-size:20px;text-decoration:none;">Start Bootstrap</a></p>
-		 <img src="clock.png" style="height:15px;width:15px;margin-left:45px;margin-top:-2px;"/> <p style="margin-top:-16px;">Posted on August 28, 2013 at 10:00 PM</p>
-		 </div>
-		 <img src="<?php echo $img2;?>"></img>
-		 <hr>
-		 <p><?php echo substr($con2,0,100)."..." ?></p>
-		 <div id="button"><a href="#">Read more</a>
-		 </div>
-		 <br>
-		 <br>
-		 <hr>
-		 
-		 
-		 </div>	
   <?php
   }?>  
 	  </body>

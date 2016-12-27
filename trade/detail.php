@@ -267,7 +267,7 @@ while ($row=mysqli_fetch_array($res)){
         <h4> <span class="fa fa-handshake-o fa-1x" ></span>Deal the Product</h4>
     </div>
   <div class="toog">
-    <div class="col-lg-12 msg-wgt-body">
+    <div class="col-lg-12 msg-wgt-body-offline">
         <table>
             <tr>
                 <td>

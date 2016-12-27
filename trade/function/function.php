@@ -62,7 +62,7 @@ function headder(){
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="detail.php"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
+                <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
             </div>
             <!-- /navbar-header -->
 
@@ -176,7 +176,8 @@ function moreProxm(){
         $lable = "select * from productdetails WHERE vid='$own' AND approved=1 AND sell_out='0' ORDER BY pid DESC limit $pagecount,4";
     }
     else {
-        $lable = "select * from productdetails WHERE approved=1  AND sell_out='0' ORDER BY pid DESC limit $pagecount,4";
+        $lable = "select * from productdetails WHERE approved=1  AND sell_out=0 ORDER BY pid DESC limit $pagecount,4";
+
     }
     $res = mysqli_query($con, $lable);
     $no=mysqli_num_rows($res);
@@ -297,7 +298,7 @@ function setOffline($vid){
     Run($query);
 }
 function isOnline($pid){
-    $time=time()-20;
+    $time=time()-60;
 
     $sql="SELECT productdetails.pid, visitor.vid FROM visitor JOIN productdetails ON productdetails.vid=visitor.vid AND visitor.online=1 AND productdetails.pid='$pid' AND visitor.login_activity > '$time'";//----test dealer is online
 

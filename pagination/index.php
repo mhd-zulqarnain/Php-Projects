@@ -1,9 +1,9 @@
 <?php
 include("function/function.php");
 
-session_start();
+/*session_start();
 if($_SESSION['vid']!="")
-{
+{*/
     $vid=$_SESSION['vid'];
     headder();
     if (isset($_REQUEST['p_id'])) {
@@ -82,6 +82,6 @@ if($_SESSION['vid']!="")
     ?>
     <?php
     footer();
-}else
-    header("location:../login.php");
+/*}else
+    header("location:../login.php");*/
 ?>
