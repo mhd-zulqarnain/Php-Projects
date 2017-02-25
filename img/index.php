@@ -10,9 +10,12 @@
     $extension=array("jpeg","jpg","png");
 
     if(in_array($ext,$extension)){
+
         echo "<script>alert('Its a picture')</script>";
+
     }
     else
+
         echo "<script>alert('Select a picture')</script>";
 
 

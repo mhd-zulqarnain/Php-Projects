@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: zulup
- * Date: 2/24/2017
- * Time: 5:11 PM
- */
+session_start();
+if(isset($_SESSION['vid'])){
+    session_destroy();
+    header("location:index.php");
+}
+else{
+    header("location:index.php");
+}
+?>

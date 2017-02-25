@@ -1,0 +1,19 @@
+th.column-somdn_free_downloads {
+	position: relative;
+}
+
+th.column-somdn_free_downloads span {
+	position: relative;
+}
+
+@media (min-width: 783px) {
+	th.column-somdn_free_downloads span {
+		text-indent: -9999px;
+	}
+	th.column-somdn_free_downloads span:before {
+		text-indent: 0;
+		position: absolute;
+    		top: 0;
+    		left: 0;
+	}
+}

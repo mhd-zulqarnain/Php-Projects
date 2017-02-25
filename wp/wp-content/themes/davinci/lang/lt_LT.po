@@ -1,0 +1,2318 @@
+# Translation of Themes - Davinci in Lithuanian
+# This file is distributed under the same license as the Themes - Davinci package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-06 04:37:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.2.2\n"
+"Language: lt\n"
+"Project-Id-Version: Themes - Davinci\n"
+
+#: libs/customization/class.CZ.Settings.php:301
+msgid "Social media section title"
+msgstr ""
+
+#: cart/cart1/tpl/_form.php:185
+msgid "Confirm password"
+msgstr ""
+
+#: cart/cart1/tpl/_form.php:175
+msgid "Password"
+msgstr ""
+
+#: cart/cart1/tpl/_form.php:161
+msgid "Register me"
+msgstr ""
+
+#: page.userlogin.php:38
+msgid "Log In"
+msgstr ""
+
+#: page.userlogin.php:37
+msgid "Remember Me"
+msgstr ""
+
+#: page.userlogin.php:36
+msgid "Password:"
+msgstr ""
+
+#: page.userlogin.php:35
+msgid "Username:"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:797
+msgid "Enable tab shipping and free returns"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:729
+msgid "Enable features"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:585
+msgid "Payment fail"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:565
+msgid "Payment success"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:445
+msgid "Show"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:412
+msgid "Copyright"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:370
+msgid "Methods"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:265
+msgid "Usually used for trusted seals, payment system logos, etc."
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:118
+msgid "Show discount information in the product list:   Show discount badges"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:852
+msgid "Sidebar"
+msgstr "Parankinė"
+
+#: libs/customization/class.CZ.Settings.php:834
+msgid "Enable SHOP WITH CONFIDENCE section"
+msgstr "Įgalinti APSIPIRKITE UŽTIKRINTAI skirsnį"
+
+#: single-product.php:120
+msgid "Out of stock."
+msgstr "Nebeturime sandėlyje"
+
+#: functions.php:205
+msgid "MM / YY"
+msgstr "MĖNESIS / METAI"
+
+#: functions.php:204
+msgid "CVV"
+msgstr "CVV"
+
+#: libs/create_page_template.php:32
+msgid "Thank you page"
+msgstr "Padėkos puslapis"
+
+#: libs/customization/class.CZ.Settings.php:831
+msgid "Additional information"
+msgstr "Papildoma informacija"
+
+#: libs/customization/class.CZ.Settings.php:830
+msgid "Additional information for Credit Cards payment method"
+msgstr "Papildoma informacija apmokėjimui kredito kortele"
+
+#: libs/customization/class.CZ.Settings.php:827
+msgid "Additional information for PayPal payment method"
+msgstr "Papildoma informacija apmokėjimui naudojant PayPal"
+
+#: libs/customization/class.CZ.Settings.php:826
+#: libs/customization/class.CZ.Settings.php:829
+msgid "Show the message on your checkout page"
+msgstr "Rodyti pranešimą atsiskaitymo puslapyje"
+
+#: libs/customization/class.CZ.Settings.php:823
+msgid "Terms & Conditions Checkbox"
+msgstr "Paslaugų teikimo sąlygų langelis"
+
+#: libs/customization/class.CZ.Settings.php:821
+msgid "Enabled"
+msgstr "Įjungti"
+
+#: libs/customization/class.CZ.Settings.php:817
+msgid "Fields options"
+msgstr "Laukelio nustatymai"
+
+#: libs/customization/class.CZ.Settings.php:816
+msgid "Description field required"
+msgstr "Reikalingas aprašymo laukelis"
+
+#: libs/customization/class.CZ.Settings.php:815
+msgid "Phone number field required"
+msgstr "Reikalingas telefono numerio laukelis"
+
+#: libs/customization/class.CZ.Settings.php:802
+msgid "Buyer protection"
+msgstr "Pirkėjo apsauga"
+
+#: libs/customization/class.CZ.Settings.php:801
+msgid "Show shipping details on product page"
+msgstr "Rodyti siuntimo detales produkto puslapyje"
+
+#: libs/customization/class.CZ.Settings.php:800
+msgid "Enable tab item review"
+msgstr "Įgalinti prekės apžvalgų skiltį"
+
+#: libs/customization/class.CZ.Settings.php:799
+msgid "Enable review flag"
+msgstr "Įjungti vėliavėlių peržiūrą"
+
+#: libs/customization/class.CZ.Settings.php:798
+msgid "Enable best price guarantee"
+msgstr "Įjungti geriausios kainos garantiją"
+
+#: libs/customization/class.CZ.Settings.php:796
+msgid "Enable tab item specifics"
+msgstr "Įgalinti prekės parametrų skiltį"
+
+#: libs/customization/class.CZ.Settings.php:795
+msgid "Enable share button"
+msgstr "Įjungti dalinimosi funkciją"
+
+#: libs/customization/class.CZ.Settings.php:794
+msgid "Enable quantity of orders"
+msgstr "Įjungti užsakymų kiekį"
+
+#: libs/customization/class.CZ.Settings.php:793
+msgid "Enable Packaging block"
+msgstr "Įjungti pavakimą blokais"
+
+#: libs/customization/class.CZ.Settings.php:780
+#: libs/customization/class.CZ.Settings.php:784
+msgid "Article"
+msgstr "Straipsnis"
+
+#: libs/customization/class.CZ.Settings.php:772
+msgid "Features"
+msgstr "Funkcijos"
+
+#: libs/customization/class.CZ.Settings.php:724
+msgid "Promo Counter"
+msgstr "Nuolaidos skaitiklis"
+
+#: libs/customization/class.CZ.Settings.php:720
+msgid "Enable counter"
+msgstr "Įgalinti skaitiklį"
+
+#: libs/customization/defaults.php:183
+msgid "© Copyright {{YEAR}}. All Rights Reserved"
+msgstr "© Copyright {{METAI}}. Visos teisės saugomos"
+
+#: libs/customization/defaults.php:81
+msgid "Terms & Conditions"
+msgstr "Bendrosios paslaugų teikimo sąlygos"
+
+#: libs/customization/defaults.php:81
+msgid "I have read the"
+msgstr "Aš perskaičiau"
+
+#: products/main-recently.php:17
+msgid "Your recently viewed items"
+msgstr "Paskutinės žiūrėtos prekės"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:46
+#: libs/pages_default/shipping-delivery.php:44
+msgid "Yes, you will receive an email once your order ships that contains your tracking information. If you haven’t received tracking info within 5 days, please contact us."
+msgstr "Elektroniniu paštu išsiųsime pristatymo informaciją kai tik jūsų prekės bus išsiųstos jums. Jeigu per 5 dienas negausite pranešimo, prašome susisiekti su mumis. "
+
+#: libs/pages_default/shipping-delivery.php:35
+msgid "Mexico, Central America, South America"
+msgstr "Meksika, Centrinė Amerika, Pietų Amerika"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:9
+#: libs/pages_default/shipping-delivery.php:7
+msgid "Yes. We provide free shipping to over 200 countries around the world. However, there are some location we are unable to ship to. If you happen to be located in one of those countries we will contact you."
+msgstr "Taip. Mes nemokamai siunčiame prekes į daugiau nei 200 valstybių visame pasaulyje. Visgi, yra vietų į kurias pristatyti siuntų mes negalime. Jeigu gyvenate vienoje iš šių vietų, mes su jumis susisieksime. "
+
+#: libs/pages_default/refund-policy.php:16
+msgid "(i.e. not cleared by customs, delayed by a natural disaster)"
+msgstr "(pvz. nepraleido muitinė, vėluoja dėl gamtos reiškinių sukeltų nelaimių)"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:77
+#: libs/pages_default/refund-policy.php:26
+msgid "Please do not send your purchase back to us unless we authorise you to do so."
+msgstr "Prašome siųsti prekes atgal tik gavus mūsų patvirtinimą apie užfiksuotą prekių grąžinimą. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:76
+#: libs/pages_default/refund-policy.php:25
+msgid "If for any reason you would like to exchange your product, perhaps for a different size in clothing. You must contact us first and we will guide you through the steps."
+msgstr "Jeigu dėl kokios nors priežasties norėsite pakeisti įsigytą produktą kitu (pvz. įsigijus netinkamo dydžio rūbą), prašome susisiekti su mumis ir mes jums suteiksime visą informaciją apie šį procesą."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:75
+#: libs/pages_default/refund-policy.php:24
+msgid "Exchanges"
+msgstr "Mainai"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:74
+#: libs/pages_default/refund-policy.php:22
+msgid "If you are approved for a refund, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment, within 14 days."
+msgstr "Jeigu pinigų grąžinimas bus patvirtintas, per 14 dienų pinigai bus pervesti atgal į jūsų sąskaitą arba grąžinti kitu būdu, atsižvelgiant į tai, kokį apmokėjimo būdą rinkotės."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:73
+#: libs/pages_default/refund-policy.php:20
+msgid "page"
+msgstr "puslapis"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:66
+#: libs/pages_default/refund-policy.php:11
+msgid "If you do not want the product you’ve receive you may request a refund but you must return the item at your expense and the item must be unused."
+msgstr "Jeigu nenorite produkto, galite prašyti atgauti savo pinigus, tačiau privalote grąžinti nenaudotą prekę savais pinigais. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:65
+#: libs/pages_default/refund-policy.php:10
+msgid "If you received the wrong item you can request a refund or a reshipment."
+msgstr "Jeigu gavote ne tą prekę, galite reikalauti atgauti pinigus arba pakartotinai išsiųsti pageitą produktą. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:64
+#: libs/pages_default/refund-policy.php:9
+msgid "receive the product within the guaranteed time(45 days not including 2-5 day processing) you can request a refund or a reshipment."
+msgstr "negavę prekių per pažadėtą laiką (45 dienos neskaitant 2-5 dienų skirtų užsakymo apdorojimui) galite reikalauti pinigų grąžinimo arba pakartotinio išsiuntimo."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:64
+#: libs/pages_default/refund-policy.php:9
+msgid "not"
+msgstr "ne"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:64
+#: libs/pages_default/refund-policy.php:9
+msgid "If you did"
+msgstr "Jeigu jūs"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:63
+#: libs/pages_default/refund-policy.php:7
+msgid "Your satisfaction is our #1 priority. Therefore, if you’d like a refund you can request one no matter the reason."
+msgstr "Jūsų pasitenkinimas yra mūsų prioritetas Nr. 1. Visgi, jeigu norite atgauti pinigus, jūs galite to reikalauti nepriklausomai nuo to, kokiu pagrindu tai darote. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:62
+#: libs/pages_default/refund-policy.php:5
+msgid "Refunds"
+msgstr "Pinigų grąžinimas"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:61
+#: libs/pages_default/refund-policy.php:3
+msgid "All orders can be cancelled until they are shipped. If your order has been paid and you need to make a change or cancel an order, you must contact us within 12 hours. Once the packaging and shipping process has started, it can no longer be cancelled."
+msgstr "Visi užsakymai gali būti atšaukti iki išsiuntimo momentų. Jeigų jau užmokėjote, tačiau norite pakeisti arba atšaukti užsakymą, privalote su mumis susiekti per 12 valandų. Prasidėjus pakavimo ir užsakymo apdorojimo procesui, užsakymo atšaukti nebegalima. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:60
+#: libs/pages_default/refund-policy.php:1
+msgid "Order cancellation"
+msgstr "Užsakymo atšaukimas"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:58
+msgid "REFUNDS & RETURNS POLICY"
+msgstr "PINIGŲ IR PREKIŲ GRĄŽINIMO TVARKA"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:56
+#: libs/pages_default/shipping-delivery.php:54
+msgid "If you have any other questions, please contact us and we will do our best to help you out."
+msgstr "Jeigu turite kitų klausimų, susiekite su mumis ir mes pasistengsime jums padėti. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:54
+#: libs/pages_default/shipping-delivery.php:52
+msgid "For logistical reasons, items in the same purchase will sometimes be\tsent in separate packages, even if you've specified combined shipping."
+msgstr "Dėl logistinių priežasčių, tuo pačių metu įsigytos prekės kartais gali būti siunčiamos atskirai - netgi jeigu pažymėjote, kad norite viską gauti viename siuntinyje. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:52
+#: libs/pages_default/shipping-delivery.php:50
+msgid "Will my items be sent in one package?"
+msgstr "Ar mano užsakytos prekės bus siunčiamos kartu?"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:50
+#: libs/pages_default/shipping-delivery.php:48
+msgid "If your order was placed more than 5 business days ago and there is still no information on your tracking number, please contact us."
+msgstr "Jeigu užsakymą pateikėte anksčiau nei prieš 5 darbo dienas ir vis dar iš mūsų negavote informacijos su užsakymo numeriu, prašome susisiekti."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:49
+#: libs/pages_default/shipping-delivery.php:47
+msgid "For some shipping companies, it takes 2-5 business days for the tracking information to update on the system."
+msgstr "Kai kurios siuntimo kompanijos gali užtrukti 2-5 dienas kol siuntimo sekimo informacija bus atnaujinta sistemoje. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:47
+#: libs/pages_default/shipping-delivery.php:45
+msgid "My tracking says “no information available at the moment”."
+msgstr "Įvedus siuntimo sekimo informaciją gaunu atsakymą, kad \"šiuo metu nėra jokios informacijos apie siuntinį\""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:44
+#: libs/pages_default/shipping-delivery.php:42
+msgid "Do you provide tracking information?"
+msgstr "Ar suteikiate galimybę sekti siuntinio pristatymą?"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:41
+#: libs/pages_default/shipping-delivery.php:39
+msgid "This doesn’t include our 2-5 day processing time."
+msgstr "Į tai neįtrauktas 2-5 dienų siuntinio apdorojimo laikas."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:37
+msgid "Central & South America"
+msgstr "Centrinė ir Pietų Amerika"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:33
+#: libs/pages_default/shipping-delivery.php:31
+msgid "Australia, New Zealand"
+msgstr "Australija, Naujoji Zelandija"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:29
+#: libs/pages_default/shipping-delivery.php:27
+msgid "Canada, Europe"
+msgstr "Kanada, Europa"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:25
+#: libs/pages_default/shipping-delivery.php:23
+msgid "United States"
+msgstr "Jungtinės Valstijos"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:21
+#: libs/pages_default/shipping-delivery.php:19
+msgid "Estimated Shipping Time"
+msgstr "Numatytas siuntimo laikas"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:20
+#: libs/pages_default/shipping-delivery.php:18
+msgid "Location"
+msgstr "Vieta"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:15
+#: libs/pages_default/shipping-delivery.php:13
+msgid "Shipping time varies by location. These are our estimates"
+msgstr "Siuntimo laikas gali kisti priklausomai nuo vietos, į kurią yra siunčiama. Tai yra numatytas laikas"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:13
+#: libs/pages_default/shipping-delivery.php:11
+msgid "How long does shipping take?"
+msgstr "Kiek laiko užtrunka siuntimas"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:12
+#: libs/pages_default/shipping-delivery.php:10
+msgid "We are not responsible for any custom fees once the items have shipped. By purchasing our products, you consent that one or more packages may be shipped to you and may get custom fees when they arrive to your country."
+msgstr "Mes neatsakome už muitų mokesčius, pritaikytus po prekių išsiuntimo. Pirkdami mūsų prekes, jūs sutinkate kad vienas arba keli siuntiniai gali būti apmokestinti jūsų šalies muitinėje."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:10
+#: libs/pages_default/shipping-delivery.php:8
+msgid "What about customs?"
+msgstr "O kaip dėl muitinės?"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:7
+#: libs/pages_default/shipping-delivery.php:5
+msgid "Do you ship worldwide?"
+msgstr "Ar siunčiate į kitas šalis?"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:6
+#: libs/pages_default/shipping-delivery.php:4
+msgid "Packages from our warehouse in China will be shipped by ePacket or EMS depending on the weight and size of the product. Packages shipped from our US warehouse are shipped through USPS."
+msgstr "Siuntos iš mūsų sandėlio Kinijoje, priklausomai nuo produkto dydžio ir svorio, pristatomos naudojantis ePacket arba EMS paslaugomis. Iš JAV sandelio išsiųtos prekes pristato USPS. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:4
+#: libs/pages_default/shipping-delivery.php:2
+msgid "How do you ship packages?"
+msgstr "Kaip pristatote siuntas?"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:3
+#: libs/pages_default/shipping-delivery.php:1
+msgid "We are proud to offer international shipping services that currently operate in over 200 countries and islands world wide.  Nothing means more to us than bringing our customers great value and service.  We will continue to grow to meet the needs of all our customers, delivering a service beyond all expectation anywhere in the world."
+msgstr "Mes didžiuojamės galėdami pristatyti tarptautines siuntimo paslaugos, kurios veikia 200 pasaulio šalių bei salų. Mums nėra nieko svarbesnio, negu suteikti savo klientams geriausią galimą kokybę bei paslaugas. Mes ir toliau augsime, kad atitiktume ir pranoktume klientų lūkesčius bei galėtume pristatyti siuntas į betkurią pasaulio vietą."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:1
+msgid "SHIPPING AND DELIVERY"
+msgstr "IŠSIUNTIMAS IR PRISTATYMAS"
+
+#: libs/customization/class.CZ.Settings.php:222
+msgid "Facebook Pixel ID"
+msgstr "Facebook Pixel ID"
+
+#: libs/customization/class.CZ.Settings.php:60
+msgid "Checkout page settings"
+msgstr "Atsiskaitymo puslapio nustatymai"
+
+#: libs/create_page_template.php:42
+msgid "Contact"
+msgstr "Kontaktai"
+
+#: libs/create_page_template.php:41
+msgid "Tracking"
+msgstr "Sekimas"
+
+#: libs/create_page_template.php:40
+msgid "About"
+msgstr "Apie"
+
+#: libs/create_page_template.php:39 libs/create_page_template.php:54
+msgid "Returns Policy"
+msgstr "Grąžinimo nuostatos"
+
+#: libs/create_page_template.php:30
+msgid "Track your order"
+msgstr "Sekite savo užsakymą"
+
+#: libs/create_page_template.php:28
+msgid "Refunds & Returns Policy"
+msgstr "Prekių grąžinimo ir pinigų atgavimo nuostatos"
+
+#: cart/cart1/tpl/_list_order.php:28 cart/cart1/tpl/_list_order.php:70
+msgid "free"
+msgstr "nemokamai"
+
+#: cart/cart1/tpl/_form.php:50
+msgid "Full name"
+msgstr "Pilnas vardas"
+
+#: cart/cart1/_cart.php:40
+msgid "Free worldwide shipping"
+msgstr "Nemokamas pasaulinis siuntimas"
+
+#: single-product.php:269
+msgid "Shipping and Free Returns"
+msgstr "Siuntimas ir nemokamas grąžinimas"
+
+#: single-product.php:226
+msgid "items, if not as described."
+msgstr "prekės, jeigu neatitinka aprašymo."
+
+#: single-product.php:225
+msgid "Refund & Keep"
+msgstr "Pinigų atgavimas ir prekės pasilikimas"
+
+#: single-product.php:222
+msgid "if you don't receive your order."
+msgstr "jeigu negausite savo užsakymo"
+
+#: single-product.php:59
+msgid "%s order"
+msgid_plural "%s orders"
+msgstr[0] "%s užsakymas"
+msgstr[1] "%s užsakymai"
+msgstr[2] "%s užsakymų"
+
+#: page-thank-you-contact.php:30
+msgid "We'll get back to you as soon as possible"
+msgstr "Susisieksime su jus kaip galėdami greičiau"
+
+#: page-about-us.php:158
+msgid "We're continually working on our online store and are open to any suggestions. If you have any questions or proposals, please do not hesitate to contact us."
+msgstr "Mes nuolatos dirbame tobulindami savo parduotuvę ir visame esame pasirengę išklausyti patarimus. Jeigu turite klausimų arba pasiūlymų, prašome susisiekti su mumis. "
+
+#: page-about-us.php:64
+msgid "Inspire Happiness and Positivity"
+msgstr "Įkvepia Laimę ir Pozityvumą"
+
+#: page-about-us.php:35
+msgid "We hope to build relationships with our customers so we'll do everything we can to ensure you’re satisfied."
+msgstr "Mes tikimės sukurti ilgalaikius santykius su savo klientais, taigi darome viską, kad užtikrintume, jog esate patenkintas savo patirtimi apsipirkinėjant pas mus.  "
+
+#: page-about-us.php:34
+msgid "We're committed to offering the lowest prices and also frequent promotions and seasonal sales."
+msgstr "Mes įsipareigojame pasiūlyti mažiausią kainą bei dažnas akcijas bei sezoninius išpardavimus. "
+
+#: page-about-us.php:33
+msgid "We care about your time so we try our best to make your shopping experience pleasant, seamless and hassle-free."
+msgstr "Mums rūpi jūsų laikas, taigi stengiamės, kad jūsų apsipirkimo patirtis būtų maloni, greita ir be trukdžių. "
+
+#: page-about-us.php:32
+msgid "Our team is passionate about making it easier for you to shop online."
+msgstr "Mūsų komanda aistringai siekia palengvinti jūsų elektroninio apsipirkimo patirtį. "
+
+#: functions.php:11
+msgid "AliDropship Plugin was not activated!"
+msgstr "AliDropship įskiepas nebuvo aktyvuotas!"
+
+#: functions.php:11
+msgid "Error!"
+msgstr "Klaida!"
+
+#: footer.php:230
+msgid "Stay Up To Date"
+msgstr "Likite prisijungę"
+
+#: footer.php:61
+msgid "Purchase Info"
+msgstr "Pirkinio informacija"
+
+#: archive-product.php:49 taxonomy-product_cat.php:49
+msgid "Load more"
+msgstr "Užkrauti daugiau"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:26
+#: libs/customization/template/tm_single_shipping_payment_content.php:30
+#: libs/customization/template/tm_single_shipping_payment_content.php:34
+#: libs/customization/template/tm_single_shipping_payment_content.php:38
+#: libs/pages_default/shipping-delivery.php:24
+#: libs/pages_default/shipping-delivery.php:28
+#: libs/pages_default/shipping-delivery.php:32
+#: libs/pages_default/shipping-delivery.php:36
+msgid "Business days"
+msgstr "Darbo dienos"
+
+#: libs/contact-form.php:26
+msgid "Your Message"
+msgstr "Jūsų žinutė"
+
+#: libs/contact-form.php:17
+msgid "Your Name"
+msgstr "Jūsų vardas"
+
+#: products/_pack.php:21
+msgid "Size"
+msgstr "Dydis"
+
+#: products/_pack.php:15
+msgid "Weight"
+msgstr "Svoris"
+
+#: products/_pack.php:9
+msgid "Type"
+msgstr "Tipas"
+
+#: libs/customization/defaults.php:70
+msgid "<b>2000+</b> Successful Deliveries"
+msgstr "<b>2000+</b> Sėkmingai pristatyta"
+
+#: libs/customization/defaults.php:68
+msgid "<b>100%</b> Safe Payment"
+msgstr "<b>100%</b> Saugiai apmokėta"
+
+#: libs/customization/defaults.php:66
+msgid "Shipping to <b>185</b> Countries"
+msgstr "Siuntimas į <b>185</b> šalis"
+
+#: libs/customization/defaults.php:64
+msgid "<b>700+</b> Clients Love Us!"
+msgstr "<b>700+</b> Klientai mus myli!"
+
+#: products/countdown.php:23
+msgid "S"
+msgstr "S"
+
+#: products/countdown.php:22
+msgid "M"
+msgstr "M"
+
+#: products/countdown.php:21
+msgid "H"
+msgstr "H"
+
+#: products/countdown.php:20
+msgid "D"
+msgstr "D"
+
+#: libs/pages_default/privacy-policy.php:21
+msgid "You can submit refund requests by sending a message on "
+msgstr "Galite pateikti pinigų grąžinimo prašymą žinute"
+
+#: libs/pages_default/privacy-policy.php:20
+msgid "Your order did not arrive due to exceptional circumstances outside the control of our"
+msgstr "Jūsų siunta nebuvo jums pristatyta dėl išskirtinių aplinkybių, nepriklausančių nuo mūsų"
+
+#: libs/pages_default/privacy-policy.php:17
+msgid "If your item is significantly different from the product description, you can A: Return it and get a full refund, or B: Get a partial refund and keep the item."
+msgstr "Jeigu gauta prekė stipriai skiriasi nuo gauto produkto, jūs galite: A) Grąžinti prekę ir atgauti visus pinigus arba B) pasilikti prekę ir atgauti dalį pinigų. "
+
+#: libs/pages_default/privacy-policy.php:16
+msgid "Full or Partial Refund if the item is not as described."
+msgstr "Pilnas arba dalinis pinigų grąžinimas jeigu prekė neatitinka aprašymo."
+
+#: libs/pages_default/privacy-policy.php:15
+msgid "You will get a full refund if your order does not arrive within the delivery time promised by our"
+msgstr "Jums grąžinta pilna suma, jeigu prekės neatvyks nustatytų laiku"
+
+#: libs/pages_default/privacy-policy.php:14
+msgid "Full Refund if you don’t receive your order."
+msgstr "Pilnas pinigų grąžinimas, jeigu negausite prekių."
+
+#: libs/pages_default/privacy-policy.php:12
+msgid "receives the following guarantees:"
+msgstr "gauna šias garantijas:"
+
+#: libs/pages_default/privacy-policy.php:12
+msgid "Everyone who shops on our"
+msgstr "Visi, kurie perka iš mūsų"
+
+#: libs/pages_default/privacy-policy.php:10
+msgid "Your satisfaction is our long-term pursuit and concern. We want you to shop with confidence. That's why we provide guarantees that ensure you'll receive your item on time and as described."
+msgstr "Mūsų pasitenkinimas yra mūsų ilgalaikė siekiamybė. Mes norime, kad galėtumėte apsipirkti pasitikėdami mumis. Todėl mes suteikiame garantijas, kurios užtikrina, kad gausite prekes laiku ir tokias, kokias užsisakėte."
+
+#: libs/customization/class.CZ.Settings.php:310
+msgid "Instagram Account Link"
+msgstr "Nuorodą į Instagram paskyrą"
+
+#: libs/create_page_template.php:21
+msgid "Thank you"
+msgstr "Ačiū"
+
+#: cart/cart2/index.php:34
+msgid "Show order summary"
+msgstr "Rodyti užsakymo santrauką"
+
+#: libs/customization/class.CZ.Settings.php:143
+msgid "Show not all sub-categories"
+msgstr "Rodyti ne visas sub-kategorijas"
+
+#: libs/customization/class.CZ.Settings.php:142
+msgid "Short sub-category menu"
+msgstr "Trumpas sub-kategorijų meniu"
+
+#: libs/customization/class.CZ.Settings.php:176
+msgid "Prices color"
+msgstr "Kainų spalva"
+
+#: cart/cart2/index.php:290
+msgid "Сomplete order"
+msgstr "Užbaigti užsakymą"
+
+#: cart/cart1/tpl/_payment.php:108 cart/cart2/index.php:278
+msgid "You will be redirected to complete your purchase securely."
+msgstr "Jūsų būsite nukreiptas saugiai užbaigti užsakymą. "
+
+#: cart/cart1/tpl/_payment.php:80 cart/cart2/index.php:262
+msgid "CVC"
+msgstr "CVC"
+
+#: cart/cart1/tpl/_payment.php:69 cart/cart2/index.php:251
+msgid "Name on card"
+msgstr "Vardas, nurodytas ant kortelės"
+
+#: cart/cart1/tpl/_payment.php:39 cart/cart2/index.php:233
+msgid "You will be redirected to PayPal to complete your purchase securely."
+msgstr "Būsite nukreiptas į PayPal, kad saugiai užbaigtumėte savo apsipirkimą."
+
+#: cart/cart1/tpl/_payment.php:31 cart/cart2/index.php:225
+msgid "PayPal"
+msgstr "PayPal"
+
+#: cart/cart2/index.php:207 libs/customization/defaults.php:87
+msgid "All transactions are secure and encrypted. Credit card information is never stored."
+msgstr "Visi pavedimai yra apsaugoti ir užšifruoti. Nesaugome kreditinės kortelės informacijos."
+
+#: cart/cart2/index.php:197
+msgid "Free International Shipping"
+msgstr "Nemokamas tarptautinis siuntimas"
+
+#: cart/cart2/index.php:193
+msgid "Shipping method"
+msgstr "Siuntimo būdas"
+
+#: cart/cart2/index.php:187 cart/cart2/index.php:188
+msgid "Phone (optional)"
+msgstr "Telefono numeris (neprivaloma)"
+
+#: cart/cart2/index.php:137
+msgid "Shipping address"
+msgstr "Siuntimo adresas"
+
+#: cart/cart2/index.php:128
+msgid "Customer information"
+msgstr "Kliento informacija"
+
+#: cart/cart2/index.php:98 cart/cart2/index.php:99
+msgid "Gift card or discount code"
+msgstr "Dovanų kortelė arba nuolaidos kodas"
+
+#: cart/cart1/tpl/_payment.php:57 cart/cart2/index.php:239
+msgid "Credit Card"
+msgstr "Kreditinė kortelė"
+
+#: libs/customization/defaults.php:178
+msgid "BUY WITH CONFIDENCE"
+msgstr "PRIKTI SU PASITIKĖJIMU"
+
+#: libs/customization/defaults.php:152
+msgid "Please note that if you’ve ordered more than 2 items, you might not get all of them at the same time due to varying locations of our storehouses."
+msgstr "Prašome atkreipti dėmesį, kad jeigu užsisakėte daugiau nei 2 prekes, galite jas gauti atskirai, kadangi jos gali būti saugomos skirtinguose sandėliuose."
+
+#: libs/customization/defaults.php:151
+msgid "Your payment was accepted and you will get notification on your email address."
+msgstr "Apmokėjimas buvo priimtas. Į el. pašto dėžutę gausite patvirtinimą. "
+
+#: libs/customization/defaults.php:144
+msgid "Amber Lee"
+msgstr "Amber Lee"
+
+#: libs/customization/defaults.php:140
+msgid "Anton Martin"
+msgstr "Anton Martin"
+
+#: libs/customization/defaults.php:137
+msgid "Customer Support Manager"
+msgstr "Klientų aptarnavimo vadybininkas"
+
+#: libs/customization/defaults.php:136
+msgid "Nataly Robinson"
+msgstr "Nataly Robinson"
+
+#: libs/customization/defaults.php:132
+msgid "Samantha Bailey"
+msgstr "Samantha Bailey"
+
+#: libs/customization/defaults.php:129 libs/customization/defaults.php:133
+#: libs/customization/defaults.php:141 libs/customization/defaults.php:145
+msgid "Customer Support Specialist"
+msgstr "Klientų aptarnavimo specialistas"
+
+#: libs/customization/defaults.php:128
+msgid "Oprah Phillips"
+msgstr "Oprah Phillips"
+
+#: libs/customization/defaults.php:125
+msgid "Our team is made up of experienced developers, designers and marketers who do their best to create the interface comfortable to use. It is vital for us to make your shopping easy and pleasant."
+msgstr "Mūsų komandą sudaro patyrę programuotojai, dizaineriai ir marketingo specialistai, kurie įdėjo visas savo pastangas, kad jums skurtų patogią naudoti vartotojo sąsają. Mums svarbiausia padaryti jūsų apsipirkimą maloniu ir lengvu. "
+
+#: libs/customization/class.CZ.Settings.php:534
+#: libs/customization/defaults.php:124
+msgid "MEET OUR TEAM"
+msgstr "SUSIPAŽINKITE SU MŪSŲ KOMANDA"
+
+#: libs/customization/defaults.php:121
+msgid "We are a team of enthusiastic developers and entrepreneurs who decided to convert their common experience into this web store. We hope you’ll like it as much as we do and have a great shopping experience here. Our prime goal is to create a shop in which you can easily find whatever product you need"
+msgstr "Mes esame entuziastingų kūrėjų ir antreprenerių komanda, kuri nusprendė sujungti savo bendrą patirtį, kad sukurtų šią elektroninę parduotuvę. Tikimės, kad jūs ją mėgstate taip pat, kaip ir mes ir mėgausitės puikia apsipirkimo patirtimi. Mūsų pagrindinis tikslas - sukurti parduotuvę, kur lengvai rasite viską, ko jums reikia. "
+
+#: libs/customization/defaults.php:120
+msgid "Welcome to"
+msgstr "Sveiki atvykę"
+
+#: libs/customization/defaults.php:114
+msgid "All products – choose the ones you like and add them to your shopping cart"
+msgstr "Visi produktai - pasirinkite tuos, kurie jums patiks ir pridėkite prie savo pirkinių krepšelio"
+
+#: libs/customization/defaults.php:113
+msgid "All products"
+msgstr "Visi produktai"
+
+#: libs/customization/defaults.php:67
+msgid "Our store operates worldwide and you can enjoy free delivery of all orders"
+msgstr "Mūsų parduotuvė yra tarptautinė, taigi jūs galite džiaugtis nemokamu visų užsakymų pristatymu. "
+
+#: libs/customization/defaults.php:65
+msgid "We offer best service and great prices on high quality products"
+msgstr "Mes siūlome geriausias paslaugas ir puikias kainas aukštos kokybės produktams"
+
+#: libs/customization/defaults.php:44
+msgid "Shop Now"
+msgstr "Apsipirkti dabar"
+
+#: libs/customization/defaults.php:59
+msgid "limited time offer"
+msgstr "pasiūlymas galios ribotą laiką"
+
+#: libs/customization/defaults.php:59
+msgid "off all items!"
+msgstr "nuo visų prekių!"
+
+#: libs/customization/defaults.php:59
+msgid "Super Sale up to"
+msgstr "Didysis išpardavimas iki"
+
+#: libs/customization/defaults.php:56 libs/customization/defaults.php:71
+msgid "Our Buyer Protection covers your purchase from click to delivery"
+msgstr "Mūsų Pirkėjų Apsauga įtraukia pirkinius iš paspauskite ir \"gaukite\""
+
+#: libs/customization/defaults.php:51 libs/customization/defaults.php:69
+msgid "Buy with confidence using the world’s most popular and secure payment methods"
+msgstr "Pirkite su pasitikėjimu naudodamiesi populiariausiais pasaulyje atsiskaitymo būdais. "
+
+#: libs/customization/defaults.php:50 libs/customization/defaults.php:55
+msgid "Go shopping"
+msgstr "Apsipirkti"
+
+#: libs/customization/defaults.php:45
+msgid "We offer best service and great prices on high quality products!"
+msgstr "Mes siūlome geriausias paslaugas ir puikias kainas aukštos kokybės produktams!"
+
+#: libs/customization/class.CZ.Settings.php:158
+msgid "Buttons Colors"
+msgstr "Mygtukų spalva"
+
+#: functions.php:707
+msgid "An unknown error occurred"
+msgstr "Įvyko nežinoma klaida"
+
+#: functions.php:702
+msgid "<p>An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a></p>"
+msgstr "<p>An Nenumatyta HTTP klaida API užklausos metu.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a></p>"
+
+#: libs/customization/class.CZ.Settings.php:314
+msgid "Username"
+msgstr "Vartotojo vardas"
+
+#: libs/in.wigwtads.php:205
+msgid "client ID"
+msgstr "cliento ID"
+
+#: libs/in.wigwtads.php:191
+msgid "Authorization"
+msgstr "Patvirtinimas"
+
+#: cart/cart1/_cart.php:61
+msgid "Enter promo code"
+msgstr "Įveskite nuolaidos kodą"
+
+#: libs/customization/class.CZ.Settings.php:368
+msgid "Delivery Methods"
+msgstr "Pristatymo būdas"
+
+#: functions.php:722
+msgid "Expedited"
+msgstr "Pagreitinta"
+
+#: functions.php:721
+msgid "Standard"
+msgstr "Standartinis"
+
+#: functions.php:720
+msgid "Super savings"
+msgstr "Itin gera kaina"
+
+#: functions.php:719
+msgid "FREE"
+msgstr "Nemokamas"
+
+#: cart/cart1/_cart.php:56
+msgid "Have a promotional code?"
+msgstr "Turite nuolaidos kodą?"
+
+#: libs/customization/defaults.php:84
+msgid "You can pay with your credit card without creating a PayPal account"
+msgstr "Galite atlikti apmokėjimą naudodami kreditinę kortelę (neprivalote susikurti PayPal paskyros). "
+
+#: libs/customization/class.CZ.Settings.php:59
+msgid "Checkout"
+msgstr "Atsiskaitymas"
+
+#: products/product.php:34
+msgid "off"
+msgstr "nuo"
+
+#: products/product-related.php:63
+msgid "Related Products"
+msgstr "Susiję produktai"
+
+#: products/cat-popular.php:33
+msgid "Most Popular"
+msgstr "Populiariausi"
+
+#: products/cat-menu.php:11
+msgid "Categories"
+msgstr "Kategorijos"
+
+#: libs/pages_default/terms-and-conditions.php:21
+msgid "of any unauthorized use of your password or identification or any other breach or threatened breach of this Site’s security."
+msgstr "neautorizuoto pasinaudojimo jūsų slaptažodžiu ar indentifikacijos duomenis arba kitokio pažeidimo, kuris grasina sutrikdyti svetainės saugumą. "
+
+#: libs/pages_default/terms-and-conditions.php:20
+msgid "You will be solely responsible for all access to and use of this site by anyone using the password and identification originally assigned to you whether or not such access to and use of this site is actually authorized by you, including without limitation, all communications and transmissions and all obligations (including without limitation financial obligations) incurred through such access or use. You are solely responsible for protecting the security and confidentiality of the password and identification assigned to you. You shall immediately notify"
+msgstr ""
+
+#: libs/pages_default/terms-and-conditions.php:19
+msgid "Unless explicitly permitted by our company in advance, all materials, including images, text, illustrations, designs, icons, photographs, programs, music clips or downloads, video clips and written and other materials that are part of this Site (collectively, the “Contents”) are intended solely for personal, non-commercial use. You may not make any commercial use of any of the information provided on the Site or make any use of the Site for the benefit of another business. We reserve the right to refuse service, terminate accounts, and/or cancel orders in its discretion, including, without limitation, if we believe that customer conduct violates applicable laws or is harmful to our interests. You may not reproduce, distribute, display, sell, lease, transmit, create derivative works from, translate, modify, reverse-engineer, disassemble, decompile, or otherwise exploit this Site or any portion of it unless expressly permitted by our company in writing."
+msgstr ""
+
+#: libs/pages_default/terms-and-conditions.php:17
+msgid "in advance. Any violation of this Agreement shall result in the immediate revocation of the license granted in this paragraph without notice to you."
+msgstr "iš anksto. Bet kokiu būdu pažeidus šį susitarimą, bus iškarto ir be perspėjimo nutraukta šiuo paragrafu suteikta licenzija. "
+
+#: libs/pages_default/terms-and-conditions.php:16
+msgid "By accepting these Terms of Use through your use of the Site, you certify that you are 18 years of age or older. If you are under 18 years old please use this Site only under the supervision of a parent or legal guardian. Subject to the terms and conditions of this agreement, hereby grants you a limited, revocable, non-transferable, and non-exclusive license to access and use the Site by displaying it on your Internet browser only for the purpose of shopping and not for any commercial use or use on behalf of any third party, except as explicitly permitted by"
+msgstr ""
+
+#: libs/pages_default/terms-and-conditions.php:14
+msgid "has no obligation to investigate the source of any such access or use of the Site."
+msgstr "nėra įsipareigojęs tirti tokio prisijungimo kilmę arba panaudojimą svetainėje. "
+
+#: libs/pages_default/terms-and-conditions.php:13
+msgid "may give you an account identification and password to enable you to access and use certain portions of this Site. Each time you use a password or identification, you are deemed to be authorized to access and use the Site in a manner consistent with the terms and conditions of this agreement, and"
+msgstr "gali jums suteikti paskyros prisijungimo duomenis, kad galėtumėte pasiekti tam tikras svetainės dalis. Kaskart naudojantis šiais duomenis, jūs galėsite pasiekti ir naudotis šia svetaine, tačiau privalėsite laikytis taisyklių, numatytų paslaugų teikimo sutartimi, ir"
+
+#: libs/pages_default/terms-and-conditions.php:12
+msgid "You shall not upload, distribute, or otherwise publish through this Site any Content, information, or other material that (a) includes any bugs, viruses, worms, trap doors, Trojan horses, or other harmful code or properties; (b) is libelous, threatening, defamatory, obscene, indecent, pornographic, discriminatory, or could give rise to any civil or criminal liability under the laws of the U.S. or the laws of any other country that may apply; or (c)violates or infringes upon the copyrights, patents, trademarks, service marks, trade secrets, or other proprietary rights of any person."
+msgstr ""
+
+#: libs/pages_default/terms-and-conditions.php:11
+msgid "Before proceeding, please read this agreement because accessing, browsing, or otherwise using the Site indicates your agreement to all the terms and conditions in this agreement."
+msgstr "Prieš tęsdami, perskaitykite šį susitarimą, kadangi prisijungimas, naršymas ar bet koks kitas naudojimasis svetaine rodo, kad sutinkate su čia surašytomis bendrosiomis paslaugų teikimo sąlygomis."
+
+#: libs/pages_default/terms-and-conditions.php:10
+msgid "We provide services to you subject to the notices, terms, and conditions set forth in this agreement. Besides, you will obey the rules, guidelines, policies, terms, and conditions applicable to such services before you use them. We reserve the right to change this site and these terms and conditions at any time."
+msgstr ""
+
+#: libs/pages_default/privacy-policy.php:21
+msgid "page or using your PayPal account."
+msgstr "puslapis arba naudojant PayPal paskyrą."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:73
+#: libs/pages_default/refund-policy.php:20
+msgid "You can submit refund requests within 15 days after the guaranteed period for delivery (45 days) has expired. You can do it by sending a message on"
+msgstr "Galite pateikti prašymą atgauti pinigus per 15 dienų nuo garantuoto pristatymo termino (45 dienos). Tai padaryti galite atsiuntę mums žinutę"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:71
+#: libs/pages_default/refund-policy.php:17
+msgid "Other exceptional circumstances outside the control of"
+msgstr "Kitos išskirtinės aplinkybės, nepriklausančios nuo"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:70
+#: libs/pages_default/privacy-policy.php:20
+msgid "(i.e. not cleared by customs, delayed by a natural disaster)."
+msgstr "(pvz. nepraleido muitinė, užtruko dėl gamtos reiškinių)"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:70
+#: libs/pages_default/refund-policy.php:16
+msgid "Your order did not arrive due to exceptional circumstances outside the control of"
+msgstr "Jūsų siuntinys neatvyko dėl išskirtinių aplinkybių, nepriklausančių nuo"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:69
+#: libs/pages_default/privacy-policy.php:19
+#: libs/pages_default/refund-policy.php:15
+msgid "Your order did not arrive due to factors within your control (i.e. providing the wrong shipping address)"
+msgstr "Jūsų siuntinys neatvyko dėl veiksnių priklausančių nuo jūsų (pvz. neteisingai nurodytas siuntimo adresas)"
+
+#: libs/pages_default/privacy-policy.php:18
+msgid "Full refunds are not available under the following circumstances:"
+msgstr "Pilnas pinigų grąžinimas nėra galimas susiklosčius šioms aplinkybėms:"
+
+#: libs/pages_default/payment-methods.php:18
+msgid "When you make payment for your order, you don’t need to use your credit card online (you can transfer directly from your bank account). When you use your credit card through PayPal, nobody will see your credit card number, which will minimize the risk of unauthorized use."
+msgstr "Kai atliekate apmokėjimą už savo užsakymą, neprivalote naudotis savo kreditine kortele (lėšas galite pervesti tiesiogiai iš savo sąskaitos). Jeigu naudojatės PayPal, niekas nematys jūsų kortelės numerio, kas sumažins galimybę tretiesiems  asmenims pasinaudoti jūsų kortele. "
+
+#: libs/pages_default/payment-methods.php:17
+msgid "Payment is traceable. By using your PayPal account, you can trace the status of your payment."
+msgstr "Apmokėjimo statusas gali būti sekamas. Naudodami PayPal paskyrą jūs galite sekti savo apmokėjimo statusą. "
+
+#: libs/pages_default/payment-methods.php:16
+msgid "The reasons why we suggest you use PayPal:"
+msgstr "Priežastys, dėl kurių rekomenduojame jums naudoti PayPal"
+
+#: libs/pages_default/payment-methods.php:15
+msgid "Usually, PayPal e-check will take 3-5 business days to be confirmed by PayPal."
+msgstr "Apmokėjimo patvirtinimas naudojant PayPal platformą gali užtrukti 3-5 dienas. "
+
+#: libs/pages_default/payment-methods.php:14
+msgid "You can use the PayPal as you want according to the on-screen instructions."
+msgstr "Atsižvelgdami į ekrane matomas instrukcijas, gali naudoti PayPal taip, kaip norite"
+
+#: libs/pages_default/payment-methods.php:13
+msgid "You can sign in to your PayPal account, or you can create a new one if you haven’t got one."
+msgstr "Galite prisijungti prie savo PayPal paskyros arba susikurti naują, jeigu jos dar neturite"
+
+#: libs/pages_default/payment-methods.php:12
+msgid "After viewing your items on your shopping cart page, you can click and check out with PayPal. Then you will leave our site and enter PayPal’s website."
+msgstr "Peržiūrėję savo prekes pirkinių krepšelyje, galite greituoju būdu atsiskaityti naudojant PayPal. Tokiu atveju iš mūsų svetainės būsite nekreiptas į PayPal platformą. "
+
+#: libs/pages_default/payment-methods.php:11
+msgid "PayPal can be used to purchase items by Credit Card (Visa, MasterCard, Discover, and American Express), Debit Card, or E-check (i.e. using your regular Bank Account)."
+msgstr "PayPal gali būti naudojama atsiskaityti naudojant kreditinę kortelę (Visa, MasterCard, Discover, and American Express), debetinę kortelę ar el. bankininkystės paslaugomis."
+
+#: libs/pages_default/payment-methods.php:10
+msgid "PayPal is a safer, easier way to send and receive money online. When you select PayPal as the payment method, you will be linked to the PayPal site where you can make payment."
+msgstr "PayPal yra saugesnis, lengvesnis būdas siųsti ir gauti pinigus. Pasirinkus PayPal atsiskaitymo metodu, būsite nukreipti į PayPal svetainę kur galėsite atlikti apmokėjimą."
+
+#: libs/pages_default/payment-methods.php:9
+msgid "Payments methods include PayPal and Credit cards."
+msgstr "Tarp galimų atsiskaitymo būdų yra ir PayPal bei banko kortelės."
+
+#: libs/pages_default/frequently-asked-questions.php:19
+msgid "The item you received that was assured to be genuine was fake."
+msgstr "Jūsų gauta prekė pasirodė esanti klastotė, nors buvo teigiama atvirkščiai. "
+
+#: libs/pages_default/frequently-asked-questions.php:18
+msgid "The item you received was not as described."
+msgstr "Prekė, kurią gavote, neatitinka aprašymo."
+
+#: libs/pages_default/frequently-asked-questions.php:17
+msgid "The item you ordered did not arrive within the time promised by the seller."
+msgstr "Prekė, kurią užsakėte, neatvyko per pardavėjo pažadėtą laiką."
+
+#: libs/pages_default/frequently-asked-questions.php:15
+msgid "You are protected when:"
+msgstr "Jūs esate apsaugotas, kai:"
+
+#: libs/pages_default/frequently-asked-questions.php:14
+msgid "Buyer Protection is a set of guarantees that enables buyers to shop with confidence on our website."
+msgstr "Pirkėjo Apsauga yra garantijos, kurios leidžia mūsų klientams apsipirkti su pasitikėjimu. "
+
+#: libs/pages_default/frequently-asked-questions.php:13
+msgid "What is Buyer Protection?"
+msgstr "Kas yra Pirkėjo Apsauga?"
+
+#: libs/pages_default/frequently-asked-questions.php:12
+msgid "directly"
+msgstr "tiesiogiai"
+
+#: libs/pages_default/frequently-asked-questions.php:12
+msgid "contact us"
+msgstr "susisiekite su mumis"
+
+#: libs/pages_default/frequently-asked-questions.php:12
+msgid "Shipping costs are calculated based on shipping method (air, sea or land) and product weight / volume. Different shipping companies have different rates, so it’s best to check and compare which is most affordable and economical. For more details on how shipping costs are calculated, please"
+msgstr "Siuntimo kaina yra apskaičiuojam atsižvelgiant į siuntimo būdą (oru, jūra ar žeme)ir produkto svorį / kiekį. Skirtingos siuntimo kompanojos turi skirtingas kainas, taigi patartina prieš renkantis pasitikrinti, kuris variantas geriausiai tinka jums. Norėdami gauti daugiau informacijos apie tai, kaip yra apskaičiuota kaina, prašome"
+
+#: libs/pages_default/frequently-asked-questions.php:11
+msgid "How are shipping costs calculated?"
+msgstr "Kaip apskaičiuojama siuntimo kaina?"
+
+#: libs/pages_default/frequently-asked-questions.php:10
+msgid "at the top of any page. Try to enter a general description. The more keywords you use, the less products you will get in the results page. When you find a product you’re interested in, simply click the product name or the product image for more details."
+msgstr "bet kurio puslapio viršuje. Pabandykite įvesti bendrą aprašymą. Kuo daugiau raktažodžių naudosite, tuo mažiau produktų matysite gautuose rezultatuose. Radę jus dominantį produktą, paspauskite ant produkto pavadinimo ar paveikslėlio, kad gautumėte daugiau detalių. "
+
+#: libs/pages_default/frequently-asked-questions.php:10
+msgid "Search Bar"
+msgstr "Paieškos laukelis"
+
+#: libs/pages_default/frequently-asked-questions.php:10
+msgid "Search for products by entering the product name or keyword into the"
+msgstr "Ieškoti produktų įvedant produkto pavadinimą arba raktažodį į "
+
+#: libs/pages_default/frequently-asked-questions.php:9
+msgid "How to search products?"
+msgstr "Kaip ieškoti produktų?"
+
+#: libs/customization/menu.php:10 libs/customization/menu.php:11
+msgid "Customization"
+msgstr "Pritaikymas"
+
+#: libs/customization/class.CZ.Settings.php:781
+msgid "Add 300-500 words SEO article to your home page"
+msgstr "Pridėti 300-500 žodžių SEO tekstą prie pagrindinio puslapio"
+
+#: libs/customization/class.CZ.Settings.php:769
+msgid "Description 4"
+msgstr "Aprašymas 4"
+
+#: libs/customization/class.CZ.Settings.php:766
+msgid "Title 4"
+msgstr "Pavadinimas 4"
+
+#: libs/customization/class.CZ.Settings.php:760
+msgid "Description 3"
+msgstr "Aprašymas 3"
+
+#: libs/customization/class.CZ.Settings.php:757
+msgid "Title 3"
+msgstr "Pavadinimas 3"
+
+#: libs/customization/class.CZ.Settings.php:751
+msgid "Description 2"
+msgstr "Aprašymas 2"
+
+#: libs/customization/class.CZ.Settings.php:748
+msgid "Title 2"
+msgstr "Pavadinimas 2"
+
+#: libs/customization/class.CZ.Settings.php:742
+msgid "Description 1"
+msgstr "Aprašymas 1"
+
+#: libs/customization/class.CZ.Settings.php:739
+msgid "Title 1"
+msgstr "Pavadinimas 1"
+
+#: libs/customization/class.CZ.Settings.php:735
+msgid "Features titles color"
+msgstr "Turi pavadinimų spalvas"
+
+#: libs/customization/class.CZ.Settings.php:732
+msgid "Features images color"
+msgstr "Turi paveikslėlių spalvas"
+
+#: libs/customization/class.CZ.Settings.php:714
+msgid "YouTube Video ID"
+msgstr "YouTube Video ID"
+
+#: libs/customization/class.CZ.Settings.php:690
+msgid "Bottom right image"
+msgstr "Apatinis dešinysis paveiksliukas"
+
+#: libs/customization/class.CZ.Settings.php:678
+#: libs/customization/class.CZ.Settings.php:707
+msgid "Description text"
+msgstr "Aprašymo tekstas"
+
+#: libs/customization/class.CZ.Settings.php:672
+#: libs/customization/class.CZ.Settings.php:701
+msgid "Alt text"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:645
+#: libs/customization/class.CZ.Settings.php:669
+#: libs/customization/class.CZ.Settings.php:698
+msgid "Category URL"
+msgstr "Kategorijos URL adresas"
+
+#: libs/customization/class.CZ.Settings.php:661
+msgid "Top right image"
+msgstr "Viršutinis dešinysis paveiksliukas"
+
+#: libs/customization/class.CZ.Settings.php:161
+msgid "Buttons Colors (click)"
+msgstr "Mygtukų spalva (paspaudimas)"
+
+#: libs/customization/class.CZ.Settings.php:649
+msgid "The button sends users to the product catalogue"
+msgstr "Mygtukas nukreipia vartotojus į prekių katalogą"
+
+#: libs/customization/class.CZ.Settings.php:648
+msgid "Button text"
+msgstr "Mygtuko tekstas"
+
+#: libs/customization/class.CZ.Settings.php:640
+msgid "Description Text"
+msgstr "Aprašymo tekstas"
+
+#: libs/customization/class.CZ.Settings.php:634
+msgid "Main image"
+msgstr "Pagrindinis paveikslėlis"
+
+#: libs/customization/class.CZ.Settings.php:618
+msgid "Paste your ‘Autoresponder’ code here"
+msgstr "Įklijuokite savo \"Autoatsakymo\" kodą čia"
+
+#: libs/customization/class.CZ.Settings.php:604
+msgid "Mandrill.com API Key"
+msgstr "Mandrill.com API raktas"
+
+#: libs/customization/class.CZ.Settings.php:601
+msgid "Sent emails from (for Mandrill)"
+msgstr "Siųstis el. laiškus iš (naudojama Mandrill)"
+
+#: libs/customization/class.CZ.Settings.php:598
+msgid "Receive emails to"
+msgstr "Gauti laiškus į"
+
+#: libs/customization/class.CZ.Settings.php:560
+#: libs/customization/class.CZ.Settings.php:580
+msgid "Conversion tracking script"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:556
+#: libs/customization/class.CZ.Settings.php:576
+#: libs/customization/class.CZ.Settings.php:721
+#: libs/customization/class.CZ.Settings.php:822
+msgid "Text"
+msgstr "Tekstas"
+
+#: libs/customization/class.CZ.Settings.php:452
+#: libs/customization/class.CZ.Settings.php:469
+#: libs/customization/class.CZ.Settings.php:486
+#: libs/customization/class.CZ.Settings.php:503
+#: libs/customization/class.CZ.Settings.php:520
+msgid "Photo"
+msgstr "Nuotrauka"
+
+#: libs/customization/class.CZ.Settings.php:418
+msgid "Footer tag container"
+msgstr "  "
+
+#: libs/customization/class.CZ.Settings.php:390
+msgid "Image 3"
+msgstr "Paveikslėlis 3"
+
+#: libs/customization/class.CZ.Settings.php:385
+msgid "Image 2"
+msgstr "Paveikslėlis 2"
+
+#: libs/customization/class.CZ.Settings.php:380
+msgid "Image 1"
+msgstr "Paveikslėlis 1"
+
+#: libs/customization/class.CZ.Settings.php:375
+#: libs/customization/class.CZ.Settings.php:397
+msgid "Confidence"
+msgstr "Pasitikėjimas"
+
+#: libs/customization/class.CZ.Settings.php:353
+msgid "Social pages links"
+msgstr "Socialinių tinklų nuorodos"
+
+#: libs/customization/class.CZ.Settings.php:350
+msgid "YouTube link"
+msgstr "YouTube nuoroda"
+
+#: libs/customization/class.CZ.Settings.php:347
+msgid "Pinterest link"
+msgstr "Pinterest nuoroda"
+
+#: libs/customization/class.CZ.Settings.php:342
+msgid "Google plus link"
+msgstr "Google plus nuoroda"
+
+#: libs/customization/class.CZ.Settings.php:339
+msgid "Twitter link"
+msgstr "Twitter nuoroda"
+
+#: libs/customization/class.CZ.Settings.php:317
+msgid "Instagram widget"
+msgstr "Instagram valdiklis"
+
+#: libs/customization/class.CZ.Settings.php:333
+msgid "Facebook widget"
+msgstr "Facebook valdiklis"
+
+#: libs/customization/class.CZ.Settings.php:330
+msgid "API ID"
+msgstr "API ID"
+
+#: libs/in.wigwtads.php:198 libs/customization/class.CZ.Settings.php:327
+msgid "Widget title"
+msgstr "Valdiklio pavadinimas"
+
+#: libs/customization/class.CZ.Settings.php:323
+msgid "Fan page link"
+msgstr "Gerbėjų tinklapio nuorodą"
+
+#: libs/customization/class.CZ.Settings.php:286
+msgid "Logo background color"
+msgstr "Logotipo fono spalva"
+
+#: libs/customization/class.CZ.Settings.php:281
+msgid "Free shipping logo"
+msgstr "Nemokamo siuntimo logotipas"
+
+#: libs/customization/class.CZ.Settings.php:274
+msgid "Contact phone"
+msgstr "Kontaktinis telefonas"
+
+#: libs/customization/class.CZ.Settings.php:271
+msgid "Contact email"
+msgstr "Kontaktinis el. pašto adresas"
+
+#: libs/customization/class.CZ.Settings.php:262
+msgid "Additional image"
+msgstr "Papildomas paveisklėlis"
+
+#: libs/customization/class.CZ.Settings.php:257
+msgid "Website logo"
+msgstr "Tinklapio logotipas"
+
+#: libs/customization/class.CZ.Settings.php:241
+msgid "css style"
+msgstr "css stilius"
+
+#: libs/customization/class.CZ.Settings.php:237
+msgid "< head > tag container for head elements"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:217
+msgid "Google Analytics Tracking ID"
+msgstr "Google Analytics sekimo ID"
+
+#: libs/customization/class.CZ.Settings.php:208
+msgid "Banner link"
+msgstr "Skydelio nuoroda"
+
+#: libs/customization/class.CZ.Settings.php:203
+msgid "Banner image on a product page"
+msgstr "Reklaminio skydelio paveiksliukas produkto puslapyje"
+
+#: libs/customization/class.CZ.Settings.php:193
+#: libs/customization/class.CZ.Settings.php:432
+#: libs/customization/class.CZ.Settings.php:543
+msgid "Background image"
+msgstr "Fono paveiksliukas"
+
+#: libs/customization/class.CZ.Settings.php:184
+msgid "Favicon"
+msgstr "Svetainės piktograma"
+
+#: libs/customization/class.CZ.Settings.php:171
+msgid "Promo counter text color"
+msgstr "Pagrindinio skaitliuko teksto spalva"
+
+#: libs/customization/class.CZ.Settings.php:166
+msgid "Promo counter color"
+msgstr "Pagrindinio skaitliuko spalva"
+
+#: libs/customization/class.CZ.Settings.php:153
+msgid "Template color"
+msgstr "Šablono spalva"
+
+#: libs/customization/class.CZ.Settings.php:135
+msgid "Top menu will be fixed above while scrolling"
+msgstr "Slenkant puslapiu, viršutinis meniu bus visada rodomas puslapio viršuje. "
+
+#: libs/customization/class.CZ.Settings.php:134
+msgid "Freeze top menu"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:126
+msgid "Create"
+msgstr "Sukurti"
+
+#: libs/customization/class.CZ.Settings.php:124
+msgid "Add default pages and menus"
+msgstr "Pridėti numatytuosius puslapius ir meniu"
+
+#: libs/customization/class.CZ.Settings.php:102
+msgid "Footer options and settings."
+msgstr "Apatinės antraštės pasirinkimai ir nustatymai."
+
+#: libs/customization/class.CZ.Settings.php:101
+msgid "Footer"
+msgstr "Apatinė antraštė"
+
+#: libs/customization/class.CZ.Settings.php:95
+msgid "Subscription form settings for collecting users’ emails."
+msgstr "Prenumerata nustatymuose, skirta surinkti naudojų el. pašto adresus"
+
+#: libs/customization/class.CZ.Settings.php:94
+msgid "Subscribe Form"
+msgstr "Prenumeratos forma"
+
+#: libs/customization/class.CZ.Settings.php:81
+msgid "Social media pages integration."
+msgstr "Socialinių tinklų formos integracija"
+
+#: libs/customization/class.CZ.Settings.php:80
+msgid "Social Media"
+msgstr "Socialiniai tinklai"
+
+#: libs/customization/class.CZ.Settings.php:74
+msgid "Thank you page settings."
+msgstr "\"Ačiū jums\" puslapio nustatymai"
+
+#: libs/customization/class.CZ.Settings.php:73
+msgid "Thank You"
+msgstr "Ačiū jums"
+
+#: libs/customization/class.CZ.Settings.php:67
+msgid "About us page settings."
+msgstr "Apie mus puslapio nustatymai"
+
+#: libs/create_page_template.php:24 libs/customization/class.CZ.Settings.php:66
+#: libs/customization/class.CZ.Settings.php:440
+#: libs/customization/defaults.php:119
+msgid "About Us"
+msgstr "Apie mus"
+
+#: libs/customization/class.CZ.Settings.php:53
+msgid "Single product page main settings."
+msgstr "Produkto puslapio nustatymai."
+
+#: libs/customization/class.CZ.Settings.php:52
+msgid "Single product"
+msgstr "Atskiras produktas"
+
+#: libs/customization/class.CZ.Settings.php:46
+msgid "Home page main settings."
+msgstr "Namų puslapio pagrindiniai nustatymai"
+
+#: libs/customization/class.CZ.Settings.php:39
+msgid "Header main elements settings."
+msgstr "Antraštės pagrindinio elemento nustatymai."
+
+#: libs/customization/class.CZ.Settings.php:38
+msgid "Header"
+msgstr "Antraštė"
+
+#: libs/customization/class.CZ.Settings.php:32
+msgid "Use this section to add and edit scripts and styles."
+msgstr "Naudokite šią skiltį, kad pridėtumėte arba redaguotumėte scenarijus ir stilius. "
+
+#: libs/customization/class.CZ.Settings.php:31
+msgid "Head"
+msgstr "Galva"
+
+#: libs/customization/class.CZ.Settings.php:24
+msgid "Some basic configuration settings."
+msgstr "Kai kurie esminiai konfiguracijos nustatymai."
+
+#: libs/customization/class.CZ.Settings.php:23
+msgid "General"
+msgstr "Pagrindinis"
+
+#: libs/customization/class.CZ.AdminTpl.php:895
+msgid "No changes have been made"
+msgstr "Nebuvo atlikta pakeitimų"
+
+#: libs/customization/class.CZ.AdminTpl.php:893
+msgid "The сhanges have been saved"
+msgstr "Pakeitimai buvo išsaugoti"
+
+#: libs/customization/class.CZ.AdminTpl.php:819
+msgid "Default"
+msgstr "Numatytasis"
+
+#: libs/customization/class.CZ.AdminTpl.php:818
+msgid "Save Settings"
+msgstr "Išsaugoti nustatymus"
+
+#: libs/customization/class.CZ.AdminTpl.php:434
+msgid "Upload"
+msgstr "Įkelti"
+
+#: libs/customization/class.CZ.AdminTpl.php:428
+msgid "size:"
+msgstr "dydis:"
+
+#: functions.php:203 cart/cart1/tpl/_payment.php:66 cart/cart2/index.php:248
+msgid "Card number"
+msgstr "Kortelės numeris"
+
+#: libs/seo.php:194
+msgid "We are happy to get your feedback, our support team will revise your message and answer in the short run"
+msgstr "Mes džiaugiamės gavę jūsų atsiliepimą. Mūsų komanda greitu laiku peržiūrės jūsų žinutė ir atsakys jums"
+
+#: libs/seo.php:191
+msgid "Subscribe to our newsletter and get the latest updates on your favorite items in our store"
+msgstr "Prenumeruokite mūsų naujienlaiškį ir gaukite visas naujienas apie savo mėgstamiausias prekes mūsų parduotuvėje"
+
+#: libs/seo.php:188
+msgid "Our shipping methods include DHL and EMS, terms of delivery depend on customer location and shipping service company"
+msgstr "Į siuntimo paslaugas įeina ir DHL bei EMS tarnybos, pristatymas priklauso nuo kliento gyvenamosios vietos bei pasirinktos siuntų tarnybos"
+
+#: libs/seo.php:185
+msgid "You can use these payment methods to pay for your purchases in this store"
+msgstr "Jūs galite naudoti šiuos atsiskaityymo būdus, kad sumokėtumėte už prekes mūsų parduotuvėje"
+
+#: libs/seo.php:182
+msgid "Frequently asked questions answered by our store support team, find the questions you wanted to ask"
+msgstr "Dažniausiai užduodami klausimai, į kuriuos atsakė mūsų parduotuvės palaikymo komanda. Pažiūrėkite, ar rasite jums rūpimą klausimą čia. "
+
+#: libs/seo.php:179
+msgid "If you have any questions just fill in the contact form and we will respond you promptly."
+msgstr "Jeigu turite klausimų, užpilldykite formą ir mes greitu metu gausite mūsų atsakymą. "
+
+#: libs/seo.php:176
+msgid "Add products to your shopping cart and buy easily anytime with free shipping worldwide."
+msgstr "pridėkite produktus į savo pirkinių krepšelį ir lengvai apsipirkite bet kuriuo metu bei džiaukitės nemokamu pasauliniu pristatymu"
+
+#: libs/seo.php:173
+msgid "We are doing our best to make your shopping online effortless and carefree, we hope you enjoy your experience with us."
+msgstr "Mes darome viską, ką galime, kad jūsų apsipirkimas būtų lengvas ir malonus. Tikimės, kad džiaugiatės savo patirtimi apsiperkant pas mus"
+
+#: libs/seo.php:155
+msgid ""
+"at affordable prices! Free shipping to 185 countries.\n"
+"45 days money back guarantee. Friendly customer service."
+msgstr "įkandamomis kainomis! Nemokamas siuntimas į 185 šalis, 45 dienų pinigų atgavimo garantija. Draugiškas klientų aptarnavimas."
+
+#: libs/seo.php:154
+msgid "Great selection of"
+msgstr "Puikus pasirinkimas"
+
+#: libs/seo.php:138
+msgid "Free shipping to 185 countries. 45 days money back guarantee."
+msgstr "Nemokamas siuntimas į 185 pasaulio šalis. 45 dienų pinigų grąžinimo garantija. "
+
+#: libs/seo.php:137
+msgid "at"
+msgstr ""
+
+#: libs/seo.php:137
+msgid "Buy"
+msgstr "Pirkti"
+
+#: libs/seo.php:93
+msgid "Thank you for contacting us!"
+msgstr "Dėkojame, kad susisiekėte su mumis!"
+
+#: libs/seo.php:90
+msgid "Thank you for subscription!"
+msgstr "Dėkojame, kad prenumeruojate!"
+
+#: libs/seo.php:87
+msgid "Our shipping methods and terms"
+msgstr "Mūsų siuntimo būdai ir sąlygos"
+
+#: libs/seo.php:84
+msgid "Payment methods available for you"
+msgstr "Atsiskaitymo metodai tinkantys jums"
+
+#: libs/seo.php:81
+msgid "FAQ – popular questions answered"
+msgstr "DUK - atsakyti populiariausi klausimai"
+
+#: libs/create_page_template.php:31 libs/seo.php:75
+msgid "Your shopping cart"
+msgstr "Jūsų pirkinių krepšelis"
+
+#: libs/seo.php:55
+msgid "with free worldwide shipping"
+msgstr "su nemokamau pasauliniu siuntimu"
+
+#: libs/seo.php:55
+msgid "Online shopping for "
+msgstr "Apsipirkinėjate elektroninėje erdvėje"
+
+#: libs/seo.php:36
+msgid "free shipping worldwide"
+msgstr "nemokamas pasaulinis siuntimas"
+
+#: libs/seo.php:20 libs/seo.php:120
+msgid "Page %s"
+msgstr "Puslapis %s"
+
+#: libs/pagination.php:86
+msgid "of"
+msgstr ""
+
+#: libs/option_blog.php:130 libs/customization/class.CZ.Settings.php:439
+#: libs/customization/class.CZ.Settings.php:447
+msgid "Description"
+msgstr "Aprašymas"
+
+#: tpl/widget/_video.php:31
+msgid "Start Shopping Now"
+msgstr "Pradėti apsipirkimą dabar"
+
+#: tpl/widget/_modal_add_cart.php:87
+msgid "Proceed to Checkout"
+msgstr "Pereiti prie atsiskaitymo puslapio"
+
+#: tpl/widget/_modal_add_cart.php:18
+msgid "Added to cart"
+msgstr "Pridėta į pirkinių krepšelį"
+
+#: tpl/widget/_modal_add_cart.php:15 tpl/widget/_video.php:18
+msgid "Close"
+msgstr "Uždaryti"
+
+#: libs/in.wigwtads.php:236
+msgid "Instagram settings"
+msgstr "Instagram nustatymai"
+
+#: libs/in.wigwtads.php:235
+msgid "Instagram"
+msgstr "Instagram"
+
+#: libs/in.wigwtads.php:209
+msgid "client secret"
+msgstr "kliento paslaptis"
+
+#: libs/in.wigwtads.php:201
+msgid "Link to profile"
+msgstr "Nuorodad į profilį"
+
+#: libs/in.wigwtads.php:184
+msgid "add Valid redirect URIs"
+msgstr "pridėkite veikiantį nukreipimo URIs"
+
+#: libs/customization/template/tp_subscribe.php:28
+msgid "Register now to get updates on promotions and coupons."
+msgstr "Registruokitės dabar, kad gautumėte atnaujinimus, informaciją apie akcijas ir nuolaidų kuponus"
+
+#: libs/customization/template/tp_subscribe.php:25
+msgid "Subscribe"
+msgstr "Prenumeruoti"
+
+#: libs/customization/template/tp_subscribe.php:22
+msgid "Please enter you email"
+msgstr "Prašome įvesti savo el. paštą"
+
+#: libs/customization/defaults.php:154
+msgid "We are sorry, we were unable to successfully process this transaction."
+msgstr "Atsiprašome, tačiau nepavyko sėkmingai užbaigti apmokėjimo."
+
+#: libs/customization/defaults.php:150
+msgid "Thank you for your order!"
+msgstr "Ačiū už užsakymą!"
+
+#: libs/create_page_template.php:72 libs/create_page_template.php:90
+msgid "Women Clothing"
+msgstr "Moteriška apranga"
+
+#: libs/create_page_template.php:71 libs/create_page_template.php:89
+msgid "Toys"
+msgstr "Žaislai"
+
+#: libs/create_page_template.php:70 libs/create_page_template.php:88
+msgid "T-shirts"
+msgstr "Marškinėliai"
+
+#: libs/create_page_template.php:69 libs/create_page_template.php:87
+msgid "Posters"
+msgstr "Plakatai"
+
+#: libs/create_page_template.php:68 libs/create_page_template.php:86
+msgid "Phone Cases"
+msgstr "Telefonų dėklai"
+
+#: libs/create_page_template.php:67 libs/create_page_template.php:85
+msgid "Men Clothing"
+msgstr "Vyriškai apranga"
+
+#: libs/create_page_template.php:66 libs/create_page_template.php:84
+msgid "Jewelry"
+msgstr "Papuošalai"
+
+#: libs/create_page_template.php:65 libs/create_page_template.php:83
+msgid "Gifts"
+msgstr "Dovanos"
+
+#: libs/create_page_template.php:64 libs/create_page_template.php:82
+msgid "Custom category"
+msgstr "Asmeniškai pritaikyta kategorija"
+
+#: libs/create_page_template.php:63 libs/create_page_template.php:81
+msgid "Costumes"
+msgstr "Kostiumai"
+
+#: libs/create_page_template.php:29 libs/create_page_template.php:59
+msgid "Frequently Asked Questions"
+msgstr "Dažniausiai Užduodami Klausimai"
+
+#: libs/create_page_template.php:27 libs/create_page_template.php:48
+msgid "Terms and Conditions"
+msgstr "Paslaugų teikimo sąlygos"
+
+#: libs/create_page_template.php:26 libs/create_page_template.php:47
+msgid "Privacy Policy"
+msgstr "Privatumo taisyklės"
+
+#: libs/create_page_template.php:46 libs/seo.php:72
+msgid "About us"
+msgstr "Apie mus"
+
+#: libs/create_page_template.php:23 libs/create_page_template.php:38
+#: libs/create_page_template.php:53
+msgid "Shipping & Delivery"
+msgstr "Išsiuntimas ir pristatymas"
+
+#: libs/create_page_template.php:22 libs/create_page_template.php:52
+#: libs/customization/class.CZ.Settings.php:365
+msgid "Payment methods"
+msgstr "Apmokėjimo būdai"
+
+#: cart/cart1/tpl/_list_order.php:4
+msgid "Product"
+msgstr "Produktas"
+
+#: libs/contact-form.php:26
+msgid "Message"
+msgstr "Žinutė"
+
+#: libs/contact-form.php:84
+msgid "Send Message"
+msgstr "Išsiųti žinutę"
+
+#: libs/contact-form.php:44
+msgid "Your message has been sent!"
+msgstr "Jūsų žinutė buvo išsiųsta!"
+
+#: libs/contact-form.php:38
+msgid "Something went wrong and we could not get a letter. Some fields were incorrectly filled out."
+msgstr "Nutiko kažkas nenumatyto ir mums nepavyko gauti laiško. Kaikurie laukeliai buvo užpildyti netinkamai. "
+
+#: libs/comment-form.php:45
+msgid "Your comment is awaiting moderation."
+msgstr "Jūsų komentaras laukia patvirtinimo. "
+
+#: libs/comment-form.php:38
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: libs/comment-form.php:34
+msgid "<small>%1$s at %2$s</small>"
+msgstr "<small>%1$s at %2$s</small>"
+
+#: libs/comment-form.php:31
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: libs/breadcrumbs.php:259 libs/pagination.php:85
+msgid "Page"
+msgstr "Puslapis"
+
+#: libs/breadcrumbs.php:18
+msgid "Not Found"
+msgstr "Nerasta"
+
+#: libs/breadcrumbs.php:17
+msgid "All posts by %s"
+msgstr "Visi pranešimai %s"
+
+#: libs/breadcrumbs.php:16
+msgid "Tag Archives: %s"
+msgstr "Pažymėti archyvus: %s"
+
+#: libs/breadcrumbs.php:15
+msgid "Search Results for: %s"
+msgstr "Ieškoti rezultatų: %s"
+
+#: libs/breadcrumbs.php:14
+msgid "Archive article \"%s\""
+msgstr "Archyvuoti straipsnį \"%s\""
+
+#: header.php:364 libs/breadcrumbs.php:13 libs/create_page_template.php:36
+#: libs/customization/class.CZ.Settings.php:45
+msgid "Home"
+msgstr "Namai"
+
+#: single-product.php:374
+msgid "Negative"
+msgstr "Neigiamas"
+
+#: single-product.php:358
+msgid "Neutral"
+msgstr "Neutralus"
+
+#: single-product.php:334 single-product.php:346 single-product.php:362
+#: single-product.php:378 single-product.php:391
+msgid "Stars"
+msgstr "Žvaigždutės"
+
+#: single-product.php:331
+msgid "Positive"
+msgstr "Teigiamas"
+
+#: single-product.php:326
+msgid "Feedback Rating for This Product"
+msgstr "Vartotojų įvertinimas šiam produktui"
+
+#: single-product.php:317
+msgid "Ratings"
+msgstr "Įvertinimas"
+
+#: single-product.php:316
+msgid "out of"
+msgstr "iš"
+
+#: single-product.php:308
+msgid "Average Star Rating"
+msgstr "Vidutinis įvertinimas žvaigdutėmis"
+
+#: products/_pack.php:6
+msgid "Packaging Details"
+msgstr "Pakuotės detalės"
+
+#: single-product.php:280
+msgid "Product Description"
+msgstr "Produkto aprašymas"
+
+#: libs/customization/class.CZ.Settings.php:805
+msgid "Shipping & Payment"
+msgstr "Siuntimas ir apmokėjimas"
+
+#: review-single.php:27 single-product.php:255 single-product.php:290
+msgid "Reviews"
+msgstr "Apžvalgos"
+
+#: single-product.php:262 single-product.php:415
+msgid "Item Specifics"
+msgstr "Prekės parametrai"
+
+#: single-product.php:249
+msgid "Product Details"
+msgstr "Produkto detalės"
+
+#: single-product.php:236
+msgid "Free Shipping Worldwide"
+msgstr "Nemokamas tarptautinis siuntimas"
+
+#: single-product.php:196
+msgid "Secure Payments"
+msgstr "Saugūs apmokėjimai"
+
+#: single-product.php:193
+msgid "Money Back Guarantee"
+msgstr "Pinigų grąžinimo garantija"
+
+#: single-product.php:189
+msgid "Worldwide Shipping"
+msgstr "Tarptautinis siuntimas"
+
+#: single-product.php:179
+msgid "Cheсk out with"
+msgstr "Atsiskaityti naudojant"
+
+#: single-product.php:175
+msgid "Add to Cart"
+msgstr "Pridėti į krepšelį"
+
+#: single-product.php:144
+msgid "Total Price"
+msgstr "Galutinė kaina"
+
+#: single-product.php:114
+msgid "left in stock."
+msgstr "likę sandėlyje"
+
+#: single-product.php:112
+msgid "Only"
+msgstr "Tik"
+
+#: single-product.php:85
+msgid "FREE Shipping"
+msgstr "NEMOKAMAS siuntimas"
+
+#: single-product.php:80
+msgid "Price"
+msgstr "Kaina"
+
+#: single-product.php:54
+msgid "of buyers enjoyed this product!"
+msgstr "pirkėjų džiaugiasi šiuo produktu!"
+
+#: single-blog.php:85
+msgid "Latest posts"
+msgstr "Paskutiniai pranešimai"
+
+#: single-blog.php:68 single-blog.php:73
+msgid "Next post"
+msgstr "Kitas pranešimas"
+
+#: single-blog.php:58 single-blog.php:64
+msgid "Previous post"
+msgstr "Ankstesnis pranešimas"
+
+#: search.php:26
+msgid "Search Result for"
+msgstr "Ieškoti rezultatų"
+
+#: review-single.php:180
+msgid "Star"
+msgstr "Žvaigzdutė"
+
+#: review-single.php:129 libs/comment-form.php:121
+msgid "Send"
+msgstr "Siųsti"
+
+#: review-single.php:127 libs/comment-form.php:120
+msgid "Cancel reply"
+msgstr "Atšaukti atsakymą"
+
+#: review-single.php:125 libs/comment-form.php:119
+msgid "Leave a Reply to %s"
+msgstr "Palikti atsakymą %s"
+
+#: review-single.php:123 libs/comment-form.php:118
+msgid "Leave a Review"
+msgstr "Palikti atsiliepimą"
+
+#: review-single.php:111 libs/comment-form.php:111
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Prisijungta kaip <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+
+#: review-single.php:108 libs/comment-form.php:109
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Turite būti <a href=\"%s\">logged in</a> kad galėtumėte rašyti komentarą."
+
+#: review-single.php:103 libs/comment-form.php:105
+msgid "Comment"
+msgstr "Komentaras"
+
+#: review-single.php:95 libs/comment-form.php:98
+msgid "Email (required)"
+msgstr "El. paštas (būtina užpildyti)"
+
+#: review-single.php:92 libs/comment-form.php:95
+msgid "Name (required)"
+msgstr "Vardas (būtina užpildyti)"
+
+#: review-single.php:26
+msgid "Rating"
+msgstr "Įvertinimas"
+
+#: review-single.php:25
+msgid "Buyer"
+msgstr "Pirkėjas"
+
+#: page.thankyou.php:54
+msgid "Follow us:"
+msgstr "Sekite mus:"
+
+#: cart/cart1/tpl/_sidebar.php:63
+msgid "items not as described"
+msgstr "prekės skiriasi nuo aprašymo"
+
+#: cart/cart1/tpl/_sidebar.php:63
+msgid "Refund or Keep"
+msgstr "Grąžinti pinigus arba pasilikti prekę"
+
+#: cart/cart1/tpl/_sidebar.php:60
+msgid "if you don't receive your order"
+msgstr "jeigu negausite savo užsakymo"
+
+#: single-product.php:221 cart/cart1/tpl/_sidebar.php:60
+msgid "Full Refund"
+msgstr "Pilnas pinigų grąžinimas"
+
+#: single-product.php:218 cart/cart1/tpl/_sidebar.php:57
+msgid "Buyer Protection"
+msgstr "Pirkėjo apsauga"
+
+#: cart/cart1/tpl/_sidebar.php:50
+msgid "Read our Privacy Policy"
+msgstr "Perskaitykite mūsų privatumo nuostatas"
+
+#: cart/cart1/tpl/_sidebar.php:48
+msgid "respects your privacy. We don't rent or sell your personal information to anyone."
+msgstr "gerbia jūsų privatumą. Mes niekam nenuomojame ir neparduodame jūsų asmeninės informacijos."
+
+#: cart/cart1/tpl/_sidebar.php:43
+msgid "PRIVACY POLICY"
+msgstr "PRIVATUMO NUOSTATOS"
+
+#: cart/cart1/tpl/_sidebar.php:36
+msgid "All information is encrypted and transmitted without risk using a Secure Sockets Layer (SSL) protocol."
+msgstr "Visi informacija yra uužkoduota ir persiųsta be rizikos naudojant SSL"
+
+#: libs/customization/defaults.php:91
+msgid "SAFE SHOPPING GUARANTEE"
+msgstr "SAUGAUS APSIPIRKIMO GARANTIJA"
+
+#: cart/cart1/tpl/_sidebar.php:17
+msgid "You'll pay nothing if unauthorized charges are made to your credit card as a result of shopping at"
+msgstr "Jums neteks mokėti, jeigu įvyks neautorizuotas pinigų nuskaitymas nuo jūsų kortelės, susijęs su apsipirkimu"
+
+#: cart/cart1/tpl/_sidebar.php:13
+msgid "IS SAFE AND SECURE. GUARANTEED!"
+msgstr "SAUGU IR PATIKIMA. GARANTUOTA!"
+
+#: cart/cart1/tpl/_sidebar.php:13
+msgid "SHOPPING ON"
+msgstr "APSIPIRKTI"
+
+#: cart/cart1/tpl/_sidebar.php:4
+msgid "SHOP WITH CONFIDENCE"
+msgstr "APSIPIRKTI SU PASITIKĖJIMU"
+
+#: cart/cart1/_cart.php:106
+msgid "Proceed to Pay"
+msgstr "Tęskite, kad apmokėtumėte"
+
+#: single-product.php:91 cart/cart1/_cart.php:77 cart/cart2/index.php:113
+msgid "You save"
+msgstr "Jūs sutaupote"
+
+#: single-product.php:71 cart/cart1/_cart.php:72 cart/cart2/index.php:109
+msgid "List price"
+msgstr "Kainų sąrašas"
+
+#: cart/cart1/_cart.php:66 cart/cart2/index.php:103
+msgid "Apply"
+msgstr "Pritaikyti"
+
+#: cart/cart1/_cart.php:64 cart/cart2/index.php:101
+msgid "Code Accepted"
+msgstr "Kodas priimtas"
+
+#: cart/cart1/_cart.php:63 cart/cart2/index.php:100
+msgid "Code does not exist"
+msgstr "Kodas neegzistuoja"
+
+#: cart/cart1/_cart.php:58
+msgid "Promo code"
+msgstr "Nuolaidos kodos"
+
+#: cart/cart1/tpl/_payment.php:5 cart/cart2/index.php:206
+msgid "Payment method"
+msgstr "Apmokėjimo būdas"
+
+#: single-product.php:189 cart/cart1/_cart.php:82 cart/cart2/index.php:200
+msgid "Free"
+msgstr "Nemokamas"
+
+#: cart/cart1/tpl/_form.php:149
+msgid "Please leave any questions or wishes regarding your order here"
+msgstr "Prašome čia įrašyti klausimus ir pageidavimus, susijusius su užsakymu"
+
+#: cart/cart1/tpl/_form.php:147
+msgid "Additional details"
+msgstr "Papildomos detalės"
+
+#: cart/cart1/tpl/_form.php:128
+msgid "Phone"
+msgstr "Telefonas"
+
+#: functions.php:206 cart/cart1/tpl/_form.php:110 cart/cart2/index.php:179
+#: cart/cart2/index.php:180
+msgid "Postal code"
+msgstr "Pašto kodas"
+
+#: cart/cart1/tpl/_form.php:82 cart/cart2/index.php:166
+msgid "Country"
+msgstr "Šalis"
+
+#: cart/cart1/tpl/_form.php:96 cart/cart2/index.php:173
+#: cart/cart2/index.php:174
+msgid "State/Region"
+msgstr "Rajonas"
+
+#: cart/cart1/tpl/_form.php:72 cart/cart2/index.php:157
+#: cart/cart2/index.php:158
+msgid "City"
+msgstr "Miestas"
+
+#: cart/cart1/tpl/_form.php:67
+msgid "Invalid: Address"
+msgstr "Negalimas: Adresas"
+
+#: cart/cart1/tpl/_form.php:61 cart/cart2/index.php:149
+#: cart/cart2/index.php:150
+msgid "Address"
+msgstr "Adresas"
+
+#: cart/cart2/index.php:141 cart/cart2/index.php:142
+msgid "Full Name"
+msgstr "Pilnas vardas"
+
+#: cart/cart1/tpl/_form.php:45 cart/cart1/tpl/_form.php:55
+#: cart/cart1/tpl/_form.php:76 cart/cart1/tpl/_form.php:90
+#: cart/cart1/tpl/_form.php:104 cart/cart1/tpl/_form.php:115
+#: cart/cart1/tpl/_form.php:133
+msgid "This field is required"
+msgstr "Šis laukelis turi būti užpildytas"
+
+#: cart/cart1/tpl/_form.php:39 cart/cart2/index.php:132
+#: cart/cart2/index.php:133 libs/contact-form.php:23
+msgid "Email"
+msgstr "Elektroninio pašto adresas"
+
+#: cart/cart1/tpl/_form.php:5
+msgid "Please fill in your shipping details"
+msgstr "Prašome įvesti pristatymo detales"
+
+#: page.thankyou.php:44 search.php:55 cart/cart1/_cart.php:21
+#: cart/cart1/_cart.php:102 cart/cart2/index.php:288
+#: tpl/widget/_modal_add_cart.php:84
+msgid "Continue shopping"
+msgstr "Tęsti apsipirkimą"
+
+#: cart/cart1/_cart.php:13 cart/cart1/_cart.php:85 cart/cart2/index.php:122
+#: tpl/widget/_modal_add_cart.php:75
+msgid "Total price"
+msgstr "Bendra kaina"
+
+#: cart/cart1/_cart.php:9 tpl/widget/_modal_add_cart.php:69
+msgid "Number of products"
+msgstr "Produktų kiekis"
+
+#: cart/cart1/tpl/_list_order.php:6 tpl/widget/_modal_add_cart.php:26
+msgid "Amount"
+msgstr "Suma"
+
+#: single-product.php:152 cart/cart1/tpl/_list_order.php:5
+#: tpl/widget/_modal_add_cart.php:25
+msgid "Quantity"
+msgstr "Kiekis"
+
+#: single-product.php:103 cart/cart1/_cart.php:34 cart/cart1/_cart.php:81
+#: cart/cart1/tpl/_list_order.php:25 cart/cart1/tpl/_list_order.php:67
+#: cart/cart2/index.php:78 cart/cart2/index.php:117
+#: tpl/widget/_modal_add_cart.php:38
+msgid "Shipping"
+msgstr "Siuntimas"
+
+#: cart/cart1/index.php:28 libs/breadcrumbs.php:19
+msgid "Cart"
+msgstr "Pirkinių krepšelis"
+
+#: page-thank-you-contact.php:29
+msgid "Thank you for contacting us"
+msgstr "Dėkojame, kad su mumis susisiekėte"
+
+#: page-subscription.php:32 page-thank-you-contact.php:34
+msgid "Back to the site"
+msgstr "Grįžti į svetainę"
+
+#: page-subscription.php:28
+msgid "You have been successfully added to our mailing list, keeping you up-to-date with our latest news, sales and coupons"
+msgstr "Mes jus sėkmingai priedėjome prie naujienlaiškio gavėjų sąrašo ir nuo šiol būsite informuotas apie visas naujienas, akcijas, pasiūlymus ir nuolaidais."
+
+#: page-subscription.php:27
+msgid "Thank you for subscribing to our newsletter"
+msgstr "Dėkojame, kad prenumeruojamte mūsų naujienlaiškį"
+
+#: page-contact-us.php:53
+msgid "Add Us"
+msgstr "Pridėti mus"
+
+#: page-contact-us.php:49
+msgid "Join Us"
+msgstr "Prisijungti prie mūsų"
+
+#: page-contact-us.php:45
+msgid "Follow Us"
+msgstr "Sekti mus"
+
+#: page-contact-us.php:41
+msgid "Find us"
+msgstr "Rasti mus"
+
+#: page-contact-us.php:37
+msgid "Like Us"
+msgstr "Mėgti mus"
+
+#: page-contact-us.php:31
+msgid "Have any questions or need to get more information about a product? Either way, you’re in the right spot"
+msgstr "Turi klausimų ar reikia papildomos informacijos apie produktą? Esate ten, kur ir turite būti"
+
+#: page-contact-us.php:22 page.thankyou.php:47 libs/create_page_template.php:25
+#: libs/create_page_template.php:58
+#: libs/customization/template/tm_single_shipping_payment_content.php:73
+#: libs/pages_default/privacy-policy.php:21
+#: libs/pages_default/refund-policy.php:20
+msgid "Contact Us"
+msgstr "Susisiekti su mumis"
+
+#: page-about-us.php:164 libs/seo.php:78
+msgid "Contact us"
+msgstr "Susisiekite su mumis"
+
+#: page-about-us.php:162
+msgid "Start shopping"
+msgstr "Pradėti apsipirkimą"
+
+#: page-about-us.php:156
+msgid "Keep in Contact with Us"
+msgstr "Palaikykite kontaktą su mumis"
+
+#: page-about-us.php:81
+msgid "For your convenience we’ve partnered with several organizations"
+msgstr "Jūsų patogumui bendradarbiaujame su keletu organizacijų"
+
+#: page-about-us.php:79
+msgid "Our Partners"
+msgstr "Mūsų parneriai"
+
+#: page-about-us.php:69
+msgid "Make Sure Our Customers are Pleased"
+msgstr "Įsitikiname, kad mūsų klientai yra patenkinti"
+
+#: page-about-us.php:59
+msgid "Pursue Growth and Learning"
+msgstr "Siekiame augti ir mokytis"
+
+#: page-about-us.php:54
+msgid "Create Long-Term Relationships with Our Customers"
+msgstr "Sukurti ilgalaikius santykius su mūsų klientais"
+
+#: page-about-us.php:49
+msgid "Be Adventurous, Creative, and Open-Minded"
+msgstr "Būti kūrybingu, atvirų pažiūrių ir drąsiu"
+
+#: page-about-us.php:44
+msgid "Our Core Values"
+msgstr "Musų esminės vertybės"
+
+#: page-about-us.php:28
+msgid "Why Us"
+msgstr "Kodėl mes"
+
+#: index.php:28
+msgid "Go to Homepage"
+msgstr "Eiti į pagrindinį puslapį"
+
+#: home.php:71
+msgid "New Arrivals"
+msgstr "Naujai pristatyta"
+
+#: home.php:63
+msgid "Best Deals"
+msgstr "Geriausi pasiūlymai"
+
+#: home.php:55
+msgid "Top Selling Products"
+msgstr "Perkamiausi produktai"
+
+#: home.php:13
+msgid "View Video"
+msgstr "Peržiūrėti viedo"
+
+#: header.php:310 header.php:343
+msgid "I'm shopping for..."
+msgstr "Aš perku..,"
+
+#: header.php:330
+msgid "items"
+msgstr ""
+
+#: functions.php:541
+msgid "Please select"
+msgstr "Prašome pasirinkti"
+
+#: functions.php:372
+msgid "Sort by"
+msgstr "Rūšiuoti pagal"
+
+#: header.php:369 products/cat-menu.php:24
+msgid "All Categories"
+msgstr "Visos kategorijos"
+
+#: functions.php:347 libs/option_blog.php:115
+#: libs/customization/class.CZ.Settings.php:438
+#: libs/customization/class.CZ.Settings.php:446
+#: libs/customization/class.CZ.Settings.php:552
+#: libs/customization/class.CZ.Settings.php:572
+#: libs/customization/class.CZ.Settings.php:835
+#: tpl/widget/_modal_add_cart.php:24
+msgid "Title"
+msgstr "Antraštė"
+
+#: functions.php:346
+msgid "Thumb"
+msgstr "Miniatiūra"
+
+#: functions.php:345
+msgid "Select All"
+msgstr "Rinktis viską"
+
+#: footer.php:240
+msgid "Stay Connected"
+msgstr "Likti prisijungus"
+
+#: libs/create_page_template.php:20
+msgid "Subscription"
+msgstr "Prenumeruoti"
+
+#: footer.php:86 footer.php:171
+msgid "Customer Service"
+msgstr "Klientų aptarnavimas"
+
+#: footer.php:143
+msgid "How to Buy"
+msgstr "Kaip pirkti"
+
+#: footer.php:36 footer.php:114
+msgid "Company Info"
+msgstr "Įmonės informacija"
+
+#: footer.php:21
+msgid "Delivery Methods:"
+msgstr "Pristatymo būdai:"
+
+#: footer.php:9
+msgid "Payment Methods:"
+msgstr "Apmokėjimo būdai:"
+
+#: comments.php:26
+msgid "%s Reviews"
+msgstr "%s Apžvalgos"
+
+#: comments.php:25
+msgid "One Review"
+msgstr "Viena apžvalga"
+
+#: comments.php:24
+msgid "No Reviews"
+msgstr "Nėra apžvalgų"
+
+#: category-blog.php:24 single-blog.php:30
+msgid "comments"
+msgstr "komentarai"
+
+#: category-blog.php:20 single-blog.php:27 single-blog.php:107
+msgid "by"
+msgstr ""
+
+#: category-blog.php:5 single-blog.php:15
+msgid "Blog"
+msgstr "Tinklaraštis"
+
+#: libs/customization/defaults.php:158
+msgid "join us on social media"
+msgstr "Prisijunkite prie mūsų socialiniuose tinkluose"
+
+#: archive-product.php:25 libs/create_page_template.php:37
+msgid "Products"
+msgstr "Produktai"
+
+#: 404.php:23
+msgid "Go To Homepage"
+msgstr "Eiti į pradinį puslapį"
+
+#: 404.php:20
+msgid "Please check your spelling"
+msgstr "Prašome pasitikrinti savo rašybą"
+
+#: 404.php:19
+msgid "Sorry, but the page you are looking for has not been found"
+msgstr "Atsiprašome, tačiau puslapis kurio ieškote nerastas"
+
+#: 404.php:18
+msgid "404 Page not found"
+msgstr "404 puslapis nerastas"

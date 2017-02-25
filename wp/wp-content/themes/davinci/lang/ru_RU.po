@@ -1,0 +1,2322 @@
+# Translation of Themes - Davinci in Russian
+# This file is distributed under the same license as the Themes - Davinci package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-18 06:33:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.2.2\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Davinci\n"
+
+#: libs/customization/class.CZ.Settings.php:301
+msgid "Social media section title"
+msgstr ""
+
+#: cart/cart1/tpl/_form.php:185
+msgid "Confirm password"
+msgstr ""
+
+#: cart/cart1/tpl/_form.php:175
+msgid "Password"
+msgstr ""
+
+#: cart/cart1/tpl/_form.php:161
+msgid "Register me"
+msgstr ""
+
+#: page.userlogin.php:38
+msgid "Log In"
+msgstr ""
+
+#: page.userlogin.php:37
+msgid "Remember Me"
+msgstr ""
+
+#: page.userlogin.php:36
+msgid "Password:"
+msgstr ""
+
+#: page.userlogin.php:35
+msgid "Username:"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:797
+msgid "Enable tab shipping and free returns"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:729
+msgid "Enable features"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:585
+msgid "Payment fail"
+msgstr "Оплата не успешна"
+
+#: libs/customization/class.CZ.Settings.php:565
+msgid "Payment success"
+msgstr "Оплата завершена"
+
+#: libs/customization/class.CZ.Settings.php:445
+msgid "Show"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:412
+msgid "Copyright"
+msgstr "Авторские права"
+
+#: libs/customization/class.CZ.Settings.php:370
+msgid "Methods"
+msgstr "Метод"
+
+#: libs/customization/class.CZ.Settings.php:265
+msgid "Usually used for trusted seals, payment system logos, etc."
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:118
+msgid "Show discount information in the product list:   Show discount badges"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:852
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: libs/customization/class.CZ.Settings.php:834
+msgid "Enable SHOP WITH CONFIDENCE section"
+msgstr ""
+
+#: single-product.php:120
+msgid "Out of stock."
+msgstr "Товар закончился."
+
+#: functions.php:205
+msgid "MM / YY"
+msgstr "MM / YY"
+
+#: functions.php:204
+msgid "CVV"
+msgstr "CVV"
+
+#: libs/create_page_template.php:32
+msgid "Thank you page"
+msgstr "Спасибо за покупку"
+
+#: libs/customization/class.CZ.Settings.php:831
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: libs/customization/class.CZ.Settings.php:830
+msgid "Additional information for Credit Cards payment method"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:827
+msgid "Additional information for PayPal payment method"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:826
+#: libs/customization/class.CZ.Settings.php:829
+msgid "Show the message on your checkout page"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:823
+msgid "Terms & Conditions Checkbox"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:821
+msgid "Enabled"
+msgstr "Включено"
+
+#: libs/customization/class.CZ.Settings.php:817
+msgid "Fields options"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:816
+msgid "Description field required"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:815
+msgid "Phone number field required"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:802
+msgid "Buyer protection"
+msgstr "Защита покупателя"
+
+#: libs/customization/class.CZ.Settings.php:801
+msgid "Show shipping details on product page"
+msgstr "Показать сведения о доставке на странице товара"
+
+#: libs/customization/class.CZ.Settings.php:800
+msgid "Enable tab item review"
+msgstr "Включить пункт отзывы в табах"
+
+#: libs/customization/class.CZ.Settings.php:799
+msgid "Enable review flag"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:798
+msgid "Enable best price guarantee"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:796
+msgid "Enable tab item specifics"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:795
+msgid "Enable share button"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:794
+msgid "Enable quantity of orders"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:793
+msgid "Enable Packaging block"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:780
+#: libs/customization/class.CZ.Settings.php:784
+msgid "Article"
+msgstr "Статья"
+
+#: libs/customization/class.CZ.Settings.php:772
+msgid "Features"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:724
+msgid "Promo Counter"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:720
+msgid "Enable counter"
+msgstr ""
+
+#: libs/customization/defaults.php:183
+msgid "© Copyright {{YEAR}}. All Rights Reserved"
+msgstr ""
+
+#: libs/customization/defaults.php:81
+msgid "Terms & Conditions"
+msgstr ""
+
+#: libs/customization/defaults.php:81
+msgid "I have read the"
+msgstr ""
+
+#: products/main-recently.php:17
+msgid "Your recently viewed items"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:46
+#: libs/pages_default/shipping-delivery.php:44
+msgid "Yes, you will receive an email once your order ships that contains your tracking information. If you haven’t received tracking info within 5 days, please contact us."
+msgstr ""
+
+#: libs/pages_default/shipping-delivery.php:35
+msgid "Mexico, Central America, South America"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:9
+#: libs/pages_default/shipping-delivery.php:7
+msgid "Yes. We provide free shipping to over 200 countries around the world. However, there are some location we are unable to ship to. If you happen to be located in one of those countries we will contact you."
+msgstr ""
+
+#: libs/pages_default/refund-policy.php:16
+msgid "(i.e. not cleared by customs, delayed by a natural disaster)"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:77
+#: libs/pages_default/refund-policy.php:26
+msgid "Please do not send your purchase back to us unless we authorise you to do so."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:76
+#: libs/pages_default/refund-policy.php:25
+msgid "If for any reason you would like to exchange your product, perhaps for a different size in clothing. You must contact us first and we will guide you through the steps."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:75
+#: libs/pages_default/refund-policy.php:24
+msgid "Exchanges"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:74
+#: libs/pages_default/refund-policy.php:22
+msgid "If you are approved for a refund, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment, within 14 days."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:73
+#: libs/pages_default/refund-policy.php:20
+msgid "page"
+msgstr "страница"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:66
+#: libs/pages_default/refund-policy.php:11
+msgid "If you do not want the product you’ve receive you may request a refund but you must return the item at your expense and the item must be unused."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:65
+#: libs/pages_default/refund-policy.php:10
+msgid "If you received the wrong item you can request a refund or a reshipment."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:64
+#: libs/pages_default/refund-policy.php:9
+msgid "receive the product within the guaranteed time(45 days not including 2-5 day processing) you can request a refund or a reshipment."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:64
+#: libs/pages_default/refund-policy.php:9
+msgid "not"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:64
+#: libs/pages_default/refund-policy.php:9
+msgid "If you did"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:63
+#: libs/pages_default/refund-policy.php:7
+msgid "Your satisfaction is our #1 priority. Therefore, if you’d like a refund you can request one no matter the reason."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:62
+#: libs/pages_default/refund-policy.php:5
+msgid "Refunds"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:61
+#: libs/pages_default/refund-policy.php:3
+msgid "All orders can be cancelled until they are shipped. If your order has been paid and you need to make a change or cancel an order, you must contact us within 12 hours. Once the packaging and shipping process has started, it can no longer be cancelled."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:60
+#: libs/pages_default/refund-policy.php:1
+msgid "Order cancellation"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:58
+msgid "REFUNDS & RETURNS POLICY"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:56
+#: libs/pages_default/shipping-delivery.php:54
+msgid "If you have any other questions, please contact us and we will do our best to help you out."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:54
+#: libs/pages_default/shipping-delivery.php:52
+msgid "For logistical reasons, items in the same purchase will sometimes be\tsent in separate packages, even if you've specified combined shipping."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:52
+#: libs/pages_default/shipping-delivery.php:50
+msgid "Will my items be sent in one package?"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:50
+#: libs/pages_default/shipping-delivery.php:48
+msgid "If your order was placed more than 5 business days ago and there is still no information on your tracking number, please contact us."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:49
+#: libs/pages_default/shipping-delivery.php:47
+msgid "For some shipping companies, it takes 2-5 business days for the tracking information to update on the system."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:47
+#: libs/pages_default/shipping-delivery.php:45
+msgid "My tracking says “no information available at the moment”."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:44
+#: libs/pages_default/shipping-delivery.php:42
+msgid "Do you provide tracking information?"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:41
+#: libs/pages_default/shipping-delivery.php:39
+msgid "This doesn’t include our 2-5 day processing time."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:37
+msgid "Central & South America"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:33
+#: libs/pages_default/shipping-delivery.php:31
+msgid "Australia, New Zealand"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:29
+#: libs/pages_default/shipping-delivery.php:27
+msgid "Canada, Europe"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:25
+#: libs/pages_default/shipping-delivery.php:23
+msgid "United States"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:21
+#: libs/pages_default/shipping-delivery.php:19
+msgid "Estimated Shipping Time"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:20
+#: libs/pages_default/shipping-delivery.php:18
+msgid "Location"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:15
+#: libs/pages_default/shipping-delivery.php:13
+msgid "Shipping time varies by location. These are our estimates"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:13
+#: libs/pages_default/shipping-delivery.php:11
+msgid "How long does shipping take?"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:12
+#: libs/pages_default/shipping-delivery.php:10
+msgid "We are not responsible for any custom fees once the items have shipped. By purchasing our products, you consent that one or more packages may be shipped to you and may get custom fees when they arrive to your country."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:10
+#: libs/pages_default/shipping-delivery.php:8
+msgid "What about customs?"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:7
+#: libs/pages_default/shipping-delivery.php:5
+msgid "Do you ship worldwide?"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:6
+#: libs/pages_default/shipping-delivery.php:4
+msgid "Packages from our warehouse in China will be shipped by ePacket or EMS depending on the weight and size of the product. Packages shipped from our US warehouse are shipped through USPS."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:4
+#: libs/pages_default/shipping-delivery.php:2
+msgid "How do you ship packages?"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:3
+#: libs/pages_default/shipping-delivery.php:1
+msgid "We are proud to offer international shipping services that currently operate in over 200 countries and islands world wide.  Nothing means more to us than bringing our customers great value and service.  We will continue to grow to meet the needs of all our customers, delivering a service beyond all expectation anywhere in the world."
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:1
+msgid "SHIPPING AND DELIVERY"
+msgstr ""
+
+#: libs/customization/class.CZ.Settings.php:222
+msgid "Facebook Pixel ID"
+msgstr "Facebook Pixel ID"
+
+#: libs/customization/class.CZ.Settings.php:60
+msgid "Checkout page settings"
+msgstr ""
+
+#: libs/create_page_template.php:42
+msgid "Contact"
+msgstr "Контакты"
+
+#: libs/create_page_template.php:41
+msgid "Tracking"
+msgstr ""
+
+#: libs/create_page_template.php:40
+msgid "About"
+msgstr "О нас"
+
+#: libs/create_page_template.php:39 libs/create_page_template.php:54
+msgid "Returns Policy"
+msgstr "Политика возврата"
+
+#: libs/create_page_template.php:30
+msgid "Track your order"
+msgstr "Отследите ваш заказ"
+
+#: libs/create_page_template.php:28
+msgid "Refunds & Returns Policy"
+msgstr "Политика возврата денег"
+
+#: cart/cart1/tpl/_list_order.php:28 cart/cart1/tpl/_list_order.php:70
+msgid "free"
+msgstr ""
+
+#: cart/cart1/tpl/_form.php:50
+msgid "Full name"
+msgstr "Полное имя"
+
+#: cart/cart1/_cart.php:40
+msgid "Free worldwide shipping"
+msgstr ""
+
+#: single-product.php:269
+msgid "Shipping and Free Returns"
+msgstr ""
+
+#: single-product.php:226
+msgid "items, if not as described."
+msgstr ""
+
+#: single-product.php:225
+msgid "Refund & Keep"
+msgstr ""
+
+#: single-product.php:222
+msgid "if you don't receive your order."
+msgstr ""
+
+#: single-product.php:59
+msgid "%s order"
+msgid_plural "%s orders"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: page-thank-you-contact.php:30
+msgid "We'll get back to you as soon as possible"
+msgstr ""
+
+#: page-about-us.php:158
+msgid "We're continually working on our online store and are open to any suggestions. If you have any questions or proposals, please do not hesitate to contact us."
+msgstr ""
+
+#: page-about-us.php:64
+msgid "Inspire Happiness and Positivity"
+msgstr ""
+
+#: page-about-us.php:35
+msgid "We hope to build relationships with our customers so we'll do everything we can to ensure you’re satisfied."
+msgstr ""
+
+#: page-about-us.php:34
+msgid "We're committed to offering the lowest prices and also frequent promotions and seasonal sales."
+msgstr ""
+
+#: page-about-us.php:33
+msgid "We care about your time so we try our best to make your shopping experience pleasant, seamless and hassle-free."
+msgstr ""
+
+#: page-about-us.php:32
+msgid "Our team is passionate about making it easier for you to shop online."
+msgstr ""
+
+#: functions.php:11
+msgid "AliDropship Plugin was not activated!"
+msgstr ""
+
+#: functions.php:11
+msgid "Error!"
+msgstr ""
+
+#: footer.php:230
+msgid "Stay Up To Date"
+msgstr ""
+
+#: footer.php:61
+msgid "Purchase Info"
+msgstr ""
+
+#: archive-product.php:49 taxonomy-product_cat.php:49
+msgid "Load more"
+msgstr ""
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:26
+#: libs/customization/template/tm_single_shipping_payment_content.php:30
+#: libs/customization/template/tm_single_shipping_payment_content.php:34
+#: libs/customization/template/tm_single_shipping_payment_content.php:38
+#: libs/pages_default/shipping-delivery.php:24
+#: libs/pages_default/shipping-delivery.php:28
+#: libs/pages_default/shipping-delivery.php:32
+#: libs/pages_default/shipping-delivery.php:36
+msgid "Business days"
+msgstr "рабочих дней"
+
+#: libs/contact-form.php:26
+msgid "Your Message"
+msgstr "Ваше сообщение"
+
+#: libs/contact-form.php:17
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: products/_pack.php:21
+msgid "Size"
+msgstr "Размер"
+
+#: products/_pack.php:15
+msgid "Weight"
+msgstr "Вес"
+
+#: products/_pack.php:9
+msgid "Type"
+msgstr "Тип"
+
+#: libs/customization/defaults.php:70
+msgid "<b>2000+</b> Successful Deliveries"
+msgstr "<b>2000+</b> Доставленных товаров"
+
+#: libs/customization/defaults.php:68
+msgid "<b>100%</b> Safe Payment"
+msgstr "<b>100%</b> Безопасные платежи"
+
+#: libs/customization/defaults.php:66
+msgid "Shipping to <b>185</b> Countries"
+msgstr "Доставка в <b>185</b> стран"
+
+#: libs/customization/defaults.php:64
+msgid "<b>700+</b> Clients Love Us!"
+msgstr "<b>700+</b> Довольных клиентов!"
+
+#: products/countdown.php:23
+msgid "S"
+msgstr "с"
+
+#: products/countdown.php:22
+msgid "M"
+msgstr "м"
+
+#: products/countdown.php:21
+msgid "H"
+msgstr "ч"
+
+#: products/countdown.php:20
+msgid "D"
+msgstr "д"
+
+#: libs/pages_default/privacy-policy.php:21
+msgid "You can submit refund requests by sending a message on "
+msgstr "Вы можете отправить запрос на возврат средств, отправив сообщение на"
+
+#: libs/pages_default/privacy-policy.php:20
+msgid "Your order did not arrive due to exceptional circumstances outside the control of our"
+msgstr "Ваш заказ не пришёл из-за обстоятельств не зависящих от нас"
+
+#: libs/pages_default/privacy-policy.php:17
+msgid "If your item is significantly different from the product description, you can A: Return it and get a full refund, or B: Get a partial refund and keep the item."
+msgstr "Если ваш товар существенно отличается от описания, вы можете A: вернуть ее и получить полный возврат, или B: Получить частичное возмещение и оставить товар себе."
+
+#: libs/pages_default/privacy-policy.php:16
+msgid "Full or Partial Refund if the item is not as described."
+msgstr "Полное или частичное возмещение, если товар не соответствует описанию."
+
+#: libs/pages_default/privacy-policy.php:15
+msgid "You will get a full refund if your order does not arrive within the delivery time promised by our"
+msgstr "Вы получите полное возмещение стоимости, если ваш заказ не поступает в установленный срок "
+
+#: libs/pages_default/privacy-policy.php:14
+msgid "Full Refund if you don’t receive your order."
+msgstr "Полный возврат средств, если вы не получили товар."
+
+#: libs/pages_default/privacy-policy.php:12
+msgid "receives the following guarantees:"
+msgstr "получает следующие гарантии:"
+
+#: libs/pages_default/privacy-policy.php:12
+msgid "Everyone who shops on our"
+msgstr "Каждый, кто покупает в нашем"
+
+#: libs/pages_default/privacy-policy.php:10
+msgid "Your satisfaction is our long-term pursuit and concern. We want you to shop with confidence. That's why we provide guarantees that ensure you'll receive your item on time and as described."
+msgstr "Смело совершайте покупки в нашем магазине. Мы гарантируем возврат денег за любой товар, если вам его не доставили или продукт не соответствует завяленному описанию."
+
+#: libs/customization/class.CZ.Settings.php:310
+msgid "Instagram Account Link"
+msgstr "Ссылка на аккаунт Instagram"
+
+#: libs/create_page_template.php:21
+msgid "Thank you"
+msgstr "Спасибо"
+
+#: cart/cart2/index.php:34
+msgid "Show order summary"
+msgstr "Информация о заказе"
+
+#: libs/customization/class.CZ.Settings.php:143
+msgid "Show not all sub-categories"
+msgstr "Показать все подкатегории"
+
+#: libs/customization/class.CZ.Settings.php:142
+msgid "Short sub-category menu"
+msgstr "Короткие подкатегории меню"
+
+#: libs/customization/class.CZ.Settings.php:176
+msgid "Prices color"
+msgstr "Цвет цен"
+
+#: cart/cart2/index.php:290
+msgid "Сomplete order"
+msgstr "Завершить заказ"
+
+#: cart/cart1/tpl/_payment.php:108 cart/cart2/index.php:278
+msgid "You will be redirected to complete your purchase securely."
+msgstr "Вы будете перенаправлены чтобы завершить оплату."
+
+#: cart/cart1/tpl/_payment.php:80 cart/cart2/index.php:262
+msgid "CVC"
+msgstr "CVC"
+
+#: cart/cart1/tpl/_payment.php:69 cart/cart2/index.php:251
+msgid "Name on card"
+msgstr "Владелец"
+
+#: cart/cart1/tpl/_payment.php:39 cart/cart2/index.php:233
+msgid "You will be redirected to PayPal to complete your purchase securely."
+msgstr "Вы будете перенаправлены на PayPal, чтобы завершить оплату."
+
+#: cart/cart1/tpl/_payment.php:31 cart/cart2/index.php:225
+msgid "PayPal"
+msgstr "PayPal"
+
+#: cart/cart2/index.php:207 libs/customization/defaults.php:87
+msgid "All transactions are secure and encrypted. Credit card information is never stored."
+msgstr "Все транзакции безопасны и зашифрованы. Информация о кредитной карте не сохраняется."
+
+#: cart/cart2/index.php:197
+msgid "Free International Shipping"
+msgstr "Бесплатная международная доставка"
+
+#: cart/cart2/index.php:193
+msgid "Shipping method"
+msgstr "Метод доставки"
+
+#: cart/cart2/index.php:187 cart/cart2/index.php:188
+msgid "Phone (optional)"
+msgstr "Телефона (не обязательно)"
+
+#: cart/cart2/index.php:137
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: cart/cart2/index.php:128
+msgid "Customer information"
+msgstr "Информация для покупателей"
+
+#: cart/cart2/index.php:98 cart/cart2/index.php:99
+msgid "Gift card or discount code"
+msgstr "Подарочная карта или код скидки"
+
+#: cart/cart1/tpl/_payment.php:57 cart/cart2/index.php:239
+msgid "Credit Card"
+msgstr "Кредитная карта"
+
+#: libs/customization/defaults.php:178
+msgid "BUY WITH CONFIDENCE"
+msgstr "КУПИТЬ С УВЕРЕННОСТЬЮ"
+
+#: libs/customization/defaults.php:152
+msgid "Please note that if you’ve ordered more than 2 items, you might not get all of them at the same time due to varying locations of our storehouses."
+msgstr "Пожалуйста, обратите внимание, что если Вы заказали более чем 2 шт., Вы можете не получить все из них в то же время из-за различия в расположении наших складов."
+
+#: libs/customization/defaults.php:151
+msgid "Your payment was accepted and you will get notification on your email address."
+msgstr "Ваш платеж принят, вы получите уведомление на ваш адрес электронной почты."
+
+#: libs/customization/defaults.php:144
+msgid "Amber Lee"
+msgstr "Эмбер Ли"
+
+#: libs/customization/defaults.php:140
+msgid "Anton Martin"
+msgstr "Антон Мартин"
+
+#: libs/customization/defaults.php:137
+msgid "Customer Support Manager"
+msgstr "Менеджер По Поддержке Клиентов"
+
+#: libs/customization/defaults.php:136
+msgid "Nataly Robinson"
+msgstr "Натали Робинсон"
+
+#: libs/customization/defaults.php:132
+msgid "Samantha Bailey"
+msgstr "Саманта Бэйли"
+
+#: libs/customization/defaults.php:129 libs/customization/defaults.php:133
+#: libs/customization/defaults.php:141 libs/customization/defaults.php:145
+msgid "Customer Support Specialist"
+msgstr "Специалист поддержки клиентов"
+
+#: libs/customization/defaults.php:128
+msgid "Oprah Phillips"
+msgstr "Опра Филлипс"
+
+#: libs/customization/defaults.php:125
+msgid "Our team is made up of experienced developers, designers and marketers who do their best to create the interface comfortable to use. It is vital for us to make your shopping easy and pleasant."
+msgstr "Наша команда состоит из опытных разработчиков, дизайнеров и маркетологов, которые делают все, чтобы создать удобный интерфейс для использования. Это жизненно важно для нас, чтобы сделать ваш шопинг легким и приятным."
+
+#: libs/customization/class.CZ.Settings.php:534
+#: libs/customization/defaults.php:124
+msgid "MEET OUR TEAM"
+msgstr "ВСТРЕТИТЬСЯ С НАШЕЙ КОМАНДОЙ"
+
+#: libs/customization/defaults.php:121
+msgid "We are a team of enthusiastic developers and entrepreneurs who decided to convert their common experience into this web store. We hope you’ll like it as much as we do and have a great shopping experience here. Our prime goal is to create a shop in which you can easily find whatever product you need"
+msgstr "Мы команда Энтузиастов-разработчиков и предпринимателей, которые решили объеденить наш общий опыт в этом интернет-магазине. Мы надеемся, вам понравится делать покупки здесь. Наша основная цель-создать магазин, в котором можно легко найти любой продукт который вам нужен."
+
+#: libs/customization/defaults.php:120
+msgid "Welcome to"
+msgstr "Добро пожаловать"
+
+#: libs/customization/defaults.php:114
+msgid "All products – choose the ones you like and add them to your shopping cart"
+msgstr "Все товары - выберите те, которые вы любите и добавьте их в корзину покупок"
+
+#: libs/customization/defaults.php:113
+msgid "All products"
+msgstr "Все товары"
+
+#: libs/customization/defaults.php:67
+msgid "Our store operates worldwide and you can enjoy free delivery of all orders"
+msgstr "Наш магазин работает по всему миру и вы можете наслаждаться бесплатной доставкой всех заказов"
+
+#: libs/customization/defaults.php:65
+msgid "We offer best service and great prices on high quality products"
+msgstr "Мы предлагаем лучший сервис и самые выгодные цены на продукцию высокого качества"
+
+#: libs/customization/defaults.php:44
+msgid "Shop Now"
+msgstr "Купить сейчас"
+
+#: libs/customization/defaults.php:59
+msgid "limited time offer"
+msgstr "ограниченное по времени предложение"
+
+#: libs/customization/defaults.php:59
+msgid "off all items!"
+msgstr "на все"
+
+#: libs/customization/defaults.php:59
+msgid "Super Sale up to"
+msgstr "Супер Распродажа до"
+
+#: libs/customization/defaults.php:56 libs/customization/defaults.php:71
+msgid "Our Buyer Protection covers your purchase from click to delivery"
+msgstr "Наша защита Покупателя покрывает вашу покупку от клика до доставки"
+
+#: libs/customization/defaults.php:51 libs/customization/defaults.php:69
+msgid "Buy with confidence using the world’s most popular and secure payment methods"
+msgstr "Покупайте с использованием самых популярных и надежных в мире способов оплаты"
+
+#: libs/customization/defaults.php:50 libs/customization/defaults.php:55
+msgid "Go shopping"
+msgstr "Начать покупки"
+
+#: libs/customization/defaults.php:45
+msgid "We offer best service and great prices on high quality products!"
+msgstr "Мы предлагаем самое лучшее обслуживание, отличные цены и гарантируем высокое качество продукции!"
+
+#: libs/customization/class.CZ.Settings.php:158
+msgid "Buttons Colors"
+msgstr "Цвет кнопок"
+
+#: functions.php:707
+msgid "An unknown error occurred"
+msgstr "Произошла неизвестная ошибка"
+
+#: functions.php:702
+msgid "<p>An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a></p>"
+msgstr "<p>An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a></p>"
+
+#: libs/customization/class.CZ.Settings.php:314
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: libs/in.wigwtads.php:205
+msgid "client ID"
+msgstr "client ID"
+
+#: libs/in.wigwtads.php:191
+msgid "Authorization"
+msgstr "Авторизация"
+
+#: cart/cart1/_cart.php:61
+msgid "Enter promo code"
+msgstr "Введите промо-код"
+
+#: libs/customization/class.CZ.Settings.php:368
+msgid "Delivery Methods"
+msgstr "Способы доставки"
+
+#: functions.php:722
+msgid "Expedited"
+msgstr "Курьерская доставка"
+
+#: functions.php:721
+msgid "Standard"
+msgstr "Стандартная доставка"
+
+#: functions.php:720
+msgid "Super savings"
+msgstr "Экономная доставка"
+
+#: functions.php:719
+msgid "FREE"
+msgstr "БЕСПЛАТНАЯ"
+
+#: cart/cart1/_cart.php:56
+msgid "Have a promotional code?"
+msgstr "Есть промо-код?"
+
+#: libs/customization/defaults.php:84
+msgid "You can pay with your credit card without creating a PayPal account"
+msgstr "Вы можете оплатить картой не создавая счета в PayPal"
+
+#: libs/customization/class.CZ.Settings.php:59
+msgid "Checkout"
+msgstr "Перейти к оплате"
+
+#: products/product.php:34
+msgid "off"
+msgstr "скидка"
+
+#: products/product-related.php:63
+msgid "Related Products"
+msgstr "Похожие товары "
+
+#: products/cat-popular.php:33
+msgid "Most Popular"
+msgstr "Самое популярное "
+
+#: products/cat-menu.php:11
+msgid "Categories"
+msgstr "Категории "
+
+#: libs/pages_default/terms-and-conditions.php:21
+msgid "of any unauthorized use of your password or identification or any other breach or threatened breach of this Site’s security."
+msgstr "о любом незаконном использовании вашего логина или пароля, а также о любой другой реальной или потенциальной угрозе безопасности сайта."
+
+#: libs/pages_default/terms-and-conditions.php:20
+msgid "You will be solely responsible for all access to and use of this site by anyone using the password and identification originally assigned to you whether or not such access to and use of this site is actually authorized by you, including without limitation, all communications and transmissions and all obligations (including without limitation financial obligations) incurred through such access or use. You are solely responsible for protecting the security and confidentiality of the password and identification assigned to you. You shall immediately notify"
+msgstr "Вы будете нести единоличную ответственность за каждый вход на сайт и его использование посредством логина и пароля, выданного вам при регистрации, независимо от того, был ли осуществлен вход на сайт и его использование лично вами. Вы несете, помимо прочего, ответственность за все взаимодействие и передачу сообщений (в том, числе, финансового характера), имевшее место в ходе подобного использования сайта. Вы несете единоличную ответственность за обеспечение безопасности и конфиденциальности логина и пароля, выданного вам при регистрации. Вы обязаны незамедлительно уведомить"
+
+#: libs/pages_default/terms-and-conditions.php:19
+msgid "Unless explicitly permitted by our company in advance, all materials, including images, text, illustrations, designs, icons, photographs, programs, music clips or downloads, video clips and written and other materials that are part of this Site (collectively, the “Contents”) are intended solely for personal, non-commercial use. You may not make any commercial use of any of the information provided on the Site or make any use of the Site for the benefit of another business. We reserve the right to refuse service, terminate accounts, and/or cancel orders in its discretion, including, without limitation, if we believe that customer conduct violates applicable laws or is harmful to our interests. You may not reproduce, distribute, display, sell, lease, transmit, create derivative works from, translate, modify, reverse-engineer, disassemble, decompile, or otherwise exploit this Site or any portion of it unless expressly permitted by our company in writing."
+msgstr ""
+"В тех случаях, когда иное не было предварительно одобрено нашей компанией, все материалы сайта, в том числе изображения, текст, иллюстрации, дизайн, иконки, фотографии, программы, музыкальные клипы или загрузки, видео, письменные и иные материалы, здесь и далее именуемые «Контент», предназначаются только для личного некоммерческого использования. Не допускается коммерческое использование любой информации, размещенной на этом сайте, или использование сайта в интересах другого бизнеса.\n"
+"В этой связи мы оставляем за собой право отказать вам в обслуживании, прекратить действие аккаунтов и/или аннулировать заказы, в том числе, если мы полагаем, что поведение пользователя нарушает применяемые правовые нормы или противоречит нашим интересам. Вы не имеете права воспроизводить, распространять, демонстрировать, продавать, предлагать в аренду, передавать, использовать в качестве основы для сходной работы, переводить, видоизменять, осуществлять обратное проектирование, разбирать на составные части, декомпилировать или иным способом использовать для получения выгоды данный сайт или его отдельные разделы, если на иное не было получено специального письменного разрешения от нашей компании."
+
+#: libs/pages_default/terms-and-conditions.php:17
+msgid "in advance. Any violation of this Agreement shall result in the immediate revocation of the license granted in this paragraph without notice to you."
+msgstr "было получено специальное предварительное разрешение. Любое нарушение условий этого соглашения повлечет за собой немедленный отзыв вышеупомянутой лицензии без уведомления пользователя."
+
+#: libs/pages_default/terms-and-conditions.php:16
+msgid "By accepting these Terms of Use through your use of the Site, you certify that you are 18 years of age or older. If you are under 18 years old please use this Site only under the supervision of a parent or legal guardian. Subject to the terms and conditions of this agreement, hereby grants you a limited, revocable, non-transferable, and non-exclusive license to access and use the Site by displaying it on your Internet browser only for the purpose of shopping and not for any commercial use or use on behalf of any third party, except as explicitly permitted by"
+msgstr "Принимая данные Условия Использования сайта, вы подтверждаете, что достигли возраста 18 лет.  Если вам меньше 18 лет, пожалуйста, пользуйтесь сайтом только под наблюдением родителей или законных представителей. В соответствии с условиями данного соглашения, настоящим вам предоставляется ограниченная, не подлежащая передаче и неисключительная лицензия на доступ к сайту и его использование посредством отображения в интернет-браузере. Сайт используется только для покупок, а не для каких-либо коммерческих целей или для работы от имени какой-либо третьей стороны, за исключением случаев, на которые от"
+
+#: libs/pages_default/terms-and-conditions.php:14
+msgid "has no obligation to investigate the source of any such access or use of the Site."
+msgstr "не имеет никаких обязательств в отношении поиска источника, с которого осуществляется вход на сайт и его использование."
+
+#: libs/pages_default/terms-and-conditions.php:13
+msgid "may give you an account identification and password to enable you to access and use certain portions of this Site. Each time you use a password or identification, you are deemed to be authorized to access and use the Site in a manner consistent with the terms and conditions of this agreement, and"
+msgstr "может предоставить вам логин и пароль для доступа в отдельные разделы сайта. При каждом использовании логина и пароля вам надлежит работать с сайтом таким образом, который полностью соответствует условиям и положениям данного соглашения. При этом сайт"
+
+#: libs/pages_default/terms-and-conditions.php:12
+msgid "You shall not upload, distribute, or otherwise publish through this Site any Content, information, or other material that (a) includes any bugs, viruses, worms, trap doors, Trojan horses, or other harmful code or properties; (b) is libelous, threatening, defamatory, obscene, indecent, pornographic, discriminatory, or could give rise to any civil or criminal liability under the laws of the U.S. or the laws of any other country that may apply; or (c)violates or infringes upon the copyrights, patents, trademarks, service marks, trade secrets, or other proprietary rights of any person."
+msgstr "Соглашаясь с приведенными условиями и положениями, вы обязуетесь не добавлять, не публиковать и не распространять иным образом через данный сайт какой-либо контент, информацию или иные материалы, которые: а) содержат технические дефекты (баги), компьютерные вирусы, компьютерных червей, лазейки в системе защиты, троянские программы или иные вредоносные свойства или элементы кода; б) носят клеветнический, угрожающий, дискредитирующий, непристойный или порнографический характер, либо могут повлечь за собой гражданскую или уголовную ответственность в соответствии с законодательством РФ или любой иной страны; либо в) представляют угрозу для авторского права, патентов, торговых марок, знаков обслуживания, коммерческой тайны или иных прав собственности любого лица."
+
+#: libs/pages_default/terms-and-conditions.php:11
+msgid "Before proceeding, please read this agreement because accessing, browsing, or otherwise using the Site indicates your agreement to all the terms and conditions in this agreement."
+msgstr "Прежде чем продолжить работу, пожалуйста, прочитайте данное соглашение. Вход на сайт, переход по его страницам или любое другое его использование означает, что вы принимаете все условия и положения, обозначенные в данном соглашении."
+
+#: libs/pages_default/terms-and-conditions.php:10
+msgid "We provide services to you subject to the notices, terms, and conditions set forth in this agreement. Besides, you will obey the rules, guidelines, policies, terms, and conditions applicable to such services before you use them. We reserve the right to change this site and these terms and conditions at any time."
+msgstr "Мы предоставляем клиентам услуги в полном соответствии с замечаниями, условиями и положениями, обозначенными в данном соглашении. Вам также надлежит соблюдать правила, принципы, нормы, условия и положения, относящиеся к данным услугам, до обращения к ним. Мы оставляем за собой право изменять сайт, а также условия и положения, регламентирующие его использование, в любое время."
+
+#: libs/pages_default/privacy-policy.php:21
+msgid "page or using your PayPal account."
+msgstr "либо через аккаунт PayPal. "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:73
+#: libs/pages_default/refund-policy.php:20
+msgid "You can submit refund requests within 15 days after the guaranteed period for delivery (45 days) has expired. You can do it by sending a message on"
+msgstr "Вы можете подать заявку на получение полного возврата платежа в течение 15 дней после истечения гарантированного срока доставки (45 дней). Это можно сделать путем отправления сообщения на "
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:71
+#: libs/pages_default/refund-policy.php:17
+msgid "Other exceptional circumstances outside the control of"
+msgstr "Возникли иные исключительные обстоятельства, независящие от"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:70
+#: libs/pages_default/privacy-policy.php:20
+msgid "(i.e. not cleared by customs, delayed by a natural disaster)."
+msgstr "(непрохождение таможенного контроля, задержка доставки из-за стихийного бедствия и пр.)."
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:70
+#: libs/pages_default/refund-policy.php:16
+msgid "Your order did not arrive due to exceptional circumstances outside the control of"
+msgstr "Ваш заказ не прибыл к месту доставки по исключительным причинам, независящим от"
+
+#: libs/customization/template/tm_single_shipping_payment_content.php:69
+#: libs/pages_default/privacy-policy.php:19
+#: libs/pages_default/refund-policy.php:15
+msgid "Your order did not arrive due to factors within your control (i.e. providing the wrong shipping address)"
+msgstr "Ваш заказ не прибыл к месту назначения по зависящим от вас причинам (к примеру, вы указали неверный адрес доставки)."
+
+#: libs/pages_default/privacy-policy.php:18
+msgid "Full refunds are not available under the following circumstances:"
+msgstr "Полный возврат средств не распространяется на следующие случаи: "
+
+#: libs/pages_default/payment-methods.php:18
+msgid "When you make payment for your order, you don’t need to use your credit card online (you can transfer directly from your bank account). When you use your credit card through PayPal, nobody will see your credit card number, which will minimize the risk of unauthorized use."
+msgstr "При оплате заказа вам не нужно использовать кредитную карту – вы можете перевести средства напрямую с банковского счета. При использовании кредитной карты в системе PayPal вы можете быть уверены в том, что никто не видит номера вашей карты, а это значит, что риск ее незаконного использования существенно снижается."
+
+#: libs/pages_default/payment-methods.php:17
+msgid "Payment is traceable. By using your PayPal account, you can trace the status of your payment."
+msgstr "Движение денежных средств легко отследить. Используя систему PayPal, вы можете следить за статусом вашего платежа."
+
+#: libs/pages_default/payment-methods.php:16
+msgid "The reasons why we suggest you use PayPal:"
+msgstr "Почему мы предлагаем вам пользоваться PayPal:"
+
+#: libs/pages_default/payment-methods.php:15
+msgid "Usually, PayPal e-check will take 3-5 business days to be confirmed by PayPal."
+msgstr "Как правило, обработка электронного чека PayPal занимает от 3 до 5 рабочих дней, после чего в систему PayPal приходит подтверждение оплаты."
+
+#: libs/pages_default/payment-methods.php:14
+msgid "You can use the PayPal as you want according to the on-screen instructions."
+msgstr "Далее вы можете воспользоваться любым нужным вам сервисом PayPal в соответствии с инструкциями, показанными на экране."
+
+#: libs/pages_default/payment-methods.php:13
+msgid "You can sign in to your PayPal account, or you can create a new one if you haven’t got one."
+msgstr "Вы можете либо зайти в уже существующий аккаунт PayPal, либо создать новый, если ранее вы не регистрировались в системе."
+
+#: libs/pages_default/payment-methods.php:12
+msgid "After viewing your items on your shopping cart page, you can click and check out with PayPal. Then you will leave our site and enter PayPal’s website."
+msgstr "После просмотра товаров, добавленных в корзину, вы подтверждаете готовность оплатить заказ, кликнув на ссылку PayPal. После этого вы будете перенаправлены на сайт PayPal для совершения оплаты."
+
+#: libs/pages_default/payment-methods.php:11
+msgid "PayPal can be used to purchase items by Credit Card (Visa, MasterCard, Discover, and American Express), Debit Card, or E-check (i.e. using your regular Bank Account)."
+msgstr "PayPal также может использоваться для покупки товаров с использованием кредитных карт (Visa, MasterCard, Discover и American Express), дебетовых карт, а также электронных чеков – иными словами, для совершения оплаты через ваш обычный банковский счет. "
+
+#: libs/pages_default/payment-methods.php:10
+msgid "PayPal is a safer, easier way to send and receive money online. When you select PayPal as the payment method, you will be linked to the PayPal site where you can make payment."
+msgstr "PayPal является более безопасным и простым способом отправки и получения денежных средств через интернет. После выбора PayPal в качестве метода оплаты вы будете перенаправлены на сайт PayPal для совершения денежного перевода."
+
+#: libs/pages_default/payment-methods.php:9
+msgid "Payments methods include PayPal and Credit cards."
+msgstr "В число способов оплаты входит оплата через систему PayPal, а также оплата по Кредитным Картам."
+
+#: libs/pages_default/frequently-asked-questions.php:19
+msgid "The item you received that was assured to be genuine was fake."
+msgstr "Полученный вами товар, заявленный как продукт из натурального сырья, выполнен из искусственных материалов."
+
+#: libs/pages_default/frequently-asked-questions.php:18
+msgid "The item you received was not as described."
+msgstr "Полученный товар не соответствует описанию. "
+
+#: libs/pages_default/frequently-asked-questions.php:17
+msgid "The item you ordered did not arrive within the time promised by the seller."
+msgstr "Заказанный вами товар не был доставлен в течение срока, заявленного продавцом. "
+
+#: libs/pages_default/frequently-asked-questions.php:15
+msgid "You are protected when:"
+msgstr "Защита предоставляется в тех случаях, когда:"
+
+#: libs/pages_default/frequently-asked-questions.php:14
+msgid "Buyer Protection is a set of guarantees that enables buyers to shop with confidence on our website."
+msgstr "Защита Покупателя – это ряд гарантий, позволяющих клиентам безопасно совершать покупки на нашем сайте."
+
+#: libs/pages_default/frequently-asked-questions.php:13
+msgid "What is Buyer Protection?"
+msgstr "Что такое Политика Защиты Покупателя?"
+
+#: libs/pages_default/frequently-asked-questions.php:12
+msgid "directly"
+msgstr "напрямую "
+
+#: libs/pages_default/frequently-asked-questions.php:12
+msgid "contact us"
+msgstr "свяжитесь с нами"
+
+#: libs/pages_default/frequently-asked-questions.php:12
+msgid "Shipping costs are calculated based on shipping method (air, sea or land) and product weight / volume. Different shipping companies have different rates, so it’s best to check and compare which is most affordable and economical. For more details on how shipping costs are calculated, please"
+msgstr "Стоимость доставки рассчитывается с учетом способа доставки (воздушным, морским или наземным транспортом), а также веса и объема товара. У каждой транспортной компании существуют свои расценки, потому целесообразно сравнить их между собой и выбрать наиболее доступный и экономичный вариант. Чтобы получить более подробную информацию о методах расчета стоимости доставки, пожалуйста,"
+
+#: libs/pages_default/frequently-asked-questions.php:11
+msgid "How are shipping costs calculated?"
+msgstr "Как рассчитывается стоимость доставки? "
+
+#: libs/pages_default/frequently-asked-questions.php:10
+msgid "at the top of any page. Try to enter a general description. The more keywords you use, the less products you will get in the results page. When you find a product you’re interested in, simply click the product name or the product image for more details."
+msgstr ", которая находится в верхней части каждой страницы сайта. Постарайтесь использовать более общее описание. Чем больше ключевых слов вы используете, тем меньше результатов будет представлено в выдаче. Когда вы найдете интересующий вас товар, просто кликните на его название или фотографию, чтобы получить больше информации."
+
+#: libs/pages_default/frequently-asked-questions.php:10
+msgid "Search Bar"
+msgstr "Поисковая строка "
+
+#: libs/pages_default/frequently-asked-questions.php:10
+msgid "Search for products by entering the product name or keyword into the"
+msgstr "Для поиска товара введите его наименование или ключевое слово в "
+
+#: libs/pages_default/frequently-asked-questions.php:9
+msgid "How to search products?"
+msgstr "Как искать товары? "
+
+#: libs/customization/menu.php:10 libs/customization/menu.php:11
+msgid "Customization"
+msgstr "Индивидуальная настройка "
+
+#: libs/customization/class.CZ.Settings.php:781
+msgid "Add 300-500 words SEO article to your home page"
+msgstr "Добавить на главную страницу статью, оптимизированную под SEO, объёмом 300-500 слов "
+
+#: libs/customization/class.CZ.Settings.php:769
+msgid "Description 4"
+msgstr "Описание 4"
+
+#: libs/customization/class.CZ.Settings.php:766
+msgid "Title 4"
+msgstr "Заголовок 4"
+
+#: libs/customization/class.CZ.Settings.php:760
+msgid "Description 3"
+msgstr "Описание 3"
+
+#: libs/customization/class.CZ.Settings.php:757
+msgid "Title 3"
+msgstr "Заголовок 3"
+
+#: libs/customization/class.CZ.Settings.php:751
+msgid "Description 2"
+msgstr "Описание 2"
+
+#: libs/customization/class.CZ.Settings.php:748
+msgid "Title 2"
+msgstr "Заголовок 2"
+
+#: libs/customization/class.CZ.Settings.php:742
+msgid "Description 1"
+msgstr "Описание 1"
+
+#: libs/customization/class.CZ.Settings.php:739
+msgid "Title 1"
+msgstr "Заголовок 1"
+
+#: libs/customization/class.CZ.Settings.php:735
+msgid "Features titles color"
+msgstr "Цвет заголовка для миниатюры "
+
+#: libs/customization/class.CZ.Settings.php:732
+msgid "Features images color"
+msgstr "Цвет миниатюры "
+
+#: libs/customization/class.CZ.Settings.php:714
+msgid "YouTube Video ID"
+msgstr "ID видео-ролика на YouTube "
+
+#: libs/customization/class.CZ.Settings.php:690
+msgid "Bottom right image"
+msgstr "Изображение в нижнем правом углу "
+
+#: libs/customization/class.CZ.Settings.php:678
+#: libs/customization/class.CZ.Settings.php:707
+msgid "Description text"
+msgstr "Текст описания "
+
+#: libs/customization/class.CZ.Settings.php:672
+#: libs/customization/class.CZ.Settings.php:701
+msgid "Alt text"
+msgstr "Alt текст "
+
+#: libs/customization/class.CZ.Settings.php:645
+#: libs/customization/class.CZ.Settings.php:669
+#: libs/customization/class.CZ.Settings.php:698
+msgid "Category URL"
+msgstr "URL категории "
+
+#: libs/customization/class.CZ.Settings.php:661
+msgid "Top right image"
+msgstr "Изображение в верхнем правом углу "
+
+#: libs/customization/class.CZ.Settings.php:161
+msgid "Buttons Colors (click)"
+msgstr "Цвет кнопки (при нажатии) "
+
+#: libs/customization/class.CZ.Settings.php:649
+msgid "The button sends users to the product catalogue"
+msgstr "Кнопка перенаправляет пользователя на страницу с каталогом товаров "
+
+#: libs/customization/class.CZ.Settings.php:648
+msgid "Button text"
+msgstr "Текст кнопки "
+
+#: libs/customization/class.CZ.Settings.php:640
+msgid "Description Text"
+msgstr "Текст описания "
+
+#: libs/customization/class.CZ.Settings.php:634
+msgid "Main image"
+msgstr "Главное изображение "
+
+#: libs/customization/class.CZ.Settings.php:618
+msgid "Paste your ‘Autoresponder’ code here"
+msgstr "Введите код своего автореспондера здесь"
+
+#: libs/customization/class.CZ.Settings.php:604
+msgid "Mandrill.com API Key"
+msgstr "Mandrill.com API Key"
+
+#: libs/customization/class.CZ.Settings.php:601
+msgid "Sent emails from (for Mandrill)"
+msgstr "Отправлять письмо от (for Madrill)"
+
+#: libs/customization/class.CZ.Settings.php:598
+msgid "Receive emails to"
+msgstr "Перенаправлять электронную почту на адрес "
+
+#: libs/customization/class.CZ.Settings.php:560
+#: libs/customization/class.CZ.Settings.php:580
+msgid "Conversion tracking script"
+msgstr "Скрипт для отслеживания переходов "
+
+#: libs/customization/class.CZ.Settings.php:556
+#: libs/customization/class.CZ.Settings.php:576
+#: libs/customization/class.CZ.Settings.php:721
+#: libs/customization/class.CZ.Settings.php:822
+msgid "Text"
+msgstr "Текст "
+
+#: libs/customization/class.CZ.Settings.php:452
+#: libs/customization/class.CZ.Settings.php:469
+#: libs/customization/class.CZ.Settings.php:486
+#: libs/customization/class.CZ.Settings.php:503
+#: libs/customization/class.CZ.Settings.php:520
+msgid "Photo"
+msgstr "Фото "
+
+#: libs/customization/class.CZ.Settings.php:418
+msgid "Footer tag container"
+msgstr "Тэговый контейнер для Footer "
+
+#: libs/customization/class.CZ.Settings.php:390
+msgid "Image 3"
+msgstr "Изображение 3"
+
+#: libs/customization/class.CZ.Settings.php:385
+msgid "Image 2"
+msgstr "Изображение 2"
+
+#: libs/customization/class.CZ.Settings.php:380
+msgid "Image 1"
+msgstr "Изображение 1"
+
+#: libs/customization/class.CZ.Settings.php:375
+#: libs/customization/class.CZ.Settings.php:397
+msgid "Confidence"
+msgstr "Конфиденциальность "
+
+#: libs/customization/class.CZ.Settings.php:353
+msgid "Social pages links"
+msgstr "Ссылки на социальные страницы "
+
+#: libs/customization/class.CZ.Settings.php:350
+msgid "YouTube link"
+msgstr "Ссылка на YouTube "
+
+#: libs/customization/class.CZ.Settings.php:347
+msgid "Pinterest link"
+msgstr "Ссылка на Pinterest "
+
+#: libs/customization/class.CZ.Settings.php:342
+msgid "Google plus link"
+msgstr "Ссылка на Google plus"
+
+#: libs/customization/class.CZ.Settings.php:339
+msgid "Twitter link"
+msgstr "Ссылка на Twitter"
+
+#: libs/customization/class.CZ.Settings.php:317
+msgid "Instagram widget"
+msgstr "Виджет Instagram "
+
+#: libs/customization/class.CZ.Settings.php:333
+msgid "Facebook widget"
+msgstr "Виджет Facebook "
+
+#: libs/customization/class.CZ.Settings.php:330
+msgid "API ID"
+msgstr "API ID"
+
+#: libs/in.wigwtads.php:198 libs/customization/class.CZ.Settings.php:327
+msgid "Widget title"
+msgstr "Заголовок виджета "
+
+#: libs/customization/class.CZ.Settings.php:323
+msgid "Fan page link"
+msgstr "Ссылка на фанатскую страницу "
+
+#: libs/customization/class.CZ.Settings.php:286
+msgid "Logo background color"
+msgstr "Фоновый цвет логотипа "
+
+#: libs/customization/class.CZ.Settings.php:281
+msgid "Free shipping logo"
+msgstr "Логотип бесплатной доставки "
+
+#: libs/customization/class.CZ.Settings.php:274
+msgid "Contact phone"
+msgstr "Контактный телефон "
+
+#: libs/customization/class.CZ.Settings.php:271
+msgid "Contact email"
+msgstr "Контактный адрес электронной почты "
+
+#: libs/customization/class.CZ.Settings.php:262
+msgid "Additional image"
+msgstr "Дополнительное изображение "
+
+#: libs/customization/class.CZ.Settings.php:257
+msgid "Website logo"
+msgstr "Логотип сайта "
+
+#: libs/customization/class.CZ.Settings.php:241
+msgid "css style"
+msgstr "стиль css "
+
+#: libs/customization/class.CZ.Settings.php:237
+msgid "< head > tag container for head elements"
+msgstr "Контейнер для тэга < head > "
+
+#: libs/customization/class.CZ.Settings.php:217
+msgid "Google Analytics Tracking ID"
+msgstr "Google Analytics Tracking ID"
+
+#: libs/customization/class.CZ.Settings.php:208
+msgid "Banner link"
+msgstr "Ссылка на баннер "
+
+#: libs/customization/class.CZ.Settings.php:203
+msgid "Banner image on a product page"
+msgstr "Изображение баннера на странице товара "
+
+#: libs/customization/class.CZ.Settings.php:193
+#: libs/customization/class.CZ.Settings.php:432
+#: libs/customization/class.CZ.Settings.php:543
+msgid "Background image"
+msgstr "Фоновое изображение "
+
+#: libs/customization/class.CZ.Settings.php:184
+msgid "Favicon"
+msgstr "Favicon"
+
+#: libs/customization/class.CZ.Settings.php:171
+msgid "Promo counter text color"
+msgstr "Цвет текста в промо-баннере "
+
+#: libs/customization/class.CZ.Settings.php:166
+msgid "Promo counter color"
+msgstr "Цвет промо-баннера "
+
+#: libs/customization/class.CZ.Settings.php:153
+msgid "Template color"
+msgstr "Цвет шаблона "
+
+#: libs/customization/class.CZ.Settings.php:135
+msgid "Top menu will be fixed above while scrolling"
+msgstr "При прокрутке страницы верхнее меню будет зафиксировано "
+
+#: libs/customization/class.CZ.Settings.php:134
+msgid "Freeze top menu"
+msgstr "Зафиксировать верхнее меню сайта "
+
+#: libs/customization/class.CZ.Settings.php:126
+msgid "Create"
+msgstr "Создать "
+
+#: libs/customization/class.CZ.Settings.php:124
+msgid "Add default pages and menus"
+msgstr "Добавить стандартные страницы и меню "
+
+#: libs/customization/class.CZ.Settings.php:102
+msgid "Footer options and settings."
+msgstr "Опции и настройки раздела Footer."
+
+#: libs/customization/class.CZ.Settings.php:101
+msgid "Footer"
+msgstr "Footer"
+
+#: libs/customization/class.CZ.Settings.php:95
+msgid "Subscription form settings for collecting users’ emails."
+msgstr "Настройки формы подписки для сбора электронной почты пользователей. "
+
+#: libs/customization/class.CZ.Settings.php:94
+msgid "Subscribe Form"
+msgstr "Форма подписки "
+
+#: libs/customization/class.CZ.Settings.php:81
+msgid "Social media pages integration."
+msgstr "Интеграция страниц с социальными сетями. "
+
+#: libs/customization/class.CZ.Settings.php:80
+msgid "Social Media"
+msgstr "Социальные сети "
+
+#: libs/customization/class.CZ.Settings.php:74
+msgid "Thank you page settings."
+msgstr "Настройки страницы \"Спасибо\" "
+
+#: libs/customization/class.CZ.Settings.php:73
+msgid "Thank You"
+msgstr "Спасибо "
+
+#: libs/customization/class.CZ.Settings.php:67
+msgid "About us page settings."
+msgstr "Настройки страницы \"О нас\" "
+
+#: libs/create_page_template.php:24 libs/customization/class.CZ.Settings.php:66
+#: libs/customization/class.CZ.Settings.php:440
+#: libs/customization/defaults.php:119
+msgid "About Us"
+msgstr "О нас"
+
+#: libs/customization/class.CZ.Settings.php:53
+msgid "Single product page main settings."
+msgstr "Основные настройки страницы Страницы товара"
+
+#: libs/customization/class.CZ.Settings.php:52
+msgid "Single product"
+msgstr "Одиночный товар "
+
+#: libs/customization/class.CZ.Settings.php:46
+msgid "Home page main settings."
+msgstr "Основные настройки домашней страницы"
+
+#: libs/customization/class.CZ.Settings.php:39
+msgid "Header main elements settings."
+msgstr "Настройки главных элементов header "
+
+#: libs/customization/class.CZ.Settings.php:38
+msgid "Header"
+msgstr "Header"
+
+#: libs/customization/class.CZ.Settings.php:32
+msgid "Use this section to add and edit scripts and styles."
+msgstr "В этой секции вы можете редактировать скрипты и стили. "
+
+#: libs/customization/class.CZ.Settings.php:31
+msgid "Head"
+msgstr "Head"
+
+#: libs/customization/class.CZ.Settings.php:24
+msgid "Some basic configuration settings."
+msgstr "Основные настройки."
+
+#: libs/customization/class.CZ.Settings.php:23
+msgid "General"
+msgstr "Общие "
+
+#: libs/customization/class.CZ.AdminTpl.php:895
+msgid "No changes have been made"
+msgstr "Изменений не внесено "
+
+#: libs/customization/class.CZ.AdminTpl.php:893
+msgid "The сhanges have been saved"
+msgstr "Изменения сохранены "
+
+#: libs/customization/class.CZ.AdminTpl.php:819
+msgid "Default"
+msgstr "По умолчанию "
+
+#: libs/customization/class.CZ.AdminTpl.php:818
+msgid "Save Settings"
+msgstr "Сохранить настройки "
+
+#: libs/customization/class.CZ.AdminTpl.php:434
+msgid "Upload"
+msgstr "Загрузить"
+
+#: libs/customization/class.CZ.AdminTpl.php:428
+msgid "size:"
+msgstr "размер: "
+
+#: functions.php:203 cart/cart1/tpl/_payment.php:66 cart/cart2/index.php:248
+msgid "Card number"
+msgstr "номер карты "
+
+#: libs/seo.php:194
+msgid "We are happy to get your feedback, our support team will revise your message and answer in the short run"
+msgstr "Для нас важен ваш отзыв. Наша служба поддержки ответит на ваше сообщение в кратчайшие сроки. "
+
+#: libs/seo.php:191
+msgid "Subscribe to our newsletter and get the latest updates on your favorite items in our store"
+msgstr "Подпишитесь на наши новости, и вы будете получать свежую информацию о ваших любимых товарах. "
+
+#: libs/seo.php:188
+msgid "Our shipping methods include DHL and EMS, terms of delivery depend on customer location and shipping service company"
+msgstr "Наши способы доставки включают в себя услуги DHL и EMS; условия доставки зависят от местоположения заказчика и компании-перевозчика. "
+
+#: libs/seo.php:185
+msgid "You can use these payment methods to pay for your purchases in this store"
+msgstr "Для оплаты покупок в данном онлайн-магазине вы можете использовать следующие способы оплаты: "
+
+#: libs/seo.php:182
+msgid "Frequently asked questions answered by our store support team, find the questions you wanted to ask"
+msgstr "Ответы нашей службы поддержки на часто задаваемые вопросы. Найдите здесь свой вопрос. "
+
+#: libs/seo.php:179
+msgid "If you have any questions just fill in the contact form and we will respond you promptly."
+msgstr "Если у вас возникли какие-либо вопросы, просто заполните форму обратной связи, и мы ответим вам в кратчайшие сроки.  "
+
+#: libs/seo.php:176
+msgid "Add products to your shopping cart and buy easily anytime with free shipping worldwide."
+msgstr "Добавляйте товары в корзину и делайте покупки в любое время с бесплатной доставкой по всему миру. "
+
+#: libs/seo.php:173
+msgid "We are doing our best to make your shopping online effortless and carefree, we hope you enjoy your experience with us."
+msgstr "Мы усердно работаем над тем, чтобы вы могли совершать покупки онлайн быстро и легко. Надеемся, вам у нас понравится. "
+
+#: libs/seo.php:155
+msgid ""
+"at affordable prices! Free shipping to 185 countries.\n"
+"45 days money back guarantee. Friendly customer service."
+msgstr ""
+"по низким ценам! Бесплатная доставка в 185 стран.\n"
+"Гарантия возврата денег - 45 дней. Внимательное отношение к клиенту. "
+
+#: libs/seo.php:154
+msgid "Great selection of"
+msgstr "Большой выбор товаров "
+
+#: libs/seo.php:138
+msgid "Free shipping to 185 countries. 45 days money back guarantee."
+msgstr "Бесплатная доставка в 185 стран. Гарантия возврата денег - 45 дней. "
+
+#: libs/seo.php:137
+msgid "at"
+msgstr "в"
+
+#: libs/seo.php:137
+msgid "Buy"
+msgstr "Купить "
+
+#: libs/seo.php:93
+msgid "Thank you for contacting us!"
+msgstr "Спасибо, что связались с нами! "
+
+#: libs/seo.php:90
+msgid "Thank you for subscription!"
+msgstr "Спасибо, что подписались! "
+
+#: libs/seo.php:87
+msgid "Our shipping methods and terms"
+msgstr "Способы и условия доставки "
+
+#: libs/seo.php:84
+msgid "Payment methods available for you"
+msgstr "Доступные вам способы оплаты "
+
+#: libs/seo.php:81
+msgid "FAQ – popular questions answered"
+msgstr "FAQ - ответы на часто задаваемые вопросы "
+
+#: libs/create_page_template.php:31 libs/seo.php:75
+msgid "Your shopping cart"
+msgstr "Ваша корзина "
+
+#: libs/seo.php:55
+msgid "with free worldwide shipping"
+msgstr "с бесплатной доставкой по всему миру"
+
+#: libs/seo.php:55
+msgid "Online shopping for "
+msgstr "Онлайн шопинг для"
+
+#: libs/seo.php:36
+msgid "free shipping worldwide"
+msgstr "бесплатная доставка по всему миру "
+
+#: libs/seo.php:20 libs/seo.php:120
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: libs/pagination.php:86
+msgid "of"
+msgstr "из"
+
+#: libs/option_blog.php:130 libs/customization/class.CZ.Settings.php:439
+#: libs/customization/class.CZ.Settings.php:447
+msgid "Description"
+msgstr "Описание "
+
+#: tpl/widget/_video.php:31
+msgid "Start Shopping Now"
+msgstr "К каталогу товаров "
+
+#: tpl/widget/_modal_add_cart.php:87
+msgid "Proceed to Checkout"
+msgstr "Перейти к оплате "
+
+#: tpl/widget/_modal_add_cart.php:18
+msgid "Added to cart"
+msgstr "Добавлено в корзину "
+
+#: tpl/widget/_modal_add_cart.php:15 tpl/widget/_video.php:18
+msgid "Close"
+msgstr "Закрыть "
+
+#: libs/in.wigwtads.php:236
+msgid "Instagram settings"
+msgstr "Настройки Instagram "
+
+#: libs/in.wigwtads.php:235
+msgid "Instagram"
+msgstr "Instagram"
+
+#: libs/in.wigwtads.php:209
+msgid "client secret"
+msgstr "client secret"
+
+#: libs/in.wigwtads.php:201
+msgid "Link to profile"
+msgstr "Ссылка на профиль "
+
+#: libs/in.wigwtads.php:184
+msgid "add Valid redirect URIs"
+msgstr "введите правильные URL-адреса перенаправления "
+
+#: libs/customization/template/tp_subscribe.php:28
+msgid "Register now to get updates on promotions and coupons."
+msgstr "Зарегистрируйтесь сейчас и получайте новости о промо-акциях и купонах. "
+
+#: libs/customization/template/tp_subscribe.php:25
+msgid "Subscribe"
+msgstr "Подписаться "
+
+#: libs/customization/template/tp_subscribe.php:22
+msgid "Please enter you email"
+msgstr "Пожалуйста, введите свой email "
+
+#: libs/customization/defaults.php:154
+msgid "We are sorry, we were unable to successfully process this transaction."
+msgstr "Приносим свои извинения: нам не удалось завершить транзакцию. "
+
+#: libs/customization/defaults.php:150
+msgid "Thank you for your order!"
+msgstr "Спасибо за заказ! "
+
+#: libs/create_page_template.php:72 libs/create_page_template.php:90
+msgid "Women Clothing"
+msgstr "Женская одежда "
+
+#: libs/create_page_template.php:71 libs/create_page_template.php:89
+msgid "Toys"
+msgstr "Игрушки "
+
+#: libs/create_page_template.php:70 libs/create_page_template.php:88
+msgid "T-shirts"
+msgstr "Футболки "
+
+#: libs/create_page_template.php:69 libs/create_page_template.php:87
+msgid "Posters"
+msgstr "Постеры "
+
+#: libs/create_page_template.php:68 libs/create_page_template.php:86
+msgid "Phone Cases"
+msgstr "Чехлы для телефонов "
+
+#: libs/create_page_template.php:67 libs/create_page_template.php:85
+msgid "Men Clothing"
+msgstr "Мужская одежда "
+
+#: libs/create_page_template.php:66 libs/create_page_template.php:84
+msgid "Jewelry"
+msgstr "Украшения "
+
+#: libs/create_page_template.php:65 libs/create_page_template.php:83
+msgid "Gifts"
+msgstr "Подарки "
+
+#: libs/create_page_template.php:64 libs/create_page_template.php:82
+msgid "Custom category"
+msgstr "Собственная категория "
+
+#: libs/create_page_template.php:63 libs/create_page_template.php:81
+msgid "Costumes"
+msgstr "Костюмы"
+
+#: libs/create_page_template.php:29 libs/create_page_template.php:59
+msgid "Frequently Asked Questions"
+msgstr "Часто задаваемые вопросы "
+
+#: libs/create_page_template.php:27 libs/create_page_template.php:48
+msgid "Terms and Conditions"
+msgstr "Правила и условия"
+
+#: libs/create_page_template.php:26 libs/create_page_template.php:47
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности "
+
+#: libs/create_page_template.php:46 libs/seo.php:72
+msgid "About us"
+msgstr "О нас "
+
+#: libs/create_page_template.php:23 libs/create_page_template.php:38
+#: libs/create_page_template.php:53
+msgid "Shipping & Delivery"
+msgstr "Доставка товара"
+
+#: libs/create_page_template.php:22 libs/create_page_template.php:52
+#: libs/customization/class.CZ.Settings.php:365
+msgid "Payment methods"
+msgstr "Способы оплаты "
+
+#: cart/cart1/tpl/_list_order.php:4
+msgid "Product"
+msgstr "Товар "
+
+#: libs/contact-form.php:26
+msgid "Message"
+msgstr "Сообщение "
+
+#: libs/contact-form.php:84
+msgid "Send Message"
+msgstr "Отправить сообщение "
+
+#: libs/contact-form.php:44
+msgid "Your message has been sent!"
+msgstr "Ваше сообщение отправлено! "
+
+#: libs/contact-form.php:38
+msgid "Something went wrong and we could not get a letter. Some fields were incorrectly filled out."
+msgstr "Что-то пошло не так и ваше письмо не было доставлено. Некоторые поля заполнены неправильно. "
+
+#: libs/comment-form.php:45
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации. "
+
+#: libs/comment-form.php:38
+msgid "Edit"
+msgstr "Редактировать "
+
+#: libs/comment-form.php:34
+msgid "<small>%1$s at %2$s</small>"
+msgstr "<small>%1$s at %2$s</small>"
+
+#: libs/comment-form.php:31
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: libs/breadcrumbs.php:259 libs/pagination.php:85
+msgid "Page"
+msgstr "Страница "
+
+#: libs/breadcrumbs.php:18
+msgid "Not Found"
+msgstr "Не найдено "
+
+#: libs/breadcrumbs.php:17
+msgid "All posts by %s"
+msgstr "Все записи по %s "
+
+#: libs/breadcrumbs.php:16
+msgid "Tag Archives: %s"
+msgstr "Архив тэгов: %s "
+
+#: libs/breadcrumbs.php:15
+msgid "Search Results for: %s"
+msgstr "Результаты поиска на запрос: %s"
+
+#: libs/breadcrumbs.php:14
+msgid "Archive article \"%s\""
+msgstr "Архив статья \"%s\""
+
+#: header.php:364 libs/breadcrumbs.php:13 libs/create_page_template.php:36
+#: libs/customization/class.CZ.Settings.php:45
+msgid "Home"
+msgstr "Главная "
+
+#: single-product.php:374
+msgid "Negative"
+msgstr "Отрицательные "
+
+#: single-product.php:358
+msgid "Neutral"
+msgstr "Нейтральные "
+
+#: single-product.php:334 single-product.php:346 single-product.php:362
+#: single-product.php:378 single-product.php:391
+msgid "Stars"
+msgstr "Звёзд"
+
+#: single-product.php:331
+msgid "Positive"
+msgstr "Положительные "
+
+#: single-product.php:326
+msgid "Feedback Rating for This Product"
+msgstr "Рейтинг товара на основе отзывов "
+
+#: single-product.php:317
+msgid "Ratings"
+msgstr "Рейтинг"
+
+#: single-product.php:316
+msgid "out of"
+msgstr "из "
+
+#: single-product.php:308
+msgid "Average Star Rating"
+msgstr "Средняя оценка "
+
+#: products/_pack.php:6
+msgid "Packaging Details"
+msgstr "Данные об упаковке "
+
+#: single-product.php:280
+msgid "Product Description"
+msgstr "Описание товара "
+
+#: libs/customization/class.CZ.Settings.php:805
+msgid "Shipping & Payment"
+msgstr "Доставка и оплата "
+
+#: review-single.php:27 single-product.php:255 single-product.php:290
+msgid "Reviews"
+msgstr "Отзывы "
+
+#: single-product.php:262 single-product.php:415
+msgid "Item Specifics"
+msgstr "Спецификации товара "
+
+#: single-product.php:249
+msgid "Product Details"
+msgstr "Данные о товаре "
+
+#: single-product.php:236
+msgid "Free Shipping Worldwide"
+msgstr "Бесплатная доставка по всему миру "
+
+#: single-product.php:196
+msgid "Secure Payments"
+msgstr "Безопасные способы оплаты "
+
+#: single-product.php:193
+msgid "Money Back Guarantee"
+msgstr "Гарантированный возврат денег "
+
+#: single-product.php:189
+msgid "Worldwide Shipping"
+msgstr "доставка по всему миру "
+
+#: single-product.php:179
+msgid "Cheсk out with"
+msgstr "Оплатить всё с помощью: "
+
+#: single-product.php:175
+msgid "Add to Cart"
+msgstr "Добавить в корзину "
+
+#: single-product.php:144
+msgid "Total Price"
+msgstr "Итого "
+
+#: single-product.php:114
+msgid "left in stock."
+msgstr "осталось"
+
+#: single-product.php:112
+msgid "Only"
+msgstr "Только "
+
+#: single-product.php:85
+msgid "FREE Shipping"
+msgstr "БЕСПЛАТНАЯ доставка "
+
+#: single-product.php:80
+msgid "Price"
+msgstr "Цена"
+
+#: single-product.php:54
+msgid "of buyers enjoyed this product!"
+msgstr "покупателям понравился этот товар! "
+
+#: single-blog.php:85
+msgid "Latest posts"
+msgstr "Последние посты "
+
+#: single-blog.php:68 single-blog.php:73
+msgid "Next post"
+msgstr "Следующий пост "
+
+#: single-blog.php:58 single-blog.php:64
+msgid "Previous post"
+msgstr "Предыдущий пост "
+
+#: search.php:26
+msgid "Search Result for"
+msgstr "Результаты поиска на запрос: "
+
+#: review-single.php:180
+msgid "Star"
+msgstr "Звёзды "
+
+#: review-single.php:129 libs/comment-form.php:121
+msgid "Send"
+msgstr "Отправить "
+
+#: review-single.php:127 libs/comment-form.php:120
+msgid "Cancel reply"
+msgstr "Отменить "
+
+#: review-single.php:125 libs/comment-form.php:119
+msgid "Leave a Reply to %s"
+msgstr "Ответить на комментарий пользователя %s"
+
+#: review-single.php:123 libs/comment-form.php:118
+msgid "Leave a Review"
+msgstr "Оставить отзыв "
+
+#: review-single.php:111 libs/comment-form.php:111
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Вы вошли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Выйти из учётной записи\">Log out?</a>"
+
+#: review-single.php:108 libs/comment-form.php:109
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны войти в <a href=\"%s\">учётную запись</a>, чтобы оставить комментарий. "
+
+#: review-single.php:103 libs/comment-form.php:105
+msgid "Comment"
+msgstr "Комментарий "
+
+#: review-single.php:95 libs/comment-form.php:98
+msgid "Email (required)"
+msgstr "Email (обязательно)"
+
+#: review-single.php:92 libs/comment-form.php:95
+msgid "Name (required)"
+msgstr "Имя (обязательно)"
+
+#: review-single.php:26
+msgid "Rating"
+msgstr "Рейтинг "
+
+#: review-single.php:25
+msgid "Buyer"
+msgstr "Покупатель "
+
+#: page.thankyou.php:54
+msgid "Follow us:"
+msgstr "Следите за нами:"
+
+#: cart/cart1/tpl/_sidebar.php:63
+msgid "items not as described"
+msgstr "товары не соответствуют описанию "
+
+#: cart/cart1/tpl/_sidebar.php:63
+msgid "Refund or Keep"
+msgstr "Оставьте товар себе или мы вернем вам деньги "
+
+#: cart/cart1/tpl/_sidebar.php:60
+msgid "if you don't receive your order"
+msgstr "если вы не получили товар "
+
+#: single-product.php:221 cart/cart1/tpl/_sidebar.php:60
+msgid "Full Refund"
+msgstr "Полный возврат стоимости "
+
+#: single-product.php:218 cart/cart1/tpl/_sidebar.php:57
+msgid "Buyer Protection"
+msgstr "Защита покупателя "
+
+#: cart/cart1/tpl/_sidebar.php:50
+msgid "Read our Privacy Policy"
+msgstr "Ознакомьтесь с нашей политикой конфиденциальности "
+
+#: cart/cart1/tpl/_sidebar.php:48
+msgid "respects your privacy. We don't rent or sell your personal information to anyone."
+msgstr "уважает вашу конфиденциальность. Мы не раскрываем личную информацию наших клиентов. "
+
+#: cart/cart1/tpl/_sidebar.php:43
+msgid "PRIVACY POLICY"
+msgstr "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ "
+
+#: cart/cart1/tpl/_sidebar.php:36
+msgid "All information is encrypted and transmitted without risk using a Secure Sockets Layer (SSL) protocol."
+msgstr "Вся информация зашифрована и передаётся при помощи надёжного протокола Secure Sockets Layer (SSL). "
+
+#: libs/customization/defaults.php:91
+msgid "SAFE SHOPPING GUARANTEE"
+msgstr "ГАРАНТИЯ БЕЗОПАСНОГО ШОПИНГА "
+
+#: cart/cart1/tpl/_sidebar.php:17
+msgid "You'll pay nothing if unauthorized charges are made to your credit card as a result of shopping at"
+msgstr "Вам не придётся платить, если на вашу кредитную карту выставлен неправомерный счёт в результате покупок в магазине "
+
+#: cart/cart1/tpl/_sidebar.php:13
+msgid "IS SAFE AND SECURE. GUARANTEED!"
+msgstr "БЕЗОПАСНО И НАДЁЖНО. ГАРАНТИЯ! "
+
+#: cart/cart1/tpl/_sidebar.php:13
+msgid "SHOPPING ON"
+msgstr "ПРОДОЛЖИТЬ ДЕЛАТЬ ПОКУПКИ "
+
+#: cart/cart1/tpl/_sidebar.php:4
+msgid "SHOP WITH CONFIDENCE"
+msgstr "ПОКУПАЙТЕ С УВЕРЕННОСТЬЮ "
+
+#: cart/cart1/_cart.php:106
+msgid "Proceed to Pay"
+msgstr "Перейти к оплате "
+
+#: single-product.php:91 cart/cart1/_cart.php:77 cart/cart2/index.php:113
+msgid "You save"
+msgstr "Вы экономите"
+
+#: single-product.php:71 cart/cart1/_cart.php:72 cart/cart2/index.php:109
+msgid "List price"
+msgstr "Цена по каталогу"
+
+#: cart/cart1/_cart.php:66 cart/cart2/index.php:103
+msgid "Apply"
+msgstr "Применить "
+
+#: cart/cart1/_cart.php:64 cart/cart2/index.php:101
+msgid "Code Accepted"
+msgstr "Код принят "
+
+#: cart/cart1/_cart.php:63 cart/cart2/index.php:100
+msgid "Code does not exist"
+msgstr "Такого кода не существует "
+
+#: cart/cart1/_cart.php:58
+msgid "Promo code"
+msgstr "Промо-код "
+
+#: cart/cart1/tpl/_payment.php:5 cart/cart2/index.php:206
+msgid "Payment method"
+msgstr "Способ оплаты "
+
+#: single-product.php:189 cart/cart1/_cart.php:82 cart/cart2/index.php:200
+msgid "Free"
+msgstr "Бесплатно "
+
+#: cart/cart1/tpl/_form.php:149
+msgid "Please leave any questions or wishes regarding your order here"
+msgstr "Если у вас есть какие-либо вопросы или пожелания относительно вашего заказа, напишите об этом здесь. "
+
+#: cart/cart1/tpl/_form.php:147
+msgid "Additional details"
+msgstr "Дополнительная информация "
+
+#: cart/cart1/tpl/_form.php:128
+msgid "Phone"
+msgstr "Телефон "
+
+#: functions.php:206 cart/cart1/tpl/_form.php:110 cart/cart2/index.php:179
+#: cart/cart2/index.php:180
+msgid "Postal code"
+msgstr "Почтовый индекс "
+
+#: cart/cart1/tpl/_form.php:82 cart/cart2/index.php:166
+msgid "Country"
+msgstr "Страна "
+
+#: cart/cart1/tpl/_form.php:96 cart/cart2/index.php:173
+#: cart/cart2/index.php:174
+msgid "State/Region"
+msgstr "Штат / регион "
+
+#: cart/cart1/tpl/_form.php:72 cart/cart2/index.php:157
+#: cart/cart2/index.php:158
+msgid "City"
+msgstr "Город "
+
+#: cart/cart1/tpl/_form.php:67
+msgid "Invalid: Address"
+msgstr "Неверно указан адрес "
+
+#: cart/cart1/tpl/_form.php:61 cart/cart2/index.php:149
+#: cart/cart2/index.php:150
+msgid "Address"
+msgstr "Адрес "
+
+#: cart/cart2/index.php:141 cart/cart2/index.php:142
+msgid "Full Name"
+msgstr "Полное имя "
+
+#: cart/cart1/tpl/_form.php:45 cart/cart1/tpl/_form.php:55
+#: cart/cart1/tpl/_form.php:76 cart/cart1/tpl/_form.php:90
+#: cart/cart1/tpl/_form.php:104 cart/cart1/tpl/_form.php:115
+#: cart/cart1/tpl/_form.php:133
+msgid "This field is required"
+msgstr "Требуется заполнить это поле "
+
+#: cart/cart1/tpl/_form.php:39 cart/cart2/index.php:132
+#: cart/cart2/index.php:133 libs/contact-form.php:23
+msgid "Email"
+msgstr "Email"
+
+#: cart/cart1/tpl/_form.php:5
+msgid "Please fill in your shipping details"
+msgstr "Введите реквизиты для доставки "
+
+#: page.thankyou.php:44 search.php:55 cart/cart1/_cart.php:21
+#: cart/cart1/_cart.php:102 cart/cart2/index.php:288
+#: tpl/widget/_modal_add_cart.php:84
+msgid "Continue shopping"
+msgstr "Вернуться к каталогу "
+
+#: cart/cart1/_cart.php:13 cart/cart1/_cart.php:85 cart/cart2/index.php:122
+#: tpl/widget/_modal_add_cart.php:75
+msgid "Total price"
+msgstr "Итого "
+
+#: cart/cart1/_cart.php:9 tpl/widget/_modal_add_cart.php:69
+msgid "Number of products"
+msgstr "Количество товаров "
+
+#: cart/cart1/tpl/_list_order.php:6 tpl/widget/_modal_add_cart.php:26
+msgid "Amount"
+msgstr "Количество "
+
+#: single-product.php:152 cart/cart1/tpl/_list_order.php:5
+#: tpl/widget/_modal_add_cart.php:25
+msgid "Quantity"
+msgstr "Количество"
+
+#: single-product.php:103 cart/cart1/_cart.php:34 cart/cart1/_cart.php:81
+#: cart/cart1/tpl/_list_order.php:25 cart/cart1/tpl/_list_order.php:67
+#: cart/cart2/index.php:78 cart/cart2/index.php:117
+#: tpl/widget/_modal_add_cart.php:38
+msgid "Shipping"
+msgstr "Доставка"
+
+#: cart/cart1/index.php:28 libs/breadcrumbs.php:19
+msgid "Cart"
+msgstr "Корзина "
+
+#: page-thank-you-contact.php:29
+msgid "Thank you for contacting us"
+msgstr "Спасибо, что связались с нами. "
+
+#: page-subscription.php:32 page-thank-you-contact.php:34
+msgid "Back to the site"
+msgstr "Вернуться на сайт "
+
+#: page-subscription.php:28
+msgid "You have been successfully added to our mailing list, keeping you up-to-date with our latest news, sales and coupons"
+msgstr "Вы были успешно добавлены в наш список рассылки и сможете получать актуальную информацию о скидках и купонах. "
+
+#: page-subscription.php:27
+msgid "Thank you for subscribing to our newsletter"
+msgstr "Спасибо, что подписались на наши новости. "
+
+#: page-contact-us.php:53
+msgid "Add Us"
+msgstr "Добавить"
+
+#: page-contact-us.php:49
+msgid "Join Us"
+msgstr "Зарегистрироваться "
+
+#: page-contact-us.php:45
+msgid "Follow Us"
+msgstr "Подписаться на нашу страницу "
+
+#: page-contact-us.php:41
+msgid "Find us"
+msgstr "Найти наш магазин"
+
+#: page-contact-us.php:37
+msgid "Like Us"
+msgstr "Like Us"
+
+#: page-contact-us.php:31
+msgid "Have any questions or need to get more information about a product? Either way, you’re in the right spot"
+msgstr "У вас возникли вопросы или вы хотите узнать больше о товаре?"
+
+#: page-contact-us.php:22 page.thankyou.php:47 libs/create_page_template.php:25
+#: libs/create_page_template.php:58
+#: libs/customization/template/tm_single_shipping_payment_content.php:73
+#: libs/pages_default/privacy-policy.php:21
+#: libs/pages_default/refund-policy.php:20
+msgid "Contact Us"
+msgstr "Свяжитесь с нами "
+
+#: page-about-us.php:164 libs/seo.php:78
+msgid "Contact us"
+msgstr "Свяжитесь с нами"
+
+#: page-about-us.php:162
+msgid "Start shopping"
+msgstr "Перейти к каталогу товаров"
+
+#: page-about-us.php:156
+msgid "Keep in Contact with Us"
+msgstr "Оставайтесь с нами на связи"
+
+#: page-about-us.php:81
+msgid "For your convenience we’ve partnered with several organizations"
+msgstr "Ради вас мы работаем с различными организациями. "
+
+#: page-about-us.php:79
+msgid "Our Partners"
+msgstr "Наши партнёры "
+
+#: page-about-us.php:69
+msgid "Make Sure Our Customers are Pleased"
+msgstr "Главное для нас - это довольный клиент. "
+
+#: page-about-us.php:59
+msgid "Pursue Growth and Learning"
+msgstr "Мы стремимся развиваться и учиться новому. "
+
+#: page-about-us.php:54
+msgid "Create Long-Term Relationships with Our Customers"
+msgstr "Мы строим долгосрочные отношения с клиентами. "
+
+#: page-about-us.php:49
+msgid "Be Adventurous, Creative, and Open-Minded"
+msgstr "Мы ценим предприимчивость, креативность и широкий кругозор. "
+
+#: page-about-us.php:44
+msgid "Our Core Values"
+msgstr "Главные принципы нашей компании "
+
+#: page-about-us.php:28
+msgid "Why Us"
+msgstr "Почему мы? "
+
+#: index.php:28
+msgid "Go to Homepage"
+msgstr "Вернуться на главную страницу "
+
+#: home.php:71
+msgid "New Arrivals"
+msgstr "Новинки "
+
+#: home.php:63
+msgid "Best Deals"
+msgstr "Лучшие предложения "
+
+#: home.php:55
+msgid "Top Selling Products"
+msgstr "Самые популярные товары "
+
+#: home.php:13
+msgid "View Video"
+msgstr "Смотреть видео "
+
+#: header.php:310 header.php:343
+msgid "I'm shopping for..."
+msgstr "Я ищу... "
+
+#: header.php:330
+msgid "items"
+msgstr "товар"
+
+#: functions.php:541
+msgid "Please select"
+msgstr "Пожалуйста, выберите "
+
+#: functions.php:372
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: header.php:369 products/cat-menu.php:24
+msgid "All Categories"
+msgstr "Все категории "
+
+#: functions.php:347 libs/option_blog.php:115
+#: libs/customization/class.CZ.Settings.php:438
+#: libs/customization/class.CZ.Settings.php:446
+#: libs/customization/class.CZ.Settings.php:552
+#: libs/customization/class.CZ.Settings.php:572
+#: libs/customization/class.CZ.Settings.php:835
+#: tpl/widget/_modal_add_cart.php:24
+msgid "Title"
+msgstr "Заголовок "
+
+#: functions.php:346
+msgid "Thumb"
+msgstr "Миниатюра "
+
+#: functions.php:345
+msgid "Select All"
+msgstr "Выбрать всё "
+
+#: footer.php:240
+msgid "Stay Connected"
+msgstr "Оставайтесь на связи "
+
+#: libs/create_page_template.php:20
+msgid "Subscription"
+msgstr "Подписка "
+
+#: footer.php:86 footer.php:171
+msgid "Customer Service"
+msgstr "Обслуживание клиентов "
+
+#: footer.php:143
+msgid "How to Buy"
+msgstr "Как совершить покупку "
+
+#: footer.php:36 footer.php:114
+msgid "Company Info"
+msgstr "Информация о компании "
+
+#: footer.php:21
+msgid "Delivery Methods:"
+msgstr "Способы доставки: "
+
+#: footer.php:9
+msgid "Payment Methods:"
+msgstr "Способы оплаты: "
+
+#: comments.php:26
+msgid "%s Reviews"
+msgstr "%s отзывов "
+
+#: comments.php:25
+msgid "One Review"
+msgstr "Один отзыв "
+
+#: comments.php:24
+msgid "No Reviews"
+msgstr "Отзывов нет"
+
+#: category-blog.php:24 single-blog.php:30
+msgid "comments"
+msgstr "комментарии "
+
+#: category-blog.php:20 single-blog.php:27 single-blog.php:107
+msgid "by"
+msgstr "по"
+
+#: category-blog.php:5 single-blog.php:15
+msgid "Blog"
+msgstr "Блог "
+
+#: libs/customization/defaults.php:158
+msgid "join us on social media"
+msgstr "следите за нами в социальных сетях"
+
+#: archive-product.php:25 libs/create_page_template.php:37
+msgid "Products"
+msgstr "Товары "
+
+#: 404.php:23
+msgid "Go To Homepage"
+msgstr "Вернуться на главную"
+
+#: 404.php:20
+msgid "Please check your spelling"
+msgstr "Проверьте орфографию. "
+
+#: 404.php:19
+msgid "Sorry, but the page you are looking for has not been found"
+msgstr "Приносим свои извинения: страница, которую вы искали, не найдена. "
+
+#: 404.php:18
+msgid "404 Page not found"
+msgstr "Ошибка 404. Страница не найдена. "

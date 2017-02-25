@@ -125,7 +125,7 @@ if (isset($_POST['pro_submit'])) {
         Run($sql1);
         /*---------*/
         for ($i = 0; $i < 5; $i++) {
-            move_uploaded_file($arr_path[$i], "../images/" . $arr_name[$i]);
+            move_uploaded_file($arr_path[$i], "../images/" . $arr_name[$i]);    
         }
         /* move_uploaded_file($arr_path[1],"../images/".$arr_name[1]);
          move_uploaded_file($arr_path[2],"../images/".$arr_name[2]);

@@ -29,44 +29,44 @@ if($_SESSION['vid']!="") {
     ?>
     <div class="col-lg-10">
 
-        <div class="col-lg-10" style="padding: 20px!important;">
-            <img src="../images/avatar.png" alt="" height="100" width="100">
-        </div>
-        <div class="col-lg-6">
-            <form action="function/function.php" method="post" class="form-horizontal">
-                <div class="form-group">
-                    <label class="control-label col-sm-2" >Username:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="uname" value="<?php echo $uname?>" disabled>
+            <div class="col-lg-10" style="padding: 20px!important;">
+                <img src="../images/avatar.png" alt="" height="100" width="100">
+            </div>
+            <div class="col-lg-6">
+                <form action="function/function.php" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" >Username:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="uname" value="<?php echo $uname?>" disabled>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-2" >Name:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="name" name="name" value="<?php echo $name?>">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" >Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" name="name" value="<?php echo $name?>">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-2">Password:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="pwd" value="<?php echo $pass?>">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2">Password:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="pwd" value="<?php echo $pass?>">
+                        </div>
                     </div>
-                </div>
-                <input type="hidden" value="<?php echo $id?>" name="vid">
-                <div class="form-group">
-                    <label class="control-label col-sm-2" >Mobile:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="mobile" value="<?php echo $mobile?>">
+                    <input type="hidden" value="<?php echo $id?>" name="vid">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" >Mobile:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="mobile" value="<?php echo $mobile?>">
+                        </div>
                     </div>
-                </div>
-
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" name="u_update" class="btn btn-default">Update</button>
+    
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" name="u_update" class="btn btn-default">Update</button>
+                        </div>
                     </div>
-                </div>
-            </form>
-        </div>
+                </form>
+            </div>
 
     </div>
 

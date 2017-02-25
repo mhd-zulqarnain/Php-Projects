@@ -1,7 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: zulup
- * Date: 2/8/2017
- * Time: 7:28 AM
- */
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h2>This is view of blog contorller</h2>
+</body>
+</html>

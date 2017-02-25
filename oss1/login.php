@@ -31,7 +31,7 @@ if(isset($_SESSION['vid'])){
                     </div>
                     <div class="form-group">
                         <input type="password" name="pass" placeholder="Password" class="form-control" required>
-                        <input type="hidden" name="pid" value="<?php echo $_REQUEST['pid'] ?>" class="form-control">
+                        <   input type="hidden" name="pid" value="<?php echo $_REQUEST['pid'] ?>" class="form-control">
                     </div>
                     <input type="submit" name="submit" class="col-lg-2 btn btn-md" value="Login">
                     <a href="signup.php" class="pull-right">Registor</a>

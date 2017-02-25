@@ -1,7 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
 <?php
-/**
- * Created by PhpStorm.
- * User: zulup
- * Date: 2/14/2017
- * Time: 9:54 AM
- */
+echo "sanam <br>";
+echo "sanam <br>";
+echo "sanam <br>";
+echo "sanam <br>";
+?>
+</body>
+
+</html>

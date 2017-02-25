@@ -79,51 +79,64 @@ margin-left:30px;}
 
 </form>
 <?php
+if(isset($_POST['login'])) {
 
-if($con){
-echo "connected";
-$query="Select * from user";
-$result=mysqli_query($con,$query);
-while($row=mysqli_fetch_object($result)){
+            if ($con) {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        $query = "Select * from user WHERE username='$username' AND password='$password'";
 
-  //	echo $row['username'];
-	echo $row->username;
-  
-  }
 
-}
+        $result = mysqli_query($con, $query);
 
-if(isset($_POST['login']))
-{
+        $row = mysqli_num_rows($result);
+        if (isset($_POST['login']))
+            if ($row > 0) {
+                //	echo $row['username'];
+                $_SESSION['username']=$username;
+	            header('location:homepage.php');
 
-    $username=$_POST['username'];
-    $password=$_POST['password'];
+            }
+        else{
+            echo "wrong password";
+        }
 
- //$query="select * from user WHERE username='$username' AND password='$password'";
-   $query="Select * from user";
- $result=mysqli_query($con,$query);
-while($row=mysqli_fetch_object($result)){
 
-  //	echo $row['username'];
-	echo $row->username;
-  
-  }
 
-   
-   if(mysqli_num_row($query_run)>0)
-   {
-      //valid 
-      $_SESSION['username']=$username;
-	  header('location:homepage.php');
-	  
-   }
-   else
-   {
-       //invalid
-      echo '<script type="text/javascript"> alert("invalid credentials")</script>';
-   }
+    }
 
 }
+//
+//{
+//
+//    $username=$_POST['username'];
+//    $password=$_POST['password'];
+//
+// //$query="select * from user WHERE username='$username' AND password='$password'";
+//   $query="Select * from user";
+// $result=mysqli_query($con,$query);
+//while($row=mysqli_fetch_object($result)){
+//
+//  //	echo $row['username'];
+//	echo $row->username;
+//
+//  }
+//
+//
+//   if(mysqli_num_row($query_run)>0)
+//   {
+//      //valid
+//      $_SESSION['username']=$username;
+//	  header('location:homepage.php');
+//
+//   }
+//   else
+//   {
+//       //invalid
+//      echo '<script type="text/javascript"> alert("invalid credentials")</script>';
+//   }
+//
+//}
 
 
 ?>

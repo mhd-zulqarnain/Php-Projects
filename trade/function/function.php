@@ -285,7 +285,12 @@ function getProDetails(){
             ";
     }
 }
-//Check online
+//Check online'
+function delProd($pid){
+
+    $sql="Delete from productdetails WHERE  pid='$pid'";
+    $path="";
+}
 function setOnline($vid){
     $last_activity=$_SESSION['LAST_ACTIVITY'] = time();
     $query="UPDATE visitor SET online='1' WHERE vid='$vid' ";

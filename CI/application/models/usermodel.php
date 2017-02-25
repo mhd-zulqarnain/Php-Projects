@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: zulup
- * Date: 2/9/2017
- * Time: 9:54 AM
- */
+
+class Usermodel extends  CI_Controller{
+    
+    function getUser(){
+        return [
+          ['Firstname'=>'firstuser','Lastname'=>'lastnmae'], 
+            ['Firstname'=>'Seconduser','Lastname'=>'lastnmae'],
+
+        ];
+    }
+}
+
+?>
