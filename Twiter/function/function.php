@@ -25,7 +25,7 @@ if(isset($_POST['S_submit'])){
         header("location:../index.php?&a=1");
     }
     else{
-        echo "errror";
+        header("location:../index.php?&a=2");
     }
 
 }
@@ -59,6 +59,7 @@ function head(){
         <script src="js/jquery-3.1.1.min.js"></script>
         <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
         <link rel="stylesheet" href="css/custom.css" type="text/css">
+        <script src="js/custom.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.js"></script>
     </head>';
@@ -83,6 +84,9 @@ if(isset($_POST['t_submit'])){
 
 
 }
+
+
+
 //------tweet----
 
 
@@ -110,4 +114,28 @@ if(!empty($file_name)){
 
 }
 //----------------------------**********update profile***********_------------------
+//----------------------------**********add friend***********_------------------
+if (isset($_POST['data'])=='add_friend') {
+    $vid=$_SESSION['vid'];
+    $id=$_POST['id'];
+    $arr=array();
+    array_push($arr,$id);
+    $fri=json_encode($arr);
+
+    $sql="UPDATE visitor SET friends='$fri' WHERE vid='2'";
+    Run($sql);
+    
+}
+//----------------------------**********add friend***********_------------------
+//----------------------------**********comments***********_------------------
+
+if (isset($_POST['data'])=='comment') {
+    $pid=$_POST['pid'];
+    $vid=$_SESSION['vid'];
+    $text=$_POST['text'];
+    $sql="insert into comment(pid,vid,c_text) VALUES('$pid','$vid','$text')";
+    Run($sql);
+
+}
+//----------------------------**********comments***********_------------------
 ?>

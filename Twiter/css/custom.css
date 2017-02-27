@@ -164,11 +164,21 @@ header a{
     font-size: 12px;
 }
 /*--------signup*/
+.upload>input[type=file]{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+}
 /*--------main page*/
 
 .sm-font{
     color: #c7d6c7!important;
     font-size: 11px
+}.sm-med{
+    color: #00a651!important;
+    font-size: 12px;
+     word-wrap: break-word;
 }
 .top-nav{
     background-color: #ffffff!important;

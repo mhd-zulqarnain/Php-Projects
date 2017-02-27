@@ -7,7 +7,7 @@ if(!isset($_SESSION['vid'])) {
 }else {
     ?>
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="en" xmlns:padding-bottom="http://www.w3.org/1999/xhtml">
     <?php
     head();
     ?>
@@ -44,9 +44,10 @@ if(!isset($_SESSION['vid'])) {
 
     <!-- /Header -->
 
-    <!-- Main -->
+   
     <div class="container-fluid">
         <div class="row">
+            <!-- new tweet-->
             <div class="col-sm-3">
                 <!-- Left column -->
                 <?php
@@ -58,7 +59,6 @@ if(!isset($_SESSION['vid'])) {
                 $result=mysqli_fetch_assoc($run);
 
                 ?>
-
                 <div class="col-lg-12 null fa-border" style="background-color: #ffffff">
                     <br>
                     <div class="col-sm-4">
@@ -72,9 +72,7 @@ if(!isset($_SESSION['vid'])) {
                         <br>
                         <br>
                     </div>
-
                 </div>
-
             </div>
             <!-- /col-3 -->
             <div class="col-sm-9">
@@ -85,9 +83,9 @@ if(!isset($_SESSION['vid'])) {
                 <div class="row">
                     <!-- center left-->
                     <div class="col-md-6">
-
+                        <!--new tweet---------------------------->
                         <form action="function/function.php" method="post" enctype="multipart/form-data" style="background-color: #ffffff">
-                            <textarea name="text"  cols="30" rows="4 " class="form-control" ></textarea>
+                            <textarea name="text"  cols="30" rows="4 " class="form-control" required ></textarea>
 
                             <br>
 
@@ -95,7 +93,7 @@ if(!isset($_SESSION['vid'])) {
                             <div class="btn-group btn-group-justified">
                                 <a href="#" class=" col-sm-1">
                                     <i class="fa fa-camera fa-1x upload" ">
-                                    <input type="file" name="imfile" style="display:none " id="ppic" >
+                                    <input type="file" name="imfile" id="ppic" >
                                     </i>
                                 </a>
 
@@ -117,84 +115,16 @@ if(!isset($_SESSION['vid'])) {
                             <hr>
                         </form>
 
+                        <!--new tweet end---------------------------->
 
-                        <!--/panel-->
-
+                    <?php
+                    include("function/tweet.php");
+                    ?>
                         <!--   posts                         -->
-                        <div>
-
-                            <?php
-                            $vid=$_SESSION['vid'];
-                            $sql="SELECT visitor.*,post.* FROM post JOIN visitor WHERE visitor.vid=post.vid AND visitor.vid='$vid' ORDER BY post.pid DESC ";
-                            $run=Run($sql);
-                             if($run->num_rows==0)
-                             {
-                                 echo "<h3 class='danger'>No tweet to show</h3>";
-
-                             }
-                            while ($row=mysqli_fetch_array($run)) {
-                                $pic = $row['post_pic'];
-                                $prfpic = $row['prf_pic'];
-                                $text = $row['post_title'];
-                                $time = $row['time'];
-                                $uname = $row['uname'];
-                                $vname = $row['vname'];
-
-                                $prfpic= (empty($prfpic)?$def:$prfpic);
-                                ?>
-                                <br>
-                                <div class="col-sm-12" >
-                                    <div class="col-lg-12">
-                                        <br class="clearfix">
-                                    </div>
-                                    <div class="col-md-12" style="background-color:#ffffff">
-                                        <div class="col-sm-8 row">
-                                            <img src="<?php echo "images/".$prfpic?>" height="40" width="40"
-                                                 class="img-thumbnail"
-                                                 alt="">
-                                            <span ><?php echo ucwords($vname)?></span>
-                                            <span class="sm-font"><?php echo "@".ucwords($uname)?></span>
-                                        </div>
-                                        <div class="col-md-4"><?php echo $time ?></div>
-                                    </div>
-                                    <div class="col-lg-12" style="background-color:#ffffff ">
-                                        <br class="clearfix">
-                                    </div>
-
-                                    <div class="col-sm-12 " style="background-color:#ffffff">
-                                        <?php echo ucfirst($text)?><br><br>
-                                        <?php
-                                        if(!empty($pic)){
-                                            echo '<img src=images/'.$pic.' class="img-responsive">';
-                                        }
-                                        ?>
-
-
-
-                                    </div>
-                                </div>
-
-
-                                <?php
-                            }?>
-                        </div>
-
-                        <!--/posts-->
-
-
 
                     </div>
-                    <!--/col-->
-
-                    <!--/col-span-6-->
-
                 </div>
-                <!--/row-->
-
-
-
             </div>
-            <!--/col-span-9-->
         </div>
     </div>
     <!-- /Main -->
@@ -206,116 +136,51 @@ if(!isset($_SESSION['vid'])) {
     <?php
 }?>
 
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-
-        <!-- Sign up-------------------->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Profile Setting</h4>
-            </div>
-
-            <div class="col-lg-12">
-                <form action="function/function.php" method="post"  enctype="multipart/form-data" class="form-horizontal">
-                    <div class="col-lg-12" style="padding: 20px!important;">
-
-                        <img src="images/<?php echo $result['prf_pic']?>" class="img-thumbnail" height="100" width="100">
-                        <div class="form-group">
-                            <label class="control-label col-sm-2" >Change Profile:</label>
-                            <div class="col-sm-10">
-                                <br>    <input type="file"  name="prf_pic" >
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="control-label col-sm-2" >Username:</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" name="uname" value="<?php echo $result['uname']?>" disabled>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-2" >Name:</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control"  name="name" value="<?php echo $result['vname']?>">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-2">Password:</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" name="pwd" value="<?php echo $result['password']?>">
-                        </div>
-                    </div>
-                    <input type="hidden" value="<?php echo $result['vid']?>" name="vid">
-
-
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" name="u_update" class="btn btn-default">Update</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-
-            <div class="modal-footer">
-            </div>
-        </div>
-        <!-- Sign up-------------------->
-    </div>
-</div>
-
-<div class="modal fade" id="myfriends" role="dialog">
-    <div class="modal-dialog">
-
-        <!-- Sign up-------------------->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Friends</h4>
-            </div>
-
-            <div class="col-lg-12">
-                <?php
-                $sql="Select * from visitor where vid<>'$vid'";
-                $new=Run($sql);
-                while($row=mysqli_fetch_array($new)){
-                ?>
-                <div class="col-sm-3">
-                    <br>
-                    <input type="hidden" value="<?php echo $row['vid'];?>" class="fri">
-                    <img src="images/<?php echo $row['prf_pic'];?>" class="img-thumbnail img-responsive" height="80" width="80">
-                    <h6><?php echo $row['vname'];?></h6>
-                    <button class="btn btn-info btn-add">Add as friend</button>
-
-                </div>
-                <?php
-                    }?>
-            </div>
-
-
-            <div class="modal-footer">
-            </div>
-        </div>
-        <!-- Sign up-------------------->
-    </div>
-</div>
-
+<?php
+include("function/models.php");
+?>
 <script>
-    $(".upload").on("click",function (){
-        $("#ppic").slideToggle();
-    });
-$(".btn-add").on("click",function () {
-    var $id=$(".fri").val();
-    alert($id);
-    $obj={
-        data:"add_friend",
-        id:$id,
-    };
-    ajax()
 
-})
+    $(".cmt_content").on('keyup', function (e) {
+
+        var $pid = $(this).siblings('.cmt_id').val(),
+        $content = $(this).val();
+
+        if(event.keyCode===13 && $content.length >3){
+            var $obj={
+                data:"comment",
+                text:$content,
+                pid: $pid
+            };
+            $.ajax({
+                type:"post",
+                url:"function/function.php",
+                data:$obj,
+                success:function (response) {
+                    location.reload();
+                }
+            });
+        }
+    });
+
+
+
+    $(".btn-add").on("click",function () {
+        var $id=$(".fri").val();
+        $obj={
+            data:"add_friend",
+            id:$id,
+        };
+        $.ajax({
+            type:"POST",
+            url:"function/function.php",
+            data:$obj,
+            success:function (success) {
+                alert("added as friend")
+            },
+        });
+
+    })
 
 
 </script>
