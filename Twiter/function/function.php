@@ -3,6 +3,7 @@
 
 
 date_default_timezone_set("Asia/Karachi");
+
 $con=mysqli_connect("localhost","root","","twt");
 
 session_start();
@@ -14,14 +15,13 @@ function Run($query){
 
 if(isset($_POST['S_submit'])){
 
-    echo $name=$_POST['name'];
-    echo $uname=$_POST['uname'];
-    echo $pass=$_POST['pass'];
+   $name=$_POST['name'];
+    $uname=$_POST['uname'];
+  $pass=$_POST['pass'];
 
     $sql="insert into visitor(vname,uname, password) VALUES ('$name','$uname','$pass')";
     $run=Run($sql);
     if($run){
-        echo"<script>alert('succcessfully sign up')</script>";
         header("location:../index.php?&a=1");
     }
     else{
@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
 
 
 function head(){
-    echo 
+    echo
     ' <head>
         <meta charset="UTF-8">
         <title>Title</title>
@@ -68,13 +68,13 @@ function head(){
 //------tweet----
 if(isset($_POST['t_submit'])){
 
-    $text=$_POST['text'];
+     $text=$_POST['text'];
     $time = date("Y-m-d H:i:s");
-    $vid=$_SESSION['vid'];
+     $vid=$_SESSION['vid'];
 
     $file_name=$_FILES['imfile']['name'];
     $file_path =$_FILES['imfile']['tmp_name'];
-    
+
     move_uploaded_file($file_path,"../images/".$file_name);
 
     $sql="INSERT INTO post(vid,post_title, post_pic,time) VALUES ('$vid','$text','$file_name','$time')";
@@ -87,8 +87,19 @@ if(isset($_POST['t_submit'])){
 
 
 
-//------tweet----
 
+//----------------------------**********sign up validata***********_------------------
+
+if (isset($_POST['ins'])=='uname_v') {
+    $value=0;
+    $name=$_POST['name'];
+    $sql="Select vid from visitor WHERE uname='$name'";
+    $run=Run($sql);
+    if($run->num_rows>0){
+        $value=1;
+    }
+    echo $value;
+}
 
 //----------------------------**********update profile***********_------------------
 if (isset($_POST['u_update'])) {
@@ -117,14 +128,10 @@ if(!empty($file_name)){
 //----------------------------**********add friend***********_------------------
 if (isset($_POST['data'])=='add_friend') {
     $vid=$_SESSION['vid'];
-    $id=$_POST['id'];
-    $arr=array();
-    array_push($arr,$id);
-    $fri=json_encode($arr);
-
-    $sql="UPDATE visitor SET friends='$fri' WHERE vid='2'";
+    $rid=$_POST['id'];
+    $sql="insert into friends(vid,rid,status) VALUES('$vid','$rid','0')";
     Run($sql);
-    
+
 }
 //----------------------------**********add friend***********_------------------
 //----------------------------**********comments***********_------------------
@@ -138,4 +145,13 @@ if (isset($_POST['data'])=='comment') {
 
 }
 //----------------------------**********comments***********_------------------
+//----------------------------**********post delete***********_------------------
+if (isset($_POST['data'])=='delPost') {
+    $pid=$_POST['id'];
+    $sql="Delete from post WHERE pid='$pid'";
+    Run($sql);
+
+}
+//----------------------------**********post delete***********_------------------
 ?>
+

@@ -71,16 +71,50 @@
 
             <div class="col-lg-12">
                 <?php
-                $sql="Select * from visitor where vid<>'$vid'";
+//                $sql="Select * from visitor where vid<>'$vid'";
+
+                $sql="Select visitor.*,friends.* from visitor JOIN friends WHERE visitor.vid=friends.rid and friends.vid='$vid'";
+                $new=Run($sql);
+                while($row=mysqli_fetch_array($new)){
+                    $status=$row['status'];
+                    ?>
+                    <div class="col-sm-2">
+                        <br>
+                        <img src="images/<?php echo $row['prf_pic'];?>" class="img-thumbnail img-responsive" >
+                        <h6><?php echo $row['vname'];?></h6>
+                        <h5><a class="fa fa-check"  style="color: green">Following</a></h5>
+
+                        <?php
+                        /*if($status=='')
+                            echo '<button class="btn btn-info btn-add">Add as friend</button>';
+                        else if($status=='1')
+                            echo'<button class="btn btn-info btn-add" disabled >Already Friends</button>';
+                        else if($status=='0')
+                            echo'<button class="btn btn-info btn-add" disabled >Request Sent</button>';*/
+                        ?>
+
+
+                    </div>
+                    <?php
+                }?>
+            </div>
+            <div class="col-lg-12">
+                <?php
+//                $sql="Select * from visitor where vid<>'$vid'";
+
+                $sql="Select * from visitor where vid not in(select rid from friends WHERE vid='$vid') AND vid<>'$vid'";
                 $new=Run($sql);
                 while($row=mysqli_fetch_array($new)){
                     ?>
-                    <div class="col-sm-3">
+                    <div class="col-sm-2">
                         <br>
                         <input type="hidden" value="<?php echo $row['vid'];?>" class="fri">
-                        <img src="images/<?php echo $row['prf_pic'];?>" class="img-thumbnail img-responsive" height="80" width="80">
+                        <img src="images/<?php echo $row['prf_pic'];?>" class="img-thumbnail img-responsive" >
                         <h6><?php echo $row['vname'];?></h6>
-                        <button class="btn btn-info btn-add">Add as friend</button>
+                        <?php
+                            echo '<button class="btn btn-info btn-add">Follow</button>';
+                        ?>
+
 
                     </div>
                     <?php

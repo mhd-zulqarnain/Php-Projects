@@ -1,1 +1,0 @@
-baguetteBox.run('.gallery');

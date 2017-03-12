@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="989d0a05-af35-469b-b2a1-9e9f28dac638" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Twiter/function/models.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Twiter/function/tweet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Twiter/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gittest" afterPath="$PROJECT_DIR$/gittest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twiter/css/custom.css" afterPath="$PROJECT_DIR$/Twiter/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twiter/function/function.php" afterPath="$PROJECT_DIR$/Twiter/function/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twiter/main.php" afterPath="$PROJECT_DIR$/Twiter/main.php" />
-    </list>
+    <list default="true" id="989d0a05-af35-469b-b2a1-9e9f28dac638" name="Default" comment="4march" />
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -31,62 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Twiter/css/custom.css">
+      <file leaf-file-name="twit.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Twiter/twit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="178" column="18" selection-start-line="178" selection-start-column="18" selection-end-line="178" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Twiter/function/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            <state relative-caret-position="393">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
-                <marker date="1488161458908" expanded="true" signature="333:375" placeholder="insert into visitor... " />
-                <marker date="1488161458908" expanded="true" signature="333:391" placeholder="insert into visitor... " />
-                <marker date="1488161458908" expanded="true" signature="333:400" placeholder="insert into visitor... " />
-                <marker date="1488161458908" expanded="true" signature="333:408" placeholder="insert into visitor... " />
-                <marker date="1488161458908" expanded="true" signature="333:409" placeholder="insert into visitor... " />
-                <marker date="1488161458908" expanded="true" signature="744:806" placeholder="SELECT * fro... visitor" />
-                <marker date="1488161458908" expanded="true" signature="1128:1704" placeholder="..." />
-                <marker date="1488161458908" expanded="true" signature="2013:2105" placeholder="INSERT INTO post... " />
-                <marker date="1488161458908" expanded="true" signature="2586:2672" placeholder="update visit... " />
-                <marker date="1488161458908" expanded="true" signature="2700:2748" placeholder="update visit... " />
-                <marker date="1488161458908" expanded="true" signature="2700:2765" placeholder="update visit... " />
-                <marker date="1488161458908" expanded="true" signature="3183:3227" placeholder="insert into visitor... " />
-                <marker date="1488161458908" expanded="true" signature="3183:3230" placeholder="insert into visitor... " />
-                <marker date="1488161458908" expanded="true" signature="3543:3608" placeholder="insert into comment... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Twiter/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Twiter/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="141" column="2" selection-start-line="141" selection-start-column="2" selection-end-line="141" selection-end-column="2" />
-              <folding>
-                <element signature="e#40#5012#0#PHP" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#!!top" expanded="false" />
-                <marker date="1488161951101" expanded="false" signature="1881:1918" placeholder="SELECT * fro... visitor" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,38 +41,22 @@
       <list>
         <option value="CSS File" />
         <option value="XSLT Stylesheet" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="xlualy &lt;zuluparvi@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="E:/Work/java/android" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/trade/admin/style/admin.css" />
-        <option value="$PROJECT_DIR$/trade/admin/u_details.php" />
-        <option value="$PROJECT_DIR$/trade/transiton.php" />
-        <option value="$PROJECT_DIR$/trade/index.php" />
-        <option value="$PROJECT_DIR$/oss1/index.php" />
-        <option value="$PROJECT_DIR$/trade/update_Session.php" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/trade/function/function.php" />
-        <option value="$PROJECT_DIR$/test11/index.php" />
-        <option value="$PROJECT_DIR$/oss1/login.php" />
-        <option value="$PROJECT_DIR$/CrudApp/Index.php" />
-        <option value="$PROJECT_DIR$/CI/application/views/blog_view.php" />
-        <option value="$PROJECT_DIR$/CI/application/models/Authenticat.php" />
-        <option value="$PROJECT_DIR$/CI/application/models/authenticate.php" />
-        <option value="$PROJECT_DIR$/CI/application/controllers/Blog.php" />
-        <option value="$PROJECT_DIR$/CI/application/models/usermodel.php" />
-        <option value="$PROJECT_DIR$/CI/application/controllers/userview.php" />
-        <option value="$PROJECT_DIR$/tradeC/index.php" />
-        <option value="$PROJECT_DIR$/Twiter/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/Twiter/index.html" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test2/index.php" />
         <option value="$PROJECT_DIR$/simpletwitter/index.php" />
         <option value="$PROJECT_DIR$/Twiter/function/main.html" />
@@ -139,7 +65,6 @@
         <option value="$PROJECT_DIR$/CI/application/controllers/testview.php" />
         <option value="$PROJECT_DIR$/CI/application/models/testmodel.php" />
         <option value="$PROJECT_DIR$/CI/application/views/testindex.php" />
-        <option value="$PROJECT_DIR$/fil1.html" />
         <option value="$PROJECT_DIR$/test1/index.php" />
         <option value="$PROJECT_DIR$/wp/wp-content/themes/davinci/functions.php" />
         <option value="$PROJECT_DIR$/class01/index.php" />
@@ -154,13 +79,35 @@
         <option value="$PROJECT_DIR$/trade/visitors/profile.php" />
         <option value="$PROJECT_DIR$/trade/visitors/function/function.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Twiter/index.php" />
-        <option value="$PROJECT_DIR$/Twiter/css/custom.css" />
-        <option value="$PROJECT_DIR$/Twiter/function/models.php" />
-        <option value="$PROJECT_DIR$/Twiter/function/tweet.php" />
-        <option value="$PROJECT_DIR$/Twiter/function/function.php" />
+        <option value="$PROJECT_DIR$/boston/index.html" />
+        <option value="$PROJECT_DIR$/boston/foodstore.php" />
+        <option value="$PROJECT_DIR$/Ajax/main.js" />
+        <option value="$PROJECT_DIR$/boston/foodstore.js" />
+        <option value="$PROJECT_DIR$/Ajax/index.html" />
+        <option value="$PROJECT_DIR$/flash/control/db.php" />
+        <option value="$PROJECT_DIR$/flash/signup.php" />
+        <option value="$PROJECT_DIR$/flash/login.php" />
+        <option value="$PROJECT_DIR$/Twiter/test.php" />
+        <option value="$PROJECT_DIR$/Ajax/function/function.php" />
+        <option value="$PROJECT_DIR$/Ajax/index.php" />
+        <option value="$PROJECT_DIR$/Ajax/data.php" />
+        <option value="$PROJECT_DIR$/fil1.html" />
+        <option value="$PROJECT_DIR$/Ajax/test/index.php" />
+        <option value="$PROJECT_DIR$/Ajax/test/back.json" />
+        <option value="$PROJECT_DIR$/Ajax/test/api/back.json" />
+        <option value="$PROJECT_DIR$/Ajax/test/custom.js" />
         <option value="$PROJECT_DIR$/Twiter/js/custom.js" />
+        <option value="$PROJECT_DIR$/Twiter/function/test.php" />
+        <option value="$PROJECT_DIR$/Twiter/function/function.php" />
+        <option value="$PROJECT_DIR$/Twiter/css/custom.css" />
+        <option value="$PROJECT_DIR$/Twiter/index.php" />
+        <option value="$PROJECT_DIR$/Twiter/function/tweet.php" />
+        <option value="$PROJECT_DIR$/tst/index.php" />
         <option value="$PROJECT_DIR$/Twiter/main.php" />
+        <option value="$PROJECT_DIR$/Twiter/function/models.php" />
+        <option value="$PROJECT_DIR$/Twiter/function/friends.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Twiter/twit.html" />
       </list>
     </option>
   </component>
@@ -179,7 +126,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -204,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,25 +198,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Twiter" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="function" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,10 +216,41 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oss1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oss1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,38 +260,38 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="133" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="144" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="161" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="172" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="163" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="174" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="835" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="846" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="166" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="164" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="156" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="167" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="828" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="839" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Twiter\images" />
-      <recent name="C:\xampp\htdocs\Twiter\js" />
-      <recent name="C:\xampp\htdocs" />
-      <recent name="C:\xampp\htdocs\Twiter\css" />
-      <recent name="C:\xampp\htdocs\Twiter" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Ajax\test\api" />
       <recent name="C:\xampp\htdocs\Twiter" />
       <recent name="C:\xampp\htdocs\test1" />
       <recent name="C:\xampp\htdocs" />
       <recent name="C:\xampp\htdocs\trade\images" />
-      <recent name="C:\xampp\htdocs\adnan\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\tst" />
+      <recent name="C:\xampp\htdocs\Ajax\test" />
+      <recent name="C:\xampp\htdocs\Ajax" />
+      <recent name="C:\xampp\htdocs\Twiter\images" />
+      <recent name="C:\xampp\htdocs\Twiter\js" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -845,12 +806,52 @@
       <workItem from="1488082928110" duration="2581000" />
       <workItem from="1488101960184" duration="596000" />
       <workItem from="1488110090322" duration="20025000" />
-      <workItem from="1488158854841" duration="2876000" />
+      <workItem from="1488158854841" duration="3160000" />
+      <workItem from="1488171798459" duration="278000" />
+      <workItem from="1488174140474" duration="1344000" />
+      <workItem from="1488182664982" duration="232000" />
+      <workItem from="1488199275973" duration="5151000" />
+      <workItem from="1488256861356" duration="537000" />
+      <workItem from="1488257828448" duration="156000" />
+      <workItem from="1488259467143" duration="3000" />
+      <workItem from="1488260413684" duration="330000" />
+      <workItem from="1488262784197" duration="239000" />
+      <workItem from="1488264333638" duration="1390000" />
+      <workItem from="1488284972221" duration="8037000" />
+      <workItem from="1488301227832" duration="154000" />
+      <workItem from="1488346911230" duration="2703000" />
+      <workItem from="1488350352236" duration="2446000" />
+      <workItem from="1488354894669" duration="1149000" />
+      <workItem from="1488356446633" duration="480000" />
+      <workItem from="1488378365252" duration="4472000" />
+      <workItem from="1488386754717" duration="4292000" />
+      <workItem from="1488429465795" duration="4746000" />
+      <workItem from="1488458512003" duration="15515000" />
+      <workItem from="1488525321120" duration="30000" />
+      <workItem from="1488545224147" duration="10919000" />
+      <workItem from="1488593893970" duration="4524000" />
+      <workItem from="1488606156490" duration="14260000" />
+      <workItem from="1488644392795" duration="1832000" />
+      <workItem from="1488712847423" duration="1519000" />
+      <workItem from="1488777127398" duration="883000" />
+      <workItem from="1488780782263" duration="270000" />
+      <workItem from="1488784304819" duration="497000" />
+      <workItem from="1488860257450" duration="937000" />
+      <workItem from="1488870277952" duration="5644000" />
+      <workItem from="1488903702486" duration="1454000" />
+      <workItem from="1488953962591" duration="2581000" />
+      <workItem from="1488957581681" duration="704000" />
+      <workItem from="1488960801856" duration="535000" />
+      <workItem from="1489119941990" duration="166000" />
+      <workItem from="1489120132094" duration="47000" />
+      <workItem from="1489134812085" duration="197000" />
+      <workItem from="1489310614757" duration="144000" />
+      <workItem from="1489334440768" duration="742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1605747000" />
+    <option name="totallyTimeSpent" value="1707570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -865,45 +866,26 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14494875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58919805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5867508" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21568628" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2144" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5902192" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23124042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21568628" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -921,6 +903,8 @@
       <path value="$PROJECT_DIR$/gittest" />
       <path value="$PROJECT_DIR$/test" />
     </ignored-roots>
+    <MESSAGE value="4march" />
+    <option name="LAST_COMMIT_MESSAGE" value="4march" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -929,373 +913,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/davinci/products/main-recently.php" />
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/davinci/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="492" column="0" selection-start-line="492" selection-start-column="0" selection-end-line="492" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class01/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrudApp/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Login/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Login/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/admin/all_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1394">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/js/jquery-3.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="3" column="22607" selection-start-line="3" selection-start-column="22607" selection-end-line="3" selection-end-column="22607" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="6" column="4890" selection-start-line="6" selection-start-column="4890" selection-end-line="6" selection-end-column="4890" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeC/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeC/visitors/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-964">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/visitors/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeC/visitors/notification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeC/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/admin/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="117" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/visitors/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="68" column="81" selection-start-line="68" selection-start-column="81" selection-end-line="68" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pagination/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pagination/index1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fil1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/visitors/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="68" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeC/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeC/function/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1308">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeC/visitors/function/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/visitors/function/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final/postBody.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/function/get_message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade/function/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
-          <folding>
-            <element signature="n#headder#0;n#!!top" expanded="false" />
-            <element signature="n#getUname#0;n#!!top" expanded="false" />
-            <element signature="n#morePro#0;n#!!top" expanded="false" />
-            <element signature="n#moreProxm#0;n#!!top" expanded="false" />
-            <element signature="n#getUser#0;n#!!top" expanded="false" />
-            <element signature="n#getProDetails#0;n#!!top" expanded="false" />
-            <marker date="1483174639385" expanded="true" signature="300:3896" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="307:2228" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="2235:3896" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="2289:3896" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="2349:3896" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="2381:3896" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="2456:2969" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="2581:2827" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="3044:3828" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="3120:3809" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="3168:3786" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="3197:3257" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="3382:3760" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="3551:3730" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="4003:4213" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="4343:4567" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="4913:4954" placeholder="Select name visitor" />
-            <marker date="1483174639385" expanded="true" signature="5103:5156" placeholder="select * fro... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="5511:6014" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="5700:6001" placeholder="..." />
-            <marker date="1483174639385" expanded="false" signature="5754:5772" placeholder="..." />
-            <marker date="1483174639385" expanded="false" signature="5845:5878" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="6340:6483" placeholder="Select * fro... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="6585:6711" placeholder="Select * fro... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="6800:6915" placeholder="select * fro... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="7011:7125" placeholder="select * fro... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="7163:7261" placeholder="select * fro... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="7874:9860" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="7940:8445" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="8049:8391" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="8580:9860" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="8683:9157" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="8933:9118" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="9277:9860" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="9340:9576" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="9710:9860" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="10757:10868" placeholder="Select name visitor" />
-            <marker date="1483174639385" expanded="true" signature="11092:11136" placeholder="select * fro... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="11450:12065" placeholder="..." />
-            <marker date="1483174639385" expanded="false" signature="11492:11522" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="11523:11690" placeholder="..." />
-            <marker date="1483174639385" expanded="false" signature="11643:11670" placeholder="..." />
-            <marker date="1483174639385" expanded="false" signature="11721:11751" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="11752:11919" placeholder="..." />
-            <marker date="1483174639385" expanded="false" signature="11872:11899" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="12141:12185" placeholder="Delete from " />
-            <marker date="1483174639385" expanded="true" signature="12298:12344" placeholder="UPDATE visit... " />
-            <marker date="1483174639385" expanded="true" signature="12360:12431" placeholder="UPDATE visit... " />
-            <marker date="1483174639385" expanded="true" signature="12507:12553" placeholder="UPDATE visit... " />
-            <marker date="1483174639385" expanded="true" signature="12633:12826" placeholder="SELECT produ... visitor" />
-            <marker date="1483174639385" expanded="true" signature="12968:13061" placeholder="Select V.ph_... visitor" />
-            <marker date="1483174639385" expanded="true" signature="13203:13292" placeholder="Select V.ema... visitor" />
-            <marker date="1483174639385" expanded="true" signature="13431:13519" placeholder="Select V.nam... visitor" />
-            <marker date="1483174639385" expanded="true" signature="13655:13693" placeholder="Select * fro... visitor" />
-            <marker date="1483174639385" expanded="true" signature="13943:14014" placeholder="UPDATE visit... " />
-            <marker date="1483174639385" expanded="true" signature="14100:14149" placeholder="Select image... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="14484:14632" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="14786:14935" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="15042:15091" placeholder="Select image... productdetails" />
-            <marker date="1483174639385" expanded="true" signature="15338:15650" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="15399:15615" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="15770:16082" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="15831:16047" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="16212:16524" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="16273:16489" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="16710:17112" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="16738:17082" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="16764:17059" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="16812:17044" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="17184:20550" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="17250:20281" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="17282:20248" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="17312:20221" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="17390:18061" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="17438:18038" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="17511:18011" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="18162:18769" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="18210:18746" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="18289:18719" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="18870:19481" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="18932:19458" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="19007:19431" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="19565:20178" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="20355:20518" placeholder="..." />
-            <marker date="1483174639385" expanded="true" signature="20387:20507" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Final/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -1321,101 +938,295 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="110" selection-end-column="22" />
-          <folding>
-            <marker date="1473680936045" expanded="true" signature="117:146" placeholder="Select * fro... post" />
-            <marker date="1473680936045" expanded="true" signature="248:282" placeholder="Select * fro... post_view" />
-            <marker date="1473680936045" expanded="true" signature="367:419" placeholder="UPDATE post_... " />
-            <marker date="1473680936045" expanded="true" signature="486:539" placeholder="INSERT INTO post_view... " />
-            <marker date="1473680936045" expanded="true" signature="3527:3559" placeholder="SELECT * FRO... comment" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/function/models.php">
+    <entry file="file://$PROJECT_DIR$/Login/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#!!top" expanded="false" />
-            <element signature="e#3252#3826#0#PHP" expanded="false" />
-            <marker date="1488159914513" expanded="true" signature="3162:3201" placeholder="Select * fro... visitor" />
-          </folding>
+        <state relative-caret-position="765">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/function/tweet.php">
+    <entry file="file://$PROJECT_DIR$/oss/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-          <folding>
-            <element signature="e#201#292#0#PHP" expanded="false" />
-            <element signature="e#1636#1748#0#PHP" expanded="false" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1488160104663" expanded="true" signature="54:173" placeholder="SELECT visit... post" />
-            <marker date="1488160104663" expanded="true" signature="2397:2507" placeholder="Select visit... visitor" />
-          </folding>
+        <state relative-caret-position="918">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/oss/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="178" column="18" selection-start-line="178" selection-start-column="18" selection-end-line="178" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="986">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twiter/function/function.php">
+    <entry file="file://$PROJECT_DIR$/boston/foodstore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding>
-            <marker date="1488161458908" expanded="true" signature="333:375" placeholder="insert into visitor... " />
-            <marker date="1488161458908" expanded="true" signature="333:391" placeholder="insert into visitor... " />
-            <marker date="1488161458908" expanded="true" signature="333:400" placeholder="insert into visitor... " />
-            <marker date="1488161458908" expanded="true" signature="333:408" placeholder="insert into visitor... " />
-            <marker date="1488161458908" expanded="true" signature="333:409" placeholder="insert into visitor... " />
-            <marker date="1488161458908" expanded="true" signature="744:806" placeholder="SELECT * fro... visitor" />
-            <marker date="1488161458908" expanded="true" signature="1128:1704" placeholder="..." />
-            <marker date="1488161458908" expanded="true" signature="2013:2105" placeholder="INSERT INTO post... " />
-            <marker date="1488161458908" expanded="true" signature="2586:2672" placeholder="update visit... " />
-            <marker date="1488161458908" expanded="true" signature="2700:2748" placeholder="update visit... " />
-            <marker date="1488161458908" expanded="true" signature="2700:2765" placeholder="update visit... " />
-            <marker date="1488161458908" expanded="true" signature="3183:3227" placeholder="insert into visitor... " />
-            <marker date="1488161458908" expanded="true" signature="3183:3230" placeholder="insert into visitor... " />
-            <marker date="1488161458908" expanded="true" signature="3543:3608" placeholder="insert into comment... " />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/next.php" />
+    <entry file="file://$PROJECT_DIR$/test/show.php" />
+    <entry file="file://$PROJECT_DIR$/test/index.php" />
+    <entry file="file://$PROJECT_DIR$/adnan/index.html" />
+    <entry file="file://$PROJECT_DIR$/boston/foodstore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boston/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flash/control/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flash/account/friends.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flash/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flash/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flash/account/add_friend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flash/control/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/test.php" />
+    <entry file="file://$PROJECT_DIR$/Ajax/function/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trade/js/chat.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fil1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="226" column="61" selection-start-line="226" selection-start-column="61" selection-end-line="226" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/next.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/test/backend" />
+    <entry file="file://$PROJECT_DIR$/Ajax/test/api/back.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/function/test.php" />
+    <entry file="file://$PROJECT_DIR$/Ajax/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/test/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oss/function/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="72" column="58" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Twiter/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/function/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Twiter/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="141" column="2" selection-start-line="141" selection-start-column="2" selection-end-line="141" selection-end-column="2" />
+        <state relative-caret-position="183">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/function/models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="82" selection-start-line="84" selection-start-column="82" selection-end-line="84" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/function/friends.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/function/tweet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="84" column="66" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twiter/twit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <element signature="e#40#5012#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-            <marker date="1488161951101" expanded="false" signature="1881:1918" placeholder="SELECT * fro... visitor" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,9 +1,12 @@
-<div>
+<?php
+?>
+<div class="tweet_div">
 
     <?php
     $vid=$_SESSION['vid'];
-    $sql="SELECT visitor.*,post.* FROM post JOIN visitor WHERE visitor.vid=post.vid AND visitor.vid='$vid' ORDER BY post.pid DESC ";
-    $run=Run($sql);
+//    $sql="SELECT visitor.*,post.* FROM post JOIN visitor WHERE visitor.vid=post.vid AND visitor.vid in(select rid from friends WHERE vid='$vid')ORDER BY post.pid DESC ";
+    $sql="SELECT visitor.*, post.* FROM post JOIN visitor WHERE visitor.vid = post.vid AND post.vid IN( SELECT rid FROM friends WHERE vid = '$vid' ) OR  (visitor.vid='$vid' AND post.vid='$vid') ORDER BY post.pid DESC ";
+    $run=$con->query($sql);
     if($run->num_rows==0)
     {
         echo "<h3 class='danger'>No tweet to show</h3>";
@@ -17,6 +20,7 @@
         $uname = $row['uname'];
         $pid = $row['pid'];
         $vname = $row['vname'];
+        $powner = $row['vid'];
 
         $prfpic= (empty($prfpic)?$def:$prfpic);
         ?>
@@ -49,10 +53,21 @@
                 }
                 ?>
             </div>
+
             <!----------------comment -->
 
             <div class="col-sm-12 "style="background-color: #ffffff">
-                <h3 class="sm-font">Comments</h3>
+                <h3 class="sm-font">Comment
+                    <?php
+                    if($powner==$vid)
+                    {
+                    ?>
+                    <span class="fa fa-trash fa-1x text-danger delPost " >Delete</span>
+                     <input type="hidden" value="<?php echo $pid?>" class="powner">
+                    <?php
+                    }?>
+                </h3>
+
 
                 <div class="form-group" >
                     <input type="hidden" class="cmt_id" value="<?php echo $pid; ?>">
@@ -67,7 +82,7 @@
                 while ($row=mysqli_fetch_array($res)) {
                     ?>
 
-                    <div class="col-sm-12 null"  style="padding-bottom: 8px!important">
+                    <div class="col-sm-12 null comment"  style="padding-bottom: 8px!important">
                         <div class="col-sm-2 null"><img src="images/<?php echo $row['prf_pic']?>" class=" null"
                                                         height="40" width="40"></div>
                         <div class="col-sm-10 null">
@@ -85,3 +100,7 @@
         <?php
     }?>
 </div>
+
+<script>
+
+</script>

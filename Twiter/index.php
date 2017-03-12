@@ -7,8 +7,11 @@ if(isset($_SESSION['vid'])) {
 }else {
 
     if (isset($_GET['a'])) {
-
+        $st=$_GET['a'];
+        if($st==1)
         echo "<script>alert('succcessfully Registered')</script>";
+        else if($st==2)
+        echo "<script>alert('Failed Name Exists')</script>";
     }
 
     ?>
@@ -26,6 +29,9 @@ if(isset($_SESSION['vid'])) {
         <link rel="stylesheet" href="css/custom.css" type="text/css">
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.js"></script>
+        <style style="text/css">
+            body .input-failure{background-color: pink!important;}
+        </style>
     </head>
     <body>
 
@@ -63,9 +69,11 @@ if(isset($_SESSION['vid'])) {
                                     <div class="form-group">
                                         <label class="control-label col-sm-12" for="email">Username:</label>
                                         <div class="col-sm-12">
-                                            <input type="text" name="uname" class="form-control" 
-                                                   placeholder="Enter username" required>
+                                            <input id="user_name" type="text" name="uname" class="form-control uname" pattern=".{4,11}"
+                                                   title="4 to 10 characters"  placeholder="Enter username" required >
                                         </div>
+
+
                                     </div>
                                     <div class="form-group">
                                         <label class="control-label col-sm-12" for="pwd">Password:</label>
@@ -136,6 +144,26 @@ if(isset($_SESSION['vid'])) {
     ?>
 
 <script>
-
-
+    $("#user_name").on("blur",function () {
+        var $uname=$(this).val();
+        if($uname.length>=4){
+        $obj={
+            ins:"uname_v",
+            name:$uname
+        };
+        $.ajax({
+            type:"POST",
+            url:"function/function.php",
+            data:$obj,
+            success:function (res) {
+                if(res==1){
+                    $("#user_name").css("border","2px solid red")
+                }
+                if(res==0){
+                    $("#user_name").css("border","2px solid green")
+                }
+            }
+        })
+        }
+    })
 </script>

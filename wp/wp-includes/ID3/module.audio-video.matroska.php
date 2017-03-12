@@ -208,7 +208,7 @@ define('EBML_ID_CLUSTERREFERENCEVIRTUAL',         0x7D); //             [FD] -- 
 
 
 /**
-* @tutorial http://www.matroska.org/technical/specs/index.php
+* @tutorial http://www.matroska.org/technical/specs/index.html
 *
 * @todo Rewrite EBML parser to reduce it's size and honor default element values
 * @todo After rewrite implement stream size calculation, that will provide additional useful info and enable AAC/FLAC audio bitrate detection

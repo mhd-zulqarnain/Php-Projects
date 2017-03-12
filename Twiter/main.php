@@ -22,6 +22,7 @@ if(!isset($_SESSION['vid'])) {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <input type="hidden" class="ses" value="<?php echo $_SESSION['vid']?>">
                     </button>
                     <ul class="nav navbar-nav navbar-left navigation">
                         <li><a href="#"><i class="fa fa-home fa-1x"></i> Home</a></li>
@@ -68,7 +69,7 @@ if(!isset($_SESSION['vid'])) {
                         <br>
                         <a href="#"><?php echo ucfirst($result['vname'])?></a><br>
                         <a href="#" data-toggle="modal" data-target="#myModal">Settings</a><br>
-                        <a href="#" data-toggle="modal" data-target="#myfriends">Friends</a><br>
+                        <a href="#" data-toggle="modal" data-target="#myfriends">Followers</a><br>
                         <br>
                         <br>
                     </div>
@@ -120,7 +121,7 @@ if(!isset($_SESSION['vid'])) {
                     <?php
                     include("function/tweet.php");
                     ?>
-                        <!--   posts                         -->
+                        <!--   posts  -->
 
                     </div>
                 </div>
@@ -146,7 +147,7 @@ include("function/models.php");
         var $pid = $(this).siblings('.cmt_id').val(),
         $content = $(this).val();
 
-        if(event.keyCode===13 && $content.length >3){
+        if(event.keyCode===13){
             var $obj={
                 data:"comment",
                 text:$content,
@@ -157,8 +158,9 @@ include("function/models.php");
                 url:"function/function.php",
                 data:$obj,
                 success:function (response) {
-                    location.reload();
-                }
+                        location.reload();
+                    }
+
             });
         }
     });
@@ -167,21 +169,42 @@ include("function/models.php");
 
     $(".btn-add").on("click",function () {
         var $id=$(".fri").val();
+        var $ses=$(".ses").val();
+        console.log($id);
         $obj={
             data:"add_friend",
             id:$id,
         };
+        console.log($obj);
         $.ajax({
             type:"POST",
             url:"function/function.php",
             data:$obj,
             success:function (success) {
-                alert("added as friend")
+                $.get("function/friends.php?ses="+$ses,function(data) {
+                    $("#myfriends").html(data);
+                })
             },
         });
 
     })
+    $(".delPost").on("click",function () {
+        var $owner=$(this).siblings(".powner").val();
+        $obj={
+            data:'delPost',
+            id:$owner,
+        }
+        $.ajax({
+            type:'POST',
+            url:'function/function.php',
+            data:$obj,
+            success:function (response) {
+                location.reload();
+            }
 
+        })
+
+    })
 
 </script>
 

@@ -1,114 +1,39 @@
-<div id="post_element_239896" class="post-element post-element-heading">
-    <h2><span style="font-family: Helvetica;"><span class="goog-text-highlight">Hair Style Ideas Party season </span></span></h2>
-    <span style="font-family: Helvetica;">From the end of the year to the end of the year, the scene of calls will increase somewhat. Even on a casual invited day, arranging is a girl's heart that wants to put on a spirit. However, it is difficult in reality to visit salons every time.</span>
+    male(brother).
+    male(son).
+    male(husband).
 
-</div>
-<div id="post_element_583958" class="post-element post-element-text"></div>
-<div id="post_element_516907" class="post-element post-element-picture">
-    <div class="post-element-image-outer">
+    female(daughter).
+    female(lina).
 
-        <span style="font-family: Helvetica;"><img id="image-2079331" class="post-element-image-source aligncenter" src="https://cdn.locari.jp/web/images/p/post_element/picture/516907/w621_b670504a6220e.jpg" data-post-picture-id="89771" data-pictureid="516907" /></span>
-        <div class="post-element-image-info clearfix">
-            <div class="post-element-source truncate"><span style="font-family: Helvetica;">Source: <a class="post-outbound-link" href="http://locari.jp/posts/redirect/2079331" target="_blank" data-href="https://hair.cm/snap-215889/?utm_source=locari&amp;utm_medium=article&amp;utm_campaign=71874">Hair.Cm</a></span></div>
-        </div>
-    </div>
-</div>
-<div id="post_element_257173" class="post-element post-element-heading-small"></div>
-<div id="post_element_583961" class="post-element post-element-text"></div>
-<div id="post_element_257174" class="post-element post-element-heading-small">
-    <h3><span style="font-family: Helvetica;">Braid Shinyon</span></h3>
-</div>
-<div id="post_element_583962" class="post-element post-element-text">
+    child(daughter,lina).
+    child(daughter,husband)
+    child(son,husband).
+    child(son,lina).
 
-    <span style="font-family: Helvetica;">A cute classic form here. It is a pleasing point that it is hard to collapse because I have fastened braided hair.</span>
+    husband_of(husband,lina).
+    brother_of(brother,lina).
+    brother_of(son,daughter).
+    twins(lina,brother).
+    twins(daughter,son).
 
-</div>
-<div id="post_element_129425" class="post-element post-element-instagram">
-    <div class="post-element-instagram-image-outer">
-        <div class="post-element-border-outer">
-            <div class="post-element-image-outer"><span style="font-family: Helvetica;"><img class="instagram-media alignnone" src="https://www.instagram.com/p/BKjoxScgU_p/media?size=l" alt="Media? Size = l" /></span></div>
-            <div class="post-element-image-outer"></div>
-            <div class="post-element-image-outer"></div>
-        </div>
-    </div>
-</div>
-<div id="post_element_583914" class="post-element post-element-text">
-    <ul>
-        <li><span style="font-family: Helvetica;">Divide by center. </span></li>
-        <li><span style="font-family: Helvetica;">5 Braid the left and right hair bundle and braid it. </span></li>
-        <li><span style="font-family: Helvetica;">7 Fix the left braid to the left. </span></li>
-        <li><span style="font-family: Helvetica;">In the same way on the right side. </span></li>
-    </ul>
-    <span style="font-family: Helvetica;">completed.<!--nextpage--></span>
+    not_together(X,Y);-
+        husband_of(X,Y),
+        male(X),
+        female(Y).
 
-</div>
-<h3 id="post_element_257176" class="post-element post-element-heading-small" style="text-align: right;"><span style="font-family: Helvetica;"> 2 way arrangement</span></h3>
-<div id="post_element_583946" class="post-element post-element-text">
+    at_home(X):-child(X,_).
 
-    <span style="font-family: Helvetica;">It is OK 2 way arrangement with a ponytail or cignillon. If you want to make a ponytail, please go to the last step until you reach Step 5, if you want to go to Sinyon.</span>
+    at_beach(X):-
+        not(at_together(X,_)),
+        not(at_together(_,X)),
+        not(at_home(X,_)).
+        not(at_home(_,X)).
 
-</div>
-<div id="post_element_516893" class="post-element post-element-picture">
-    <div class="post-element-image-outer">
+    at_bar(X,Y):-male(X),female(Y),
+                not(at_beach(X,Y)),
+                not(at_together(X,Y)),
 
-        <span style="font-family: Helvetica;"><img id="image-2079268" class="post-element-image-source aligncenter" src="https://cdn.locari.jp/web/images/p/post_element/picture/516893/w621_41c103f94f411.jpg" data-post-picture-id="89769" data-pictureid="516893" /></span>
-        <div class="post-element-image-info clearfix">
-            <div class="post-element-source truncate"><span style="font-family: Helvetica;">Source: <a class="post-outbound-link" href="http://locari.jp/posts/redirect/2079268" target="_blank" data-href="https://hair.cm/article-3287/?utm_source=locari&amp;utm_medium=article&amp;utm_campaign=71874">Hair.Cm</a></span></div>
-        </div>
-    </div>
-</div>
-<div id="post_element_583942" class="post-element post-element-text">
-    <ul>
-        <li><span style="font-family: Helvetica;">Set the ponytail and unravel the back of the head. </span></li>
-        <li><span style="font-family: Helvetica;"> Make a wave winding. </span></li>
-        <li><span style="font-family: Helvetica;"> 6 Decorate the ribbon. </span></li>
-        <li><span style="font-family: Helvetica;"> Connect hair ends. </span></li>
-        <li><span style="font-family: Helvetica;"> Fixed inward by caught in pin.</span></li>
-    </ul>
-</div>
-<h3 id="post_element_257177" class="post-element post-element-heading-small"><span style="font-family: Helvetica;">Side pony</span></h3>
-<div id="post_element_583965" class="post-element post-element-text">
+not(killer(X)):-twin(_,X);twin(X,_);
 
-    <span style="font-family: Helvetica;">It's just an easy arrangement, just to tie it up. Hair accessories shine well because it is simple.</span>
-
-</div>
-<div id="post_element_516887" class="post-element post-element-picture">
-    <div class="post-element-image-outer">
-
-        <span style="font-family: Helvetica;"><img id="image-2079213" class="post-element-image-source aligncenter" src="https://cdn.locari.jp/web/images/p/post_element/picture/516887/w621_28129ff1fd587.jpg" data-post-picture-id="89767" data-pictureid="516887" /></span>
-        <div class="post-element-image-info clearfix">
-            <div class="post-element-source truncate"><span style="font-family: Helvetica;">Source: <a class="post-outbound-link" href="http://locari.jp/posts/redirect/2079213" target="_blank" data-href="https://hair.cm/article-3182/?utm_source=locari&amp;utm_medium=article&amp;utm_campaign=71874">Hair.Cm</a></span></div>
-        </div>
-    </div>
-</div>
-<div id="post_element_583928" class="post-element post-element-text">
-
-    <span style="font-family: Helvetica;">Connect to one at the left position. </span>
-    <span style="font-family: Helvetica;">Loose balance well, decorate hair accessories such as scarves and headband, and it is completed.<!--nextpage--></span>
-
-</div>
-<div id="post_element_257181" class="post-element post-element-heading-small">
-    <h2><span style="font-family: Helvetica;">Boryumy pony</span></h2>
-</div>
-<div id="post_element_583909" class="post-element post-element-text">
-
-    <span style="font-family: Helvetica;">It is an introduction of a ponytail arrangement with plenty of Boyeum. It would be nice if you wear straight hair, lightly before arranging.</span>
-
-</div>
-<div id="post_element_129422" class="post-element post-element-instagram">
-    <div class="post-element-instagram-image-outer">
-        <div class="post-element-border-outer">
-            <div class="post-element-image-outer"><span style="font-family: Helvetica;"><img class="instagram-media alignnone" src="https://www.instagram.com/p/BMif7q4FwEC/media?size=l" alt="Totorial" width="1080" height="1080" /></span></div>
-            <div class="post-element-instagram-desc"></div>
-        </div>
-        <div class="post-element-source"></div>
-        <ul>
-            <li class="post-element-source"><span style="font-family: Helvetica;">Leave the side and make a ponytail. </span></li>
-            <li class="post-element-source"><span style="font-family: Helvetica;">Loosen the top hair.</span></li>
-            <li class="post-element-source"><span style="font-family: Helvetica;">Twist the hair on the right side twisted, wrapped around rubber and fixed. </span></li>
-            <li class="post-element-source"><span style="font-family: Helvetica;"> Do the same for the left side. </span></li>
-            <li class="post-element-source"><span style="font-family: Helvetica;"> It is completion.</span></li>
-        </ul>
-    </div>
-</div>
-<span style="font-family: Helvetica;"><a href="https://hair.cm/p/25ej2o7xvj"><img class="aligncenter" src="https://d23ci79vtjegw9.cloudfront.net/photographs/zoom/c6/c699d984b73f.jpg" alt=" nalu hair" width="399" height="1280" /></a></span>
+killer(X):-not(at_home(X,_)),
+           at
