@@ -17,7 +17,7 @@ $mail->SMTPSecure = 'tls';
 $mail->Port = 587; // or 587
 $mail->IsHTML(true);
 $mail->Username = "drksketcher@gmail.com";
-$mail->Password = "parvi167";
+$mail->Password = "pa";
 $mail->SetFrom("drksketcher@gmail.com");
 $mail->Subject = "Test";
 $mail->Body = "hello";
